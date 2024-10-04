@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams Rooms app version support
+title: Teams Rooms app and Windows versioning support
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
@@ -22,7 +22,7 @@ description: Learn about lifecycle support for Microsoft Teams Rooms, including 
 ms.custom: seo-marvel-apr2020
 ---
 
-# Microsoft Teams Rooms app version support
+# Teams Rooms app and Windows versioning support - overview
  
 By default, the Microsoft Teams Rooms application receives updates through the Microsoft store. The app uses an evergreen product lifecycle and only the current and the next most recent major version of the app is supported at any given time. The app bundles a specific version of the Teams desktop app that is modified for room use. The Teams desktop app updates frequently while the Teams Rooms app updates less frequently. This means Teams Rooms app current-1 version can be several Teams desktop app updates behind, so it's recommended to keep the Teams Rooms app updated to the latest version at all times. Learn more about the [Teams update process](../teams-client-update.md).
 

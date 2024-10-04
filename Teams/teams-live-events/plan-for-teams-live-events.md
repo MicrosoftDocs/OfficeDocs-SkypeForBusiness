@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: christi.balaki
-ms.date: 01/16/2024
+ms.date: 10/3/2024
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -27,29 +27,33 @@ ms.custom: seo-marvel-apr2020
 # Plan for live events in Microsoft Teams
 
 > [!NOTE]
-> Teams live events are no longer going away on September 30, 2024. While we still recommend you to upgrade to [Teams town hall](../plan-town-halls.md) when ready to take advantage of new features and experiences, your users can continue to schedule events beyond September 2024. For more information, see [Updates for Town Hall in Microsoft Teams and Teams Live Events](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/extension-for-teams-live-events-retirement/ba-p/4148352).
+> We're currently still supporting live events. While we still recommend you to upgrade to [Teams town halls](../plan-town-halls.md) to take advantage of new features and experiences, your users can continue to schedule events. For more information, see [Updates for Town Hall in Microsoft Teams and Teams Live Events](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/extension-for-teams-live-events-retirement/ba-p/4148352).
 
 When you're planning Teams live events to hold large meetings in your organization, there are several factors that you need to consider before starting the setup.
 
 > [!NOTE]
 > For details about Teams live events on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3). See [prepare your organization](../prepare-network.md) to learn about bandwidth requirements for Teams live events.
 >
-> The Teams client doesn't support Teams live events on Surface hub devices. Users can join the events only as viewers using the Edge web browser on their Surface hub devices.
+> The Teams client doesn't support Teams live events on Surface hub devices. Users can only join the events as viewers using the Edge web browser on their Surface hub devices.
 
 ## Who can attend, create, and schedule live events
 
-Anyone can attend a live event without a license. Read [Admin quick start - Meetings and live events](../quick-start-meetings-live-events.md).
+Anyone can attend a live event without a license. For details, see [Admin quick start - Meetings and live events](../quick-start-meetings-live-events.md).
 
-The following prerequisites are required for the user to schedule a Teams live event.
+## Prerequisites
 
-Here are the licenses that must be assigned to organize, produce or present a Teams live event:  
+The following prerequisites are required for users to schedule a Teams live event.
+
+### Licensing
+
+You must assign these licenses to allow users in your org to organize, produce, or present a Teams live event:  
 
 - **To organize:** A Microsoft or Office 365 Enterprise E1, E3, or E5 license, **[or]** a Microsoft or Office 365 Education A3 or A5 license.
-- **To produce or present:** A Microsoft or Office 365 Enterprise E1, E3 or E5 license, **[or]** a Microsoft or Office 365 Education A1, A3 or A5 license. The exception to this requirement is guests can present without a license if the other criteria for [guests](plan-for-teams-live-events.md#guest-to-present) are met.
+- **To produce or present:** A Microsoft or Office 365 Enterprise E1, E3 or E5 license, **[or]** a Microsoft or Office 365 Education A1, A3, or A5 license. The exception to this requirement is guests can present without a license if the other criteria for guests in the [Allow guests to present](#allow-guests-to-present) section are met.
 - A Microsoft Teams license - this license is included in the licenses listed in the first and second bullets.
 
 > [!NOTE]
-> At this time there aren't any Microsoft 365 Small Business plans that can be used to create and hold Teams live events.
+> Currently, Microsoft 365 Small Business plans can't create and hold Teams live events.
 
 To participate in a live event as an authenticated user, a Microsoft 365 or Office 365 license is required. This requirement depends on the production method used:  
 
@@ -60,18 +64,20 @@ To participate in a live event as an authenticated user, a Microsoft 365 or Offi
 
 For more information about licensing, see [Microsoft Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-The user must have:
+### Policies
 
-- Private meeting scheduling in Teams enabled (*The TeamsMeetingPolicy -AllowPrivateMeetingScheduling parameter = True*).
-- Video sharing enabled in Teams meetings (*The TeamsMeetingPolicy -AllowIPVideo parameter = True*).
-- Screen sharing enabled in Teams meetings (*The TeamsMeetingPolicy -ScreenSharingMode parameter = EntireScreen*).
-- Live event scheduling in Teams enabled (*The TeamsMeetingBroadcastPolicy -AllowBroadcastScheduling parameter = True*).
-- Coexistence mode configured to be able to schedule Teams meetings (*Islands, Meeting First, or Teams Only*).
+For the full live event experience, users must have:
+
+- Private meeting scheduling in Teams enabled (*The [**CsTeamsMeetingPolicy**](/powershell/module/teams/set-csteamsmeetingpolicy)  **`-AllowPrivateMeetingScheduling`** parameter = True*).
+- Video sharing enabled in Teams meetings (*The [**CsTeamsMeetingPolicy**](/powershell/module/teams/set-csteamsmeetingpolicy) **`-AllowIPVideo`** parameter = True*).
+- Screen sharing enabled in Teams meetings (*The [**CsTeamsMeetingPolicy**](/powershell/module/teams/set-csteamsmeetingpolicy) **`-ScreenSharingMode`** parameter = EntireScreen*).
+- Live event scheduling in Teams enabled (*The [**CsTeamsMeetingBroadcastPolicy**](/powershell/module/teams/set-csteamsmeetingbroadcastpolicy) **`-AllowBroadcastScheduling`** parameter = True*).
+- [Coexistence mode](/microsoftteams/setting-your-coexistence-and-upgrade-settings) configured to be able to schedule Teams meetings (*Islands, Meeting First, or Teams Only*).
 
 > [!IMPORTANT]
 > Non-authenticated anonymous users can't be invited as producers or presenters in Teams live events.
 
-### [Guest to present](#guest-to-present)
+## Allow guests to present
 
 For a guest to present in a live event, do the following tasks:
 
@@ -79,7 +85,7 @@ For a guest to present in a live event, do the following tasks:
 2. Have the user accept the guest invitation and join the team.
 3. [Schedule the live event and add the guest to your event group](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 
-As a best practice, we recommend that you create a channel for producers and presenters of the live event so they can chat and share information before the event. Guests who don't have Microsoft 365 credentials don't see the Calendar in Teams. To make it easy for them to join the event, producers can post the event link to the channel. Presenters can then open Teams, go to the channel, and then select the link to join the event.
+As a best practice, we recommend that you create a channel for producers and presenters of the live event so they can chat and share information before the event. Guests who don't have Microsoft 365 credentials can't see the Calendar in Teams. To make it easy for them to join the event, producers can post the event link to the channel. Presenters can then open Teams, go to the channel, and then select the link to join the event.
 
 ## Who can watch live events
 
@@ -89,9 +95,9 @@ As a best practice, we recommend that you create a channel for producers and pre
 |Guests                   |  Yes<sup>1</sup>            |  No                  |  Yes            |
 |People in external access trusted organizations |  Yes<sup>1</sup>|  No                  | Yes            |
 |Everyone in the organization           |  Yes            |  Yes                 | Yes                |
-|Specific groups / people      |  Yes            |  Yes                 | Yes                |
+|Specific groups or people      |  Yes            |  Yes                 | Yes                |
 
-<sup>1</sup> Can only be invited through People & Group <br>
+<sup>1</sup> Can only be invited through People & Group. <br>
 
 ## Teams live events
 
@@ -106,7 +112,7 @@ The following table highlights core capabilities and features offered in live ev
 >- 50 events can be hosted simultaneously across a tenant
 >- Event duration of 16 hours per broadcast
 >
-> Additionally, live events with up to 100,000 attendees can be planned through the Microsoft 365 Live Event Assistance Program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions).
+> Additionally, live events with up to 100,000 attendees can be planned through the Microsoft 365 Live Event Assistance Program. The team will assess each request and work with you to determine options that may be available. To learn more, see [Microsoft 365 Live Event Assistance Program](https://adoption.microsoft.com/en-us/virtual-event-guidance/assistance/).
 
 | Capability | Events produced in Teams | Events produced in external app or device |
 |---------|---------|---------|
@@ -148,7 +154,7 @@ You can use Teams live events in multiple regions across the world. The followin
 > [!IMPORTANT]
 > The region for the event is automatically selected depending on the organizer and the Microsoft 365 tenant location.
 
-**Available in these regional data centers**
+### Live events are available in the following regional data centers
 
 - North America
 - Central America
@@ -156,7 +162,7 @@ You can use Teams live events in multiple regions across the world. The followin
 - Asia Pacific
 - Europe/Africa
 
-**Data location for these countries/regions (supported)**
+### Data location for the following countries/regions is supported
 
 - Australia
 - Brazil
@@ -174,7 +180,7 @@ You can use Teams live events in multiple regions across the world. The followin
 - UAE
 - United Kingdom
 
-**Exclusions and considerations**
+#### Exclusions and considerations
 
 - **Data location:** Teams data locations, outside of the ones listed, aren't currently supported.
 
