@@ -443,8 +443,10 @@ items:
               href: CQD-frequently-asked-questions.md
             - name: Dimensions and measures available in CQD
               href: dimensions-and-measures-available-in-call-quality-dashboard.md
-            - name: Stream Classification in CQD
+            - name: Stream classification in CQD
               href: stream-classification-in-call-quality-dashboard.md
+            - name: Intelligent media quality classifiers in CQD
+              href: cqd-intelligent-media-quality-classifiers.md
             - name: Create a building map
               href: CQD-building-mapping.md
             - name: Use Power BI to analyze CQD data
@@ -1325,6 +1327,8 @@ items:
           href: devices/usb-devices.md
         - name: Teams certified Android devices
           href: devices/teams-ip-phones.md
+        - name: Management apps
+          href: devices/certified-device-apps.md
     - name: Microsoft Teams Rooms
       items: 
         - name: Overview
