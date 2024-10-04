@@ -56,24 +56,31 @@ New VDI solution for Teams is a new architecture for optimizing the delivery of 
 ### Step 2: Plugin installation on the endpoint
 
 1. For Azure Virtual Desktop and Windows 365, MsTeamsPluginAvd.dll is bundled with the RD Client for Windows 1.2.5405.0, or with the Windows App Store app 1.3.252 or higher.
-  - The plugin is found in the same folder location where the RD Client is installed. It's either located at AppData\Local\Apps\Remote Desktop or C:\Program Files (x86), depending on the mode in which it was installed.
-  - The [Windows App Store](/windows-app/overview) app, since it's MSIX-based, is found in C:\Program Files\WindowsApps. Access to this folder is restricted.
+   - The plugin is found in the same folder location where the RD Client is installed. It's either located at AppData\Local\Apps\Remote Desktop or C:\Program Files (x86), depending on the mode in which it was installed.
+   - The [Windows App Store](/windows-app/overview) app, since it's MSIX-based, is found in C:\Program Files\WindowsApps. Access to this folder is restricted.
+
 1. For Citrix CWA 2402 or higher, MsTeamsPluginCitrix.dll can be installed either:
-  - Using the user interface when installing CWA:
+
+   - Using the user interface when installing CWA:
+
      On the **Add-on(s)** page, select the **Install Microsoft Teams VDI plug-in** checkbox, and then select **Install**.
+ 
      Agree to the user agreement that pops up and proceed with the installation of the Citrix Workspace app.
 
-> [!NOTE]
-> Citrix Workspace app 2402 only presents the plugin installation UI on a fresh install.
-> For in-place upgrades to also present this option, Citrix Workspace app 2405 or higher is required.
+     > [!NOTE]
+     > Citrix Workspace app 2402 only presents the plugin installation UI on a fresh install.
+     > For in-place upgrades to also present this option, Citrix Workspace app 2405 or higher is required.
 
-  - Via command line or scripts for managed devices using:
-    `C:\>CitrixWorkspaceApp.exe installMSTeamsPlugin`
-  - Admins can also install the plugin manually on top of any existing supported CWA (see [System Requirements](#system-requirements)) using tools like SCCM (use the Windows app package deployment type) or Intune (use the Line-of-Business app).
-  Admins can use **msiexec** with appropriate flags, as discussed in [this documentation](/windows-server/administration/windows-commands/msiexec).
+   - Via command line or scripts for managed devices using:
 
-> [!IMPORTANT]
-> You can find the plugin MSI download link for Citrix customers [here](https://download.microsoft.com/download/3/0/e/30e54a38-eb74-44dc-9755-36dcac09656d/MsTeamsPluginCitrix.msi).
+     `C:\>CitrixWorkspaceApp.exe installMSTeamsPlugin`
+
+   - Admins can also install the plugin manually on top of any existing supported CWA (see [System Requirements](#system-requirements)) using tools like SCCM (use the Windows app package deployment type) or Intune (use the Line-of-Business app).
+
+     Admins can use **msiexec** with appropriate flags, as discussed in [msiexec](/windows-server/administration/windows-commands/msiexec).
+
+     > [!IMPORTANT]
+     > You can find the plugin MSI download link for Citrix customers: [MsTeamsPluginCitrix.msi](https://download.microsoft.com/download/3/0/e/30e54a38-eb74-44dc-9755-36dcac09656d/MsTeamsPluginCitrix.msi).
 
 The plugin MSI automatically detects the CWA installation folder and places MsTeamsPluginCitrix.dll in that location:
 
@@ -199,7 +206,7 @@ Make sure the user's device has network connectivity (UDP and TCP) to endpoint I
 
 |ID  |Category          |ER  |Addresses    |Ports                       |Notes |
 |----|------------------|----|-------------|----------------------------|------|
-|11  |Optimize required |Yes |52.112.0.0/14, 52.122.0.0/15, 2603:1063::/38 |UDP: 3478, 3479, 3480, 3481 |Media Processors and Transport Relay 3478 (STUN), 3479 (Audio), 3480 (Video), 3481 (Screenshare) |
+|11  |Optimize required |Yes |13.107.64.0/18, 52.112.0.0/14, 52.122.0.0/15, 2603:1063::/38 |UDP: 3478, 3479, 3480, 3481 |Media Processors and Transport Relay 3478 (STUN), 3479 (Audio), 3480 (Video), 3481 (Screenshare) |
 |12  |Allow required    |Yes |`*.lync.com`, `*.teams.microsoft.com`, `teams.microsoft.com` 13.107.64.0/18, 52.112.0.0/14, 52.122.0.0/15, 52.238.119.141/32, 52.244.160.207/32, 2603:1027::/48, 2603:1037::/48, 2603:1047::/48, 2603:1057::/48, 2603:1063::/38, 2620:1ec:6::/48, 2620:1ec:40::/42 |TCP: 443, 80                |      |
 |47  |Default required  |No  |*.office.net |TCP: 443, 80                |Used for SlimCore downloads and background effects |
 |127 |Default required  |No  |*.skype.com  |TCP: 443, 80                |      |
@@ -334,21 +341,24 @@ By default, the MsTeamsPlugin automatically downloads and installs the right Sli
 #### Configuration steps
 
 1. On the user's endpoint (thin client/fat client), you must create the following regkey:
-  - Location for Citrix: HKLM\SOFTWARE\WOW6432Node\Microsoft\Teams\MsTeamsPlugin
-  - Location for Azure Virtual Desktop/W365: HKLM\SOFTWARE\Microsoft\Teams\MsTeamsPlugin
-  - Name: MsixUrlBase
-  - Type: REG_SZ
-  - Data: Either local storage or network storage UNC path, such as file://C:/Temp or file://ComputerName/SharedFolder.
-  The regkey defines the Base URL.
+
+   - Location for Citrix: HKLM\SOFTWARE\WOW6432Node\Microsoft\Teams\MsTeamsPlugin
+   - Location for Azure Virtual Desktop/W365: HKLM\SOFTWARE\Microsoft\Teams\MsTeamsPlugin
+   - Name: MsixUrlBase
+   - Type: REG_SZ
+   - Data: Either local storage or network storage UNC path, such as file://C:/Temp or file://ComputerName/SharedFolder.
+   
+   The regkey defines the Base URL.
+
 2. Additionally, admins must download the exact SlimCore MSIX Package version from Microsoft's CDN that matches the new Teams version you're planning to deploy in the future.
 
-  > [!IMPORTANT]
-  > The MSIX package needs to match the architecture or bitness of the Citrix Workspace app (x86 only) or Remote Desktop or Windows App clients: `Microsoft.Teams.SlimCoreVdi.<platform>-<architecture>.msix`.
+   > [!IMPORTANT]
+   > The MSIX package needs to match the architecture or bitness of the Citrix Workspace app (x86 only) or Remote Desktop or Windows App clients: `Microsoft.Teams.SlimCoreVdi.<platform>-<architecture>.msix`.
 
 3. Place the MSIX in a specific folder with the version within the location specified in the registry key to preserve the structure. For example, C:\Temp\2024.4.1.9\Microsoft.Teams.SlimCoreVdi.win-x86.msix or //ComputerName/SharedFolder/2024.4.1.9/.
   
-  > [!NOTE]
-  > If the Plugin can't find a SlimCore MSIX package in the local or network storage, it automatically attempts to download it from the Microsoft public CDN as a fallback.
+   > [!NOTE]
+   > If the Plugin can't find a SlimCore MSIX package in the local or network storage, it automatically attempts to download it from the Microsoft public CDN as a fallback.
 
 #### Known issues
 
@@ -370,8 +380,9 @@ The new Teams client requires three custom virtual channels to function: MSTEAMS
 - MSTEAM2,C:\Program Files\WindowsApps\MSTeams*8wekyb3d8bbwe\ms-teams.exe
 
 1. Wildcard support is available in:
-  - VDA 2206 CR.
-  - VDA 2203 LTSR from CU2 onwards.
+   - VDA 2206 CR.
+   - VDA 2203 LTSR from CU2 onwards.
+
 2. The VDA machines must be rebooted for the policy to take effect.
 
 #### Citrix App Protection and Microsoft Teams compatibility
@@ -412,7 +423,7 @@ By default, Filters allow you to filter conditions with the AND operator. But th
 CQD doesn't use Caller or Callee fields, instead it uses **First** and **Second** because there are intervening steps between the caller and callee.
 
 - **First** is always the server endpoint (for example, AV MCU or the Media Processor Server) if a server is involved in the stream.
-- **Second** ia always the client endpoint, unless it's a server-server stream.
+- **Second** is always the client endpoint, unless it's a server-server stream.
 
 If both endpoints are the same type (for example a person-to-person call), first versus second is set based on the internal ordering of the user agent category to make sure the ordering is consistent.
 
@@ -526,8 +537,9 @@ Diagnostic information can be found in the detailed event logs on the user's dev
 
 1. Go the Event Viewer (Local) > Applications and Services Logs > Microsoft > Windows.
 1. Check for available logs under these categories:
-  - AppxPackagingOM > Microsoft-Windows-AppxPackaging/Operational
-  - AppXDeployment-Server > Microsoft-Windows-AppXDeploymentServer/Operational
+   - AppxPackagingOM > Microsoft-Windows-AppxPackaging/Operational
+   - AppXDeployment-Server > Microsoft-Windows-AppXDeploymentServer/Operational
+
 1. Review the logs under AppXDeployment-Server.
 
 ### Error 15615
