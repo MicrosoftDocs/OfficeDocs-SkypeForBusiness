@@ -176,7 +176,7 @@ We recognize that device certification expiration can impact your business. Our 
 
 Following a certification expiration, Microsoft is committed to supporting the latest version of the Teams devices applications on certified devices for a span of two (2) years after the certification period concludes. While Microsoft makes every effort to maintain support as described here, it retains the discretion to modify its support policy if necessary. Should any changes occur, they'll be communicated through the established customer facing communication channels.
 
-| **Device Category** | **Device Model**| **Android OS Version** | **Certification end date** | **Microsoft 'best effort' support end date** | 
+| **Device Category** | **Device Model**| **Android OS Version** | **Certification end date** | **Microsoft support end date** |
 |:----------------|:-------------------|:----------------------------|:--------------------------|:----------------------|
 |Teams phones - conference|Poly Trio 8500/8800|7|October 4, 2021| October 4, 2023 |
 |Teams phones|Yealink T55/T55A|7|October 4, 2021| October 4, 2023| 

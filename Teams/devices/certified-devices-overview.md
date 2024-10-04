@@ -39,7 +39,7 @@ Certification programs are designed to ensure all certified devices run supporte
 - [Certified personal devices](usb-devices.md)
 
 ## Related articles
-[Certification overview](certification-overview.md)
-[Partner device certification](certification-partners.md)
-[Windows version support](../rooms/rooms-lifecycle-support.md)
-[Android version support](android-version-support.md)
+- [Certification overview](certification-overview.md)
+- [Partner device certification](certification-partners.md)
+- [Windows version support](../rooms/rooms-lifecycle-support.md)
+- [Android version support](android-version-support.md)

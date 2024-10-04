@@ -1315,7 +1315,7 @@ items:
               href: devices/certification-partners.md
             - name: How to join the program
               href: devices/certification-join.md
-            - name: Teams specifications
+            - name: Teams device specifications
               href: devices/certification-specifications.md
         - name: IT admins and decision makers
           href: devices/certification-it-admins.md

@@ -601,7 +601,7 @@ We recognize that device certification expiration can impact your business. Our 
 
 Following a certification expiration, Microsoft is committed to supporting the latest version of the Teams devices applications on certified devices for a span of two (2) years after the certification period concludes. While Microsoft will make every effort to maintain support as described here, it retains the discretion to modify its support policy if necessary. Should any changes occur, they will be communicated through the established customer facing communication channels.
 
-| **Device Category** | **Device Model**| **Android OS Versio** | **Certification end date** | **Microsoft 'best effort' support end date** |
+| **Device Category** | **Device Model**| **Android OS Versio** | **Certification end date** | **Microsoft support end date** |
 |:----------------|:-------------------|:----------------------------|:--------------------------|:----------------------|
 |Teams Rooms for Android | Yealink VC210 | 9 | August 5, 2023 | August 5, 2025 |
 |Teams Rooms for Android | EPOS Expand Vision 3T | 9 | August 5, 2023| August 5, 2025 |
