@@ -1583,6 +1583,7 @@ items:
           href: devices/teams-displays.md
         - name: Hot desking Teams Displays
           href: devices/hot-desking-teams-displays.md
+
 - name: Manage apps in Teams
   items: 
     - name: Understand apps in Teams
