@@ -50,7 +50,7 @@ After certification end date, Microsoft is committed to make efforts to support 
 
 The following devices are certified under the Microsoft Teams phones Android Certification Program.
 
-|**Device model**    | **Firmware version**    | **Current certification end date** | **Android OS version**                               |
+| Device model | Firmware version | Current certification end date | Android OS version |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
 | AudioCodes C430HD    | `2.3.364`     | August 15, 2027 | 12 |
 | AudioCodes Exp Module supported on C455HD-DBW| 2.1.638| August 15, 2027 | N/A |
@@ -86,7 +86,7 @@ See [Microsoft Teams phones feature set](phones-for-teams.md) for information on
 ### Firmware versions released to the Public cloud
 
 #### <b> Audiocodes </b>
-| **Device model**  | **Latest firmware version** | **Minimum firmware version** | **Included Microsoft applications**   | **Release date**|
+| Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications**   | Release date |
 |:----------------|:-------------------|:----------------------------|:---------------------------------------------------------------------------------------------------------------|:------------------------------------------|
 | C435HD/C455HD/C470HD | `2.3.453` | `1.19.584`| Teams client: `1449/1.0.94.2024080808` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| September 19, 2024|
 | C430HD | `2.3.423` | `N/A`| Teams client: `1449/1.0.94.2024062010` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| September 17, 2024| 
@@ -101,7 +101,7 @@ See [Microsoft Teams phones feature set](phones-for-teams.md) for information on
 | C435HD/C448HD/C450HD/C455HD/C470HD | `1.19.341` | N/A | Teams client: `1449/1.0.94.2022110803` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202209060820.product`| January 23, 2023| 
 
 #### <b> Crestron </b>
-| **Device model**  | **Latest firmware version** | **Minimum firmware version** | **Included Microsoft applications**   | **Release date**|
+| Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications**   | Release date |
 |:----------------|:-------------------|:----------------------------|:---------------------------------------------------------------------------------|:------------------------------------------|
 |UC-P8/UC-P10| `1.0.6.38` | N/A | Teams client: `1449/1.0.94.2024060310` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| July 22, 2024|
 |UC-2 | `1.0.7.56`| N/A | Teams client: `1449/1.0.94.2024060310` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| July 22, 2024|
@@ -110,7 +110,7 @@ See [Microsoft Teams phones feature set](phones-for-teams.md) for information on
 |UC-2 | `1.0.6.28`| N/A | Teams client: `1449/1.0.94.2022062103` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202205230848.product` | February 14, 2023 |
 
 #### <b> HP | Poly </b>
-| **Device model**  | **Latest firmware version** | **Minimum firmware version** | **Included Microsoft applications**   | **Release date**|
+| Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications**   | Release date |
 |:----------------|:-------------------|:----------------------------|:----------------------------------------------------------------------------------|:--------------------------------------------|
 | CCX350/CCX400/CCX500/CCX505/CCX600/Trio C60 | `9.0.0.10460` | `N/A`| Teams client: `1449/1.0.94.2024080808` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| August 28, 2024|
 | CCX350/CCX400/CCX500/CCX505/CCX600 | `8.1.6.1006` | `8.1.3.1301`| Teams client: `1449/1.0.94.2024011003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| April 12, 2024|
@@ -129,7 +129,7 @@ See [Microsoft Teams phones feature set](phones-for-teams.md) for information on
 |Trio C60 | `8.0.2.3266` | N/A | Teams client: `1449/1.0.94.2022110803` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202209060820.product`| February 16, 2023|
 
 #### <b> Yealink </b>
-| **Device model**  | **Latest firmware version** | **Minimum firmware version** | **Included Microsoft applications**   | **Release date**|
+| Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications**   | Release date |
 |:----------------|:-------------------|:----------------------------|:----------------------------------------------------------------------------------------------|:--------------------------------------------|
 |MP52| `145.15.0.97`| N/A | Teams client: `1449/1.0.94.2024060310` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| August 29, 2024|
 |MP54/MP56/MP58| `122.15.0.157`| `N/A` | Teams client: `1449/1.0.94.2024071104` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| August 7, 2024|
@@ -147,12 +147,12 @@ See [Microsoft Teams phones feature set](phones-for-teams.md) for information on
 ### Firmware versions released to the Federal clouds
 
 #### <b> Audiocodes </b>
-| **Device model**  | **Latest firmware version**  | **Minimum firmware version** | **Included Microsoft applications**  | **Release date**| **Cloud**|
+| Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications | Release date | Cloud |
 |:----------------|:-------------------|:----------------------------|:---------------------------------------------------------------------------|:-----------------------|:-------------------------------------|
 | C435HD/C455HD | `1.19.456` | `1.15.289` | Teams client: `1449/1.0.94.2023020602` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202301162118.product`| April 6, 2023 | GCCH|
 
 #### <b> HP | Poly </b>
-| **Device model**  | **Latest firmware version**  | **Minimum firmware version** | **Included Microsoft applications**  | **Release date**| **Cloud**|
+| Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications | Release date | Cloud |
 |:----------------|:-------------------|:----------------------------|:------------------------------------------------------------------|:-------------------------|:----------------------------------|
 | CCX350/CCX400/CCX500/CCX505/CCX600 | `8.1.6.1006` | `N/A`| Teams client: `1449/1.0.94.2024011003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| August 2, 2024| GCCH|
 |Trio C60 | `8.1.6.1005` | `N/A` | Teams client: `1449/1.0.94.2024011003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| August 2, 2024 | GCCH|
@@ -176,7 +176,7 @@ We recognize that device certification expiration can impact your business. Our 
 
 Following a certification expiration, Microsoft is committed to supporting the latest version of the Teams devices applications on certified devices for a span of two (2) years after the certification period concludes. While Microsoft makes every effort to maintain support as described here, it retains the discretion to modify its support policy if necessary. Should any changes occur, they'll be communicated through the established customer facing communication channels.
 
-| **Device Category** | **Device Model**| **Android OS Version** | **Certification end date** | **Microsoft support end date** |
+| Device Category | Device Model | Android OS Version | Certification end date | Microsoft support end date |
 |:----------------|:-------------------|:----------------------------|:--------------------------|:----------------------|
 |Teams phones - conference|Poly Trio 8500/8800|7|October 4, 2021| October 4, 2023 |
 |Teams phones|Yealink T55/T55A|7|October 4, 2021| October 4, 2023| 

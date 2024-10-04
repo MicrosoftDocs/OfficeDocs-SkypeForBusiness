@@ -50,7 +50,7 @@ After certification end date, Microsoft is committed to make efforts to support 
 
 The following devices are Certified under the Microsoft Teams panels Android Certification Program.
 
-| **Device model**| **Firmware version** | **Current certification end date** | **Android OS version** |
+| Device model | Firmware version | Current certification end date | Android OS version |
 |:------------------------|:-----------------|:--------------|-----------------------|
 |Audiocodes RX-Panel | `2.1.457`|August 15, 2027  | 12 |
 |Cisco Navigator | `CiscoOS 11.20 `|August 15, 2027  | 13 |
@@ -75,7 +75,7 @@ See [Microsoft Teams panels](../devices/overview-teams-panels.md) for features s
 ### Firmware versions released to the Public cloud
 
 #### <b> Audiocodes </b>
-| **Device model**  | **Latest firmware version**  | **Minimum firmware version** | **Included Microsoft applications**  | **Release date**|
+| Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications | Release date |
 |:----------------|:-------------------|:----------------------------|:---------------------------------------------------------------|:----------------------------|
 | RX Panel | `2.6.228` | N/A| Teams client: `1449/1.0.97.2024053104` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| August 21, 2024|
 | RX Panel | `2.4.124` | N/A| Teams client: `1449/1.0.97.2024061108` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| August 1, 2024|
@@ -84,7 +84,7 @@ See [Microsoft Teams panels](../devices/overview-teams-panels.md) for features s
 | RX Panel | `2.2.311` | N/A| Teams client: `1449/1.0.97.2023080401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| October 16, 2023|
 
 #### <b> Crestron </b>
-| **Device model**  | **Latest firmware version**  | **Minimum firmware version** | **Included Microsoft applications**  | **Release date**|
+| Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications | Release date |
 |:----------------|:-------------------|:----------------------------|:-------------------------------------------------------------------|:---------------------------|
 | TSS-770/TSS-1070 | `2.006.0054` | N/A| Teams client: `1449/1.0.97.2024061108` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| September 24, 2024|
 | TSS-770/TSS-1070 | `2.004.1054` | N/A| Teams client: `1449/1.0.97.2023080401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| January 8, 2024|
@@ -94,7 +94,7 @@ See [Microsoft Teams panels](../devices/overview-teams-panels.md) for features s
 | TSS-770/TSS-1070 | `2.003.1024` | N/A| Teams client: `1449/1.0.97.2022748302` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202209060820.product`| February 17, 2023|
 
 #### <b> EPOS </b>
-| **Device model**  | **Latest firmware version**  | **Minimum firmware version** | **Included Microsoft applications**  | **Release date**|
+| Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications | Release date |
 |:----------------|:-------------------|:----------------------------|:--------------------------------------------------------------------|:-------------------------------|
 | Expand Control 3P | `v2.1.24185.04` | N/A| Teams client: `1449/1.0.97.2024061108` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| August 8, 2024|
 | Expand Control 3P | `v1.9.24025.01` | N/A| Teams client: `1449/1.0.97.2023111003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| February 19, 2024|
@@ -102,7 +102,7 @@ See [Microsoft Teams panels](../devices/overview-teams-panels.md) for features s
 | Expand Control 3P | `v1.7.23195.06` | N/A| Teams client: `1449/1.0.97.2023060102` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202305022347.product`| July 31, 2023|
 
 #### <b> Logitech </b>
-| **Device model**  | **Latest firmware version**  | **Minimum firmware version** | **Included Microsoft applications**  | **Release date**|
+| Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications | Release date |
 |:----------------|:-------------------|:----------------------------|:--------------------------------------------------------------------|:--------------------------------|
 | DockFlex (VR0035) | `1.12.149`| N/A| Teams client: `1449/1.0.97.2024040202` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| June 6, 2024|
 | TAP Scheduler (VR0028) | `1.12.708`| N/A| Teams client: `1449/1.0.97.2024040202` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| June 6, 2024|
@@ -118,7 +118,7 @@ See [Microsoft Teams panels](../devices/overview-teams-panels.md) for features s
 | TAP Scheduler (VR0028) | `1.8.181` | N/A| Teams client: `1449/1.0.97.2022747803` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202209060820.product`| January 18, 2023|
 
 #### <b> Neat </b>
-| **Device model**  | **Latest firmware version**  | **Minimum firmware version** | **Included Microsoft applications**  | **Release date**|
+| Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications | Release date |
 |:----------------|:-------------------|:----------------------------|:-------------------------------------------------------------------------|:-------------------------------------|
 | Neat Pad | `NFA1.20240620.1740` | N/A| Teams client: `1449/1.0.97.2024061108` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202402202353.product`| August 26, 2024|
 | Neat Pad | `NFA1.20240516.0501` | N/A| Teams client: `1449/1.0.97.2024040202` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202402202353.product`| June 21, 2024|
@@ -129,14 +129,14 @@ See [Microsoft Teams panels](../devices/overview-teams-panels.md) for features s
 | Neat Pad | `NFA1.20221128.0005` | N/A| Teams client: `1449/1.0.97.2022748302` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202209060820.product`| January 30, 2023|
 
 #### <b> Poly </b>
-| **Device model**  | **Latest firmware version**  | **Minimum firmware version** | **Included Microsoft applications**  | **Release date**|
+| Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications | Release date |
 |:----------------|:-------------------|:----------------------------|:---------------------------------------------------------------------------------|:---------------------------------------------|
 | TC10 | `6.3.0-211719` | N/A| Teams client: `1449/1.0.97.2024042504` <br> Company Portal: `5.0.6061.0` <br> Admin Agent: `1.0.0.202402202353.product`| August 1, 2024|
 | TC10 | `5.0.1.211321` | N/A| Teams client: `1449/1.0.97.2023080401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| December 12, 2023|
 | TC10 | `5.0.0.211238` | N/A| Teams client: `1449/1.0.97.2023060102` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| September 12, 2023|
 
 #### <b> Yealink </b>
-| **Device model**  | **Latest firmware version**  | **Minimum firmware version** | **Included Microsoft applications**  | **Release date**|
+| Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications | Release date |
 |:----------------|:-------------------|:----------------------------|:------------------------------------------------------------------------------|:------------------------------------------|
 | Room Panel | `147.520.0.21` | N/A| Teams client: `1449/1.0.97.2023121202` <br> Company Portal: `5.0.6061.0` <br> Admin Agent: `1.0.0.202310260109.product`| March 07, 2024|
 | Room Panel Plus | `269.520.0.21` | N/A| Teams client: `1449/1.0.97.2023121202` <br> Company Portal: `5.0.6061.0` <br> Admin Agent: `1.0.0.202310260109.product`| March 07, 2024|
@@ -147,13 +147,13 @@ See [Microsoft Teams panels](../devices/overview-teams-panels.md) for features s
 ### Firmware versions released to the Federal clouds
 
 #### <b> Crestron </b>
-| **Device model**  | **Latest firmware version**  | **Minimum firmware version** | **Included Microsoft applications**  | **Release date**| **Cloud**|
+| Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications | Release date | Cloud |
 |:----------------|:-------------------|:----------------------------|:----------------------------------------------------------------------------|:-----------------|:-------------------------------------|
 | TSS-770/TSS-1070 | `2.004.1054` | N/A| Teams client: `1449/1.0.97.2023080401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| January 17, 2024| GCCH|
 | TSS-770/TSS-1070 | `2.004.1029` | N/A| Teams client: `1449/1.0.97.2022748302` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202301162118.product`| July 18, 2023| GCCH|
 
 #### <b> Logitech </b>
-| **Device model**  | **Latest firmware version**  | **Minimum firmware version** | **Included Microsoft applications**  | **Release date**| **Cloud**|
+| Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications | Release date | Cloud |
 |:----------------|:-------------------|:----------------------------|:----------------------------------------------------------------------------|:-----------------|:-------------------------------------|
 | TAP Scheduler (VR0028) | `1.12.708`| N/A| Teams client: `1449/1.0.97.2024040202` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| June 17, 2024| GCCH|
 | DockFlex (VR0035) | `1.12.149`| N/A| Teams client: `1449/1.0.97.2024040202` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| June 17, 2024| GCCH|
@@ -161,13 +161,13 @@ See [Microsoft Teams panels](../devices/overview-teams-panels.md) for features s
 | TAP Scheduler (VR0028) | `1.10.121` | N/A| Teams client: `1449/1.0.97.2023060102` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202305022347.product`| October 9, 2023| GCCH|
 
 #### <b> Neat </b>
-| **Device model**  | **Latest firmware version**  | **Minimum firmware version** | **Included Microsoft applications**  | **Release date**| **Cloud**|
+| Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications | Release date | Cloud |
 |:----------------|:-------------------|:----------------------------|:-------------------------------------------------------------------------|:-------------------------------------|:--------------------|
 | Neat Pad | `NFA1.20240516.0501` | N/A| Teams client: `1449/1.0.97.2024040202` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202402202353.product`| July 30, 2024| GCCH|
 | Neat Pad | `NFA1.20240120.0109` | N/A| Teams client: `1449/1.0.97.2023111003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| March 26, 2024| GCCH|
 
 #### <b> Poly </b>
-| **Device model**  | **Latest firmware version**  | **Minimum firmware version** | **Included Microsoft applications**  | **Release date**|
+| Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications | Release date |
 |:----------------|:-------------------|:----------------------------|:---------------------------------------------------------------------------------|:---------------------------------------------|
 | TC10 | `6.3.0-211719` | N/A| Teams client: `1449/1.0.97.2024042504` <br> Company Portal: `5.0.6061.0` <br> Admin Agent: `1.0.0.202402202353.product`| August 29, 2024|
 
@@ -179,7 +179,7 @@ We recognize that device certification expiration can impact your business. Our 
 
 Following a certification expiration, Microsoft is committed to supporting the latest version of the Teams devices applications on certified devices for a span of two (2) years after the certification period concludes. While Microsoft will make every effort to maintain support as described here, it retains the discretion to modify its support policy if necessary. Should any changes occur, they will be communicated through the established customer facing communication channels.
 
-| **Device Category** | **Device Model**| **Android OS Versio** | **Certification end date** | **Microsoft support end date** |
+| Device Category | Device Model | Android OS Versio | Certification end date | Microsoft support end date |
 |:----------------|:-------------------|:----------------------------|:--------------------------|:----------------------|
 
 |insert table information|insert table information|insert table information|insert table information|insert table information|

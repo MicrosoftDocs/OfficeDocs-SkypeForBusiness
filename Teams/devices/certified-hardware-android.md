@@ -63,7 +63,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 > [!NOTE]
 > The certification end date for Android 12 based devices has been extended from October 6, 2026, to August 15, 2027. Table below reflects updated current certification end dates. 
 
-| **Device model** | **Firmware version** | **Current certification end date** | **Room size** | **Android OS version** |
+| Device model | Firmware version | Current certification end date | Room size | Android OS version |
 |:-|:-|:-|:-|:-|
 | Poly Studio X72 | `PolyOS 4.2.5`| September 3, 2025 | Large rooms (4.5 m x 8.5 m) | 10 |
 | AudioCodes RXV200 | `2.2.335` | September 3, 2025 |  Focus room(3 m x 3 m) | 10 |
@@ -134,7 +134,7 @@ For information about the latest Teams app releases, see [What's new in Microsof
 
 #### Audiocodes
 
-| **Device model**  | **Latest Firmware version** | **Minimum Firmware version required**| **Teams client** | **Company Portal** | **Admin Agent** | **Release date** |
+| Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:--------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
 | Audiocodes RXV81 | `2.6.228` | N/A| `1449/1.0.96.2024061103` | `5.0.6152.0`|  `1.0.0.202402202353.product` | September 4, 2024|
 | Audiocodes RX-Pad | `2.6.228` | N/A | `1449/1.0.96.2024061103` | `5.0.6152.0`| `1.0.0.202402202353.product` | September 4, 2024|
@@ -159,7 +159,7 @@ For information about the latest Teams app releases, see [What's new in Microsof
 
 #### Cisco
 
-| **Device model**  | **Latest Firmware version** | **Minimum Firmware version required**| **Teams client** | **Company Portal** | **Admin Agent** | **Release date** |
+| Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
 | Cisco Board Pro 55 | `11.18.1.8` | N/A | `1449/1.0.96.2024061103` | `5.0.6061.0` | `1.0.0.202402202353.product` | August 26, 2024|
 | Cisco Board Pro 75 | `11.18.1.8` |  N/A | `1449/1.0.96.2024061103` | `5.0.6061.0` | `1.0.0.202402202353.product` |  August 26, 2024|
@@ -239,7 +239,7 @@ For information about the latest Teams app releases, see [What's new in Microsof
 
 #### DTEN
 
-| **Device model**  | **Latest Firmware version** | **Minimum Firmware version required**| **Teams client** | **Company Portal** | **Admin Agent** | **Release date** |
+| Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
 | DTEN Bar |`1.3.0.4` | N/A| `1449/1.0.96.2024080804` | `5.0.6152.0`| `1.0.0.202402202353.product`| September 20, 2024|
 | DTEN D7X 75" |`1.6.5.4` | N/A| `1449/1.0.96.2024080804` | `5.0.6152.0`| `1.0.0.202402202353.product`| September 20, 2024|
@@ -263,7 +263,7 @@ For information about the latest Teams app releases, see [What's new in Microsof
 
 #### EPOS
 
-| **Device model**  | **Latest Firmware version** | **Minimum Firmware version required**| **Teams client** | **Company Portal** | **Admin Agent** | **Release date** |
+| Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
 | EPOS EXPAND Vision 5T |`v2.1.24193.02`| N/A |  `1449/1.0.96.2024061103`| `5.0.6152.0` | `1.0.0.202402202353.product`| August 6, 2024|
 | EPOS EXPAND Control 3C |`v2.1.24193.02`| N/A |  `1449/1.0.96.2024061103`| `5.0.6152.0` | `1.0.0.202402202353.product`| August 6, 2024|
@@ -282,7 +282,7 @@ For information about the latest Teams app releases, see [What's new in Microsof
 
 #### Jabra
 
-| **Device model**  | **Latest Firmware version** | **Minimum Firmware version required**| **Teams client** | **Company Portal** | **Admin Agent** | **Release date** |
+| Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
 | Jabra Panacast 50 VBS | `3.6.0-31` |  N/A|  `1449/1.0.96.2024080804` | `5.0.6152.0` | `1.0.0.202402202353.product` | September 11, 2024|
 | Jabra Panacast 50 TC | `3.6.0-31` | N/A | `1449/1.0.96.2024080804` | `5.0.6152.0` | `1.0.0.202402202353.product` | September 11, 2024|
@@ -294,7 +294,7 @@ For information about the latest Teams app releases, see [What's new in Microsof
 
 #### Logitech
 
-| **Device model**  | **Latest Firmware version** | **Minimum Firmware version required**| **Teams client** | **Company Portal** | **Admin Agent** | **Release date** |
+| Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
 | Logi Rallybar (VR0019) | `1.12.268` | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | August 21, 2024|
 | Logi Rallybar Mini (VR0020) | `1.12.268` | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | August 21, 2024|
@@ -344,7 +344,7 @@ For information about the latest Teams app releases, see [What's new in Microsof
 
 #### Neat
 
-| **Device model**  | **Latest Firmware version** | **Minimum Firmware version required**| **Teams client** | **Company Portal** | **Admin Agent** | **Release date** |
+| Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
 | Neat Bar Gen2 | `NFE1.20240620.1740` | N/A | `1449/1.0.96.2024061103`| `5.0.6061.0` | `1.0.0.202402202353.product`| August 23, 2024|
 | Neat Bar | `NFB1.20240620.0015` | N/A | `1449/1.0.96.2024061103`| `5.0.6061.0` | `1.0.0.202402202353.product`| August 23, 2024|
@@ -391,7 +391,7 @@ For information about the latest Teams app releases, see [What's new in Microsof
 
 #### HP | Poly
 
-| **Device model**  | **Latest Firmware version** | **Minimum Firmware version required**| **Teams client** | **Company Portal** | **Admin Agent** | **Release date** |
+| Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
 | Poly Studio X30 | `4.2.2-408037` | `4.1.0_00.180034`| `1449/1.0.96.2024020802`| `5.0.6061.0` | `1.0.0.202310260109.product`| June 21, 2024|
 | Poly Studio X50 | `4.2.2-408037` | `4.1.0_00.180034`| `1449/1.0.96.2024020802`| `5.0.6061.0` | `1.0.0.202310260109.product`| June 21, 2024|
@@ -454,7 +454,7 @@ For information about the latest Teams app releases, see [What's new in Microsof
 | Poly TC8 | `4.0.0.210993` |  N/A | `1449/1.0.96.2022120503` | `5.0.5484.0`| `1.0.0.202209060820.product` | March 23, 2023 |
 
 #### Yealink
-| **Device model**  | **Latest Firmware version** | **Minimum Firmware version required**| **Teams client** | **Company Portal** | **Admin Agent** | **Release date** |
+| Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
 | Yealink MeetingBar A10 | `278.320.0.48` | N/A | `1449/1.0.96.2024080804`| `5.0.6152.0` | `1.0.0.202402202353.product` | September 17, 2024 |
 | Yealink MeetingBar A20 | `133.320.0.46` | N/A | `1449/1.0.96.2024080804`| `5.0.6152.0` | `1.0.0.202402202353.product` | September 17, 2024 |
@@ -487,7 +487,7 @@ For information about the latest Teams app releases, see [What's new in Microsof
 
 #### Cisco
 
-| **Device model**  | **Latest Firmware version** | **Minimum Firmware version required**| **Teams client** | **Company Portal** | **Admin Agent** | **Release date** | **Cloud** |
+| Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date | Cloud |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|:----------------------------------|
 | Cisco Board Pro 55 | `11.18.1.8` | N/A | `1449/1.0.96.2024061103` | `5.0.6061.0` | `1.0.0.202402202353.product` | September 27, 2024| GCCH|
 | Cisco Board Pro 75 | `11.18.1.8` |  N/A | `1449/1.0.96.2024061103` | `5.0.6061.0` | `1.0.0.202402202353.product` |  September 27, 2024| GCCH|
@@ -533,7 +533,7 @@ For information about the latest Teams app releases, see [What's new in Microsof
 
 #### Logitech
 
-| **Device model**  | **Latest Firmware version** | **Minimum Firmware version required**| **Teams client** | **Company Portal** | **Admin Agent** | **Release date** | **Cloud** |
+| Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date | Cloud |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|:-----------------|
 | Logi Rallybar (VR0019) | `1.12.264` | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | August 23, 2024|
 | Logi Rallybar Mini (VR0020) | `1.12.264` | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | August 23, 2024|
@@ -547,7 +547,7 @@ For information about the latest Teams app releases, see [What's new in Microsof
 
 #### HP | Poly
 
-| **Device model**  | **Latest Firmware version** | **Minimum Firmware version required**| **Teams client** | **Company Portal** | **Admin Agent** | **Release date** | **Cloud** |
+| Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date | Cloud |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|:---------------------------------|
 | Poly Studio X30 | `4.2.0-396113` | `4.1.0_00.180034`| `1449/1.0.96.2024020802`| `5.0.6061.0` | `1.0.0.202310260109.product`| May 7, 2024| GCCH |
 | Poly Studio X50 | `4.2.0-396113` | `4.1.0_00.180034`| `1449/1.0.96.2024020802`| `5.0.6061.0` | `1.0.0.202310260109.product`| May 7, 2024| GCCH |
@@ -578,7 +578,7 @@ For information about the latest Teams app releases, see [What's new in Microsof
 
 #### Neat
 
-| **Device model**  | **Latest Firmware version** | **Minimum Firmware version required**| **Teams client** | **Company Portal** | **Admin Agent** | **Release date** | **Cloud** |
+| Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date | Cloud |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|:---------------------------------|
 | Neat Bar Gen2 | `NFE1.20240516.0009` | N/A | `1449/1.0.96.2024042606`| `5.0.6061.0` | `1.0.0.202402202353.product`| July 6, 2024| GCCH |
 | Neat Bar | `NFB1.20240516.0658` | N/A | `1449/1.0.96.2024042606`| `5.0.6061.0` | `1.0.0.202402202353.product`| July 6, 2024| GCCH |
@@ -601,7 +601,7 @@ We recognize that device certification expiration can impact your business. Our 
 
 Following a certification expiration, Microsoft is committed to supporting the latest version of the Teams devices applications on certified devices for a span of two (2) years after the certification period concludes. While Microsoft will make every effort to maintain support as described here, it retains the discretion to modify its support policy if necessary. Should any changes occur, they will be communicated through the established customer facing communication channels.
 
-| **Device Category** | **Device Model**| **Android OS Versio** | **Certification end date** | **Microsoft support end date** |
+| Device Category | Device Model | Android OS Versio | Certification end date | Microsoft support end date |
 |:----------------|:-------------------|:----------------------------|:--------------------------|:----------------------|
 |Teams Rooms for Android | Yealink VC210 | 9 | August 5, 2023 | August 5, 2025 |
 |Teams Rooms for Android | EPOS Expand Vision 3T | 9 | August 5, 2023| August 5, 2025 |
