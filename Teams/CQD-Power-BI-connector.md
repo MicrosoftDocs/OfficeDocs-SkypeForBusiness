@@ -30,7 +30,7 @@ Read [Use Power BI to analyze CQD data for Teams](CQD-Power-BI-query-templates.m
 Make sure you have the right [CQD access role](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) to access the Power BI reports.
 
 > [!NOTE]
-> The Microsoft Call Quality connector only supports DirectQuery in Power BI; Import mode is not supported. 
+> The Microsoft Call Quality connector only supports DirectQuery in Power BI; Import mode isn't supported. 
 
 ## Installation
 
@@ -44,29 +44,29 @@ The process for installing a custom connector and adjusting security to enable u
 
 If a new version of the Microsoft Call Quality connector is released, replace the old connector file in the *Custom Connectors* directory with the new file.
 
-Customers in Government cloud environments (GCC, GCC-H, DoD) will need to [install the connector](/power-bi/connect-data/service-gateway-custom-connectors) with an [on-premises data gateway](/power-bi/connect-data/service-gateway-onprem) for compatibility with Power BI Service. Without an on-premises gateway, Government cloud customers will only be able to use the Microsoft Call Quality connector in Power BI Desktop.
+Customers in Government cloud environments (GCC, GCC-H, DoD) need to [install the connector](/power-bi/connect-data/service-gateway-custom-connectors) with an [on-premises data gateway](/power-bi/connect-data/service-gateway-onprem) for compatibility with Power BI Service. Without an on-premises gateway, Government cloud customers can only use Microsoft Call Quality connector in Power BI Desktop.
 
 ## Setup
 
-To build a report and run queries, you first need to connect to the CQD data source. Follow the steps below in order to connect:
+To build a report and run queries, you first need to connect to the CQD data source. In order to connect, perform the following steps:
 
-1. In the Home tab of Power BI Desktop, select on *Get Data*.
+1. In the Home tab of Power BI Desktop, select **Get Data**.
 
     ![Get Data in the Power BI Connector.](media/CQD-power-bi-connector1-resize.png)
 
-2. The *Get Data* window should appear at this point. Navigate to *Online Services*, then select *Microsoft Call Quality (Beta)* and hit *Connect*.
+2. The *Get Data* window should appear at this point. Navigate to **Online Services**, then select **Microsoft Call Quality (Beta)** and select **Connect**.
 
     ![Microsoft Call Quality in the Power BI Connector.](media/CQD-power-bi-connector2-resize.png)
 
-3. You'll be prompted to sign in next. Use the same credentials that you use for Call Quality Dashboard.<sup>2</sup>
+3. In the sign-in prompt, use the same credentials that you use for Call Quality Dashboard.<sup>2</sup>
 
-4. The next prompt will give you the option between two *Data Connectivity modes*. Select *DirectQuery* and hit *OK*.
+4. The next prompt gives you the option between two **Data Connectivity modes**. Select **DirectQuery**, then select **OK**.
 
-5. Finally, you'll see a final prompt showing you the entire data model for Call Quality Dashboard. No data will be visible at this point, only the data model for CQD. Select *Load* to complete the setup process.
+5. The final prompt shows you the entire data model for Call Quality Dashboard. No data is visible at this point, only the data model for CQD. Select **Load** to complete the setup process.
 
-6. At this point, Power BI will load the data model onto the right side of the window. The page will remain otherwise blank, and no queries will be loaded by default. Proceed to **Building Queries** below in order to build a query and return data.
+6. At this point, Power BI loads the data model onto the right side of the window. The page remains otherwise blank, and no queries are loaded by default. In order to build a query and return data, see [Building Queries](#building-queries).
 
-If any of the steps during this setup process weren't clear, you can find a more detailed explanation of the process in [Quickstart: Connect to data in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
+If any of the steps during this setup process aren't clear, you can find a more detailed explanation of the process in [Quickstart: Connect to data in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
 
 ## Building Queries
 
@@ -76,21 +76,21 @@ Once setup is complete, you should see the names of several hundred dimensions a
 
     ![Visualizations pane in the Power BI Connector.](media/CQD-power-bi-connector3-resize.png)
 
-2. Determine which dimensions and measures (denoted by an aggregation symbol by their name) you wish to use for your query, then manually select them and drag them onto the black visualization. Alternately, drag them onto the *Values* field beneath the visualization options.
+2. Determine which dimensions and measures (denoted by an aggregation symbol by their name) you wish to use for your query. Then, manually select these dimensions and measures and drag them onto the black visualization. Alternately, drag them onto the *Values* field beneath the visualization options.
 
     ![Visualizations query in the Power BI Connector.](media/CQD-power-bi-connector4-resize2.png)
 
     > [!IMPORTANT]
     > Call Quality Dashboard requires a measure for any query to run. Failure to add a measure to a query will cause that query to fail.
 
-3. Next, select any dimensions you want to filter on and drag them to the *Filters on this visual* field in the *Filters* pane. The Microsoft Call Quality connector currently supports *Basic filtering* (select values from a list of possible dimension values), *Advanced filtering* (manually specify values and operands to filter on, similar to Call Quality Dashboard), and *Relative date filtering* (only available for the *End Time* and *Start Time* dimensions). Filtering according to *Top N* isn't supported by Call Quality Dashboard.
+3. Next, select any dimensions you want to filter on and drag them to the **Filters on this visual** field in the *Filters* pane. The Microsoft Call Quality connector currently supports *Basic filtering* (select values from a list of possible dimension values), *Advanced filtering* (manually specify values and operands to filter on, similar to Call Quality Dashboard), and *Relative date filtering* (only available for the *End Time* and *Start Time* dimensions). Call Quality Dashboard doesn't support filtering according to *Top N*.
 
     ![Visualizations filters in the Power BI Connector.](media/CQD-power-bi-connector5-resize.png)
 
     > [!IMPORTANT]
-    > Filters are only supported when applied to Dimensions. Filtering on the values of Measurements is not supported in Call Quality Dashboard.
+    > Filters are only supported when applied to Dimensions. Filtering on the values of Measurements isn't supported in Call Quality Dashboard.
 
-4. Finally, select the *Format* tab within the *Visualizations* pane to style and format your query.
+4. Finally, select the **Format** tab within the *Visualizations* pane to style and format your query.
 
     > [!NOTE]
     > Call Quality Dashboard queries require at least one measure in order to run. If your query does not load, double check that you included a measure in the query.
@@ -101,7 +101,7 @@ Once setup is complete, you should see the names of several hundred dimensions a
 
 1. Create another page for the focused report, and then add your queries to that page.
 
-2. Select the dimension you want to use as a drillthrough filter and drag them onto the *Drillthrough* field under on the *Visualizations* pane.
+2. Select the dimension you want to use as a drillthrough filter and drag them onto the **Drillthrough** field under on the *Visualizations* pane.
 
     ![Drillthrough in the Power BI Connector.](media/CQD-power-bi-connector6-resize.png)
 
@@ -117,21 +117,21 @@ You should design Microsoft Call Quality connector queries with drillthrough fun
 
 ## Limitations
 
-Not all Power BI functionality is support by the Microsoft Call Quality connector, either as a result of limitations on Call Quality Dashboard's data model or on DirectQuery connectors in general. The list below notes some of the Connector's more noteworthy limitations, but this list is not exhaustive:
+Not all Power BI functionality is support by the Microsoft Call Quality connector, either as a result of limitations on Call Quality Dashboard's data model or on DirectQuery connectors in general. The list below notes some of the Connector's more noteworthy limitations, but this list isn't exhaustive:
 
 1. **Calculated Columns –** DirectQuery connectors in general have limited support for calculated columns in Power BI. Some calculated columns might work with the Connector, that those columns are exceptions. As a general rule, calculated columns don't function.
 
-2. **Aggregations –** The Call Quality Dashboard data model is built on a cube model, meaning that aggregations are already supported in the form of measures. Attempting to manually add aggregations to different dimensions or changing the aggregation type of a measure won't work with the Connector, and it will generally result in an error.
+2. **Aggregations –** The Call Quality Dashboard data model is built on a cube model, meaning that aggregations are already supported in the form of measures. Attempting to manually add aggregations to different dimensions or changing the aggregation type of a measure doesn't work with the Connector, and it will generally result in an error.
 
 3. **Custom Visuals –** While the Microsoft Call Quality connector does work with a range of custom visuals, we're unable to guarantee compatibility with all custom visuals. Many custom visuals rely on the use of calculated columns or imported data, neither of which is supported by DirectQuery connectors.
 
-4. **Referencing Cached Data –** Power BI currently doesn't support referencing cached data from a DirectQuery connector in any way. Any attempt to reference the results of a query will result in a new query.
+4. **Referencing Cached Data –** Power BI currently doesn't support referencing cached data from a DirectQuery connector in any way. Any attempt to reference the results of a query will create a new query.
 
-5. **Relative Data Filtering –** Is supported in the Microsoft Call Quality connector, but only with the *Start Time* and *End Time* dimensions. Although the *Date* dimension may be the obvious choice for relative date filtering, *Date* isn't stored as a date time object and thus doesn't support relative date filtering in Power BI.
+5. **Relative Data Filtering –** Is supported in the Microsoft Call Quality connector, but only with the *Start Time* and *End Time* dimensions. Although the *Date* dimension might be the obvious choice for relative date filtering, *Date* isn't stored as a date time object and thus doesn't support relative date filtering in Power BI.
 
 6. **Dimension Only or Measurement Only Queries -** Aren't supported at this time in the Microsoft Call Quality connector. If you create a visualization with three or more measurements and no dimensions, or three or more dimensions and no measurements, the column data will be transposed. Always include at least one dimension (for example, Month Year) and one measurement (for example, Total Call Count) in your visualizations. 
 
-7. **Government Community Cloud (GCC, GCC-High, and DoD) Support –** For customers in Government cloud environments, the Microsoft Call Quality connector can be used with an [on-premises data gateway](/power-bi/connect-data/service-gateway-onprem) for compatibility with Power BI service. Simply follow the guide for [installing custom connectors with an on-premises data gateway](/power-bi/connect-data/service-gateway-custom-connectors) using the latest version of the Microsoft Call Quality connector to enable access. Additionally, an appropriate Power BI US Government license is required for government cloud. For more information on licensing, please see the latest guidance for [Power BI for US government customers](/power-bi/enterprise/service-govus-overview#buy-a-power-bi-pro-subscription-for-government-customers).
+7. **Government Community Cloud (GCC, GCC-High, and DoD) Support –** For customers in Government cloud environments, the Microsoft Call Quality connector can be used with an [on-premises data gateway](/power-bi/connect-data/service-gateway-onprem) for compatibility with Power BI service. Simply follow the guide for [installing custom connectors with an on-premises data gateway](/power-bi/connect-data/service-gateway-custom-connectors) using the latest version of the Microsoft Call Quality connector to enable access. Additionally, an appropriate Power BI US Government license is required for government cloud. For more information on licensing, see the latest guidance for [Power BI for US government customers](/power-bi/enterprise/service-govus-overview#buy-a-power-bi-pro-subscription-for-government-customers).
 
 Most of these issues are either restrictions to DirectQuery connector design in Power BI or fundamental to the design of the CQD data model.
 
@@ -148,14 +148,14 @@ Alternatively, if the dates you want to view are recent, apply a relative date f
 
 ### When I add certain dimensions to my reports, the visual immediately returns **"Couldn't load the data for this visual"**. Removing the dimension fixes the visual--what is happening?
 
-This is a known issue in the Microsoft Call Quality connector; any dimension that is exposed as a whole number will appear in Power BI as an 'aggregate' column, where Power BI will attempt a default summarize action (typically 'Sum'). In some cases, this behavior will succeed at summing up the values even though the result isn't useful, since the 'sum' of a dimension like Second WiFi Channel is meaningless. In other cases, this summarize action will fail and cause errors in the visual.
+This is a known issue in the Microsoft Call Quality connector. Any dimension that's exposed as a whole number appears in Power BI as an "aggregate" column, where Power BI attempts a default summarize action (typically 'Sum'). In some cases, this behavior succeeds at summing up the values even though the result isn't useful, since the "sum" of a dimension like Second WiFi Channel is meaningless. In other cases, this summarize action fails and causes errors in the visual.
 
-To work around this issue, start by removing the dimension from the visual. Select the dimension from the 'Fields' list, browse to the 'Column tools' tab in the ribbon, select the 'Summarization' drop-down menu and select **Don't summarize**. You can now add the dimension to the visual again.
+To work around this issue, start by removing the dimension from the visual. Select the dimension from the **Fields** list, browse to the *Column tools* tab in the ribbon, select the **Summarization** drop-down menu, and select **Don't summarize**. You can now add the dimension to the visual again.
 
 
 ## Error Codes
 
-Because the Microsoft Call Quality connector for Power BI is less restricted than the browser app in terms of kinds of queries you can construct, you may occasionally encounter errors while building your queries. If you receive an error message of the type "CQDError. RunQuery – Query Execution Error", reference the list below with the ErrorType number provided in order to troubleshoot the possible issue with the query. The following are the most common Error Type codes you may encounter with the CQD Power BI Connector:
+Because the Microsoft Call Quality connector for Power BI is less restricted than the browser app in terms of kinds of queries you can construct, you might occasionally encounter errors while building your queries. If you receive an error message of the type "CQDError. RunQuery – Query Execution Error," reference the list below with the ErrorType number provided in order to troubleshoot the possible issue with the query. The following are the most common Error Type codes you might encounter with the CQD Power BI Connector:
 
 - **ErrorType 1 - Query Structure Error:** A query structure error is typically caused by the Connector failing to build a properly formatted query. This happens most often when using unsupported functionality, as specified in the Limitations above. Double check that you aren't using any calculated columns or custom visuals for that query.
 
@@ -169,7 +169,7 @@ If you encounter any another errors outside of this scope, notify the Call Quali
 
 ## Footnotes
 
-**<sup>1</sup>** Certain processes and apps (for example, OneDrive) may cause your Documents root folder to change; make sure that the *Power BI Desktop\\Custom Connectors* directory is placed inside of the current root folder Documents folder.
+**<sup>1</sup>** Certain processes and apps (for example, OneDrive) might cause your Documents root folder to change; make sure that the *Power BI Desktop\\Custom Connectors* directory is placed inside of the current root folder Documents folder.
 
 **<sup>2</sup>** The sign in credentials you use for Call Quality Dashboard *don't* need to be the same credentials you use for logging into the Power BI Desktop app itself.
 
@@ -177,11 +177,11 @@ If you encounter any another errors outside of this scope, notify the Call Quali
 
 ### When will the Power BI Connector be updated from "Beta" status?
 
-Despite the 'beta' label in the Microsoft Call Quality connector, the connector is in release status; it is **not** a beta. At the time of the connector's initial release, the Power BI team was unable to provide support and broader certification (and thus, the 'beta' tag), but was still prepared to attest to the security, authenticity, and general functionality of the Microsoft Call Quality connector. Since then, the CQD team independently continue to invest further development into the connector to improve and revise its functionality. The 'beta' label should not dissuade customers from using the connector, it is just a side effect of our independent approach to connector development.
+Despite the "beta" label in the Microsoft Call Quality connector, the connector is in release status; it's *not* a beta. At the time of the connector's initial release, the Power BI team was unable to provide support and broader certification (and thus, the "beta" tag), but they were still prepared to attest to the security, authenticity, and general functionality of the Microsoft Call Quality connector. Since then, the CQD team independently continues to invest further development into the connector to improve and revise its functionality. The "beta" label shouldn't dissuade customers from using the connector. The labeling is just a side effect of our independent approach to connector development.
 
 ### Why does the connector seem slower compared to Call Quality Dashboard in the browser? What can I do to improve performance?
 
-Query performance for the various templates is actually the same in both the browser and in the connector.  Just like any other standalone app, Power BI adds its authentication and rendering time to our performance. In addition, the difference comes in the number of concurrent queries being run. Because the in-browser version of Call Quality Dashboard had less well-developed and information-dense visualization options, most of our reports were limited to loading 2-3 queries at a time. On the other hand, the connector templates often display 20+ concurrent queries. If you wish to build reports that are as responsive as the older ones you were used to, try creating reports with no more than 2-3 queries per tab.
+Query performance for the various templates is actually the same in both the browser and in the connector. Just like any other standalone app, Power BI adds its authentication and rendering time to our performance. In addition, the difference comes in the number of concurrent queries being run. Because the in-browser version of Call Quality Dashboard had less well-developed and information-dense visualization options, most of our reports were limited to loading 2-3 queries at a time. On the other hand, the connector templates often display 20+ concurrent queries. If you wish to build reports that are as responsive as the older ones you were used to, try creating reports with no more than 2-3 queries per tab.
 
 For more information, see the following articles:
 
@@ -196,6 +196,6 @@ Instead of attempting to increase the result row count, it's best to restructure
 
 
 
-## Related topics
+## Related articles
 
 [Use Power BI to analyze CQD data for Teams](CQD-Power-BI-query-templates.md)
