@@ -57,9 +57,9 @@ The report gives you a breakdown of each transmission made during the date range
 |NotifiedParticipants|The participants to which a push notification is sent when a transmission starts. In scenarios where the connection between the device and service is lost, a notification is sent to the device to re-establish the connection as soon as possible because a transmission is coming.|
 |AudioDurationMilliseconds|Duration of the transmission in milliseconds.|
 |ConnectionId|ID of each connection to a Walkie Talkie channel established by the device.|
-|TransmissionStartTime |Date and time when the first audio packet is received by the service.|
-|TransmissionEndTime|Date and time when the last audio packet is received by the service.|
-|ParticipantList|A semi-colon delimited list of IDs of the devices connected to the channel at the time the transmission is sent.|
+|TransmissionStartTime |Date and time, in Coordinated Universal Time (UTC), when the first audio packet is received by the service. The format is YYYY-MM-DDTHH:MM:SS. For example, 2024-10-08T20:49:03.|
+|TransmissionEndTime|Date and time, in Coordinated Universal Time (UTC), when the last audio packet is received by the service. The format is YYYY-MM-DDTHH:MM:SS. For example, 2024-10-08T20:49:05.|
+|ParticipantList|A semi-colon delimited list of IDs of the devices connected to the channel at the time the transmission ends.|
 |CallTimedOut|Whether the transmission exceeded the duration limit. This is a Boolean value.|
 |Platform|Device operating system.|
 |ParticipantType|Whether the participant was the transmitter or a receiver of the transmission.|
