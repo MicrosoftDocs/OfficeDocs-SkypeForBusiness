@@ -1344,25 +1344,6 @@ items:
               href: devices/teams-displays-certified-hardware.md
             - name: Personal peripherals
               href: devices/usb-devices.md
-    - name: Microsoft Teams Rooms
-      items: 
-        - name: Overview
-          href: rooms/index.md
-        - name: Plan
-          items: 
-            - name: Teams Rooms on Windows certified devices
-              href: rooms/certified-hardware.md
-            - name: Teams Rooms on Android certified devices
-              href: devices/certified-hardware-android.md
-            - name: Teams panels certified devices
-              href: devices/teams-panels-certified-hardware.md
-            - name: Teams phones certified devices
-              href: devices/teams-phones-certified-hardware.md
-            - name: Teams displays certified devices
-              href: devices/teams-displays-certified-hardware.md
-            - name: Personal peripherals
-              href: devices/usb-devices.md
-              
     - name: Teams Rooms & panels
       items: 
         - name: Overview & planning
