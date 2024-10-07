@@ -1500,7 +1500,7 @@ items:
                   href: rooms/android-app-firmware.md
                 - name: Management apps
                   href: devices/certified-device-apps.md
-            - name: Operations
+            - name: Operations & Configuration
               items:
                 - name: Teams Rooms operations
                   href: rooms/rooms-operations.md
@@ -1510,12 +1510,10 @@ items:
                   href: rooms/console.md
                 - name: Manually update Teams Rooms on Windows
                   href: rooms/manual-update.md
-            - name: Device configuration
-              items:
-                - name: Remotely configure layout, scale, and resolution
-                  href: rooms/manage-front-room-scale-res.md
                 - name: Manage settings with an XML file
                   href: rooms/xml-config-file.md 
+                - name: Remotely configure layout, scale, and resolution
+                  href: rooms/manage-front-room-scale-res.md
                 - name: Remotely configure front row layout
                   href: rooms/manage-front-row.md
             - name: Teams Admin Center
@@ -1536,7 +1534,7 @@ items:
                   href: alerts/device-health-status.md
                 - name: Health and usage reports
                   href: rooms/health-and-usage-reports.md
-            - name: Microsoft Teams Rooms Pro Management
+            - name: Teams Rooms Pro Management
               items:
                 - name: Getting started
                   items:
