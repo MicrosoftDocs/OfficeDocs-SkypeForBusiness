@@ -93,7 +93,7 @@ Once setup is complete, you should see the names of several hundred dimensions a
 4. Finally, select the *Format* tab within the *Visualizations* pane to style and format your query.
 
     > [!NOTE]
-    > Call Quality Dashboard queries require at least one measure in order to run. If your query does not load, double check that you have included a measure in the query.
+    > Call Quality Dashboard queries require at least one measure in order to run. If your query does not load, double check that you included a measure in the query.
 
 ## Creating a Drillthrough Report
 
@@ -161,7 +161,7 @@ Because the Microsoft Call Quality connector for Power BI is less restricted tha
 
   - **ErrorType 2 - Query Building Error:** A query building error is caused by the Microsoft Call Quality connector being unable to properly parse the query you're attempting to build. This error happens most often when using unsupported functionality, as specified in the Limitations above. Double check that you aren't using any calculated columns or custom visuals for that query.
 
-  - **ErrorType 5 - Execution Timeout:** The query has reached the maximum possible runtime before timing out. Try adding more filters to the query in order to limit its scope. Narrowing the data range is often the most effective way to achieve this.
+  - **ErrorType 5 - Execution Timeout:** The query reached the maximum possible runtime before timing out. Try adding more filters to the query in order to limit its scope. Narrowing the data range is often the most effective way to achieve this.
 
   - **ErrorType 7 - No Measurements Error:** Call Quality Dashboard queries require a measure in order to function. Double check that your query includes measure. Measures in the Microsoft Call Quality connector are denoted by the aggregation (sum) symbol before their name.
 
