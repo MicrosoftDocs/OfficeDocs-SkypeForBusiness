@@ -1535,6 +1535,14 @@ items:
                   href: rooms/console.md
                 - name: Manually update Teams Rooms on Windows
                   href: rooms/manual-update.md
+            - name: Device configuration
+              items:
+                - name: Remotely configure layout, scale, and resolution
+                  href: rooms/manage-front-room-scale-res.md
+                - name: Manage settings with an XML file
+                  href: rooms/xml-config-file.md 
+                - name: Remotely configure front row layout
+                  href: rooms/manage-front-row.md
             - name: Teams Admin Center
               items:
                 - name: Overview
@@ -1601,14 +1609,6 @@ items:
                           href: rooms/multi-tenant-management-customer.md
                         - name: Data and privacy information
                           href: rooms/data-and-privacy-info.md
-                        - name: Configuration
-                          items:
-                            - name: Remotely configure layout, scale, and resolution
-                              href: rooms/manage-front-room-scale-res.md
-                            - name: Manage settings with an XML file
-                              href: rooms/xml-config-file.md 
-                            - name: Remotely configure front row layout
-                              href: rooms/manage-front-row.md
     - name: Teams phones
       items:
         - name: Overview & planning
