@@ -1583,32 +1583,32 @@ items:
                       href: rooms/settings-management.md
                     - name: Remote access a Teams Room console
                       href: rooms/remotely-access-teams-rooms.md
-                    - name: Analytics, reports, and insights
-                      items:
-                        - name: Monitoring and maintaining Teams Rooms
-                          href: rooms/managed-meeting-rooms-portal.md
-                        - name: Audit logs for activities
-                          href: rooms/multi-tenant-auditing.md
-                        - name: Alerting
-                          items:
-                            - name: Signal settings
-                              href: rooms/signal-settings.md  
-                            - name: Configure ServiceNow
-                              href: rooms/microsoft-teams-rooms-configure-servicenow.md
-                            - name: Viewing events
-                              href: rooms/view-events.md
-                            - name: Record an issue 
-                              href: rooms/customer-reported-incidents.md
-                        - name: Managed updates
-                          href: rooms/update-management.md
-                        - name: Role-based access control
-                          href: rooms/rooms-pro-rbac.md
-                        - name: Multi-tenant management for partners
-                          href: rooms/multi-tenant-management-partner.md
-                        - name: Multi-tenant management for customers
-                          href: rooms/multi-tenant-management-customer.md
-                        - name: Data and privacy information
-                          href: rooms/data-and-privacy-info.md
+                    - name: Managed updates
+                      href: rooms/update-management.md
+                    - name: Role-based access control
+                      href: rooms/rooms-pro-rbac.md
+                    - name: Multi-tenant management for partners
+                      href: rooms/multi-tenant-management-partner.md
+                    - name: Multi-tenant management for customers
+                      href: rooms/multi-tenant-management-customer.md
+                - name: Alerting
+                   items:
+                     - name: Signal settings
+                       href: rooms/signal-settings.md  
+                     - name: Configure ServiceNow
+                       href: rooms/microsoft-teams-rooms-configure-servicenow.md
+                     - name: Viewing events
+                       href: rooms/view-events.md
+                     - name: Record an issue 
+                       href: rooms/customer-reported-incidents.md
+                - name: Analytics, reports, and insights
+                  items:
+                    - name: Monitoring and maintaining Teams Rooms
+                      href: rooms/managed-meeting-rooms-portal.md
+                    - name: Audit logs for activities
+                      href: rooms/multi-tenant-auditing.md
+                - name: Data and privacy information
+                  href: rooms/data-and-privacy-info.md
     - name: Teams phones
       items:
         - name: Overview & planning
