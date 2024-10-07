@@ -1307,10 +1307,6 @@ items:
     - name: Teams device store
       href: devices/device-store.md
     - name: Teams device certification
-  items:
-    - name: Teams device store
-      href: devices/device-store.md
-    - name: Teams device certification
       items:
         - name: Certification overview
           href: devices/certification-overview.md   
@@ -1592,7 +1588,7 @@ items:
                     - name: Multi-tenant management for customers
                       href: rooms/multi-tenant-management-customer.md
                 - name: Alerting
-                   items:
+                  items:
                      - name: Signal settings
                        href: rooms/signal-settings.md  
                      - name: Configure ServiceNow
