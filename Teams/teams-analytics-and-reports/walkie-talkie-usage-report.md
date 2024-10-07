@@ -79,11 +79,11 @@ The report gives you a breakdown of each transmission made during the date range
 
 #### Audio quality issues
 
-1. **Identify client call status**. Go to the **ClientCallStatus** column in the report and check the client call status. A status of FAILURE indicates an issue with the transmission. The issue could be due to network glitches, degraded audio quality, or other technical problems.
-1. **Analyze failure reasons**. Understand that a failure status means the service was able to ping the device, but the device didn’t respond correctly. This could be due to network issues or device problems.
+1. **Identify client call status**. Go to the **ClientCallStatus** column in the report and check the client call status.
+    - A status of FAILURE indicates an issue with the transmission. The issue could be due to network glitches, degraded audio quality, or other technical problems.
+    - A status of ABANDONED means that the device received the transmission but didn’t reproduce it. This could be because the device was in Do Not Disturb mode or already engaged in another call.
+1. **Analyze failure reasons**. Understand that a FAILURE status means the service was able to ping the device, but the device didn’t respond correctly. This could be due to network issues or device problems.
 1. **Review specific failures**. Investigate specific failure cases such as network issues, incoming call in progress errors, or mismatched channel IDs. These can provide insights into the nature of the audio quality issues.
-
-    If you see an ABANDONED state, it means that the device received the transmission but didn’t reproduce it. This could be because the device was in Do Not Disturb mode or already engaged in another call.
 
 ## Related articles
 
