@@ -304,7 +304,7 @@ The following CQD dimensions that can indicate possible audio issues are:
 - Audio Capture Device In Use
 - Audio Render Device In Use
 
-The recommended range for signal level is (-24,-14), the optimal for noise is <-60.
+The recommended range for signal level is (-24, -14), the optimal for noise is <-60.
 
 #### Input device root cause examples
 
@@ -313,7 +313,7 @@ The recommended range for signal level is (-24,-14), the optimal for noise is <-
 
 ## Maintenance of classification models
 
-The classifier models are monitored on the general population of Microsoft Teams users. If an anomaly is detected, then it is investigated and there's a high chance that the model is re-trained. This can cause temporal fluctuation of respective problem detection rates. Where these fluctuations would cause a significant change in detection rates, we will post a message to inform Teams admins through the M365 Message Center.
+The classifier models are monitored on the general population of Microsoft Teams users. If an anomaly is detected, then it's investigated and there's a high chance that the model is re-trained. This can cause temporal fluctuation of respective problem detection rates. Where these fluctuations would cause a significant change in detection rates, we'll post a message to inform Teams admins through the M365 Message Center.
 
 ## Related topics
 
