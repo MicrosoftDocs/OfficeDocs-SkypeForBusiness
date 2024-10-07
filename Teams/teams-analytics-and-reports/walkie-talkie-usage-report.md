@@ -67,6 +67,26 @@ The report gives you a breakdown of each transmission made during the date range
 |AppVersion|Version of the Teams app installed on the device.|
 |ClientCallStatus |Indicates if the device was able to receive the transmission without any issue.|
 
+###
+
+#### Missing audio transmissions
+
+1. **Locate the ParticipantList column**. Go to the **ParticipantList** column in the report, which lists the participants for each conversation ID. This list contains the device ID for each participant of the conversation.
+1. **Count the participants**. Make sure the number of participants in the participant list matches the number of rows for that conversation ID.
+1. **Check for mismatches**. If the numbers don’t match, it indicates missing transmissions.
+1. **Identify the missing participants**. To find out which participants missed the transmission, compare the participant IDs in the list with the rows present.
+1. **Backtrack to the user ID**. Use the participant ID to backtrack and identify the specific user who missed the transmission.
+
+#### Audio quality issues
+
+1. **Identify client call status**. Go to the **ClientCallStatus** column in the report and check the client call status. If it’s marked as FAILURE, it indicates an issue with the transmission. The issue could be due to network glitches, degraded audio quality, or other technical problems.
+1. **Analyze failure reasons**. Understand that a failure status means the service was able to ping the device, but the device didn’t respond correctly. This could be due to network issues or device problems.
+1. **Review specific failures**. Investigate specific failure cases such as network issues, incoming call in progress errors, or mismatched channel IDs. These can provide insights into the nature of the audio quality issues.
+
+    > [!NOTE]
+    > The ABANDONED state indicates that the device received the transmission but didn’t reproduce it. This could be because the device was in Do Not Disturb mode or already engaged in another call.
+
+
 ## Related articles
 
 - [Manage the Walkie Talkie app in Teams](../walkie-talkie.md)
