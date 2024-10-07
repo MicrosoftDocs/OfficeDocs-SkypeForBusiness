@@ -177,7 +177,7 @@ If you encounter any another errors outside of this scope, notify the Call Quali
 
 ### When will the Power BI Connector be updated from "Beta" status?
 
-The Microsoft Call Quality (Beta) connector for Power BI is the first 'release' version of the connector and has been officially security signed by the Power BI team to reflect this. At the time of the connector's initial release, the Power BI team was unable to provide support and broader certification, but was still prepared to attest to the security, authenticity, and general functionality of the Microsoft Call Quality connector. We're planning to invest in the Microsoft Call Quality connector for Power BI soon.
+Despite the 'beta' label in the Microsoft Call Quality connector, the connector is in release status; it is **not** a beta. At the time of the connector's initial release, the Power BI team was unable to provide support and broader certification (and thus, the 'beta' tag), but was still prepared to attest to the security, authenticity, and general functionality of the Microsoft Call Quality connector. Since then, the CQD team have independently continued to invest further development into the connector, improving and revising its functionality. The 'beta' label should not dissuade customers from using the connector, it is just a side effect of our independent approach to connector development.
 
 ### Why does the connector seem slower compared to Call Quality Dashboard in the browser? What can I do to improve performance?
 
