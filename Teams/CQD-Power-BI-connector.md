@@ -177,7 +177,7 @@ If you encounter any another errors outside of this scope, notify the Call Quali
 
 ### When will the Power BI Connector be updated from "Beta" status?
 
-Despite the 'beta' label in the Microsoft Call Quality connector, the connector is in release status; it is **not** a beta. At the time of the connector's initial release, the Power BI team was unable to provide support and broader certification (and thus, the 'beta' tag), but was still prepared to attest to the security, authenticity, and general functionality of the Microsoft Call Quality connector. Since then, the CQD team have independently continued to invest further development into the connector, improving and revising its functionality. The 'beta' label should not dissuade customers from using the connector, it is just a side effect of our independent approach to connector development.
+Despite the 'beta' label in the Microsoft Call Quality connector, the connector is in release status; it is **not** a beta. At the time of the connector's initial release, the Power BI team was unable to provide support and broader certification (and thus, the 'beta' tag), but was still prepared to attest to the security, authenticity, and general functionality of the Microsoft Call Quality connector. Since then, the CQD team independently continue to invest further development into the connector to improve and revise its functionality. The 'beta' label should not dissuade customers from using the connector, it is just a side effect of our independent approach to connector development.
 
 ### Why does the connector seem slower compared to Call Quality Dashboard in the browser? What can I do to improve performance?
 
@@ -192,7 +192,7 @@ For more information, see the following articles:
 
 The 10,000-row limit is specified on the API end, and it's designed to help significantly improve performance and reduce the risk of query execution errors resulting from low memory conditions.
 
-Instead of attempting to increase the result row count, it's best to restructure your reports according to connector best practices. The templates we have included are designed to demonstrate these best practices. Where possible, start by looking at your KPIs using broader, lower-cardinality dimensions, such as Month, Year, Date, Region, Country, etc. From there, you can drill down into increasingly higher-cardinality dimensions. The Helpdesk and Location-Enhanced Reports both provide good examples of this drill down workflow.
+Instead of attempting to increase the result row count, it's best to restructure your reports according to connector best practices. The templates we include are designed to demonstrate these best practices. Where possible, start by looking at your KPIs using broader, lower-cardinality dimensions, such as Month, Year, Date, Region, Country, etc. From there, you can drill down into increasingly higher-cardinality dimensions. The Helpdesk and Location-Enhanced Reports both provide good examples of this drill down workflow.
 
 
 
