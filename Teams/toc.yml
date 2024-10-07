@@ -1302,8 +1302,6 @@ items:
   
 - name: Teams Rooms and devices 
   items:
-    - name: What's new in Teams devices
-      href: https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2
     - name: Teams device store
       href: devices/device-store.md
     - name: Teams device certification
