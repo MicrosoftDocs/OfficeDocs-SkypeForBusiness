@@ -23,7 +23,7 @@ description: "Install Power BI Connector to use Call Quality Dashboard (CQD) que
 
 # Install Microsoft Call Quality connector for Power BI to use Call Quality Dashboard query templates
 
-Before you can use the Power BI query templates (PBIX files) for Microsoft Teams Call Quality Dashboard (CQD), you'll need to install the Microsoft Call Quality connector for Power BI, using the *MicrosoftCallQuality.pqx* file included in the [download](https://www.microsoft.com/download/details.aspx?id=102291).
+Before you can use the Power BI query templates (PBIX files) for Microsoft Teams Call Quality Dashboard (CQD), you need to install the Microsoft Call Quality connector for Power BI, using the *MicrosoftCallQuality.pqx* file included in the [download](https://www.microsoft.com/download/details.aspx?id=102291).
 
 Read [Use Power BI to analyze CQD data for Teams](CQD-Power-BI-query-templates.md) to learn about these templates.
 
@@ -40,7 +40,7 @@ The process for installing a custom connector and adjusting security to enable u
 
 2. Download the connector file (either a *\*.mez* or *\*.pqx* file) and place it in the *Custom Connectors* directory.
 
-3. **If the connector file is a *\*.mez* file,** you'll also need to adjust your security settings as described in the [custom connector setup documentation](/power-bi/desktop-connector-extensibility#data-extension-security).
+3. **If the connector file is a *\*.mez* file,** you also need to adjust your security settings as described in the [custom connector setup documentation](/power-bi/desktop-connector-extensibility#data-extension-security).
 
 If a new version of the Microsoft Call Quality connector is released, replace the old connector file in the *Custom Connectors* directory with the new file.
 
@@ -48,7 +48,7 @@ Customers in Government cloud environments (GCC, GCC-H, DoD) will need to [insta
 
 ## Setup
 
-To build a report and run queries, you'll first need to connect to the CQD data source. Follow the steps below in order to connect:
+To build a report and run queries, you first need to connect to the CQD data source. Follow the steps below in order to connect:
 
 1. In the Home tab of Power BI Desktop, select on *Get Data*.
 
@@ -72,7 +72,7 @@ If any of the steps during this setup process weren't clear, you can find a more
 
 Once setup is complete, you should see the names of several hundred dimensions and measures load in the *Fields* pane. Constructing actual queries from here's simple, just select the dimensions and measures you want for your query, then drag and drop them onto the page. Here's a more detailed explanation, with a simple example:
 
-1. Select the visualization you want to use from the *Visualizations* pane. A blank version of that visualization should appear on the page. For the purposes of this example, we'll be using the *Table* visualization.
+1. Select the visualization you want to use from the *Visualizations* pane. A blank version of that visualization should appear on the page. For the purposes of this example, we're using the *Table* visualization.
 
     ![Visualizations pane in the Power BI Connector.](media/CQD-power-bi-connector3-resize.png)
 
