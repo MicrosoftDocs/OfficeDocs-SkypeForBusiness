@@ -185,7 +185,7 @@ Live events are structured meetings that enable your organization to schedule an
 |Duration of event | 16 hours <sup>2>/sup> |
 |Concurrent Live Events running in a Microsoft 365 or Office 365 organization <sup>3</sup> | 50<sup>4</sup> |
 
-<sup>1</sup>  The usual 10,100 is increased to 20,000 until further notice. You can schedule even greater numbers with live events in Viva Engage and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](/stream/live-event-m365). Events over 20,000 attendees require the [Live Events Assistance Program](/stream/live-events-assistance).
+<sup>1</sup>  The usual 10,000 is increased to 20,000 until further notice. You can schedule even greater numbers with live events in Viva Engage and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](/stream/live-event-m365). Events over 20,000 attendees require the [Live Events Assistance Program](/stream/live-events-assistance).
 
 <sup>2</sup> The usual 4 hours is increased to 16 hours until further notice.
 
