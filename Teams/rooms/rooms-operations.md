@@ -3,8 +3,8 @@ title: Microsoft Teams Rooms maintenance and operations
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: rachelan
-ms.date: 08/28/2024
+ms.reviewer: kramachandra
+ms.date: 09/30/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -66,9 +66,11 @@ Teams Rooms on Windows support many resolutions, you may find you need to specif
 4. Set the display resolution to as desired. If you have dual monitors, set the scale and resolution for both screens
 5. Next, select the start icon and enter **Command prompt**. Select **Run as administrator**
 6. Run the following command:
- ```powershell
- Powershell -ExecutionPolicy Unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentDisplayScaling.ps1 
- ```
+
+   ```powershell
+   Powershell -ExecutionPolicy Unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentDisplayScaling.ps1 
+   ```
+
 7. Restart the device
 
 
@@ -127,11 +129,8 @@ You can also perform this task directly on the device with these steps:
 
 1. Switch to Admin mode
 2. Open Windows Explorer and follow the instructions for your app version:
-3. If running Teams Rooms on Windows 4.19.82.0 or earlier:
-4. Navigate to: `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalCache\Roaming\Microsoft\`
-5. Delete the **Teams** folder
-6. If running Teams Rooms 5.0.0 or newer:
-7. Navigate to: `C:\Users\Skype\AppData\Local\Packages\MSTeamsRooms_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams`
+1. Navigate to: `C:\Users\Skype\AppData\Local\Packages\MSTeamsRooms_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams`
+
 8. Delete everything inside the MSTeams folder
 9. Restart the Teams Rooms device and allow it to return to the Teams Rooms interface
 
