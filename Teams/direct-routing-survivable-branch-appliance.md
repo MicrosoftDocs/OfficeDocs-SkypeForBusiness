@@ -55,7 +55,7 @@ The SBA feature is supported on the following Microsoft Teams clients:
 - Microsoft Teams macOS desktop
 - Teams Phones
 
-## How it works
+## How it works (this is referring to features that are not yet available)
 
 During an internet outage, the Teams client switches to the SBA automatically, and ongoing calls continue with no interruptions. No action is required from the user. 
 
