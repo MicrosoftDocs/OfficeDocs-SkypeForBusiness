@@ -240,6 +240,15 @@ The Meet app in Teams allows users to view important details of their meetings i
 
 \* *Mentions of a user's name is pulled from the meeting transcript, not from an @mention tag in the meeting chat.*
 
+### Places Workplace Collaboration
+
+> [!NOTE]
+> This feature is currently in Public Preview.
+
+Microsoft Places allows you and your organization to build a smart workplace. With a Teams Premium license, your users can experience upgraded features that support advanced booking and space analytics. As an admin, you have access to advanced management capabilities. Check back soon for details.
+
+To learn more about Places, see [Microsoft Places overview](/microsoft-365/places/places-overview). 
+
 ### Queues app
 
 The Queues app is a Teams-native solution designed to empower organizations to manage customer engagements efficiently, unlocking a set of advanced call functionalities for Teams Phone Call queues and Auto attendants. To learn more about the Queues app, see [Use the Queues app for Microsoft Teams](https://support.microsoft.com/office/370ad83e-c2c1-4a9f-8a59-16c98be102e9) and [Manage the Queues app](/microsoftteams/manage-queues-app).
@@ -251,6 +260,7 @@ The Queues app is a Teams-native solution designed to empower organizations to m
 |Historical reporting for Call queues and Auto attendants within Queues app|  | ✔️ |
 
 For a complete list of features available in the Queues app, see [Manage voice applications policies](/microsoftteams/manage-voice-applications-policies).
+
 
 ### Immersive Mesh Experiences
 
