@@ -140,6 +140,18 @@ This guidance is for manual configuration. This can also be automated using Intu
 
 Proxy settings on Teams Rooms on Android vary by device manufacturer. Consult OEM documentation for how to best configure Teams Rooms on Android devices for a network with a proxy.
 
+## Tenant Restrictions
+
+For organizations which utilize the [tenant restrictions](/entra/identity/enterprise-apps/tenant-restrictions) features of Entra ID, this is supported on some Teams Devices if your organization utilizes the proxy deployment variant of tenant restrictions with header injection.
+
+#### Teams Rooms on Windows
+
+To support tenant restrictions, ensure you have your proxy configuration on your Teams Rooms device completed per this Learn document and ensure the Teams Rooms on Windows device has the replacement SSL certificates installed on it to trust the header injected web traffic.
+
+#### Teams Rooms on Android
+
+Tenant restrictions is not supported today on Teams Rooms on Android devices.  Consult with your Android device OEM for potential workarounds.
+
 ## Admin group management
 
 If you choose to join a Teams Rooms on Windows device to a domain (Microsoft Entra ID or Active Directory), you can use Microsoft Intune, Group Policy, or Local Computer Management to set a Security Group as local administrator just like you would for a Windows PC in your domain. Anyone who is a member of that security group can enter their credentials and unlock Settings.
