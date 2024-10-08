@@ -30,7 +30,7 @@ Initial attendees who join before the meeting capacity enjoy the full meeting ex
 
 Attendees who join after the main meeting capacity is reached have a view-only experience. These attendees can join the view-only experience through desktop, web, and Teams mobile (Android and iOS).
 
-As an admin, you can assign this policy to organizers, allowing the view-only experience for attendees who join their meetings after the 900-user capacity is reached. If you disable the view-only experience, meeting attendance is limited to the first 900 attendees.
+As an admin, you can assign this policy to organizers, allowing the view-only experience for attendees who join their meetings after the 900-user capacity is reached. If you turn off the view-only experience, meeting attendance is limited to the first 1,000 attendees.
 
 ## Teams view-only experience controls
 
