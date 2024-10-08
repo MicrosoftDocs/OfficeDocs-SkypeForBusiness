@@ -1,9 +1,9 @@
 ---
 title: Microsoft Teams displays
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: prashibadkur
+ms.reviewer: eviegrimshaw
 ms.date: 05/15/2024
 ms.topic: article
 ms.service: msteams
@@ -51,7 +51,7 @@ For more information about how to get Teams, check out [How do I get access to M
 
 ## Deploy Teams displays using Intune
 
-To learn more about how to deploy Teams displays using Intune, see [Deploy Teams phones and Teams displays](phones-displays-deploy.md).
+To learn more about how to deploy Teams displays using Intune, see [Deploy Teams phones and Teams displays](phones-panels-deploy.md).
 
 ## Manage Teams displays in your organization
 
@@ -71,11 +71,7 @@ After you create resource accounts, you can create and assign a policy to enable
 ## See also
 
 [Introducing Microsoft Teams displays](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/introducing-microsoft-teams-displays/ba-p/1505437)
-
 [Teams Marketplace](https://office.com/teamsdevices)
-
-[Phones for Teams](phones-for-teams.md)
-
-[IP Phones certified for Microsoft Teams](teams-ip-phones.md)
-
-
+[Certified Teams phones](teams-phones-certified-hardware.md)
+[Certified Teams panels](teams-panels-certified-hardware.md)
+[Teams Rooms on Android certified systems and peripherals](../devices/certified-hardware-android.md?tabs=Android)

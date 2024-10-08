@@ -53,10 +53,6 @@ additionalContent:
           summary: Learn how to plan, deploy, and manage Microsoft Teams Rooms.
           url: /SkypeForBusiness/room-systems/
         # Card
-        - title: Skype for Business certification program
-          summary: Learn about certified solutions and devices.
-          url: ../SfbPartnerCertification/certification/overview.md
-        # Card
         - title: Troubleshoot
           summary: Find troubleshooting and support resources for IT Professionals and admins.
           url: /office/troubleshoot

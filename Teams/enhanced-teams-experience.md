@@ -51,6 +51,7 @@ The following sections in this article describe the Teams Premium enhancements f
 - [Custom 3D Immersive Mesh Experiences](#custom-3d-immersive-mesh-experiences)
 - [Advanced Places Workplace Collaboration](#advanced-places-workplace-collaboration)
 - [Intelligent call recap](#intelligent-call-recap)
+- [Queues app](#queues-app)
 
 For more general information about Teams meetings and premium events, see the following articles:
 
@@ -149,9 +150,10 @@ Teams Premium provides more ways to elevate Teams town halls in your org with th
 
 - **Custom emails for town halls** - Organizers and co-organizers can customize the town hall email templates sent to attendees.
 - **Increased broadcast and Q&A capacity**- Organizers can broadcast their town halls to 20,000 attendees. All attendees can use Q&A to interact with presenters, organizers, and co-organizers.
-- **Live translated captions**- The organizer can choose up to 10 languages for attendees to use when translating captions during the town hall.
+- **Live translated captions**- Organizers can choose up to 10 languages for attendees to use when translating captions during the town hall.
 - **Microsoft eCDN** - Optimize network performance for video streaming within an enterprise network. Microsoft eCDN allows millions of enterprise users around the world to communicate face-to-face efficiently and reliably. You can use the Microsoft eCDN or select one of our partner providers for Premium town halls.
 - **Real time monitoring of the attendee experience** - Admins can use the eCDN analytics dashboard to troubleshoot the attendee experience during live town halls.
+- **Town hall attendee reactions** - Organizers can allow attendees to engage and provide feedback during a town hall with live reactions.
 - **Town hall insights** - Town hall organizers can troubleshoot town halls while they're live.
 
 | Feature/Task | Can admins turn this feature on/off? |Documentation for admins| Documentation for your end users |
@@ -161,6 +163,7 @@ Teams Premium provides more ways to elevate Teams town halls in your org with th
 | Microsoft eCDN |Yes |[How to enable Microsoft eCDN](/ecdn/how-to/enable-microsoft-ecdn-for-your-tenant)|No end user control |
 | Manage which eCDN provider Premium town halls use |Yes |[Enterprise content delivery networks for streaming Microsoft Teams events](streaming-ecdn-enterprise-content-delivery-network.md#manage-the-ecdn-solution-for-premium-town-halls)|No end user control |
 | Real time monitoring of the attendee experience | No, contact support for assistance. |[eCDN Analytics](/ecdn/technical-documentation/analytics)|No end user control |
+| Town hall attendee reactions | No, contact support for assistance. | No admin control|[Schedule a town hall in Microsoft Teams](https://support.microsoft.com/office/schedule-a-town-hall-in-microsoft-teams-d493b5cc-9f61-4dac-8027-d837dafb7a4c#bkmk_townhall_reactions) |
 | Town hall insights | No, contact support for assistance. | No admin control|[Town hall insights in Microsoft Teams](https://support.microsoft.com/office/town-hall-insights-in-microsoft-teams-def99575-61bf-4ea2-ad0e-c6e75dce7741) |
 
 ### Webinars
@@ -250,12 +253,34 @@ Teams Premium provides custom Mesh experience capabilities for your users, such 
 Microsoft Places allows you and your organization to build a smart workplace. With a Teams Premium license, your users can experience upgraded features that support advanced booking and space analytics. As an admin, you have access to advanced management capabilities. Check back soon for details.
 
 To learn more about Places, see [Microsoft Places overview](/microsoft-365/places/places-overview). 
-## Intelligent call recap
+
+## Calls
+
+### Intelligent call recap
+
 
 **Intelligent call recap** provides AI-powered insights and recaps to Public Switched Telephone Network (PSTN) and 1:1 Teams calls.
 
-- To use this feature for PSTN calls, you must assign a Teams Phone license and either Teams Premium license or a Copilot for Microsoft 365 license to users. For more information on Teams Phone licensing, see [Microsoft Teams add-on licenses](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
-- To use this feature with 1:1 Teams calls, you must assign a Teams Premium license or Copilot for Microsoft 365 license to users.
+- To use this feature for PSTN calls, you must assign a Teams Phone license and either Teams Premium license or a Microsoft 365 Copilot license to users. For more information on Teams Phone licensing, see [Microsoft Teams add-on licenses](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+- To use this feature with 1:1 Teams calls, you must assign a Teams Premium license or Microsoft 365 Copilot license to users.
+
+### Queues app
+
+Teams Premium and Teams Phone provides access to Queues app, a Teams-native solution that unlocks a set of advanced call functionalities for Teams Phone Call queues and Auto attendants, such as:
+
+- **Call queue management**: Admins can now delegate authorized users, also known as leads or supervisors, to manage and configure Call queues and Auto attendants directly from the Teams client. Authorized users can configure Call queues and Auto attendants from Call settings and they can opt agents into and out of the queue from Queues app.
+- **Real-time metrics**: The number of waiting calls, average wait time, longest call waiting time metrics, and more are included in real-time metrics within the Queues app. The analytics report shows activity made in the queue from 12:00 AM local time of the signed in user. For more information on real-time reports, see [Auto attendant and Call queue real-time reports](aa-cq-real-time-reports.md).
+- **Historical reporting**: View historical metrics for call queues, and auto attendants, and agent queue actions. Historical metrics report up to the past 27 days. For more information on historical reports, see [Auto attendant and Call queue historical reports](aa-cq-cqd-historical-reports.md).
+
+| Feature/Task  | Can admins turn this feature on/off? | Documentation for admins |Documentation for end users |
+| -------------------- | ----------- | ----------- |----------- |
+|Call queue management|Yes, with [voice application policies](manage-voice-applications-policies.md) for Authorized users|[Manage the Queues app for Microsoft Teams](manage-queues-app.md)|[Use the Queues app for Microsoft Teams](https://support.microsoft.com/office/370ad83e-c2c1-4a9f-8a59-16c98be102e9)|
+|Real-time metrics|Yes, with [voice application policies](manage-voice-applications-policies.md) for Authorized users|[Auto attendant and Call queue real-time reports](aa-cq-real-time-reports.md)|No end user control, can view reports if authorized.|
+|Historical reporting|Yes, with voice application policies for Authorized users|[Auto attendant and Call queue historical reports](aa-cq-cqd-historical-reports.md)|No end user control, can view reports if authorized.|
+
+Queues app is in public preview and is enabled by default for all Teams users in your organization who are assigned both a Teams Premium and Teams Phone license and who and are voice enabled.
+
+For more information about Queues app, see [Manage the Queues app for Microsoft Teams](manage-queues-app.md). For end user documentation, see [Use the Queues app for Microsoft Teams](https://support.microsoft.com/office/370ad83e-c2c1-4a9f-8a59-16c98be102e9).
 
 ## More resources
 
