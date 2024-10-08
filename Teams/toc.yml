@@ -1299,8 +1299,8 @@ items:
           href: microsoft-teams-online-call-flows.md
         - name: Contact Center integrations
           href: teams-contact-center.md
-  
-- name: Teams Rooms and devices 
+
+- name: Teams Rooms and devices
   items:
     - name: Teams device store
       href: devices/device-store.md
@@ -1342,6 +1342,11 @@ items:
               href: devices/teams-displays-certified-hardware.md
             - name: Personal peripherals
               href: devices/usb-devices.md
+    - name: Microsoft Teams Rooms
+      items: 
+        - name: Overview
+          href: rooms/index.md
+        - name: Plan
     - name: Teams Rooms & panels
       items: 
         - name: Overview & planning

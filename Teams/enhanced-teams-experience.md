@@ -49,6 +49,7 @@ The following sections in this article describe the Teams Premium enhancements f
 - [Virtual Appointments](#advanced-virtual-appointments)
 - [Intelligent meeting features](#intelligent-meeting-features)
 - [Custom 3D Immersive Mesh Experiences](#custom-3d-immersive-mesh-experiences)
+- [Advanced Places Workplace Collaboration](#advanced-places-workplace-collaboration)
 - [Intelligent call recap](#intelligent-call-recap)
 - [Queues app](#queues-app)
 
@@ -244,9 +245,19 @@ Teams Premium provides custom Mesh experience capabilities for your users, such 
 | Develop a custom environment | Yes| No admin control. |[Mesh Development Overview](/mesh/develop/development-overview) |
 | Download the Mesh app | Yes| No admin control. |[Getting started with events in Microsoft Mesh](/mesh/user-guide/getting-started) |
 
+## Advanced Places Workplace Collaboration
+
+> [!NOTE]
+> This feature is currently in Public Preview.
+
+Microsoft Places allows you and your organization to build a smart workplace. With a Teams Premium license, your users can experience upgraded features that support advanced booking and space analytics. As an admin, you have access to advanced management capabilities. Check back soon for details.
+
+To learn more about Places, see [Microsoft Places overview](/microsoft-365/places/places-overview). 
+
 ## Calls
 
 ### Intelligent call recap
+
 
 **Intelligent call recap** provides AI-powered insights and recaps to Public Switched Telephone Network (PSTN) and 1:1 Teams calls.
 
