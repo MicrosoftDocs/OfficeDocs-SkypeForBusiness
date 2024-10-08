@@ -53,7 +53,7 @@ The following table shows the main features that are different between meetings,
 |Breakout rooms|✔️|✖️<sup>2</sup>|✖️|
 |Content sharing and interaction|✔️|✔️|Q&A only|
 |Interactive participants|1,000 (Enterprise plans)<br>300 (Business plans)<br>900 for view-only mode|1,000|Town halls: 10,000<br> Premium town halls: 20,000|
-|View-only participants|9,100<sup>1</sup> (Enterprise plans only)|✖️|✖️|
+|View-only participants|10,100<sup>1</sup> (Enterprise plans only)|✖️|✖️|
 |Maximum total participants|11,000<sup>1</sup> (Enterprise plans only)|1,000|Town halls: 10,000<br> Premium town halls: 20,000|
 
 <sup>1</sup>The usual 10,100 is increased to 20,000 through June 30, 2024. The maximum total participants for meetings is the sum of the interactive participants plus view-only participants.<br>
