@@ -38,7 +38,7 @@ The following table shows which features are available in meetings, webinars, an
 |[Anonymous attendees](anonymous-users-in-meetings.md)|✔️|✔️|✔️|
 |[Attendance report](/microsoftteams/teams-analytics-and-reports/meeting-attendance-report)|✔️|✔️|✔️|
 |[Attendee mic and camera](meeting-policies-audio-and-video.md)|✔️|✔️|✖️|
-|[Breakout rooms](https://support.microsoft.com/office/use-breakout-rooms-in-microsoft-teams-meetings-7de1f48a-da07-466c-a5ab-4ebace28e461)|✔️|✖️<sup>2</sup>|✖️|
+|[Breakout rooms](https://support.microsoft.com/office/use-breakout-rooms-in-microsoft-teams-meetings-7de1f48a-da07-466c-a5ab-4ebace28e461)|✔️|✖️<sup>1</sup>|✖️|
 |[CART Captions](https://support.microsoft.com/office/use-cart-captions-in-a-microsoft-teams-meeting-human-generated-captions-2dd889e8-32a8-4582-98b8-6c96cf14eb47)|✔️|✔️|✖️|
 |[Channel meeting scheduling](https://support.microsoft.com/office/schedule-a-meeting-in-microsoft-teams-943507a9-8583-4c58-b5d2-8ec8265e04e5)|✔️|✖️|✖️|
 |[Choose co-organizers](https://support.microsoft.com/office/roles-in-microsoft-teams-meetings-c16fa7d0-1666-4dde-8686-0a0bfe16e019)|✔️|✔️|✔️|
@@ -73,15 +73,15 @@ The following table shows which features are available in meetings, webinars, an
 |[Shared notes](meeting-policies-content-sharing.md)|✔️|✔️|Only for organizers and co-organizers.|
 |[Speaker coach](meeting-speaker-coach.md)|✔️|✔️|For organizers and co-organizers.|
 |[Town hall attendee reactions](https://support.microsoft.com/office/schedule-a-town-hall-in-microsoft-teams-d493b5cc-9f61-4dac-8027-d837dafb7a4c#bkmk_townhall_reactions)|✖️|✖️|Premium|
-|[View-only experience](view-only-meeting-experience.md)|10,000<sup>1</sup>|✖️|✖️|
+|[View-only experience](view-only-meeting-experience.md)|10,900<sup>2</sup>|✖️|✖️|
 |[VOD](manage-vod-publishing.md)|✖️|✔️|✔️|
 |[Voice isolation](voice-isolation.md)|✔️|✔️|✔️|
 |[Watermarks](watermark-meeting-content-video.md)|Premium|✖️|✖️|
 |[Whiteboard](meeting-policies-content-sharing.md)|✔️|✔️|✖️|
 
-<sup>1</sup> The usual 10,000 is increased to 20,000 through June 30, 2024.<br>
+<sup>1</sup> Your users can use breakout rooms if a webinar has fewer than 300 attendees. However, if the number of attendees increases to above 300, breakout rooms aren't supported. <br>
 
-<sup>2</sup> Breakout rooms can be used if a webinar has fewer than 300 participants. However, if the number of participants increases to above 300, breakout rooms aren't supported.
+<sup>2</sup> The usual maximum is increased to 20,000 through June 30, 2024.
 
 ## Related topics
 
