@@ -1299,7 +1299,7 @@ items:
           href: microsoft-teams-online-call-flows.md
         - name: Contact Center integrations
           href: teams-contact-center.md
-  
+
 - name: Teams Rooms and devices 
   items:
     - name: Teams device store
@@ -1314,7 +1314,7 @@ items:
               href: devices/certification-partners.md
             - name: How to join the program
               href: devices/certification-join.md
-            - name: Teams device specifications
+            - name: Teams specifications
               href: devices/certification-specifications.md
         - name: IT admins and decision makers
           href: devices/certification-it-admins.md
@@ -1325,7 +1325,7 @@ items:
             - name: Windows version support
               href: rooms/rooms-lifecycle-support.md
             - name: Android version support
-              href: devices/android-version-support.md   
+              href: devices/android-version-support.md      
         - name: Teams Certified Devices
           items: 
             - name: Overview of certified devices
@@ -1352,14 +1352,10 @@ items:
                   href: rooms/index.md
                 - name: Teams Rooms planning
                   href: rooms/rooms-plan.md
-                - name: Copilot for Teams Rooms
-                  href: copilot-admin.md
                 - name: Features
                   items:
                     - name: Teams Room Home Screen and admin controls 
                       href: rooms/mtr-home-refresh.md
-                    - name: Teams In Meeting experiences (to be written)
-                      href: rooms/meeting experiences.md
                     - name: Join a meeting using Proximity Join
                       href: rooms/proximity-join.md
                     - name: Join meetings with QR codes
@@ -1474,7 +1470,7 @@ items:
               items:
                 - name: Teams Rooms on Windows
                   items:
-                    - name: Use AutoPilot + AutoLogin for Teams Rooms on Windows
+                    - name: Use AutoPilot and AutoLogin for Teams Rooms on Windows
                       href: rooms/autopilot-autologin.md
                     - name: Create a one-time password
                       href: rooms/create-otp.md
@@ -1495,9 +1491,7 @@ items:
                 - name: Teams Rooms on Windows 
                   href: rooms/rooms-lifecycle-support.md
                 - name: Teams Rooms on Android
-                  href: rooms/android-app-firmware.md
-                - name: Teams panels
-                  href: rooms/android-app-firmware.md
+                  href: devices/certified-hardware-android.md
                 - name: Management apps
                   href: devices/certified-device-apps.md
             - name: Operations & Configuration
