@@ -1302,12 +1302,6 @@ items:
   
 - name: Teams Rooms and devices 
   items:
-    - name: What's new in Teams devices
-      href: https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2
-    - name: Teams device store
-      href: devices/device-store.md
-    - name: Teams device certification
-  items:
     - name: Teams device store
       href: devices/device-store.md
     - name: Teams device certification
@@ -1348,25 +1342,6 @@ items:
               href: devices/teams-displays-certified-hardware.md
             - name: Personal peripherals
               href: devices/usb-devices.md
-    - name: Microsoft Teams Rooms
-      items: 
-        - name: Overview
-          href: rooms/index.md
-        - name: Plan
-          items: 
-            - name: Teams Rooms on Windows certified devices
-              href: rooms/certified-hardware.md
-            - name: Teams Rooms on Android certified devices
-              href: devices/certified-hardware-android.md
-            - name: Teams panels certified devices
-              href: devices/teams-panels-certified-hardware.md
-            - name: Teams phones certified devices
-              href: devices/teams-phones-certified-hardware.md
-            - name: Teams displays certified devices
-              href: devices/teams-displays-certified-hardware.md
-            - name: Personal peripherals
-              href: devices/usb-devices.md
-              
     - name: Teams Rooms & panels
       items: 
         - name: Overview & planning
@@ -1525,7 +1500,7 @@ items:
                   href: rooms/android-app-firmware.md
                 - name: Management apps
                   href: devices/certified-device-apps.md
-            - name: Operations
+            - name: Operations & Configuration
               items:
                 - name: Teams Rooms operations
                   href: rooms/rooms-operations.md
@@ -1535,6 +1510,12 @@ items:
                   href: rooms/console.md
                 - name: Manually update Teams Rooms on Windows
                   href: rooms/manual-update.md
+                - name: Manage settings with an XML file
+                  href: rooms/xml-config-file.md 
+                - name: Remotely configure layout, scale, and resolution
+                  href: rooms/manage-front-room-scale-res.md
+                - name: Remotely configure front row layout
+                  href: rooms/manage-front-row.md
             - name: Teams Admin Center
               items:
                 - name: Overview
@@ -1553,7 +1534,7 @@ items:
                   href: alerts/device-health-status.md
                 - name: Health and usage reports
                   href: rooms/health-and-usage-reports.md
-            - name: Microsoft Teams Rooms Pro Management
+            - name: Teams Rooms Pro Management
               items:
                 - name: Getting started
                   items:
@@ -1575,40 +1556,32 @@ items:
                       href: rooms/settings-management.md
                     - name: Remote access a Teams Room console
                       href: rooms/remotely-access-teams-rooms.md
-                    - name: Analytics, reports, and insights
-                      items:
-                        - name: Monitoring and maintaining Teams Rooms
-                          href: rooms/managed-meeting-rooms-portal.md
-                        - name: Audit logs for activities
-                          href: rooms/multi-tenant-auditing.md
-                        - name: Alerting
-                          items:
-                            - name: Signal settings
-                              href: rooms/signal-settings.md  
-                            - name: Configure ServiceNow
-                              href: rooms/microsoft-teams-rooms-configure-servicenow.md
-                            - name: Viewing events
-                              href: rooms/view-events.md
-                            - name: Record an issue 
-                              href: rooms/customer-reported-incidents.md
-                        - name: Managed updates
-                          href: rooms/update-management.md
-                        - name: Role-based access control
-                          href: rooms/rooms-pro-rbac.md
-                        - name: Multi-tenant management for partners
-                          href: rooms/multi-tenant-management-partner.md
-                        - name: Multi-tenant management for customers
-                          href: rooms/multi-tenant-management-customer.md
-                        - name: Data and privacy information
-                          href: rooms/data-and-privacy-info.md
-                        - name: Configuration
-                          items:
-                            - name: Remotely configure layout, scale, and resolution
-                              href: rooms/manage-front-room-scale-res.md
-                            - name: Manage settings with an XML file
-                              href: rooms/xml-config-file.md 
-                            - name: Remotely configure front row layout
-                              href: rooms/manage-front-row.md
+                    - name: Managed updates
+                      href: rooms/update-management.md
+                    - name: Role-based access control
+                      href: rooms/rooms-pro-rbac.md
+                    - name: Multi-tenant management for partners
+                      href: rooms/multi-tenant-management-partner.md
+                    - name: Multi-tenant management for customers
+                      href: rooms/multi-tenant-management-customer.md
+                - name: Alerting
+                  items:
+                     - name: Signal settings
+                       href: rooms/signal-settings.md  
+                     - name: Configure ServiceNow
+                       href: rooms/microsoft-teams-rooms-configure-servicenow.md
+                     - name: Viewing events
+                       href: rooms/view-events.md
+                     - name: Record an issue 
+                       href: rooms/customer-reported-incidents.md
+                - name: Analytics, reports, and insights
+                  items:
+                    - name: Monitoring and maintaining Teams Rooms
+                      href: rooms/managed-meeting-rooms-portal.md
+                    - name: Audit logs for activities
+                      href: rooms/multi-tenant-auditing.md
+                - name: Data and privacy information
+                  href: rooms/data-and-privacy-info.md
     - name: Teams phones
       items:
         - name: Overview & planning
