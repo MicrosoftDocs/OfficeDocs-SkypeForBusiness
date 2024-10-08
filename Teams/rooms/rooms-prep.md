@@ -144,7 +144,7 @@ Proxy settings on Teams Rooms on Android vary by device manufacturer. Consult OE
 
 ## Tenant Restrictions
 
-For organizations which utilize the [tenant restrictions](/entra/identity/enterprise-apps/tenant-restrictions) features of Microsoft Entra ID, this is supported on some Teams Devices if your organization utilizes the proxy deployment variant of tenant restrictions with header injection.
+For organizations which utilize [tenant restrictions](/entra/identity/enterprise-apps/tenant-restrictions) features of Microsoft Entra ID, this is supported on some Teams Devices if your organization utilizes the proxy deployment variant with header injection.
 
 #### Teams Rooms on Windows
 
