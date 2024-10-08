@@ -114,8 +114,8 @@ Generally, Teams Rooms has the same network requirements as any Microsoft Teams 
 - **Windows Update** [Configure WSUS](/windows-server/administration/windows-server-update-services/deploy/2-configure-wsus#211-connection-from-the-wsus-server-to-the-internet)
 - **Microsoft Store** [Prerequisites for Microsoft Store for Business and Education](/microsoft-store/prerequisites-microsoft-store-for-business#proxy-configuration)
 - **Microsoft Intune** [Network Endpoints for Microsoft Intune](/mem/intune/fundamentals/intune-endpoints)
-- **Telemetry client endpoint**: https://vortex.data.microsoft.com/
-- **Telemetry settings endpoint**: https://settings.data.microsoft.com/
+- **Telemetry client endpoint**: vortex.data.microsoft.com
+- **Telemetry settings endpoint**: settings.data.microsoft.com
 
 For Microsoft Teams Rooms Pro Management Portal, you also need to make sure that Teams Rooms can access the following URLs:
 
@@ -143,7 +143,7 @@ Teams Rooms is configured to automatically keep itself patched with the latest W
 
 Teams Rooms devices work with most 802.1X or other network-based security protocols. However, we're not able to test Teams Rooms against all possible network security configurations. Therefore, if performance issues arise that can be traced to network performance issues, you may need to disable these protocols.
 
-For optimum performance of real time media, we strongly recommend that you configure Teams media traffic to bypass proxy servers and other network security devices. Real time media is very latency sensitive and proxy servers and network security devices can significantly degrade users' video and audio quality. Also, because Teams media is already encrypted, there's no tangible benefit from passing the traffic through a proxy server. For more information, see [Networking up (to the cloud)—One architect’s viewpoint](/microsoft-365/solutions/networking-design-principles), which discusses network recommendations to improve the performance of media with Microsoft Teams and Microsoft Teams Rooms. If your organization utilizes tenant restrictions, this is supported for Teams Rooms on Windows devices following the configuration guidance in the [prepare your environment](/microsoftteams/rooms/rooms-prep.md#tenant-restrictions) document.
+For optimum performance of real time media, we strongly recommend that you configure Teams media traffic to bypass proxy servers and other network security devices. Real time media is very latency sensitive and proxy servers and network security devices can significantly degrade users' video and audio quality. Also, because Teams media is already encrypted, there's no tangible benefit from passing the traffic through a proxy server. For more information, see [Networking up (to the cloud)—One architect’s viewpoint](/microsoft-365/solutions/networking-design-principles), which discusses network recommendations to improve the performance of media with Microsoft Teams and Microsoft Teams Rooms. If your organization utilizes tenant restrictions, this is supported for Teams Rooms on Windows devices following the configuration guidance in the [prepare your environment](/microsoftteams/rooms/rooms-prep#tenant-restrictions) document.
 
 Teams Rooms devices don't need to connect to an internal LAN. Consider placing Teams Rooms in a secure isolated network segment with direct Internet access. If your internal LAN becomes compromised, the attack vector opportunities towards Teams Rooms is reduced.
 
