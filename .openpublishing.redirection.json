@@ -5334,7 +5334,16 @@
 	  "source_path": "Teams/devices/plan-device-deployment.md",
 	  "redirect_url": "/microsoftteams/phones/plan-device-deployment",
 	  "redirect_document_id": false
-	}
-	}
+	},
+	{
+    "source_path": "Teams/devices/teams-ip-phones.md",
+    "redirect_url": "/microsoftteams/devices/certified-devices-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/rooms/android-app-firmware.md",
+    "redirect_url": "/microsoftteams/devices/certified-hardware-android",
+    "redirect_document_id": false
+  }
   ]
 }

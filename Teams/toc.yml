@@ -1342,6 +1342,11 @@ items:
               href: devices/teams-displays-certified-hardware.md
             - name: Personal peripherals
               href: devices/usb-devices.md
+    - name: Microsoft Teams Rooms
+      items: 
+        - name: Overview
+          href: rooms/index.md
+        - name: Plan
     - name: Teams Rooms & panels
       items: 
         - name: Overview & planning
