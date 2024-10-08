@@ -108,7 +108,8 @@ To help guide you as to what features are available on different platforms, you 
 | **Device Management** | Built-in backgrounds | Available | Available |
 | | Custom background | Available | Available |
 | | Unauthenticated proxy support | Available | Available |
-| | Authenticated proxy support | Not available | Not available |
+| | Authenticated proxy support | Available | Not available |
+| | Tenant restrictions | Available | Not available |
 | **Teams Admin Center** | Automatic onboarding | Available | Available |
 | | Device inventory views | Available | Available |
 | | Overall device health monitoring | Available | Available |
@@ -152,8 +153,13 @@ To help guide you as to what features are available on different platforms, you 
 | | Room capacity notifications | Available |
 | **Customization** | View room equipment| Available |
 | | Built-in backgrounds | Available |
+| | Custom background | Available |
 | | Line of business apps | Available |
 | | Change color of LED lights | Available |
+| **Device Management** | Unauthenticated proxy support | Available |
+| | Authenticated proxy support | Not available |
+| | Tenant restrictions | Not available |
+
 
 
 ## [GCC](#tab/GCC)
@@ -231,7 +237,8 @@ To help guide you as to what features are available on different platforms, you 
 | **Device Management** | Built-in backgrounds | Available | Available |
 | | Custom background | Available | Not available |
 | | Unauthenticated proxy support | Available | Available |
-| | Authenticated proxy support | Not available | Not available |
+| | Authenticated proxy support | Available | Not available |
+| | Tenant restrictions | Available | Not available |
 | **Teams Admin Center** | Automatic onboarding | Available | Available |
 | | Device inventory views | Available | Available |
 | | Overall device health monitoring | Available | Available |
@@ -274,8 +281,12 @@ To help guide you as to what features are available on different platforms, you 
 | | Room capacity notifications | Available |
 | **Customization** | View room equipment| Available |
 | | Built-in backgrounds | Available |
+| | Custom background | Available |
 | | Line of business apps | Available |
 | | Change color of LED lights | Available |
+| **Device Management** | Unauthenticated proxy support | Available |
+| | Authenticated proxy support | Not available |
+| | Tenant restrictions | Not available |
 
 
 ## [GCC-High](#tab/GCCHigh)
@@ -353,7 +364,8 @@ To help guide you as to what features are available on different platforms, you 
 | **Device Management** | Built-in backgrounds | Available | Available |
 | | Custom background | Available | Not available |
 | | Unauthenticated proxy support | Available | Available |
-| | Authenticated proxy support | Not available | Not available |
+| | Authenticated proxy support | Available | Not available |
+| | Tenant restrictions | Available | Not available |
 | **Teams Admin Center** | Automatic onboarding | Available | Available |
 | | Device inventory views | Available | Available |
 | | Overall device health monitoring | Available | Available |
@@ -381,5 +393,9 @@ To help guide you as to what features are available on different platforms, you 
 | | Room capacity notifications | Not available |
 | **Customization** | View room equipment| Not available |
 | | Built-in backgrounds | Available |
+| | Custom background | Not available |
 | | Line of business apps | Not available |
 | | Change color of LED lights | Available |
+| **Device Management** | Unauthenticated proxy support | Available |
+| | Authenticated proxy support | Not available |
+| | Tenant restrictions | Not available |
