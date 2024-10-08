@@ -26,35 +26,15 @@ description: Find lists of certified systems and peripherals for use with Micros
 
 # Teams Rooms on Android certified devices
 
-The Microsoft Teams Devices Certification Program ensures certified devices meet a high standard, with higher performance targets and quality metrics across the entire Teams experience (audio, video, user interface). Microsoft and OEM partners are actively working together to ensure devices meet all certification requirements, including security, audio and video quality, Teams experience, and accessibility.
-
->[!Important]
->The Microsoft Teams Devices Certification Program ensures certified devices meet specific requirements for hardware design and performance only. The certification program doesn't evaluate feature-level or cloud environment support.
-
-Certified Microsoft Teams Rooms systems are available on both Windows and Android operating systems. Whether you should choose a Teams Rooms system on Windows or Android depends on your specific needs and budget. Select the **Teams Rooms for Windows** and **Teams Rooms for Android** tabs for a complete list of certified systems and links to their respective product sites. For additional certification information specific to **Teams Rooms for Android** see details below.  
-
-For a comparison of features available on each operating system, check out [Teams Rooms on Windows and Android feature comparison](../rooms/teams-devices-feature-comparison.md).
+The Microsoft Teams devices Certification Program ensures devices meet a high standard, with higher performance targets and quality metrics across the entire Teams experience (audio, video, user interface). Microsoft and OEM partners are actively working together to ensure devices meet all certification requirements, including security, audio and video quality, Teams experience, and accessibility.
 
 To see Teams Rooms pricing, see the [Teams Rooms product showcase](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20).
-
-Numerous certified peripherals, from speakers to microphones and cameras, are available for use with Teams Rooms systems. Select the **Peripherals** tab for a complete list of peripherals and links to their respective product sites.
-
-To see peripherals pricing, see the [Rooms systems accessories product showcase](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/room-systems-accessories/73).
-
-## Teams Rooms for Android certification program
-
-> [!Important] 
-> The following information pertains to **Teams Rooms for Android** only.
-> For additional Android based devices that are Microsoft certified, please visit [Microsoft Teams certified Android devices](/microsoftteams/devices/teams-ip-phones).
 
 Certification programs are designed to ensure all certified devices run an Android version with the required feature set for Teams and Teams Admin Center. Certification end dates are based on the Android version running on the device when it enters into the certification program. Our OEM partners are working to extend the lifetime of the certification by upgrading the Android version and recertifying, or by releasing new models that are state-of-the-art.
 
 Microsoft is committed to certifying devices on latest Android versions available for Teams devices as long as OEM partners and SoC manufacturers are able to meet all certification requirements in effect at the time device enters certification.
 
-After certification end date, Microsoft is committed to making efforts to support the most recent version of the Teams client on such devices for two years following the end of the certification period. 
-
-> [!Note]
-> Certification end dates are based on the Android version release date plus five years. Once the device passes the certification requirements and OEM partners provide the firmware that enables the upgrade to a newer Android version, the certification end date will be extended to match the new Android OS version release date plus five years.
+After certification end date, Microsoft is committed to making efforts to support the most recent version of the Teams client on such devices for two (2) years following the end of the certification period. 
 
 ## [Teams Rooms for Android](#tab/Android)
 
@@ -66,7 +46,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Device model | Firmware version | Current certification end date | Room size | Android OS version |
 |:-|:-|:-|:-|:-|
 | Poly Studio X72 | `PolyOS 4.2.5`| September 3, 2025 | Large rooms (4.5 m x 8.5 m) | 10 |
-| AudioCodes RXV200 | `2.2.335` | September 3, 2025 |  Focus room(3 m x 3 m) | 10 |
+| AudioCodes RXV200 | `2.2.335` | September 3, 2025 |  Focus room (3 m x 3 m) | 10 |
 | Audiocodes RXPad Touch console | `2.0.282` | August 15, 2027 | Compatible with Audiocodes RXV81 and RXV200 Collaboration bars. | 12 |
 | Audiocodes RXV81 Collaboration Bar | `2.0.0` | August 15, 2027 | Small meeting room (4.5 m x 4.5 m) | 12 |
 | Cisco Room Bar Pro | `RoomOS11.9` | September 3, 2025 |  Medium size room (4.5 m x 6 m) | 11 |
@@ -90,8 +70,8 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | DTEN D7X 55" | `1.2.2` |August 15, 2027| Small meeting room (4.5 m x 4.5 m) | 12 |
 | EPOS Expand 5T | `1.2.22362.04` | September 3, 2025 | Small meeting room (4.5 m x 4.5 m) | 10 |
 | EPOS EXPAND Control Touch Console | `1.2.22250.08` | September 3, 2025 | Compatible with EPOS Expand 5T Collaboration Bar. | 10 |
-| :::no-loc text="Jabra"::: :::no-loc text="Panacast"::: 50 VBS | `1.1.0-1` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
-| :::no-loc text="Jabra"::: :::no-loc text="Panacast"::: 50 Touch Console | `1.1.0-1` | September 3, 2025 | Compatible with :::no-loc text="Jabra"::: :::no-loc text="Panacast"::: 50 VBS | 10 |
+| Jabra PanaCast 50 VBS | `1.1.0-1` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
+| Jabra PanaCast 50 Touch Console | `1.1.0-1` | September 3, 2025 | Compatible with Jabra PanaCast 50 VBS | 10 |
 | Logitech Rally Bar Huddle (VR0034)  | `0.903.73` | September 3, 2025 | Focus room(3 m x 3 m) | 11 |
 | Logitech Tap IP (VR0029) | `1.6.565` | September 3, 2025 | Compatible with Logitech RoomMate, Rally Bar, and Rally Bar Mini | 10 |
 | Logitech Roommate (VR0030) | `1.4.71` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
