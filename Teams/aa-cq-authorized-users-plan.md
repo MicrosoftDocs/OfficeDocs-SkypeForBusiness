@@ -25,9 +25,6 @@ description: Learn the requirements needed to set up authorized users for Auto a
 
 # Plan for Auto attendant and Call queue authorized users
 
-> [!NOTE]
-> Some of these features are in limited public preview. For more information, contact your Microsoft customer success manager. Information in this article is subject to change.
-
 This article is for IT Pros and administrators who want to delegate certain Auto attendant or Call queue configuration capabilities to the users in their organization. This article describes benefits and licensing requirements. After reading this article, see [Set up authorized users](aa-cq-authorized-users.md) and [Manage voice applications policies](manage-voice-applications-policies.md) for more information.
 
 ## Benefits
