@@ -73,7 +73,7 @@ The following table shows which features are available in meetings, webinars, an
 |[Shared notes](meeting-policies-content-sharing.md)|✔️|✔️|Only for organizers and co-organizers.|
 |[Speaker coach](meeting-speaker-coach.md)|✔️|✔️|For organizers and co-organizers.|
 |[Town hall attendee reactions](https://support.microsoft.com/office/schedule-a-town-hall-in-microsoft-teams-d493b5cc-9f61-4dac-8027-d837dafb7a4c#bkmk_townhall_reactions)|✖️|✖️|Premium|
-|[View-only experience](view-only-meeting-experience.md)|10,900<sup>2</sup>|✖️|✖️|
+|[View-only attendees](view-only-meeting-experience.md)|10,000<sup>2</sup>|✖️|✖️|
 |[VOD](manage-vod-publishing.md)|✖️|✔️|✔️|
 |[Voice isolation](voice-isolation.md)|✔️|✔️|✔️|
 |[Watermarks](watermark-meeting-content-video.md)|Premium|✖️|✖️|
