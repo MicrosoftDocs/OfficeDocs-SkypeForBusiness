@@ -1,10 +1,10 @@
 ---
 title: Update Microsoft Teams devices remotely
-ms.author: tonysmit
 author: mstonysmith
-ms.reviewer: anusharma
-ms.date: 05/13/2024
+ms.author: tonysmit
 manager: pamgreen
+ms.reviewer: vapati
+ms.date: 09/13/2024
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
@@ -33,6 +33,8 @@ Using Teams admin center, you can update your Teams devices, including Teams pho
 
 Updates for Teams app and device firmware happen automatically by default. However, you can update them manually as well. When you're applying updates manually, they can be applied immediately or scheduled to be updated on a future date and time that you set.
 
+> [!IMPORTANT]
+> Microsoft strongly recommends using Teams Admin Center for managing and updating your Teams devices. Teams admin center ensures that all firmware and app updates installed on your Teams devices are validated and supported by Microsoft, which is essential for optimal performance and reliability of your Teams devices. By exclusively using firmware and app updates from the Teams Admin Center, you can avoid the risks and disruptions associated with alternative update methods. If customers use any other way to update, Microsoft can't guarantee to provide regular updates for those devices. 
 ## Software versions on Teams admin center
 
 All new software versions for Teams devices are made available on Teams admin center once they're published by Microsoft. New releases might have minimum software version requirements. In such cases, the new version is only made available if the device meets the requirements. Verify that the device is meeting those requirements, but especially the firmware is current and updated.
@@ -160,7 +162,7 @@ After you select **Update**, updates are applied to your devices at the date and
 
 To manage devices, you need to be a Global admin, Teams Service admin, or Teams Device admin. For more information about admin roles, see [Use Microsoft Teams administrator roles to manage Teams](../using-admin-roles.md).
 
-> [IMPORTANT]
+> [!IMPORTANT]
 > Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
 This video shows how to update Teams devices.
@@ -197,7 +199,10 @@ Administrators can track the status of these update operations from the 'History
 1. **Which software components are automatically updated?** Both Firmware and Teams app are automatically updated for eligible devices. Automatic updates for Teams app is a feature still in early phase, therefore you might see some delays in device reaching the update phase. The gradual roll out of the feature is being done to ensure minimal impact on devices.
 
 1. **What makes a device eligible to receive automatic updates?** The following conditions should be satisfied for the device to be eligible for automatic updates:
-   - Device model should be certified. Refer to [Devices for Teams](../devices/teams-ip-phones.md) and [Teams Rooms certified systems and peripherals](../rooms/certified-hardware.md?tabs=Android) for details.
+   - Device model should be certified. See:
+      - Teams phones - [Certified Teams phones](teams-phones-certified-hardware.md)
+      - Teams panels - [Certified Teams panels](teams-panels-certified-hardware.md)
+      - Microsoft Teams Rooms on Android - [Teams Rooms on Android certified systems and peripherals](../devices/certified-hardware-android.md?tabs=Android)
    - Current version should be 'Verified by Microsoft'. For more details, see [Software versions](#software-versions-on-teams-admin-center).
    - Devices on versions that were released before 2022 generally do not have auto-update support.
       

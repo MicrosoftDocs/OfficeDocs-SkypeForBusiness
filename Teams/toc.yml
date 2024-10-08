@@ -85,6 +85,8 @@ items:
                   href: new-teams-desktop-admin.md
                 - name: Features that are changing in new Teams
                   href: new-teams-whats-changing.md
+                - name: New Teams client requirements
+                  href: teams-client-system-requirements.md
                 - name: Deployment checklist for new Teams
                   href: new-teams-deployment-checklist.md
                 - name: Upgrade to the new Teams using policies               
@@ -434,15 +436,17 @@ items:
             - name: Upload tenant and building data
               href: CQD-upload-tenant-building-data.md
             - name: CQD data and reports
-              href: CQD-data-and-reports.md
+              href: cqd-data-and-reports.md
             - name: Use CQD to manage call and meeting quality
               href: quality-of-experience-review-guide.md
             - name: Frequently asked questions
               href: CQD-frequently-asked-questions.md
             - name: Dimensions and measures available in CQD
               href: dimensions-and-measures-available-in-call-quality-dashboard.md
-            - name: Stream Classification in CQD
+            - name: Stream classification in CQD
               href: stream-classification-in-call-quality-dashboard.md
+            - name: Intelligent media quality classifiers in CQD
+              href: cqd-intelligent-media-quality-classifiers.md
             - name: Create a building map
               href: CQD-building-mapping.md
             - name: Use Power BI to analyze CQD data
@@ -511,8 +515,6 @@ items:
           href: teams-analytics-and-reports/teams-premium-usage-report.md
         - name: Teams device usage report
           href: /microsoft-365/admin/activity-reports/microsoft-teams-device-usage-preview?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-        - name: PSTN blocked users report
-          href: teams-analytics-and-reports/pstn-blocked-users-report.md
         - name: PSTN minute pools report
           href: teams-analytics-and-reports/pstn-minute-pools-report.md
         - name: PSTN usage report
@@ -697,7 +699,7 @@ items:
               href: set-up-meeting-registration.md
         - name: Attendee experience
           items: 
-            - name: Manage Copilot for Teams
+            - name: Manage Microsoft 365 Copilot for Teams meetings and events
               href: copilot-teams-transcription.md
             - name: Manage Q&A
               href: manage-qna-for-teams.md
@@ -1015,8 +1017,12 @@ items:
               href: set-up-holidays-in-teams.md
             - name: Answer Auto attendant and Call queue calls directly from Teams
               href: answer-auto-attendant-and-call-queue-calls.md
-            - name: Reports - Historical
-              href: aa-cq-cqd-historical-reports.md
+            - name: Reporting
+              items:
+                - name: Historical reporting
+                  href: aa-cq-cqd-historical-reports.md
+                - name: Real-time reporting
+                  href: aa-cq-real-time-reports.md
             - name: PowerShell cmdlet reference for Auto attendants and Call queues
               href: call-queue-auto-attendant-cmdlets.md
             - name: Dial and voice reference
@@ -1127,6 +1133,8 @@ items:
                   href: direct-routing-media-optimization.md
                 - name: Configure Local Media Optimization
                   href: direct-routing-media-optimization-configure.md
+            - name: Direct Routing Survivable Branch Appliance
+              href: direct-routing-survivable-branch-appliance.md
             - name: Monitor Direct Routing
               items: 
                 - name: Overview
@@ -1149,8 +1157,6 @@ items:
                       href: direct-routing-protocols-SIP.md
                     - name: Media protocols
                       href: direct-routing-protocols-media.md
-                - name: Direct Routing Survivable Branch Appliance
-                  href: direct-routing-survivable-branch-appliance.md
 
     - name: Shared Calling - A simpler solution
       items:
@@ -1295,32 +1301,48 @@ items:
         - name: Contact Center integrations
           href: teams-contact-center.md
 
-- name: Devices and rooms management
+- name: Teams Rooms and devices
   items:
     - name: Teams device store
       href: devices/device-store.md
     - name: Teams device certification
       items:
         - name: Certification overview
-          href: devices/certification-overview.md
+          href: devices/certification-overview.md   
         - name: Partners
           items:
             - name: Partners device certification
               href: devices/certification-partners.md
             - name: How to join the program
               href: devices/certification-join.md
+            - name: Teams device specifications
+              href: devices/certification-specifications.md
         - name: IT admins and decision makers
           href: devices/certification-it-admins.md
         - name: End users
           href: devices/certification-end-users.md
-        - name: Teams specifications
-          href: devices/certification-specifications.md
-        - name: Teams Rooms certified systems and peripherals
-          href: rooms/certified-hardware.md 
-        - name: Personal peripherals
-          href: devices/usb-devices.md
-        - name: Teams certified Android devices
-          href: devices/teams-ip-phones.md
+        - name: Product lifecycle
+          items:
+            - name: Windows version support
+              href: rooms/rooms-lifecycle-support.md
+            - name: Android version support
+              href: devices/android-version-support.md   
+        - name: Teams Certified Devices
+          items: 
+            - name: Overview of certified devices
+              href: devices/certified-devices-overview.md
+            - name: Teams Rooms on Windows certified devices
+              href: rooms/certified-hardware.md
+            - name: Teams Rooms on Android certified devices
+              href: devices/certified-hardware-android.md
+            - name: Teams panels certified devices
+              href: devices/teams-panels-certified-hardware.md
+            - name: Teams phones certified devices
+              href: devices/teams-phones-certified-hardware.md
+            - name: Teams displays certified devices
+              href: devices/teams-displays-certified-hardware.md
+            - name: Personal peripherals
+              href: devices/usb-devices.md
     - name: Microsoft Teams Rooms
       items: 
         - name: Overview
@@ -1333,16 +1355,6 @@ items:
               href: rooms/security.md
             - name: Meeting room guidance for Teams
               href: rooms/room-planning-guidance.md
-            - name: Hardware and operating systems
-              items:
-                - name: Certified Teams Rooms hardware
-                  href: rooms/certified-hardware.md 
-                - name: Windows version support
-                  href: rooms/rooms-lifecycle-support.md
-                - name: Android app and firmware versions
-                  href: rooms/android-app-firmware.md
-                - name: Teams Rooms and devices feature comparison
-                  href: rooms/teams-devices-feature-comparison.md
             - name: Licensing
               items:
                 - name: Overview of Teams Rooms licensing
@@ -1377,16 +1389,16 @@ items:
                   href: rooms/coordinated-meetings.md
                 - name: Manage Microsoft Teams settings
                   href: rooms/surface-hub-manage-config.md
+            - name: Teams Rooms for Windows deployment tools
+              items:
+                - name: Create a Teams Room for Windows image
+                  href: rooms/console.md
+                - name: Update a Teams Room for Windows 
+                  href: rooms/manual-update.md
             - name: Peripherals
               items:
                 - name: Content cameras
                   href: rooms/content-camera.md
-            - name: Test environments
-              items:
-                - name: Configure a custom-built console
-                  href: rooms/console.md
-                - name: Manually update a device
-                  href: rooms/manual-update.md
         - name: Manage
           items: 
             - name: Management overview
@@ -1403,14 +1415,18 @@ items:
                   href: rooms/mtr-home-refresh.md
                 - name: Remotely configure front row layout
                   href: rooms/manage-front-row.md
+                - name: Proximity join
+                  href: rooms/proximity-join.md
                 - name: Join third-party meetings
                   href: rooms/third-party-join.md
-                - name: Meetings with SIP and H.323 devices
+                - name: SIP and H.323 calling with Teams Rooms
                   href: rooms/meetings-with-SIP-H323-devices.md
                 - name: Manage custom backgrounds on Android
                   href: rooms/custom-backgrounds-android.md
                 - name: Manage custom backgrounds on Windows
                   href: rooms/custom-backgrounds.md
+                - name: Digital signage
+                  href: rooms/digital-signage.md                  
                 - name: Join meetings with QR codes
                   href: rooms/teams-rooms-qr-codes.md
                 - name: Multi-Stream IntelliFrame
@@ -1423,8 +1439,6 @@ items:
                   href: rooms/voice-and-face-recognition.md
                 - name: Voice recognition controls for Intelligent speakers
                   href: rooms/voice-recognition.md
-            - name: Find devices with unsupported licenses
-              href: rooms/license-check.md
             - name: Use the recovery tool
               href: rooms/recovery-tool.md
             - name: Known issues
@@ -1463,11 +1477,13 @@ items:
             href: rooms/autopilot-autologin.md
         - name: Monitoring and maintenance
           items:
+          - name: Managing your inventory
+            href: rooms/inventory.md
           - name: Monitoring and maintaining Teams Rooms
             href: rooms/managed-meeting-rooms-portal.md
           - name: Signal settings
             href: rooms/signal-settings.md  
-          - name: Remote access a Teams Room console
+          - name: Remotely access a Teams Room console
             href: rooms/remotely-access-teams-rooms.md 
           - name: Managed updates
             href: rooms/update-management.md 
@@ -1502,7 +1518,7 @@ items:
             - name: Manage
               items:
                 - name: Feature management
-                  items:
+                  items:  
                     - name: Use Teams panels
                       href: devices/use-teams-panels.md
                     - name: App support on Teams panels  
@@ -1511,12 +1527,16 @@ items:
                       href: devices/check-in-and-room-release.md
                     - name: Reserve rooms with a QR code
                       href: devices/reserving-rooms-with-a-qr-code.md
+                    - name: Manage custom backgrounds
+                      href: devices/custom-background-panels.md
         - name: SIP gateways
           items:
             - name: Plan for SIP Gateway
               href: sip-gateway-plan.md
             - name: Configure SIP Gateway
               href: sip-gateway-configure.md
+            - name: Dynamic filters
+              href: sip-gateway-dynamic-filters.md
         - name: Deploy
           items:
             - name: Plan phones and displays deployment
@@ -1529,12 +1549,12 @@ items:
               href: devices/remote-provision-remote-login.md
             - name: Remote sign in and sign out
               href: devices/remote-sign-in-and-sign-out.md
-            - name: Deploy Teams phones and Teams displays using Intune
-              href: devices/phones-displays-deploy.md
+            - name: Deploy Teams phones and Teams panels using Intune
+              href: devices/phones-panels-deploy.md
             - name: Authentication best practices for Android devices
               href: devices/authentication-best-practices-for-android-devices.md
             - name: AOSP device management 
-              href: rooms/android-migration-guide.md
+              href: rooms/android-migration-guide.md 
         - name: Manage
           items:
             - name: Manage your devices in Teams
@@ -1563,6 +1583,7 @@ items:
           href: devices/teams-displays.md
         - name: Hot desking Teams Displays
           href: devices/hot-desking-teams-displays.md
+
 - name: Manage apps in Teams
   items: 
     - name: Understand apps in Teams
@@ -1585,6 +1606,8 @@ items:
           href: manage-praise-app.md
         - name: Manage the Approvals app
           href: approval-admin.md
+        - name: Manage the Queues app
+          href: manage-queues-app.md
         - name: Manage the Shifts app
           href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
         - name: Shifts data FAQ       
@@ -1613,8 +1636,6 @@ items:
           href: adobe-acrobat-pdf-viewer-teams.md
         - name: Manage Microsoft 365 and custom connectors
           href: m365-custom-connectors.md
-        - name: Auto install approved apps
-          href: auto-install-approved-apps.md
 
     - name: Manage custom apps
       items:
@@ -1711,11 +1732,7 @@ items:
         - name: Learn about students with Education Insights
           items:           
             - name: Get started with Insights
-              href: class-insights.md
-            - name: Sync SIS data with Insights
-              href: education-insights-sis-data-sync.md
-            - name: Manage user access to Insights
-              href: education-insights-manage-access.md           
+              href: class-insights.md     
             - name: Set up Reflect for emotional insights
               href: reflect.md
             - name: Understand Insights for Reading Progress

@@ -1,10 +1,10 @@
 ---
 title: Remotely manage Microsoft Teams Rooms device settings
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: sohailta
-ms.date: 07/15/2024
+ms.reviewer: henrikalim
+ms.date: 08/22/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -57,11 +57,7 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
   <AudioRenderCommunicationDeviceVolume>50</AudioRenderCommunicationDeviceVolume>
   <UserAccount>
     <SkypeSignInAddress>username@microsoft.com</SkypeSignInAddress>
-    <ExchangeAddress>username@microsoft.com</ExchangeAddress>
-    <DomainUsername>domain\username</DomainUsername>
     <Password>Password!</Password>
-    <ConfigureDomain>domain1, domain2</ConfigureDomain>
-    <ModernAuthEnabled>true</ModernAuthEnabled>
   </UserAccount>
   <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
   <SfbMeetingEnabled>false</SfbMeetingEnabled>
@@ -144,15 +140,11 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | Element | Type | Level | Usage |
 |:--|:--|:--|:--|
 | `<SkypeSettings>` | Container for all elements. |  | Required. |
-| `<AutoScreenShare>` | Boolean &#x2777; | First &#x2776; | If true, auto screen share is enabled. |
+| `<AutoScreenShare>` | Boolean &#x2777; | First &#x2776; | If true, a connected HDMI ingest will be automatically shared on the Front of Room display and when in a Teams Meeting it will be automatically shared to remote participants. If false, a connected HDMI ingest will be automatically shared on the Front of Room display in and out of a Teams meeting but it will not be shared to remote participants in the meeting automatically, users will need to select the share icon to shared content to remote participants. |
 | `<HideMeetingName>` | Boolean &#x2777; | First &#x2776; | If true, meeting names are hidden. |
 | `<UserAccount>` | Container | First &#x2776; | Container for credentials parameters. The sign-in address, Exchange address, or email address are usually the same, such as RainierConf<span></span>@contoso.com. |
 | `<SkypeSignInAddress>` | String &#x2777; |  | The sign-in name for the console's SfB or Teams device account. |
-| `<ExchangeAddress>` | String  &#x2778; |  | The sign-in name for the console's Exchange device account. If the ExchangeAddress is omitted, the SkypeSignInAddress will not be reused automatically. |
-| `<DomainUsername>` | String  &#x2777; |  | The domain and user name of the console device, for example Seattle\RainierConf. |
 | `<Password>` | String  &#x2778; |  | The password parameter is the same password used for the Skype for Business device account sign-in. |
-| `<ConfigureDomain>` | String  &#x2777; |  | You can list several domains, separated by commas. |
-| `<ModernAuthEnabled>` | Boolean &#x2777; |  | Disabled by default. <br/> <br/>When set to true, the Microsoft Teams Rooms application only uses modern authentication to connect to resources and doesn't fall back to basic authentication. |
 | `<TeamsMeetingsEnabled>` | Boolean &#x2777; | First &#x2776; | Disabled by default. <br/> <br/> The XML file is considered badly formed if both `<SkypeMeetingsEnabled>` and`<TeamsMeetingsEnabled>` are disabled, but it's acceptable to have both settings enabled at the same time. |
 | `<SfbMeetingEnabled>` | Boolean &#x2777; | First &#x2776; | Disabled by default. |
 | `<IsTeamsDefaultClient>` | Boolean &#x2777; | First &#x2776; | Enabled by default. |
@@ -169,11 +161,12 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | `<AllowRoomRemoteEnabled>` | Boolean &#x2777; | First &#x2776; | If true, room remote connections are allowed. Enabled by default. |
 | `<RoomQRcodeEnabled>` | Boolean &#x2777; | First &#x2776; | If true, a QR code is shown on the home screen. Users can scan the QR code to quickly join meetings with the room system. Enabled by default. For more information, see [Join meetings with QR codes](/microsoftteams/rooms/teams-rooms-qr-codes).|
 | `<QRCodeAutoAcceptProximateMeetingInvitations>` | Boolean &#x2777; | First &#x2776; | If true, proximity based meeting invitations via QR code are automatically accepted. Enabled by default. For more information, see [Join meetings with QR codes](/microsoftteams/rooms/teams-rooms-qr-codes).|
-| `<AutoExitMeetingEnabled>` | Boolean &#x2777; | First &#x2776; | If true, device will automatically leave the meeting if it is the last participant remaining in the meeting.  Disabled by default. |
+| `<AutoExitMeetingEnabled>` | Boolean &#x2777; | First &#x2776; | If true, device will automatically leave the meeting if it is the last participant remaining in the meeting before or after the meeting end time.  Disabled by default. |
 | `<DualScreenMode>` | Boolean &#x2777; | First &#x2776; | If true, dual screen mode is enabled. Otherwise the device uses single screen mode. |
 | `<DuplicateIngestDefault>` | Boolean &#x2777; | First &#x2776; | If true, content is shown on both screens in dual screen mode, when out of meeting. |
 | `<DisableTeamsAudioSharing>` | Boolean &#x2777; | First &#x2776; | Set to true to disable HDMI audio sharing to meeting participants in Teams meeting. The default is false. |
-| `<EnableCloudIntelliframe>` | Boolean &#x2777; | First &#x2776; | Enabled by default. If true, Cloud IntelliFrame will be enabled for the Team Room.|
+| `<EnableCloudIntelliframe>` | Boolean &#x2777; | First &#x2776; | Enabled by default. If true, Cloud IntelliFrame will be enabled for Teams Rooms.|
+| `<EnableRoomPeopleCount>` | Boolean &#x2777; | First &#x2776; | Enabled by default. If true, people count will be enabled for Teams Rooms.|
 | `<EnableRoomCapacityNotification>` | Boolean &#x2777; | First &#x2776; | Enabled by default to provide warnings to in room participants that the room has reached capacity (this requires the room capacity be set in Exchange and a camera capable of people counting). Set to false if you wish to disable these warnings. |
 | `<FrontRowEnabled>` | Boolean &#x2777; | First &#x2776; | Enabled by default. If false, Front row is disabled. For more information, see [Set front row as the default layout](manage-front-row.md).|
 | `<FrontRowVideoSize>` | String |  | Lets you set the size of Front row to provide more or less space for remote participant video and shared content. Possible values are `small`, `medium`, and `large`. The default value is `medium`. For more information, see [Set front row as the default layout](manage-front-row.md). |
@@ -183,7 +176,7 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | `<MainFoRDisplay>` | Container | First &#x2776; | Use this container if your device is using single display mode.<br><br>In dual display mode, the main front-of-room display is the screen where the room calendar is shown. This screen is meant to be installed on the right-hand side.  `<MainFoRDisplayResolution>` and `<MainFoRDisplayScaling>` must be set together at the same time. If you only use either `<MainFoRDisplayResolution>` or `<MainFoRDisplayScaling>`, it will be ignored. For more information, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).|
 | `<MainFoRDisplayResolution>` | String |  | Input numeric value of Width, Height (e.g. 1920,1080 or 3840,2160). It will be ignored if your front-of-room display does not support it. For more information, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).|
 | `<MainFoRDisplayScaling>` | Number |  | Input numeric value of scaling. Valid values are 100 (recommended), 125, 150, 175, 200, 225, 250, and 300. If you input greater than and your front-of-room display only supports up to 300, it will be set to 300. For more information, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).|
-| `<ExtendedFoRDisplay>` | Container | First &#x2776; | In dual display mode, the extended front-of-room display is the screen where the date, time, and room information is displayed. This screen is meant to be installed on the left-hand side.  `<ExtendedFoRDisplayResolution>` and `<ExtendedFoRDisplayScaling>` must be set together at the same time. If you only use either `<ExtendedFoRDisplayResolution>` or `<ExtendedFoRDisplayScaling>`, it will be ignored. For more information, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).|
+| `<ExtendedFoRDisplay>` | Container | First &#x2776; | In dual display mode, the extended front-of-room display is the screen where the date, time, and room information are displayed. This screen is meant to be installed on the left-hand side.  `<ExtendedFoRDisplayResolution>` and `<ExtendedFoRDisplayScaling>` must be set together at the same time. If you only use either `<ExtendedFoRDisplayResolution>` or `<ExtendedFoRDisplayScaling>`, it will be ignored. For more information, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).|
 | `<ExtendedFoRDisplayResolution>` | String |  | Input numeric value of Width, Height (e.g. 1920,1080 or 3840,2160). A value will be ignored if your front-of-room display not support it. For more information, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).|
 | `<ExtendedFoRDisplayScaling>` | Number |  | Input numeric value of scaling. Valid values are 100 (recommended), 125, 150, 175, 200, 225, 250, and 300. If you input greater than 300 and your front-of-room display only supports up to 300, it will be set to 300. For more information, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).|
 | `<SingleFoRDefaultContentLayout>` | String |  | In single display mode, you can set the default layout between Content+people and Content only:<br><ul><li><b>0</b> Content only</li><li><b>1</b> Content+people (default)</li></ul><br> For more information, see [Remotely configure layout, scale, and resolution on Teams Rooms displays](manage-front-room-scale-res.md).|
@@ -203,7 +196,7 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | `<ContentCameraInverted>` | Boolean &#x2777; |  | Specify if the content camera is physically installed upside down. For content cameras that support automatic rotation, specify false. |
 | `<ContentCameraEnhancement>` | Boolean &#x2777; |  | When set to true (the default), the content camera image is digitally enhanced: the whiteboard edge is detected and an appropriate zoom is selected, ink lines are enhanced, and the person writing on the whiteboard is made transparent.  <br><br> Set to false if you intend to send a raw video feed to meeting participants for spaces where a whiteboard is not drawn on with a pen and instead the camera is used to show sticky notes, posters, or other media. |
 | `<Theming>` | Container | First &#x2776; | One of the features that can be applied with an XML file is a Custom Theme for your organization. You are able to specify a theme name, background image, and color. |
-| `<ThemeName>` | String  &#x2778; |  | Used to identify the theme on the client. The Theme Name options are ` Vivid Flag Default`, one of the provided preset themes, or `Custom`. <br/><br>  Custom theme names always use the name `Custom`. The client UI can be set at the console to the Default or one of the presets, but use of a custom theme must be set remotely by an Administrator. <br/>  Preset themes include: <br/>  `Vivid Flag Default`  </br>  `Summer Summit`  <br>  `Seaside Bliss`  </br>  `Into The Fold`  </br>  `Creative Conservatory`  <br/>  `Default`  <br/>  `Blue Wave`  <br/>  `Digital Forest` <br/>  `Dreamcatcher` <br/>  `Limeade` <br/>  `Pixel Perfect` <br/>  `Roadmap` <br/>  `Sunset` <br/>  To disable the current theme, use `No Theme` for the `<ThemeName>`. |
+| `<ThemeName>` | String  &#x2778; |  | Used to identify the theme on the client. The Theme Name options are ` Vivid Flag Default`, one of the provided preset themes, or `Custom`. <br/><br>  Custom theme names always use the name `Custom`. The client UI can be set at the console to the Default or one of the presets, but use of a custom theme must be set remotely by an Administrator. <br/>  Preset themes include: <br/>  `Vivid Flag Default`  </br>  `Summer Summit`  <br>  `Seaside Bliss`  </br>  `Into The Fold`  </br>  `Creative Conservatory`  <br/>  `Default`  <br/>  `Blue Wave`  <br/>  `Digital Forest` <br/>  `Dreamcatcher` <br/>  `Limeade` <br/>  `Purple Paradise` <br/>  `Pixel Perfect` <br/>  `Roadmap` <br/>  `Sunset` <br/>  To disable the current theme, use `No Theme` for the `<ThemeName>`. |
 | `<CustomBackgroundMainFoRDisplay>` | String  &#x2778; |  | Used to specify the filename of the main/right custom background image on Teams Rooms version 4.17 and later with a Microsoft Teams Rooms Pro license. <br/><br> Required if `<ThemeName>` is set to `Custom`.<br/><br> For more information, see [Set up and manage Teams Rooms on Windows 4.17 and later custom backgrounds](/microsoftteams/rooms/custom-backgrounds?tabs=Enhanced). |
 | `<CustomBackgroundExtendedFoRDisplay>` | String  &#x2778; |  | Used to specify the filename of the extended/left custom background image on Teams Rooms version 4.17 with a Microsoft Teams Rooms Pro license. <br/><br> Required if `<ThemeName>` is set to `Custom` **and** `<DualScreenMode>` is set to `true`.<br/><br> For more information, see [Set up and manage Teams Rooms on Windows enhanced custom backgrounds](/microsoftteams/rooms/custom-backgrounds?tabs=Enhanced).|
 | `<CustomBackgroundConsole>` | String  &#x2778; |  | Used to specify the filename of the touch console custom background image on Teams Rooms version 4.17 and later  with a Microsoft Teams Rooms Pro license. <br/><br> Optional.<br/><br> For more information, see [Set up and manage Teams Rooms on Windows enhanced custom backgrounds](/microsoftteams/rooms/custom-backgrounds?tabs=Enhanced).|

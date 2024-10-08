@@ -1,9 +1,9 @@
 ---
 title: Phones for Microsoft Teams
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: kponnus
+ms.reviewer: prashibadkur
 ms.date: 04/25/2024
 ms.topic: article
 ms.service: msteams
@@ -30,7 +30,7 @@ To deliver a high-quality and reliable Microsoft Teams experience on phones, we 
 
 To manage phones, you need to be a Global admin, Teams Service admin, or Teams Device admin. For more information about admin roles, see [Use Microsoft Teams administrator roles to manage Teams](../using-admin-roles.md).
 
-> [IMPORTANT]
+> [!IMPORTANT]
 > Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
 ## Features supported by Teams phones
@@ -64,7 +64,7 @@ For more information about getting Teams, check out [How do I get access to Micr
 
 ## Deploy your phones using Intune
 
-To learn more about how to deploy Teams displays using Intune, see [Deploy Teams phones and Teams displays](phones-displays-deploy.md).
+To learn more about how to deploy Teams displays using Intune, see [Deploy Teams phones and Teams panels](phones-panels-deploy.md).
 
 ## Manage your phones
 
@@ -78,5 +78,4 @@ Manage and keep your Teams phones up-to-date using the Microsoft Teams admin cen
 
 [Teams Marketplace](https://office.com/teamsdevices)
 
-[IP phones certified for Microsoft Teams](teams-ip-phones.md)
-
+[Certified Teams phones](teams-phones-certified-hardware.md)

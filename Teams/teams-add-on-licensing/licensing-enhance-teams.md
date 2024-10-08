@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Premium licensing
-author: DaniEASmith
-ms.author: danismith
+author: wlibebe
+ms.author: wlibebe
 manager: pamgreen
 ms.reviewer: margidesai, spraveen
 ms.date: 03/26/2024
@@ -139,6 +139,7 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | View Microsoft Town hall insights |  | ✔️ |
 | Town hall organizers can view engagement reports |  | ✔️ |
 | Edit town hall emails |  | ✔️ |
+| Town hall attendee reactions |  | ✔️ |
 | Organizers can pre-select 10 languages for live translated captions |  | ✔️ |
 | Real time monitoring of the attendee experience |  | ✔️ |
 | View how many users attended town halls that used a Teams Premium feature | | ✔️  |
@@ -170,7 +171,7 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Moderate meeting chats | ✔️ |  |
 | Control who can present | ✔️ |  |
 | Add watermarks to meetings |  | ✔️ |
-| End-to-end encryption for meetings with up to 50 attendees |  | ✔️ |
+| End-to-end encryption for meetings |  | ✔️ |
 | Control who can record |  | ✔️ |
 | Prevent copy/paste in meeting chats |  | ✔️ |
 | Assign Microsoft Purview Information Protection sensitivity labels for meetings\* |  | ✔️ |
@@ -248,6 +249,19 @@ Microsoft Places allows you and your organization to build a smart workplace. Wi
 
 To learn more about Places, see [Microsoft Places overview](/microsoft-365/places/places-overview). 
 
+### Queues app
+
+The Queues app is a Teams-native solution designed to empower organizations to manage customer engagements efficiently, unlocking a set of advanced call functionalities for Teams Phone Call queues and Auto attendants. To learn more about the Queues app, see [Use the Queues app for Microsoft Teams](https://support.microsoft.com/office/370ad83e-c2c1-4a9f-8a59-16c98be102e9) and [Manage the Queues app](/microsoftteams/manage-queues-app).
+
+| Feature | Teams | Teams Premium |
+|---------|:-----:|:-------------:|
+|Call queue and Auto attendant management directly within Teams|  | ✔️ |
+|Real-time metrics for Call queues and Auto attendants within Queues app|  | ✔️ |
+|Historical reporting for Call queues and Auto attendants within Queues app|  | ✔️ |
+
+For a complete list of features available in the Queues app, see [Manage voice applications policies](/microsoftteams/manage-voice-applications-policies).
+
+
 ### Immersive Mesh Experiences
 
 With Immersive spaces in Teams, your users can join a 3D immersive meeting experience for up-to 16 people right from any Teams meeting.</br>
@@ -298,11 +312,15 @@ Teams Premium is licensed on a per-user subscription basis and is subject to the
 
 ### Which features are applied to organizers, attendees/users, or admins?
 
-A user's Teams experience has depends on their Teams license and their event role. Teams checks a user’s license and role feature by feature to deliver the appropriate experience.
+A user's Teams experience depends on their Teams license and their event role. Teams checks a user’s license and role feature by feature to deliver the appropriate experience.
 
 For example, in a Teams meeting, Teams checks each users’ type of Teams license and whether they're a meeting organizer or attendee. These factors determine a user’s experience and potentially other attendees’ experience during the meeting.
 
 - **Organizer-based features:** Some Teams Premium features are applied at the organizer level. If an event organizer has a Teams Premium license, the organizer-based features are shared and made accessible to the attendees only during the event.
+
+> [!NOTE]
+> If an organizer with a Teams Premium license appoints a delegate to create their meetings, the delegate doesn't need a Teams Premium license for organizer-based features to work.
+
 - **Attendee-based features:** Some Teams Premium features are applied at the attendee/user level. These Teams Premium features aren't shared or made accessible to other attendees during the event and only benefit the Teams Premium licensed users.
 - **Admin-based features:** Some Teams Premium features primarily benefit an organization's IT admins. These features are only accessible to Teams admins with a Teams Premium license.
 
@@ -315,7 +333,7 @@ The following table shows which Teams Premium features provide primary value to 
 | **More protected** | ✔️ Watermarking</br> ✔️ Who can record</br> ✔️ End-to-end encryption for online meetings (up to 200)</br> ✔️ Hide attendees' names</br> ✔️ E5 customers: Microsoft Purview Information Protection sensitivity labels for Meetings | ✔️ Block incoming chats from people in the organization</br>✔️ Prevent users from sharing content in external Teams meetings</br>✔️ Audio quality alerts</br>✔️ Video quality alerts</br>✔️Screen sharing quality alerts</br>✔️Automatic real time telemetry with 7 day retention</br>✔️Prevent users from sharing content when attending external Teams meetings |  |
 | **Advanced Virtual Appointments** | ✔️ Custom lobby room with branding, logos, and more</br> ✔️ SMS notifications | ✔️ On-demand and scheduled appointment functionality and queue views</br> ✔️ Analytics at departmental and organizational level</br> SMS notifications</br></br> *At the user level, these features apply to any user in the tenant who wants access to pre and post-appointment actions and data, like a meeting scheduler, supervisor, or admin.* |  |
 | **Advanced Webinars** | ✔️ Manage attendee view</br> ✔️ Reminder emails</br> ✔️ Wait lists and manual approval</br> ✔️ Limit registration date and time</br> ✔️ RTMP-In |  |
-| **Advanced Town halls** | ✔️ Scale up to 20,000 attendees</br> ✔️ Concurrency limit of 50 meetings</br> ✔️ Email customization</br> ✔️ Microsoft eCDN support</br> ✔️Real-time organizer analytics | ✔️Pre-select 10 languages for attendee captions | ✔️Real time monitoring of the attendee experience |
+| **Advanced Town halls** | ✔️ Scale up to 20,000 attendees</br> ✔️ Concurrency limit of 50 meetings</br> ✔️ Email customization</br> ✔️ Microsoft eCDN support</br> ✔️Real-time organizer analytics ✔️Pre-select 10 languages for attendee captions</br> ✔️Town hall attendee reactions |  | ✔️Real time monitoring of the attendee experience |
 | **Microsoft eCDN** |  | ✔️ Works with Teams Meetings and Town halls</br> ✔️ Microsoft eCDN included as a part of the Teams Premium bundle |  |
 
 ## How does Teams Premium differ from Teams Rooms Pro?

@@ -139,7 +139,6 @@ The following apps are provided by Microsoft and are generally available:
 
 * Admin
 * Approvals
-* Avatars
 * Azure AD Notifications
 * Azure Boards
 * Azure DevOps
@@ -151,6 +150,7 @@ The following apps are provided by Microsoft and are generally available:
 * Bookings
 * Bulletins
 * Channel calendar
+* Copilot for Sales
 * Data Activator
 * Dataverse Chat Sync
 * Defender Experts
@@ -162,31 +162,30 @@ The following apps are provided by Microsoft and are generally available:
 * Inspection
 * Issue reporting
 * Lists
-* Microsoft 365 Chat
 * Mesh
-* Power Virtual Agents
+* Microsoft 365 Chat
 * Milestones
 * News
 * OneNote
 * Outgoing Webhook
-* Payments (preview)
 * Places
 * Planner
 * Polls
 * Power Apps
 * Power Automate Actions
 * Power BI
+* Power Virtual Agents
 * Praise
 * Project
 * PTZ Camera Controls
 * Roadmap – Microsoft Project
-* Sales Copilot
+* Selfhost - Avatars
 * SharePoint
 * SharePoint News
 * SharePoint Pages
-* Shifts
+* Shifts (Daily)
 * Stocks
-* Viva Topics
+* Topics
 * Updates
 * Virtual Appointments
 * Visio

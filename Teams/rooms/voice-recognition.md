@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: parisataheri
-ms.date: 05/15/2024
+ms.date: 08/15/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -26,6 +26,9 @@ This article provides guidance on how admins can enable Teams Rooms for voice re
 > [!NOTE]
 > Intelligent Speaker is available in all countries and regions. See [Supported locales](#in-meeting-transcription-locales) for a list of the locales currently supported for biometric enrollment and in-meeting transcription.
 
+> [!NOTE]
+> - Intelligent Speakers are available to customers with Teams Room Pro licenses.​​​​​​​
+> - Selected devices under legacy Microsoft Teams Rooms Premium licenses will continue to be supported.
 ## Optimizing Transcription Precision with Intelligent Speakers
 
 When you have activated Intelligent Speaker for your Microsoft Teams Rooms, the meeting transcript is able to not only distinguish between different speakers in the room, but also identify them and attribute them to the correct person. Intelligent Speaker enables critical use cases for Copilot and intelligent recap.
@@ -55,8 +58,7 @@ To enable speaker recognition for your employees, you can set up a voice profile
 - To support high-quality audio and video during meetings, we recommend that the meeting room has an upload speed of at least 7 Mbps.
 
 > [!NOTE]
-> We are extending intelligent speaker to work with all certified microphones. You can try this out as part of our Public Preview program for Teams Rooms with version 5.0.111.0 or later.
-
+> We have extended intelligent Speakers to work with all certified microphones. You can try this out for Teams Rooms with version 5.0.111.0 or later.
 ## Enable an Intelligent Speaker user recognition
 
 Voice profile data can be used in any meeting with an Intelligent Speaker. See [Teams meetings policies](/microsoftteams/rooms/voice-and-face-recognition) and the [PowerShell meeting cmdlets](/microsoftteams/teams-powershell-overview) for information on the meeting settings.

@@ -1,7 +1,7 @@
 ---
 title: Overview of voice and face enrollment
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: parisataheri  
 ms.date: 05/02/2024  
@@ -174,10 +174,6 @@ To export the voice and face profiles of users using the Teams Admin Center, adm
 
 **Question:** For how long do you keep the data?  
 **Answer:** The retention policy is one year. User's data will be deleted if it isn't used for one year.
-
-**Question:** Is storage GDPR compliant?  
-
-**Answer:** Yes.
 
 **Question:** How is data stored and processed for cross tenants?  
 
