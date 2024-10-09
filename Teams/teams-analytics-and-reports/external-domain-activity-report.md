@@ -18,7 +18,7 @@ appliesto:
 ---
 # Microsoft Teams external domain activity report
 
-The external domain activity report in the Microsoft Teams admin center shows you how you communicate with [trusted external organizations](/microsoftteams/trusted-organizations-external-meetings-chat?tabs=organization-settings#specify-trusted-microsoft-365-organizations) over chat. This report includes information for 1:1 chats, group chats, and meeting chats.
+The external domain activity report in the Microsoft Teams admin center shows you how you communicate with managed external organizations over chat. This report includes information for 1:1 chats, group chats, and meeting chats.
 
 > [!NOTE]
 > We count the following events as meeting chats: When a user is invited to a meeting, when a meeting ends, and when a user leaves a meeting chat.
@@ -40,7 +40,7 @@ This report includes both a base and Teams Premium version, where the base versi
 
 |Item                           |Description |
 |-------------------------------|------------|
-|Domain name                    |The domain of the trusted organization. **Premium:** Each domain can be clicked on to see domain-specific insights. |
+|Domain name                    |The domain name. **Premium:** Each domain can be clicked on to see domain-specific insights. |
 |People in my org               |The number of users that have communicated with the organization through chat during the selected time range. |
 |**Premium:** Total messages    | The number of messages that have been exchanged between your organization and the external domain during the selected time range. |
 |**Premium:** Messages sent     | The number of messages that have been sent to your organization by the external domain during the selected time range. |
