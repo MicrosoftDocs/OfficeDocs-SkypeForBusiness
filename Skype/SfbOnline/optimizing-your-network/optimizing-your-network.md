@@ -1,8 +1,8 @@
 ---
 ms.date: 11/28/2017
 title: "Optimizing your network"
-ms.author: tonysmit
-author: tonysmit
+ms.author: serdars
+author: pamgreen
 manager: serdars
 ms.reviewer: mpottier, dougand
 ms.topic: article
@@ -70,7 +70,7 @@ Skype for Business audio must be deployed in the EF (Expedited Forwarding - DSCP
 
 While existing QoS policies might be in place already on the LAN and WAN for other IP telephony products, Skype for Business allows users to be mobile and to move from location to location while using the service. Because of this, QoS policies must be marked on the LAN, WAN, and wireless networks in order to be sure that all Skype for Business traffic is being prioritized across managed networks.
 
-To help you'll sizing your network, download the [Skype for Business Bandwidth Calculator](https://www.microsoft.com/download/details.aspx?id=19011).
+To help with sizing your network, download the [Skype for Business Bandwidth Calculator](https://www.microsoft.com/download/details.aspx?id=19011).
 
 For more about media quality and QoS, see [Media Quality and Network Connectivity Performance in Skype for Business Online](media-quality-and-network-connectivity-performance.md).
 
@@ -130,13 +130,11 @@ See the following for more information on supported and certified devices:
 
 - [Getting phones for Skype for Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 
-- [Phones and Devices for Skype for Business](../../SfbPartnerCertification/certification/devices-ip-phones.md)
+- [Microsoft Teams certified Android devices](/microsoftteams/devices/teams-ip-phones)
 
 - [Solutions Catalog for Personal Peripherals](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)
 
-- [Phones and devices qualified for Microsoft Lync](../../SfbPartnerCertification/lync-cert/ip-phones.md)
-
-The environment and surrounding area where users are meeting and using audio and video devices is another significant factor for audio and video quality. Users calling from a noisy environment will have echoed, muffled, and unclear audio. Users in a dark or low light environment won't be able to produce bright, clear image quality for video. In a conference room setting, the location of the microphone and video device have a direct impact on the sound and image quality that participants will receive.
+The environment and surrounding area where users are meeting and using audio and video devices is another significant factor for audio and video quality. Users calling from a noisy environment will have echoed, muffled, and unclear audio. Users in a dark or low light environment won't be able to produce bright, clear image quality for video. In a conference room setting, the locations of the microphone and the video device have a direct impact on the sound and image quality that participants receive.
 
 To get a clearer picture of a user's audio and video experience use the Skype for Business app **Tools** > **Options** > **Audio Device** or **Video Device** to make changes to the device in use and customize its settings. You can also check the audio quality of a call by clicking **Check Call Quality**. If they select **Check Call Quality**, they can then report the quality and issues found with the test call.
 

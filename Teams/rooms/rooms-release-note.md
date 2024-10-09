@@ -1,10 +1,10 @@
 ---
 title: Release notes for Microsoft Teams Rooms
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: sohailta
-ms.date: 05/14/2024
+ms.reviewer: henrikalim
+ms.date: 09/30/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -39,6 +39,9 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|[5.2.115.0](#521150-9262024)| 9/26/2024 |
+|[5.1.28.0](#51280-882024) | 8/8/2024 |
+|[5.1.24.0](#51240-7302024) | 7/30/2024 |
 |[5.0.305.0](#503050-632024) | 6/3/2024 |
 |[5.0.230.0](#502300-5232024) | 5/23/2024 |
 |[5.0.111.0](#501110-4242024) | 4/24/2024 |
@@ -57,10 +60,37 @@ Teams Rooms is governed by the Modern Lifecycle Policy. For more information, se
 
 ## Teams Rooms on Windows feature introduction and issue resolution
 
-Teams Rooms app updates happen either via the Microsoft Store or via [manual update](manual-update.md). Updates are applied to the Universal Windows Platform (UWP) application that is installed locally on the device.
+Teams Rooms app updates happen either using the Microsoft Store or using [manual update](manual-update.md). Updates are applied to the Universal Windows Platform (UWP) application that is installed locally on the device.
 
 Features with the :::image type="icon" source="../media/mtr-pro-icon.png"::: icon are available only with Teams Rooms Pro license.
 
+### 5.2.115.0 (9/26/2024)
+Introduced in this update:
+- **Proximity based join experience improvements**: Proximity based join experience is updated to disable auto accepting all nudges from external or federated tenants. Room admins can allow this depending on the location of the room. In addition, granular controls for ultrasound are added that allow IT admins to select speaker to use to omit ultrasound beacon as well as volume output percentage to fine tune room experience. 
+- **Dynamic video tile resizing based on people count** :::image type="icon" source="../media/mtr-pro-icon.png"::: **:**  The room video tile on Teams desktop client dynamically adjusts size based on the number of people in the room. When one person is in the room, the tile matches the remote participant's size. With two or more people, the room tile expands to be four times larger. Room admins can enable or disable the people count. 
+- **Microsoft Teams Rooms on Windows room preview shows Cloud IntelliFrame** :::image type="icon" source="../media/mtr-pro-icon.png"::: **:** The Preview video of room will show IntelliFrame when Cloud IntelliFrame is enabled for the room, to let in room participants be aware of how they appear to those online. [Learn more](/microsoftteams/devices/cloud-intelliframe).
+- **Roster grouping for in-room participants through proximity join** :::image type="icon" source="../media/mtr-pro-icon.png"::: **:**  When joining a meeting in a Microsoft Teams Room on Windows with a companion device, in-room participants will be grouped under the room node. Participants must join through Proximity Join with Microsoft Teams Rooms. 
+- **Native controls for Group Framing, Active Speaker and Edge-composed IntelliFrame:**  Allow users to natively toggle certain camera features provided by OEMs, including group framing, active speaker framing, and edge-composed IntelliFrame. 
+- **Breakout rooms support:** With breakout room support, Teams Rooms on Windows can be added to a breakout room as an attendee and moved in and out of the main room making it easy for breakout session coordination. 
+
+Resolved issues: 
+- Fixed a known issue where content and gallery were swapped, after reconnecting a screen on dual display setups.
+- Fixed a known issue where the chat panel is empty after a reboot.
+- Fixed an issue where sometimes, the on-screen keyboard failed to appear on the console.
+- Fixed an issue where the app would restart after the device wakes up or while using meet now.
+
+### 5.1.28.0 (8/8/2024)
+- Bug fixes for GCC-High: authentication & Teams Admin Center connectivity
+
+### 5.1.24.0 (7/30/2024) 
+
+Introduced in this update:
+
+- **Support for Windows 23H2** - Eligible devices will now be updated to Windows 11 23H2.
+- **Text and UI resizing** - IT admins can adjust the size of the text and all other UI elements on the front-of-room display by changing the display scaling settings. Text and UI elements are resized and adjusted for all supported display resolution and scaling combinations (1080p resolution at 100-150% scaling, 4K resolution at 100-300% scaling). This capability is extended to support touch boards.
+- Fixes for certain Windowing issues.
+- Other bug fixes.
+  
 ### 5.0.305.0 (6/3/2024) 
 
 **This is a manual update only.** This update brings the new features released in updates 5.0.111.0 and 5.0.230.0 to GCC-High customers. 
@@ -707,6 +737,8 @@ Introduced in this update:
 
 |Release  |Release date  |
 |---------|---------|
+|[1449/1.0.96.2024091202](#144910962024091202-september-2024) | September 2024 |
+|[1449/1.0.96.2024080804](#144910962024080804-august-2024) | August 2024 |
 |[1449/1.0.96.2024061103](#144910962024061103-june-2024) | June 2024 |
 |[1449/1.0.96.2024042606](#144910962024042606-april-2024) | April 2024 |
 |[1449/1.0.96.2024032804](#144910962024032804-april-2024) | April 2024 |
@@ -735,6 +767,36 @@ Introduced in this update:
 > There can be a delay between when features are released by Microsoft and when they become available on a device make and model. If an update isn't available on your device, check with your device manufacturer for information on when it might become available.
 
 Features with :::image type="icon" source="../media/mtr-pro-icon.png"::: are only available with Teams Rooms Pro license.
+
+### 1449/1.0.96.2024091202 (September 2024)
+
+Resolved issues:
+
+- When a secondary external camera is attached, users are unable to switch the room camera in meetings.
+- Local HDMI content that is projected outside of a meeting gets automatically shared into a meeting.
+- Incorrect Korean translation of calendar time slots.
+- The Join button is not showing up correctly on the calendar for Direct Guest Join meetings.
+- Various issues causing meetings to crash.
+- Minor improvements and bug fixes. 
+  
+### 1449/1.0.96.2024080804 (August 2024)
+
+Introduced in this update:
+
+- **Custom backgrounds<sup>1</sup>**:::image type="icon" source="../media/mtr-pro-icon.png":::. IT admins can upload custom background images on the Teams admin center to reinforce their company brand on their Teams Rooms on Android devices. The main room display, extended room display, and touch console can each have their own specific background image. PNG, JPG, and JPEG formats are supported. This feature is only available with the Teams Rooms Pro license. [Learn more](/microsoftteams/rooms/custom-backgrounds-android).
+- **Join Zoom meetings with an ID and passcode**. Users can now join Zoom meetings with an ID and a passcode on Teams Rooms on Android. Rooms must be configured to enable Direct Guest Join meetings. [Learn more](/microsoftteams/rooms/third-party-join).
+
+Resolved issues:
+
+- Joining meetings on Cisco devices results in meeting drops and returning to the home screen.
+- Built-in Teams backgrounds are not downloading successfully.
+- Tapping Meet now on Logitech TAP devices shows a notification that the app does not support launching on secondary displays.
+- When joining Direct Guest Join meetings while the HDMI ingest cable is connected, the HDMI ingest feed is shown as the room video instead of the local room camera feed.
+- Volume is increased and decreased by increments of 30 instead of 10 on Logitech devices.
+- Participant video gets re-framed from fit-to-frame to fill-frame intermittently on Cisco devices.
+- Various meeting and call reliability issues.
+
+<sup>1</sup>Neat devices are excluded from this rollout of custom backgrounds due to an issue that is unique to Neat devices. Once the issue is resolved, custom backgrounds will be enabled for Neat devices in a later release. 
 
 ### 1449/1.0.96.2024061103 (June 2024)
 

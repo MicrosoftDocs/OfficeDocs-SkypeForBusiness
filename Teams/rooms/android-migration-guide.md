@@ -1,9 +1,9 @@
 ---
 title: Migration guide Android AOSP management for Microsoft Teams Android devices
-ms.author: tonysmit
 author: mstonysmith
-ms.reviewer: mattslomka
-ms.date: 05/02/2024
+ms.author: tonysmit
+ms.reviewer: tjaved
+ms.date: 07/23/2024
 manager: pamgreen
 audience: Admin
 ms.topic: article
@@ -56,24 +56,26 @@ These steps are specific to Teams Android devices. If you have non Teams devices
 When creating an enrollment profile, verify it doesn't conflict with any enrollment profiles that were created before.
 
 1. Sign in to the Intune Management Console with an account with Intune administrator permissions: [https://intune.microsoft.com/](https://intune.microsoft.com/).
-
 2. Select **Devices** > **Enrollment** > then **Android**.
 3. Under **Enrollment Profiles**, select **Corporate-owned, user-associated device**.
-4. Select **Create profile**.
+4. Select **Create policy**.
 5. Use the following settings for the profile configuration:
 
    - **Name** Give the profile a name like 'AOSP – Teams Devices'.
    - **Description** Put in a description so others in the organization know what this enrollment profile is used for. Use something like 'This AOSP Management enrollment profile is to allow Teams Android Devices to enroll in Intune'.
-   - **Token expiration date** Leave this blank. (The current enrollment profiles are limited to a 90-day expiration. However, this expiration limit might be extended in a future release.)
+   - **Token expiration date** This defaults to 65 years into the future and is best left at 65 years to avoid policy expiration which would block enrollment.
    - **Wi-Fi** Select **Not configured**.
    - **Microsoft Teams devices** Select **Enabled**.
 
    ![Screenshot of AOSP enrollment profile.](media/android-migration-guide/aosp-enrollment-profile.png)
 
+> [!IMPORTANT]
+> The enrollment profile defaults to a 65 year token expiration. If you are a customer participating in private preview of AOSP DM, you will need to have a 90 day or shorter expiration configured, customers waiting for general availability of AOSP DM can utilize the 65 year expiration. An expired enrollment token will not impact any existing devices, just new device enrollments and sign-ins.
+
 6. Select **Next**.
 7. Review the profile and then select **Create**.
 
-The enrollment profile is been created and is now ready to enroll devices.
+The enrollment profile has been created and is now ready to enroll devices.
 
 ## Step 2 - Set up AOSP Management Configuration & Compliance Policies
 

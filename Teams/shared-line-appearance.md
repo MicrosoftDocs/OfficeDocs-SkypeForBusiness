@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.date: 02/19/2019
-ms.reviewer: roykuntz, guptaashish
+ms.reviewer: roykuntz
 ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,7 +23,7 @@ ms.custom:
   - Phone System
   - ms.teamsadmincenter.users.voice.calldelegation.tooltip
   - seo-marvel-apr2020
-description: Learn about the Share line appearance feature in Microsoft Teams.
+description: Learn about the Shared line appearance feature in Microsoft Teams.
 ---
 
 # Shared line appearance in Microsoft Teams
@@ -35,14 +35,14 @@ Shared line appearance lets a user choose a delegate to answer or handle calls o
 
 ## Dialing Permissions and Routing
 
-When a delegate makes an outbound PSTN call on behalf of a delegator, the delegator's settings control the checks for appropriate licensing, dial-out restrictions, and call routing.
+When a delegate makes an outbound Public Switched Telephone Network (PSTN) call on behalf of a delegator, the delegator's settings control the checks for appropriate licensing, dial-out restrictions, and call routing.
 
 ## License required
 
 Managers and delegates must have a Teams Phone license. Managers must have a phone number assigned, PSTN connectivity, and a required license for PSTN connectivity: Calling Plan, Operator Connect, or Direct Routing. The shared line experience is part of delegation and is included with Teams Phone. For more information on licensing, see [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
 
 > [!NOTE]
-> A delegate without a phone number assigned must be EnterpriseVoiceEnabled using the Teams PowerShell cmdlet Set-CsPhoneNumberAssignment -Identity \<user\> -EnterpriseVoiceEnabled $true, see [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment). If a Dial Pad shows in the Calls App of the Delegate, they are correctly configured for Enterprise Voice.  
+> A delegate without a phone number assigned must be **EnterpriseVoiceEnabled** using the Teams PowerShell cmdlet `Set-CsPhoneNumberAssignment -Identity \<user\> -EnterpriseVoiceEnabled $true`, see [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment). If a Dial Pad shows in the Calls App of the Delegate, they're correctly configured for Enterprise Voice.  
 
 ## Shared line appearance feature availability
 
@@ -54,9 +54,11 @@ The following apps and devices currently support shared line appearance:
 | Receive calls on behalf of another | Yes | Yes | Yes | Yes | Yes |
 | Call a phone number on behalf of another | Yes | Yes | Yes | Yes | Yes |
 | Call a Teams user on behalf of another | Yes | Yes | Yes | Yes | Yes |
+| Join active calls | Yes | No | Yes | No | Yes |
 | See the delegate view of shared lines | Yes | Yes | Yes | Yes | Yes |
 | See the delegate view of manager's call activities | Yes | Yes | Yes | No | Yes |
 | See the manager view of delegates | Yes | Yes | Yes | Yes | Yes |
+| See shared call history | Yes | No | Yes | No | No|
 | Delegate or manager can hold or resume | Yes | Yes | Yes | No | Yes |
 
 ## Limitations

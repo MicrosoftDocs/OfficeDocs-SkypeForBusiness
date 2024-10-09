@@ -26,6 +26,7 @@ ms.localizationpriority: high
 - [A website doesn't load in the new Teams desktop](/microsoftteams/troubleshoot/tabs/websites-not-loaded-new-teams).
 - [The new Teams desktop app fails to render video](/microsoftteams/troubleshoot/meetings/new-teams-desktop-app-fail-render-video).
 - Collaborative Notes is only available in public clouds, and not in EDU (Academic SKUs).
+- In rare cases, users trying to join a Teams meeting from Outlook are unable to open the meeting window. The resolution is to restart Outlook and Teams. If this fails, rebooting the device may be required.
 
 ## Issues specifically for the new Microsoft Teams for Education
 

@@ -3,7 +3,7 @@ title: Hot desking Teams displays
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: prashibadkur
+ms.reviewer: eviegrimshaw
 ms.date: 05/15/2024
 ms.topic: article
 ms.service: msteams
@@ -23,6 +23,10 @@ search.appverid: MET150
 ---
 
 # Deploy hot desking for Teams Displays
+
+> [!IMPORTANT]
+>
+> End of support for the Teams display app is September 3, 2025. Microsoft will make commercially reasonable best efforts to maintain compatibility with the most recent version of the Teams app provided to manufacturers for a period of two (2) years from this date. See the [Microsoft Product and Services lifecycle](/lifecycle/products/) for details.
 
 Teams Displays are used in a shared area with hot desks, or private work areas such as phone booths or other type of private rooms. This article helps you to deploy and configure Teams Displays in hot desking mode. Hot desking lets users reserve, sign-in, collaborate with other people, and then end their session securely.
 

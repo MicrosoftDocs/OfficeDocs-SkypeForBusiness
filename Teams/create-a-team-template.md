@@ -22,8 +22,6 @@ appliesto:
 
 # Create a custom team template in Microsoft Teams
 
-**Custom templates are not yet supported for EDU customers.**
-
 A custom team template is a predefined team structure with a set of channels, tabs, and apps. You can develop a template that helps you create the right collaboration space quickly. Your custom team template uses your preferred settings.  
 
 <br>
@@ -93,19 +91,19 @@ To get started:
 
 ## Known issues
 
-**Problem**: If you've created a team from a custom template that contained additional custom tabs, you might see blank tabs in place of your custom tab apps. Your default tabs (such as **Posts**, **Files**, and **Wiki**) will appear as expected.
+**Problem**: If you created a team from a custom template that contained additional custom tabs, you might see blank tabs in place of your custom tab apps. Your default tabs (such as **Posts**, **Files**, and **Wiki**) will appear as expected.
 
 **Solution**: To fix this issue, remove the custom tab and add a new tab with the same app. If you don't have permissions to remove the custom tab and add a new tab, contact the team owner for assistance.
 
 We're currently working on a fix for future teams created from custom templates.
 
-**Problem**: When using Teams in the browser, some websites don't support being rendered within a Teams tab.
+**Problem**: When you use Teams in the browser, some websites don't support being rendered within a Teams tab.
 
 ![browser error message.](media/browser-error-message.png)
 
 **Solution**: If you have trouble viewing the contents of the website tab, you'll be redirected to either open the tab in a separate webpage, or open Teams in the desktop app instead to view your website tab app.
 
-## Related topics
+## Related articles
 
 - [Get started with team templates in the admin center](get-started-with-teams-templates-in-the-admin-console.md)
 - [Create a template from an existing team](create-template-from-existing-team.md)

@@ -1,10 +1,10 @@
 ---
-title: Microsoft Teams Rooms app version support
-ms.author: tonysmit
+title: Teams Rooms app and Windows versioning support
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: raginis
-ms.date: 10/04/2023
+ms.date: 08/21/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -14,7 +14,7 @@ appliesto:
 ms.collection: 
   - M365-collaboration
   - teams-rooms-devices
-  - Tier1
+  - Tier2
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
@@ -22,7 +22,7 @@ description: Learn about lifecycle support for Microsoft Teams Rooms, including 
 ms.custom: seo-marvel-apr2020
 ---
 
-# Microsoft Teams Rooms app version support
+# Teams Rooms app and Windows versioning support - overview
  
 By default, the Microsoft Teams Rooms application receives updates through the Microsoft store. The app uses an evergreen product lifecycle and only the current and the next most recent major version of the app is supported at any given time. The app bundles a specific version of the Teams desktop app that is modified for room use. The Teams desktop app updates frequently while the Teams Rooms app updates less frequently. This means Teams Rooms app current-1 version can be several Teams desktop app updates behind, so it's recommended to keep the Teams Rooms app updated to the latest version at all times. Learn more about the [Teams update process](../teams-client-update.md).
 
@@ -50,8 +50,9 @@ The following table shows recommended and supported versions of Windows that are
 
 | Version | Availability date | Microsoft Teams Rooms support status                    | Microsoft Teams Rooms Minimum application version | Recommended OS build |
 |:--------|:------------------|:--------------------------------------------------------|:--------------------------------------------------|:---------------------|
-| 22H2    | 2022-10-18        | Supported,<br>Recommended                               | 4.16.134.0                                        | 22621.525 &#x2780;   |
-| 21H2    | 2021-11-16        | Supported                                               | 4.12.126.0                                        | 19044.1288           |
+| 23H2    | 2023-10-31        | Supported,<br>Recommended                               |5.1.24.0                                           | 22631.2428   |
+| 22H2    | 2022-10-18        | Supported                                               | 4.16.134.0                                        | 22621.525 &#x2780;   |
+| 21H2    | 2021-11-16        | Not Supported                                           | &#x2014;                                          | &#x2014;             |
 | 21H1    | 2021-05-18        | Not Supported                                           | &#x2014;                                          | &#x2014;             |
 | 20H2    | 2020-10-20        | Not Supported                                           | &#x2014;                                          | &#x2014;             |
 | 2004    | 2020-05-27        | Not Supported, <br/>Known compatibility issues  &#x2781;| &#x2014;                                          | &#x2014;             |

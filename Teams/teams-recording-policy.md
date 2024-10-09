@@ -166,7 +166,7 @@ scenario:
 
 - Recorder bot outbound firewall destination IP address must be open to the Azure public IP range.
 
-- Recorder bot inbound firewall source IP address must be open to the Azure public IP range.
+- Recorder bot inbound firewall source IP address must be open to the [Teams IP range](/microsoft-365/enterprise/urls-and-ip-address-ranges#microsoft-teams).
 
 The Azure and Windows VM requirements only apply to the Teams Bot
 component, which means that a partner might implement the rest of the
@@ -242,25 +242,29 @@ policies](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group).
 
 ## User experiences
 
+### PSTN calls
+
+Inbound call queue (CQ) calls are recorded for users who have an assigned compliance recording (CR) policy. Some routing methods might involve usability concerns with multiple announcements. We recommend appropriately configuring your call queues to align with your organization's intended user experience.
+
+Compliance recording doesn't work if users have an Internet outage, and make or receive PSTN calls using an SBA.
+
+### Notifications
+
 Support for notifications is enabled using the Teams client experiences. The experiences can be either visual or audio.
 
-**Teams clients - visual notice**
+#### Teams clients - visual notice
 
 - Desktop/web
 - Mobile (iOS/Android)
 - Teams Phones
 - Teams rooms
 
-**Other endpoints - audio notice**
+#### Other endpoints - audio notice
 
 - SIP phones
 - Skype for Business
 - Audio conferencing (audio notice in dial-in number's default or user-selected language)
 - PSTN callers (audio notice in Teams user's default language)
-
-> [!NOTE]
-> Compliance recording isn't supported with call queues.
-> Compliance recording doesn't work if users have an Internet outage, and are making and receiving PSTN calls using an SBA.
 
 ## Compliance recording for Teams certification programs
 
@@ -274,6 +278,7 @@ The following partners certify their solution for Microsoft Teams.<br/><br/>
 |AudioCodes |[https://online.audiocodes.com/smarttap-360-live-for-microsoft-teams](https://online.audiocodes.com/smarttap-360-live-for-microsoft-teams) |
 |CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
 |Dubber |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
+|Touch Call Recording (GuardRec Compliance 2022.10.3) |[https://touchcallrecording.com/teams-policy-based-recording-for-callings-and-meetings](https://touchcallrecording.com/teams-policy-based-recording-for-callings-and-meetings) |
 |Insightful Technology |[https://insightfultechnology.com/teams/](https://insightfultechnology.com/teams/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
 |Mida Solutions |[https://www.midasolutions.com/recorder-for-teams/](https://www.midasolutions.com/recorder-for-teams/) |
@@ -291,8 +296,7 @@ The following partners are in the process of certifying their solution for Micro
 |Partner|Solution website |
 |:--|:--|
 |Cloud World Wide Services |[https://recordia.net/microsoft-teams-call-recording/](https://recordia.net/microsoft-teams-call-recording/) |
-|Crealog |[https://www.crealog.com/en/products-solutions/recording/](https://www.crealog.com/en/products-solutions/recording/) |
-|GuardRec |[https://www.guardrec.com/en/teams-compliance-recording/](https://www.guardrec.com/en/teams-compliance-recording/) |
+|CreaLog |[https://www.crealog.com/en/products-solutions/recording/](https://www.crealog.com/en/products-solutions/recording/) |
 |Landis Technologies |[https://landistechnologies.com/](https://landistechnologies.com/) |
 |Redwood Technologies |[https://www.contentguru.com/en-us/solutions/needs/compliance-recording-ms-teams/](https://www.contentguru.com/en-us/solutions/needs/compliance-recording-ms-teams/) |
 

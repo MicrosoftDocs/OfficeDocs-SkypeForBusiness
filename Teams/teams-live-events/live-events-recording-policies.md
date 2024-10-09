@@ -6,7 +6,7 @@ manager: pamgreen
 ms.topic: article
 ms.service: msteams
 ms.reviewer: christi.balaki
-ms.date: 01/16/2024
+ms.date: 10/3/2024
 audience: admin
 search.appverid: MET150
 f1.keywords:
@@ -24,9 +24,9 @@ ms.custom: seo-marvel-mar2020
 # Live event recording policies in Microsoft Teams
 
 > [!NOTE]
-> Teams Live Events will no longer be deprecated on September 30, 2024, as previously announced. While we still recommend that customers upgrade to [Teams town hall](../plan-town-halls.md) when ready to take advantage of new features and experiences, Live Events users can now schedule events beyond September 2024. For more information, please read our recent [blog post](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/extension-for-teams-live-events-retirement/ba-p/4148352).
+> We're currently still supporting live events. While we still recommend you to upgrade to [Teams town halls](../plan-town-halls.md) to take advantage of new features and experiences, your users can continue to schedule events. For more information, see [Updates for Town Hall in Microsoft Teams and Teams Live Events](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/extension-for-teams-live-events-retirement/ba-p/4148352).
 
-You have several options for recording a Microsoft Teams live event. The recording options are set using recording policies. This article describes the various settings.
+There are multiple ways for your users to record a Microsoft Teams live event. The recording policies that you, as an admin manage, determine the available recording options for your users. This article explains the different settings.
 
 The recording options are set using the PowerShell command [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/teams/set-csteamsmeetingbroadcastpolicy).
 
@@ -34,11 +34,11 @@ The recording options are set using the PowerShell command [Set-CsTeamsMeetingBr
 
 There are two organizer options while scheduling a live event recording:
 
-- Recording available for producers and presenters
+- **Recording available for producers and presenters**
 
   - Recording file: Provides a recording file that producers and presenters can download after the event is over.
 
-- Recording available for attendees
+- **Recording available for attendees**
 
   - DVR: A digital video recorder (DVR) allows attendees to rewind and pause during the event
 
@@ -66,10 +66,7 @@ As part of the broadcast policy, there's a setting that you can toggle to turn r
 
 ### Related topics
 
-[What is Teams live events?](what-are-teams-live-events.md)
-
-[Plan for Teams live events](plan-for-teams-live-events.md)
-
-[Configure live events settings in Teams](configure-teams-live-events.md)
-
-[Teams clouds meeting recording](../meeting-recording.md)
+- [What is Teams live events?](what-are-teams-live-events.md)
+- [Plan for Teams live events](plan-for-teams-live-events.md)
+- [Configure live events settings in Teams](configure-teams-live-events.md)
+- [Teams clouds meeting recording](../meeting-recording.md)

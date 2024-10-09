@@ -2,20 +2,22 @@
 title: Manage devices with administrative units
 author: mstonysmith
 ms.author: tonysmit
-ms.reviewer: 
-ms.date: 07/14/2021
 manager: pamgreen
+ms.reviewer: ayerragangu
+ms.date: 09/16/2024
 ms.topic: article
 audience: admin
 ms.service: msteams
+ms.subservice: itpro-devices
+ms.collection: 
+  - teams-rooms-devices
+  - Teams_ITAdmin_Devices
+  - Tier1
 search.appverid: MET150
 description: Learn how to use administrative units in Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords: 
   - NOCSH
-ms.collection: 
-  - M365-collaboration
-  - Teams_ITAdmin_Devices
 appliesto: 
   - Microsoft Teams
 ---
@@ -27,11 +29,16 @@ Administrative units in the Teams admin center provide detailed, role-based acce
 For example, Contoso has operations around the globe. Alice is a global IT admin based in London, while Prashant is a local IT admin based in Bengaluru (Bangalore), India. Today, when Prashant signs into the Teams admin center as a device administrator, he can see Teams devices around the globe. Alice wants to limit Prashant's access to Teams devices only in Bengaluru (Bangalore). Administrative units let her do this. To learn more, see [Administrative units in Microsoft Entra ID](/azure/active-directory/roles/administrative-units).
 
 > [!NOTE]
-> Administrative units are currently available in the Teams admin center only for the Teams devices administrator role.
+> Administrative Units can be managed using the Teams Administrator or Teams Device Administrator roles. Administrative units are currently available in the Teams admin center only for the Teams devices administrator role.
+
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+
 
 ## Add administrative units
 
 You need to be a global admin to add administrative units. To learn how, see [Add an administrative unit](/azure/active-directory/roles/admin-units-manage#add-an-administrative-unit).
+
 
 ## Assign admins to administrative units
 
@@ -39,7 +46,7 @@ You'll also need to be global admin to assign administrative units. You can assi
 
 ## Select administrative units
 
-If you're a Teams devices admin, after a global admin assigns you to an administrative unit, you can sign into the Teams admin center to manage devices. If you're assigned to only one administrative unit, you'll see only the devices that are assigned to that administrative unit. If you're assigned to multiple administrative units, you can switch between those administrative units without signing out from the Teams admin center. 
+If you're a Teams devices admin, after a global admin assigns you to an administrative unit, you can sign into the Teams admin center to manage devices. If you're assigned to only one administrative unit, you'll see only the devices that are assigned to that administrative unit. If you're assigned to multiple administrative units, you can switch between those administrative units without signing out from the Teams admin center.
 
 1. Sign in to the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 

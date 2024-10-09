@@ -71,6 +71,7 @@ The following providers offer contact center solutions that are integrated into 
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `Genesys` | https://www.genesys.com/campaign/get-started-genesys-cloud-microsoft-teams                                      |
 | `Heedify` | https://heedify.io/call-center/                                                 |
+| `Imagicle` | https://www.imagicle.com/en/integration/microsoft-teams/                                                                                        |
 | `Intermedia` | https://www.intermedia.com/integration/contact-center-for-microsoft-teams                       |
 | `IPDynamics` | https://www.ipdynamics.de/ |
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
@@ -84,7 +85,7 @@ The following providers offer contact center solutions that are integrated into 
 | `Solgari` | https://solgari.com/                       |
 | `Talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
 | `Tendfor` | https://www.tendfor.com                                                            |
-| `Ultatel` | https://www.ultatel.com/microsoft-teams-contact-center/                     |
+
 
 
 
@@ -96,7 +97,6 @@ The following providers offer contact center solutions that are integrated into 
 | `Evolve IP` | https://www.evolveip.net/contact-center   |
 | `FrontStage` | https://www.frontstage.cc                                                                                        |
 | `Geomant` | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                                  |
-| `Imagicle` | https://www.imagicle.com/en/integration/microsoft-teams/                                                                                        |
 | `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `Unexus` | https://www.unexus.nl/en/solutions/unexus-connect/                |
 | `Vier` | https://www.vier.ai/                   |

@@ -3,7 +3,7 @@ title: Teams Rooms and  Devices feature comparison
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: sohailta
+ms.reviewer: mattslomka
 ms.date: 4/24/2024
 ms.topic: article
 audience: Admin
@@ -45,7 +45,7 @@ To help guide you as to what features are available on different platforms, you 
 | | Meet now | Available | Available |
 | | Teams Meeting with ID | Available | Available |
 | | Direct guest join | BlueJeans: Available <br> Webex: Available<br> Zoom: Available| BlueJeans: Not available <br> Webex: Available<br> Zoom: Available |
-| | Direct guest join with ID | BlueJeans: Not available <br> Webex: Not available<br> Zoom: Available | BlueJeans: Not available <br> Webex: Not available<br> Zoom: Not available |
+| | Direct guest join with ID | BlueJeans: Not available <br> Webex: Not available<br> Zoom: Available | BlueJeans: Not available <br> Webex: Not available<br> Zoom: Available |
 | | SIP/H.323 calling | Available | Not available |
 | | PSTN calling | Available | Available|
 | | Admins can require meeting ID and passcode on meeting join | Available | Available |
@@ -106,7 +106,7 @@ To help guide you as to what features are available on different platforms, you 
 | | Kiosk mode | Available | Available |
 | | Microsoft Defender for Endpoint | Available | Not available |
 | **Device Management** | Built-in backgrounds | Available | Available |
-| | Custom background | Available | Not available |
+| | Custom background | Available | Available |
 | | Unauthenticated proxy support | Available | Available |
 | | Authenticated proxy support | Not available | Not available |
 | **Teams Admin Center** | Automatic onboarding | Available | Available |
@@ -168,7 +168,7 @@ To help guide you as to what features are available on different platforms, you 
 | | Meet now | Available | Available |
 | | Teams Meeting with ID | Available | Available |
 | | Direct guest join | BlueJeans: Available <br> Webex: Available<br> Zoom: Available| BlueJeans: Not available <br> Webex: Available<br> Zoom: Available |
-| | Direct guest join with ID | BlueJeans: Not available <br> Webex: Not available<br> Zoom: Available | BlueJeans: Not available <br> Webex: Not available<br> Zoom: Not available |
+| | Direct guest join with ID | BlueJeans: Not available <br> Webex: Not available<br> Zoom: Available | BlueJeans: Not available <br> Webex: Not available<br> Zoom: Available |
 | | SIP/H.323 calling | Available | Not available |
 | | PSTN calling | Available | Available |
 | | Admins can require meeting ID and passcode on meeting join | Available | Available |
@@ -245,8 +245,8 @@ To help guide you as to what features are available on different platforms, you 
 | | Remote Access | Not available | Not available |
 | | Partner Delegation | Not available | Not available |
 | | Autopilot + Autologin | Not available | Not available |
-| | One Time Passcode | Not available | Not available |
-| | ServiceNow Integration | Not available | Available |
+| | One Time Passcode | Available | Not available |
+| | ServiceNow Integration | Not available | Not available |
 | | Device grouping & Role-based access control | Available | Available |
 | | Device Settings Management | Available | Not available |
 | | Update Management | Available | Not available |
@@ -290,7 +290,7 @@ To help guide you as to what features are available on different platforms, you 
 | | Meet now | Available | Available |
 | | Teams Meeting with ID | Available | Available |
 | | Direct guest join | BlueJeans: Available <br> Webex: Available<br> Zoom: Available| BlueJeans: Not available <br> Webex: Available<br> Zoom: Available |
-| | Direct guest join with ID | BlueJeans: Not available <br> Webex: Not available<br> Zoom: Available | BlueJeans: Not available <br> Webex: Not available<br> Zoom: Not available |
+| | Direct guest join with ID | BlueJeans: Not available <br> Webex: Not available<br> Zoom: Available | BlueJeans: Not available <br> Webex: Not available<br> Zoom: Available |
 | | SIP/H.323 calling | Available | Not available |
 | | PSTN calling | Available | Available |
 | | Admins can require meeting ID and passcode on meeting join | Available | Available |

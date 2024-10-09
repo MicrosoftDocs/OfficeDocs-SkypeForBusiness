@@ -1,15 +1,16 @@
 ---
 title: "Stream classification in Call Quality Dashboard (CQD)"
-author: CarolynRowe
-ms.author: crowe
+author: mkbond007
+ms.author: mabond
 manager: pamgreen
-ms.reviewer: gageames
+ms.reviewer: jamp
 ms.date: 05/22/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
   - M365-voice
+  - m365initiative-voice
   - Tier1
 search.appverid: MET150
 audience: Admin
@@ -21,12 +22,14 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Optimization
-description: "Learn how stream quality is classified in the Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online."
+description: "Learn how stream quality is classified in the Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business."
 ---
 
 # Stream Classification in Call Quality Dashboard (CQD)
 
-The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to gain insights into the quality of calls made using Microsoft Teams and Skype for Business services. This topic provides detailed information about the quality classification of media streams. To learn more about CQD and how to set it up, see [Set up Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md).
+The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business allows you to gain insights into the quality of calls made using Microsoft Teams and Skype for Business services. This topic provides detailed information about the quality classification of media streams. To learn more about CQD and how to set it up, see [Set up Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md).
+
+For a broader and deeper view of call telemetry that looks at several factors to determine perceived user experience of calls and to identify possible root cause when there's a suspected degradation in quality, see [Intelligent media quality classifiers in CQD](cqd-intelligent-media-quality-classifiers.md).
 
 ## Classifier Definitions
 
@@ -122,7 +125,7 @@ If ICE connectivity succeeded for an _Unclassified_ stream, the stream is likely
 
 [Upload tenant and building data](CQD-upload-tenant-building-data.md)
 
-[CQD data and reports](CQD-data-and-reports.md)
+[CQD data and reports](cqd-data-and-reports.md)
 
 [Use CQD to manage call and meeting quality](quality-of-experience-review-guide.md)
 

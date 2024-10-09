@@ -21,15 +21,18 @@ ms.localizationpriority: medium
 
 # Custom emojis in Microsoft Teams
 
-Microsoft Teams now allows users to add their own custom emojis and reactions by uploading an image or GIF file. These emojis and reactions are also accessible to all users in the tenant alongside the standard Teams emojis and reactions. Up to 5000 custom emojis can be added per tenant. This feature is currently not available for EDU tenants.
+Microsoft Teams now allows users to add their own custom emojis and reactions by uploading an image or GIF file. These emojis and reactions are also accessible to all users in the tenant alongside the standard Teams emojis and reactions. Up to 5,000 custom emojis can be added per tenant. This feature is currently not available for EDU tenants.
 
 The new custom emojis and reactions feature will be turned on by default. Users in the tenant will be able to upload emojis. You can preemptively turn this feature off or restrict which users can create new emojis via the Teams Admin Center controls described in this article.
 
+> [!NOTE]
+> Custom emojis are available in cross-tenant and federated scenarios. Users outside of your tenant can't see your tenant's custom emojis in their own emoji menu, however, they can view any custom emojis that are sent to them. Furthermore, any AAD-authenticated user can access or download an emoji asset if they've obtained the content URL and image ID.
+
 ## Timelines
 
-- Targeted Release: We're rolling this feature out now and we expect to be completed by mid-July 2024.
+- Targeted Release: This was completed in mid-July 2024.
 - Worldwide, GCC: We began rolling out early July 2024 and expect to complete by early August 2024.
-- GCC High, DoD: We'll begin rolling out early August 2024 and expect to complete by late August 2024.
+- GCC High, DoD: We'll begin rolling out early August 2024 and expect to complete by early September 2024.
 
 ## How to use this feature
 

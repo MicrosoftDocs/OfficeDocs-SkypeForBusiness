@@ -1,7 +1,7 @@
 ---
 title: Overview of voice and face enrollment
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: parisataheri  
 ms.date: 05/02/2024  
@@ -111,23 +111,47 @@ If users leave the organization, the customer data is deleted accordingly with t
 
 ## Admin settings
 
+Please connect to PowerShell and ensure you are running the latest version. For detailed instructions and the update command, refer to the [Install Microsoft Teams PowerShell ](/microsoftteams/teams-powershell-install) article.
+
 Admins can turn on or off voice and face enrollment for specific users, or groups using the [Team meeting policy](/powershell/module/teams/set-csteamsmeetingpolicy). By default, voice and face enrollment is disabled for all users in the organization, but admins can change this setting using PowerShell:
 
 ```Powershell
-Set-CsTeamsMeetingPolicy -Identity Global -EnrollUserOverride Enabled or Disabled 
+Set-CsTeamsMeetingPolicy -Identity Global -EnrollUserOverride Enabled 
+```
+
+
+```Powershell
+Set-CsTeamsMeetingPolicy -Identity Global -EnrollUserOverride Disabled 
 ```
 
 To enable or disable voice and face enrollment for specific users, admins can either assign a custom meeting policy to the users or use the following PowerShell cmdlet:
 
 ```Powershell
-Grant-CsTeamsMeetingPolicy -Identity -PolicyName -EnrollUserOverride Enabled or Disabled 
+Set-CsTeamsMeetingPolicy -Identity -PolicyName -EnrollUserOverride Enabled
 ```
+
+ 
+
+
+```Powershell
+Set-CsTeamsMeetingPolicy -Identity -PolicyName -EnrollUserOverride Disabled 
+```
+
+ 
 
 Admins can manage how voice and face profiles are used to turn off Voice Isolation for users to enhance noise and voice background reduction admins can switch off voice isolation with PowerShell in the meeting policy.
 
 ```powershell
-  -VoiceIsolation Enabled or Disabled
+  -VoiceIsolation Enabled 
 ```
+
+
+```Powershell
+
+  -VoiceIsolation Disabled
+```
+
+ 
 
 To prevent recognition of users in meeting rooms, admins can turn off (default) face and voice identification on the Microsoft Teams room account in the meeting policy.
 
@@ -150,10 +174,6 @@ To export the voice and face profiles of users using the Teams Admin Center, adm
 
 **Question:** For how long do you keep the data?  
 **Answer:** The retention policy is one year. User's data will be deleted if it isn't used for one year.
-
-**Question:** Is storage GDPR compliant?  
-
-**Answer:** Yes.
 
 **Question:** How is data stored and processed for cross tenants?  
 

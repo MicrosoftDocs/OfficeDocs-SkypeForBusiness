@@ -33,10 +33,11 @@ To learn about recording for live events, see [Live event recording policies in 
 
 When a meeting is recorded:
 
-- It gets uploaded to the meeting organizer's OneDrive (private meetings) or SharePoint (channel meetings)
-- People invited to the meeting have permissions to view the recording (guests and external attendees can view the recording only if the recording is explicitly shared with them)
+- It gets uploaded to the meeting organizer's OneDrive (private meetings) or SharePoint (channel meetings). To learn more about recordings in OneDrive and SharePoint, see [Teams meeting recording storage and permissions in OneDrive and SharePoint](tmr-meeting-recording-change.md).
+- People invited to the meeting have permissions to view the recording (guests and external attendees can view the recording only if the recording is explicitly shared with them).
 - Microsoft Purview compliance, OneDrive file storage, and access permissions apply to the meeting recording files the same as with other files.
 - It's linked in the chat for the meeting.
+- It's displayed in the **Recordings and Transcripts** tab for the meeting in Teams calendar.
 - It's added to various file lists across Microsoft 365: Shared with me, office.com, Recommended, Recent, etc.
 - Microsoft 365 Search indexes it
 
@@ -147,8 +148,8 @@ There are two ways for you to view consent data. The first way is in the [Teams 
 
 The following user types are auto consented for recording and transcription without any participant interaction. They get a consent notification, and their consent data is logged as 'not applicable' or 'auto consent':
 
-- Teams Rooms on Windows
 - Teams Rooms on Android
+- Teams Rooms on Windows
 - Third party video conferencing devices via Cloud Video Interop (CVI)
 - Third party video conferencing devices connecting via Direct Guest Join (DGJ)
 
@@ -156,21 +157,23 @@ The following user types are auto consented for recording and transcription with
 
 Explicit consent is supported on the following endpoints:
 
-- Teams native Windows
-- Teams native Mac
-- Teams Web
 - Mobile Teams (Android and iOS)
 - Meeting participants dialing in using [Audio Conferencing](conferencing-recording-consent.md)
+- PSTN calls
+- Shared devices
+- Teams native Mac
+- Teams native Windows
+- Teams Phone devices (including audio conferencing phone devices)
+- Teams Web
 - VDI
 
 #### Unsupported endpoints and platforms
 
 In meetings requiring explicit consent, users joining from unsupported endpoints have the view-only experience. Explicit consent isn’t supported on the following endpoints, along with any endpoints not listed under supported endpoints:
 
-- Teams Phone devices (including audio conferencing phone devices)
-- Teams Displays
 - CarPlay
 - Old version native clients
+- Teams Displays
 
 ## Block or allow download of channel meeting recordings
 
@@ -216,9 +219,17 @@ You shouldn't rely on meeting expiration settings for legal protection since end
 
 #### Recording expiration settings and Microsoft 365 retention policies in Microsoft Purview
 
-File retention takes precedence over file deletion. A Teams meeting recording expiration policy can't delete a Teams meeting recording with a Purview retention policy until after the retention period is completed. For example, if you have a Purview retention policy that says a file will be kept for five years and a Teams meeting recording expiration policy set for 60 days, the Teams meeting recording expiration policy permanently deletes the recording after five years.
+#### File retention vs expiration policies
+
+File retention takes precedence over file deletion. A Teams meeting recording expiration policy can't delete a Teams meeting recording with a Purview retention policy until after the retention period is completed. For example, if you have a Purview retention policy that says a file will be kept for five years and a Teams meeting recording expiration policy set for 60 days, the Teams meeting recording expiration policy permanently deletes the recording after five years. 
+
+Once the recording reaches the expiration date, it gets deleted from the user’s OneDrive, and is copied to the tenant's Preservation Hold library. Your users can't see the recording in OneDrive anymore, but as an admin, only you can find the recording in the Preservation Hold library. To learn more about the Preservation Hold library, see [Learn about retention for SharePoint and OneDrive](/purview/retention-policies-sharepoint#how-retention-works-for-sharepoint-and-onedrive).
+
+#### Expiration vs deletion policies
 
 If you have a Teams meeting recording expiration policy and Purview deletion policy with different deletion dates, the file is deleted at the earliest of the two dates. For example, if you have a Purview deletion policy that says a file will be deleted after one year and a Teams meeting recording expiration set for 120 days, the Teams meeting recording expiration policy will delete the file after 120 days.
+
+#### Deleting recordings before the expiration date
 
 Users can manually delete their recordings before the expiration date unless there's a Purview retention policy that prevents it. If a user manually deletes a recording that's still in the retention period, the recording is held in the Preservation Hold library. However, the recording shows as deleted to the end user. To find out more, see [Learn about retention for SharePoint and OneDrive](/microsoft-365/compliance/retention-policies-sharepoint).
 
@@ -281,3 +292,4 @@ You can use the following diagnostic tool to validate that the meeting recording
 - [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md)
 - [Roles in a Teams meeting](https://support.microsoft.com/office/c16fa7d0-1666-4dde-8686-0a0bfe16e019)
 - [Block the download of Teams meeting recording files from SharePoint or OneDrive](block-download-meeting-recording.md)
+

@@ -1,10 +1,10 @@
 ---
 title: Supported Conditional Access and Intune device compliance policies for Microsoft Teams Rooms
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: altsou
-ms.date: 11/13/2023
+ms.reviewer: dimehta
+ms.date: 08/22/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -40,7 +40,7 @@ The following list includes the supported Conditional Access policies for Teams 
 | Assignment                               | Teams Rooms on Windows                                                                                                                                                                              | Teams Rooms on Android and panels                                                                                                                                                                              | Teams phones and displays                                                                                                                                                    |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | User or workload identities              | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            | Supported                                                                                                                                                            |
-| Cloud apps or actions                    | Supported <br><br> Teams Rooms needs to access the following three Cloud apps when in Teams only mode: Office 365 Exchange Online, Office 365 SharePoint Online, and Microsoft Teams | Supported <br><br> Teams Rooms needs to access the following three Cloud apps when in Teams only mode: Office 365 Exchange Online, Office 365 SharePoint Online, and Microsoft Teams | Supported<br><br>Teams Android devices need to access the following three Cloud apps: Office 365 Exchange Online, Office 365 SharePoint Online, and Microsoft Teams  |
+| Cloud apps or actions                    | Supported <br><br> Teams Rooms needs to access the following Cloud apps: Office 365, Office 365 Exchange Online, Office 365 SharePoint Online, and Microsoft Teams Services | Supported <br><br> Teams Rooms needs to access the following Cloud apps: Office 365, Office 365 Exchange Online, Office 365 SharePoint Online, and Microsoft Teams Services | Supported <br><br> Teams Rooms needs to access the following Cloud apps: Office 365, Office 365 Exchange Online, Office 365 SharePoint Online, and Microsoft Teams Services  |
 | **Conditions**                           | ---                                                                                                                                                                                  | ---                                                                                                                                                                                  | ---                                                                                                                                                                  |
 | User risk                                | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            | Supported                                                                                                                                                            |
 | Sign-in risk                             | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            | Supported                                                                                                                                                            |
@@ -72,18 +72,7 @@ The following list includes the supported Conditional Access policies for Teams 
 > 
 > [!NOTE]
 > Authentication Strength including but not limited to, FIDO2 Security keys, is not supported for use with Conditional Access policys that will affect all Teams Devices.
-> 
-> [!NOTE]
-> Skype for Business Online is retired and not supported. Skype for
-Business Online cloud app is not supported for device compliance based
-Conditional Access policies.
 
-> [!NOTE]
-> Microsoft Teams Rooms on Windows must meet the following
-requirements to support device compliance grant controls:
->
-> - Microsoft Teams Rooms application 4.8.19.0 or above
-> - Windows 10 version 20H2 and above (10.0.19042)
 
 ## Supported device compliance policies 
 

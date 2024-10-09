@@ -41,7 +41,7 @@ Before proceeding with the uninstallation, you should try to identify how classi
 
 3. **Admin-Deployed Teams Machine-Wide Installer Without Microsoft 365 Apps**:
    - Classic Teams was deployed machine-wide by an admin without using Microsoft 365 Apps (typically by deploying the Teams Machine-Wide Installer directly).
-   - **Action**: After new Teams is deployed, an attempt will be made to remove classic Teams after a period of time. If Microsoft 365 Apps is present, after new Teams is deployed, an attempt to remove the Teams Machine-Wide Installer will be made as well. Otherwise, admins must proactively uninstall the Teams Machine-Wide Installer using their existing deployment tools. See [Bulk install classic Teams using Windows Installer (MSI)](msi-deployment.md) for more information.
+   - **Action**: After new Teams is deployed, an attempt will be made to remove classic Teams after a period of time. If Microsoft 365 Apps is present, after new Teams is deployed, an attempt to remove the Teams Machine-Wide Installer will be made as well. Otherwise, admins must proactively uninstall the Teams Machine-Wide Installer using their existing deployment tools. For more information, see [Bulk install classic Teams using Windows Installer (MSI)](msi-deployment.md).
 
 > [!NOTE]
 > If your organization has the **New Teams as default** setting, which allows users to switch back, the uninstallation of classic Teams removes the switch option.
@@ -89,6 +89,19 @@ You can learn more at [Uninstall an app with Intune for Windows](/mem/intune/app
 - For **Persistent VDI** configurations, follow the steps for admin-deployed Teams Machine-Wide Installer without Microsoft 365 Apps.
 - For **Non-Persistent VDI** configurations, admins must manage the uninstallation process according to their device configuration.
 
+### Removing Classic Teams on macOS
+
+To remove the Classic Teams client from a macOS device, execute the following commands in the terminal:
+
+```
+# Remove Classic Teams
+sudo rm -rf /Applications/Microsoft\ Teams\ classic.app
+# Remove Classic Teams cache
+rm -rf ~/Library/Application\ Support/Microsoft/Teams
+```
+
+Make sure you have the necessary permissions to execute these commands. This process will completely remove the Classic Teams client and its associated file.
+
 ## FAQs
 
 - **How do I know if users still have classic Teams?**
@@ -98,7 +111,7 @@ You can learn more at [Uninstall an app with Intune for Windows](/mem/intune/app
   If the policy is set to **New Teams only**, Classic Teams will be uninstalled some time after the new Teams installation completes, and once users receive the new Teams policy settings. If the Teams Machine-Wide Installer is present, Microsoft 365 Apps can uninstall it for each user as they sign in.
 
 - **How much network bandwidth is required for the new Teams update?**
-  The initial update is approximately 150 MB, with subsequent updates ranging from 120-150 MB. This update is automatically downloaded and installed from the internet once per device (multi-user devices do not download the binaries for each user). An admin can also choose to do an offline installation using the [bulk installer](new-teams-bulk-install-client.md). The [MSIX app package updates](/windows/msix/desktop/managing-your-msix-deployment-update) article will have more details.
+  The initial update is approximately 150 MB, with subsequent updates ranging from 120-150 MB. This update is automatically downloaded and installed from the internet once per device (multi-user devices don't download the binaries for each user). An admin can also choose to do an offline installation using the [bulk installer](new-teams-bulk-install-client.md). The [MSIX app package updates](/windows/msix/desktop/managing-your-msix-deployment-update) article has more details.
 
 - **How can I remove all copies of classic Teams from a multi-user device without each user signing in?**
   Manual deletion is possible but not recommended as it may leave residual files.
@@ -113,5 +126,4 @@ You can learn more at [Uninstall an app with Intune for Windows](/mem/intune/app
 
 This article will be updated at a later time with additional information on:
 
-- Uninstalling classic Teams from macOS
 - VDI-specific guidance

@@ -47,7 +47,7 @@ Before changing the usage of a number:
 
 To change the usage of a phone number by using the Teams admin center:
 
-1. Open the Microsoft Teams admin center and log in with a Global admin or a Teams administrator account. This account is usually the one you used to sign up for Microsoft 365.
+1. Open the Microsoft Teams admin center and log in with a Teams Telephony Administrator or higher account. 
 
 2. In the left navigation, select **Voice** \> **Phone numbers**.
 
@@ -64,6 +64,9 @@ To change the usage of a phone number by using the Teams admin center:
    The list only displays usages that are available for the telephone number, depending on its number type (geographic, non-geographic, or toll-free) and supplier. You can quickly review the available usages for each phone number by setting the **Available usages** column in the Phone numbers table to visible.
 
 5. Select **Apply** to set the Licensed usage.
+
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see [About administrator roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles) and [Teams administrator roles](using-admin-roles.md).
 
 ## Still need assistance?
 

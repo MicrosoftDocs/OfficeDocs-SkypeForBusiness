@@ -23,6 +23,8 @@ description: Learn how to enable end-to-end encryption for Teams meetings.
 
 # Require end-to-end encryption for sensitive Teams meetings
 
+**APPLIES TO:** ✔️Meetings ✖️Webinars ✖️Town halls
+
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
 End-to-end encryption is the encryption of information at its origin and decryption at its intended destination without the ability for intermediate nodes to decrypt. When meetings in Teams are end-to-end encrypted, nobody except for the participants in the meeting can hear or see the communication. No other party, including Microsoft, has access to the decrypted conversation.
@@ -31,7 +33,7 @@ End-to-end encrypted meetings can be made between two parties when: the parties 
 
 Web, Virtual Desktop (VDI), and Cloud Video Interoperability(CVI) devices aren't currently supported. Participants trying to join an end-to-end encrypted meeting from one of these platforms are blocked.
 
-A maximum of 200 participants can attend an end-to-end encrypted meeting. If the first participant joins from a Teams Rooms device, the maximum number of participants is 200.
+A maximum of 200 participants can attend an end-to-end encrypted meeting.
 
 > [!Note]
 > End-to-end meeting encryption requires Teams Premium.
@@ -52,7 +54,7 @@ Some features aren't available during an end-to-end encrypted meeting, including
 
 - Breakout rooms
 
-- Copilot for Teams meetings
+- Microsoft 365 Copilot in Teams meetings and events
 
 - Excel Live
 

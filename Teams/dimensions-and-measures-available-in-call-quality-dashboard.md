@@ -25,12 +25,12 @@ f1.keywords:
 ms.custom: 
  - Reporting
  - seo-marvel-mar2020
-description: "Get detailed information about the dimensions and measurements used by the Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online."
+description: "Get detailed information about the dimensions and measurements used by the Call Quality Dashboard (CQD) for Microsoft Teams."
 ---
 
 # Dimensions and measurements available in Call Quality Dashboard (CQD)
 
-The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to understand the quality of calls made with these services. This article describes the dimensions and measurements visible through CQD. To learn more about CQD, see [Use CQD to manage call and meeting quality in Microsoft Teams](quality-of-experience-review-guide.md).
+The Call Quality Dashboard (CQD) for Microsoft Teams allows you to understand the quality of calls made with these services. This article describes the dimensions and measurements visible through CQD. To learn more about CQD, see [Use CQD to manage call and meeting quality in Microsoft Teams](quality-of-experience-review-guide.md).
 
 ## First and Second endpoint classification
 
@@ -42,7 +42,7 @@ Many of the dimensions and measurements in CQD are labeled as first or second. T
 
 In the following example, each row represents a pair of User Agents involved in a stream:
 
-|User Agent Category of Caller |User Agent Category of Callee |First Endpoint |Second Endpoint|First Is Caller
+|User Agent Category of Caller |User Agent Category of Callee |First Endpoint |Second Endpoint|First Is Caller|
 |:--- |:--- |:--- |:--- |:--- |
 |AV-MCU |OC (Skype for Business client) |AV-MCU |OC (Skype for Business client) |TRUE |
 |OC (Skype for Business client) |AV-MCU |AV-MCU |OC (Skype for Business client) |FALSE |
@@ -79,7 +79,6 @@ For example, the Duration (Minutes) dimension represents the call duration in se
 |064: [1 - 2) |1 minute < = stream duration < 2 minutes |
 |065: [2 - 3) |2 minutes < = stream duration < 3 minutes |
 |066: [3–4) |3 minutes < = stream duration < 4 minutes |
-|  | |
 
 The \<sort order string> is used to control the sort order when presenting the data and can be used for filtering. For example, a filter on Duration (Minutes) < "065", would show streams with duration less than 2 minutes (The leading '0' is needed for the filter to work as expected). The actual value of the sort order string isn't significant.
 
@@ -105,13 +104,12 @@ For example, the Network Connection Detail Pair shows the Network Connection Det
 |Wired : Wired |First and second endpoints both used wired ethernet connections. |
 |Wired : wifi | One endpoint used a wired ethernet connection and the other endpoint used a Wi-Fi connection. |
 |: wifi |One endpoint used a WiFi connection and the network connection used by the other endpoint is unknown. |
-| | |
 
 #### Blank values
 
 The table below describes why a dimension might be blank. Many dimensions and measurements are blank if the QoE Record Available dimension is false. Missing QoE typically occurs when the call isn't successfully established, or when the client fails to send its telemetry to the service.
 
-### Available dimensions 
+### Available dimensions
 
 The following table lists the dimensions currently available in CQD, in the order listed in the Query Editor used to create reports or edit previously defined reports.
 
@@ -278,8 +276,8 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 | Mediation Server Bypass Flag  | Boolean  | True if the media stream bypassed the Mediation Server and went straight between client and PSTN Gateway/PBX, False otherwise.   | &bull; Transport type wasn't reported <br/>&bull; The media path wasn't established    |
 | First CDR Connectivity Type  | Enumeration <br/>**Possible values:** <br/>&bull; OS <br/>&bull; PeerDerived <br/>&bull; Stun <br/>&bull; Turn  | Identifies the ICE connectivity path selected by the first endpoint for use for this stream. <br/> **Example value:** OS  | &bull; Transport type wasn't reported <br/>&bull; The media path wasn't established   |
 | Second CDR Connectivity Type  | Enumeration <br/>**Possible values:** <br/>&bull; OS <br/>&bull; PeerDerived <br/>&bull; Stun <br/>&bull; Turn  | Identifies the ICE connectivity path selected by the second endpoint for use for this stream.  <br/> **Example value:** OS   | &bull; Transport type wasn't reported <br/>&bull; The media path wasn't established   |
-|First BSSID|String | The Wireless LAN basic service set identifier of the First endpoint used to connect to the network.| |
-| Second BSSID| String|The Wireless LAN basic service set identifier of the Second endpoint used to connect to the network.| |
+|First BSSID|String | The Wireless LAN basic service set identifier of the First endpoint used to connect to the network. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.| |
+| Second BSSID| String|The Wireless LAN basic service set identifier of the Second endpoint used to connect to the network. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.| |
 | First Base Address | String | IP address of the interface that the first endpoint used for allocating media relay candidates. Only available for the past 28 days of data and only visible to users with roles allowing EUII access. <br/> **Example value:** 10.0.0.10 | &bull; Transport Diagnostic type wasn't reported <br/>&bull; The media path wasn't established |
 | Second Base Address | String | IP address of the interface that the second endpoint used for allocating media relay candidates. Only available for the past 28 days of data and only visible to users with roles allowing EUII access. <br/> **Example value:** 10.0.0.10 | &bull; Transport Diagnostic type wasn't reported <br/>&bull; The media path wasn't established |
 | First Local Address | String | IP address that the first endpoint used for media flow at the end of media connectivity checks. Only available for the past 28 days of data and only visible to users with roles allowing EUII access. <br/> **Example value:** 10.0.0.10 | &bull; Transport Diagnostic type wasn't reported <br/>&bull; The media path wasn't established |
@@ -458,6 +456,8 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 | Second Capture Dev Name| String | Name of the audio capture device used by the second endpoint. ||
 | First Render Dev Name| String | Name of the audio playback device used by the first endpoint. ||
 | Second Render Dev Name| String | Name of the audio playback device used by the second endpoint. ||
+| First Noise Suppression Model Download Failure | Boolean | Indicates if the First endpoint successfully downloaded the noise suppression model prior to outbound audio stream establishment. | &bull; Noise suppression model download is not applicable to or supported by the endpoint or codec. <br/> &bull; Stream is not outbound audio. |
+| Second Noise Suppression Model Download Failure | Boolean | Indicates if the Second endpoint successfully downloaded the noise suppression model prior to outbound audio stream establishment. | &bull; Noise suppression model download is not applicable to or supported by the endpoint or codec. <br/> &bull; Stream is not outbound audio. |
 |**Measure**||||
 | ClassifiedPoorCall  | Boolean  | True if one or more streams in the call were classified as poor based on the metrics listed in [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md).   | &bull; The call didn't have sufficient metrics reported to be classified as good or poor   |
 | Video Poor Due To VideoPostFecplr  | Boolean  | True if the stream is classified as poor based on the Video Post FEC PLR metric threshold listed here: [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md). Is always False for non-video streams.   | &bull; The endpoint didn't report this data  <br/>&bull; The stream wasn't a video stream.  |
@@ -694,16 +694,22 @@ Second Media Bypass |	Boolean	| Indicates if the audio stream was bypassing the 
 |Teams Events Attendee Stream Buffering Rate|Range (Ratio)|Indicates the ratio of the stream spent waiting for video buffering versus the overall stream playback time.||
 |Teams Events Attendee Average Stream Download Bit Rate|Integer (bits/second)|The length of the stream viewed by the user, in seconds.||
 |**VDI**||||
-|First Client VDI Desktop Version| String | The VDI Teams client version of the first endpoint. | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
-|Second Client VDI Desktop Version | String | The VDI Teams client version of the second endpoint. | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
-|First Client VDI Mode| String | The vdiMode value of the first endpoint. <br/> **Example:** 3100 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
-|Second Client VDI Mode| String | The vdiMode value of the second endpoint. <br/> **Example:** 3100 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
-|First Client VDI Connected State | String | Indicates the VDI connected state of the first endpoint.| &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
-|Second Client VDI Connected State| String | Indicates the VDI connected state of the second endpoint.| &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
-|First Client VDI Provider Version| String | The VDI provider client version of the first endpoint. | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
-|Second Client VDI Provider Version| String | The VDI provider client version of the second endpoint. | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
-|First Client VDI Is Optimized| String | Indicates if the first endpoint's VDI client is operating in optimized mode. | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
-|Second Client VDI Is Optimized| String | Indicates if the second endpoint's VDI client is operating in optimized mode. | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|First Client VDI Desktop Version| String | The VDI Teams client version of the first endpoint. <br/> **Example:** 24165.1414.2987.41 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|Second Client VDI Desktop Version | String | The VDI Teams client version of the second endpoint. <br/> **Example:** 24165.1414.2987.41 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|First Client VDI Mode| String | The vdiMode value of the first endpoint. <br/> **Example:** 3100 <br/> First digit = `[1,2 for Citrix]` `[3 for VMware]` `[5 for AVD/Windows 365]` <br/> Second digit = `[0 not optimized]` `[1 optimized with WebRTC]` `[2 optimized with SlimCore]`| &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|Second Client VDI Mode| String | The vdiMode value of the second endpoint. <br/> **Example:** 3100 <br/> First digit = `[1,2 for Citrix]` `[3 for VMware]` `[5 for AVD/Windows 365]` <br/> Second digit = `[0 not optimized]` `[1 optimized with WebRTC]` `[2 optimized with SlimCore]` | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|First Client VDI Connected State | String | Indicates the VDI connected state of the first endpoint. <br/> **Example:** Connected | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|Second Client VDI Connected State| String | Indicates the VDI connected state of the second endpoint. <br/> **Example:** Connected | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|First Client VDI Provider Version| String | The VDI provider client version of the first endpoint. <br/> **Example:** 24.2.0.187 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|Second Client VDI Provider Version| String | The VDI provider client version of the second endpoint. <br/> **Example:** 24.2.0.187 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|First Client VDI Is Optimized| String | Indicates if the first endpoint's VDI client is operating in optimized mode. <br/> **Example:** VDI 2.0 Optimized | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|Second Client VDI Is Optimized| String | Indicates if the second endpoint's VDI client is operating in optimized mode. <br/> **Example:** VDI 2.0 Optimized | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|First Client VDI OS Version| String | Version of the operating system running on the first VDI client endpoint. <br/> **Example:** 10.0.19045 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|Second Client VDI OS Version| String | Version of the operating system running on the second VDI client endpoint. <br/> **Example:** 10.0.19045 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|First Client VDI Media Stack Version| String | Version of the SlimCore media engine running on the first VDI client endpoint. <br/> **Example:** 2024.14.1.1 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|Second Client VDI Media Stack Version| String | Version of the SlimCore media engine running on the second VDI client endpoint. <br/> **Example:** 2024.14.1.1 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|First Client VDI Plugin Version| String | Version of the Teams plugin for the first VDI client endpoint. <br/> **Example:** 2024.15.1.1 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
+|Second Client VDI Plugin Version| String | Version of the Teams plugin for the second VDI client endpoint. <br/> **Example:** 2024.15.1.1 | &bull; Endpoint isn't running on VDI. <br/> &bull; Data wasn't provided by the endpoint|
 |**Datapair**||||
 | Network Connection Detail Pair  | Enumerated pair <br/>**Possible values:** <br/> wifi : wifi <br/> wifi : wired <br/> Wired : wifi <br/> Wired : Wired <br/> MobileBB : MobileBB <br/> MobileBB : Other <br/> MobileBB : Tunnel <br/> MobileBB : wifi <br/> MobileBB : Wired <br/> Other : Other <br/> Other : wifi <br/> Other : Wired <br/> Tunnel : Tunnel <br/> Tunnel : wifi <br/> Tunnel : Wired <br/> : MobileBB <br/> : Other <br/> : Tunnel <br/> : wifi <br/> : Wired <br/> :  | Pair of network connection detail for the first and second endpoint.  | &bull; Endpoint network connectivity type was unknown. This might happen if the call couldn't be established.   |
 | User Agent Category Pair  | Enumerated pair  | Pair of User Agent Category for first and second endpoint. <br/> **Example value:** AV-MCU : OC  | &bull; Endpoint user agent wasn't a known type  |
@@ -770,6 +776,10 @@ Many Measurement values can also be used as filters. The following table lists t
 | Audio Good Call Count |Number of calls|Number of calls involving audio classified as good. There's an up to 0.2% error for this measure. See notes below for details.|
 | Audio Unclassified Call Count |Number of calls|Number of calls involving audio that couldn't be classified Good or Poor. Unclassified calls are omitted from 'Poor Call Percentage' calculations. There's an up to 0.2% error for this measure. See note below for details.|
 | Audio Poor Call Percentage |Percentage of calls|Percentage of classified calls involving audio classified as poor. There's an up to 0.2% error for this measure. See note below for details.|
+| First Noise Suppression Model Download Failure Count | Number of streams | Number of outbound audio streams where First endpoints failed to download the noise suppression model successfully.|
+| Second Noise Suppression Model Download Failure Count | Number of streams | Number of outbound audio streams where Second endpoints failed to download the noise suppression model successfully.|
+| First Noise Suppression Model Download Failure Percentage | Percentage of streams (Decimal) | Percentage of outbound audio streams where First endpoints failed to download the noise suppression model successfully.|
+| Second Noise Suppression Model Download Failure Percentage | Percentage of streams (Decimal) | Percentage of outbound audio streams where Second endpoints failed to download the noise suppression model successfully.|
 |AppSharing Stream Count |Number of streams |Number of RDP-based application sharing streams. |
 |AppSharing Poor Due To SpoiledTilePercentTotal Count |Number of streams |Number of application sharing streams where the spoiled tile percent total metric exceeds thresholds listed here: [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md). |
 |AppSharing Poor Due To RelativeOneWayAverage Count |Number of streams |Number of application sharing streams where the relative one-way average metric exceeds thresholds listed here: [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md). |
@@ -1002,7 +1012,7 @@ You can use many Dimension and Measurement values as filters. You can use filter
 
 [Upload tenant and building data](CQD-upload-tenant-building-data.md)
 
-[CQD data and reports](CQD-data-and-reports.md)
+[CQD data and reports](cqd-data-and-reports.md)
 
 [Use CQD to manage call and meeting quality](quality-of-experience-review-guide.md)
 

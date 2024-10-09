@@ -1,10 +1,10 @@
 ---
 title: Phones and Devices for Microsoft Teams
-ms.author: tonysmit
 author: mstonysmith
+ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: slamprianou
-ms.date: 11/02/2023
+ms.date: 10/01/2024
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
@@ -12,7 +12,7 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 ms.collection: 
-  - Tier3
+  - Tier2
   - teams-rooms-devices
   - Teams_ITAdmin_Devices
 ms.localizationpriority: medium
@@ -21,23 +21,13 @@ f1.keywords:
 description: See what USB peripherals and devices (such as headsets, speakerphones, webcams, and monitors) are certified for Microsoft Teams.
 ---
 
-# USB audio and video devices certified for Microsoft Teams
+# Personal peripherals certified for Microsoft Teams
 
-The peripherals certification program ensures USB peripherals (such as headsets, speakerphones, webcams, and monitors) offer rich audio or video quality. Certified devices work (plug & play) with no extra configuration required, and offer call control with Microsoft Teams and Skype for Business. The products provide a great experience for end users and administrators.
+The personal peripherals certification program ensures peripherals (such as headsets, speakerphones, webcams, and monitors) offer rich audio or video quality. Certified devices work (plug & play) with no extra configuration required, and offer call control with Microsoft Teams. The products provide a great experience for end users and administrators.
 
 To explore devices tested and certified for Microsoft Teams, head over to the [Teams store](https://products.office.com/microsoft-teams/across-devices/devices).
 
 For more information about call control support with Teams, see [control calls using a headset in Teams](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8).
-
-> [!TIP]
-> Looking for devices certified for Skype for Business? Head over to [USB audio and video devices certified for Skype for Business](/skypeforbusiness/certification/devices-usb-devices).
-
-## Understanding certification categories
-
-Users don’t need to replace previously certified devices when upgrading to Teams from Skype for Business. All certified devices are supported for Microsoft Teams and Skype for Business users, with only a few differences. Certification also provides further designation for certain device categories.
-
-- **Skype for Business certified with Teams upgrade** Devices certified at this level were initially certified for Skype for Business. Microsoft works with device manufacturers to deliver the best Teams integration experience possible without any changes to the original hardware. The *hookswitch* button acts as a Teams button when not in a call, and may include more functions over time. Devices in this category may carry the Teams certification badge on marketing materials.
-- **Certified for Microsoft Teams** Devices certified at this level indicate the newest devices certified, for a no-compromise Teams experience. These devices offer all of the benefits of prior certification and also include a dedicated Teams button with LED indicator. With most form factors, the Teams button will be an easy-to-find tactile button with the Teams logo. Microsoft continues to work with device manufacturers to deliver new value via firmware updates over time.
 
 ### Special usage designations
 
@@ -50,14 +40,13 @@ Users don’t need to replace previously certified devices when upgrading to Tea
 - **Premium Microphone for Open Office** All headsets are tested to provide clear audio, but open office and other noisy environments pose a greater challenge. Headsets with this designation pick up the voice of the headset user but don't transmit the sound of their neighbors.
 - **Meeting room size** Shared devices such as speakerphones and cameras have a supported usage distance. Recommended distances may be different depending on the manufacturer. To give customers clear guidance, all shared devices are tested at certification against well-defined rooms sizes and noise environments.
 
-Browse [devices certified for Microsoft Teams](https://products.office.com/microsoft-teams/across-devices/devices).
-
 ## End-user experience
 
 ### New Teams certification benefits
 
 - Dedicated Teams button and LED indicator light.
-- User notification of events and alerts from the Teams client (for example, meeting starting, voicemail or missed call).
+- User notification of events and alerts from the Teams client (for example, meeting starting).
+
 - Ability to activate the Teams client or respond to notification with a press of the button (for example, to join a meeting).
 - Certification designed for extensibility (new device/client features to be delivered via firmware update).
 
@@ -75,17 +64,22 @@ Browse [devices certified for Microsoft Teams](https://products.office.com/micro
 - No provisioning required.
 - All devices support firmware updates to allow new features and performance improvements.
 
-If you're a manufacturer and want to join the certification program, see [How to Join](/skypeforbusiness/certification/how-to-join) for requirements and available programs.
+If you're a manufacturer and want to join the certification program, see [How to Join](certification-join.md) for requirements and available programs.
 
 ## Certified devices
 
-*Table Updated June 2024*
+*Table Updated October 2024*
 
 > [!NOTE]
 > The date format is MM/DD/YYYY.
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Yealink              |BH74 Headset                                               |9/25/2024       |Certified for Microsoft Teams                           |
+|EPOS                 |IMPACT 460T                                                |8/5/2024        |Certified for Microsoft Teams                           |
+|EPOS                 |IMPACT 430T                                                |8/5/2024        |Certified for Microsoft Teams                           | 
+|Yealink              |WH64 Hybrid Dual/Mono Headset                              |7/23/2024       |Certified for Microsoft Teams                           | 
+|Logi                 |H570e Stereo/Mono Headset                                  |7/2/2024        |Certified for Microsoft Teams                           |
 |Yealink              |WH64 Dual/Mono Headset                                     |6/18/2024       |Certified for Microsoft Teams                           |
 |Lenovo               |Wireless VoIP Headset                                      |5/21/2024       |Certified for Microsoft Teams                           |
 |Logi                 |Zone 305 Headset                                           |4/30/2024       |Certified for Microsoft Teams                           |

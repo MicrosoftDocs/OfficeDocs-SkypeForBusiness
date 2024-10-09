@@ -52,4 +52,4 @@ To turn on search by name:
 >
 > Turning on search by name hides the **Search teams** box and public teams listing in **Join or create a team** in Teams. It will also disable joining a team by typing `/join` in the command box at the top of Teams.
 
-When **Scope directory search using an Exchange address book** policy is turned on, all accounts that are marked as hidden in Exchange won't show up in Teams searches.
+When **Scope directory search using an Exchange address book** policy is turned on, most accounts that are marked as hidden in Exchange don't show up in Teams searches. Personal contacts show up regardless of the Search by Name setting.

@@ -86,194 +86,207 @@ If you have a 3PIP or SIP device, you must have the following:
 |Vendor    |Model      |Minimum firmware version|Approved firmware version|Remarks|Links|
 |----------|-----------|------------|-----------|------------|------------|
 |**Cisco** |           |            |           |Devices running enterprise firmware must be converted to multiplatform firmware. Read the guide at the right to learn how.|[Cisco firmware conversion guide](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-7800-series/guide-c07-742786.html)|
-|          |8832<sup>1</sup>       |11.3.5MPP   |12-0-1MPP  |   |   |
-|          |6821<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
-|          |6841<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
-|          |6851<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
-|          |6861<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
-|          |6871<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
-|          |7811<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
-|          |7821<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
-|          |7841<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
-|          |7861<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
-|          |8811<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
-|          |8841<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
-|          |8845<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
-|          |8851<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
-|          |8861<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
-|          |8865<sup>1</sup>       |11.1.1MPP   |12-0-1MPP  |   |   |
-|          |ATA191-MPP       |11.2.2MPP   |11-2-2MPP0101-013  |   |   |
-|          |ATA192-MPP       |11.2.2MPP   |11-2-2MPP0101-013  |   |   |
-|**Poly**  |           |            |           |The device will auto reboot and install the selected firmware.|   |
-|          |Trio 8500  |5.9.5.3182  |7.2.2.1094 |   |   |
-|          |Trio 8800  |5.9.5.3182  |7.2.2.1094 |   |   |
-|          |VVX150<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
-|          |VVX201<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
-|          |VVX250<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
-|          |VVX300     |5.9.5       |5.9.7.3480 |   |   |
-|          |VVX301<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
-|          |VVX310     |5.9.5       |5.9.7.3480 |   |   |
-|          |VVX311<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
-|          |VVX350<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
-|          |VVX400     |5.9.5       |5.9.7.3480 |   |   |
-|          |VVX401<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
-|          |VVX410     |5.9.5       |5.9.7.3480 |   |   |
-|          |VVX411<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
-|          |VVX450<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
-|          |VVX500     |5.9.5       |5.9.7.3480 |   |   |
-|          |VVX501<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
-|          |VVX600     |5.9.5       |5.9.7.3480 |   |   |
-|          |VVX601<sup>1</sup>    |5.9.5       |6.4.3.5814 |   |   |
-|          |Rove B1    |8.0.5.0002  |8.0.5.0002 |   |   |
-|          |Rove B2    |8.0.5.0002  |8.0.5.0002 |   |   |
-|          |Rove B4    |8.0.5.0002  |8.0.5.0002 |   |   |
-|          |Rove 20    |8.0.5.0003  |8.0.5.0003 |   |   |
-|          |Rove 30    |8.0.5.0002  |8.0.5.0002 |   |   |
-|          |Rove 40    |8.0.5.0002  |8.0.5.0002 |   |   |
-|          |Edge E100<sup>1</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
-|          |Edge E220<sup>1</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
-|          |Edge E300<sup>1</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
-|          |Edge E320<sup>1</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
-|          |Edge E350<sup>1</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
-|          |Edge E400<sup>1</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
-|          |Edge E450<sup>1</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
-|          |Edge E500<sup>1</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
-|          |Edge E550<sup>1</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
-|          |ATA 400  |4.0.1.6480     |4.0.1.6480  |   |[Poly ATA 400 Series Configuration Guide](https://kaas.hpcloud.hp.com/pdf-public/pdf_10029605_en-US-1.pdf)|
-|          |ATA 402  |4.0.1.6480     |4.0.1.6480  |   |   |
-|          |OBi 300  |3.2.4.8441     |3.2.5.8732  |   |   |
-|          |OBi 302  |3.2.4.8441     |3.2.5.8732  |   |   |
+|          |8832<sup>1</sup>       |11.3.5MPP   |12-0-3MPP  |   |   |
+|          |6821<sup>1</sup>       |11.1.1MPP   |12-0-3MPP  |   |   |
+|          |6841<sup>1</sup>       |11.1.1MPP   |12-0-3MPP  |   |   |
+|          |6851<sup>1</sup>       |11.1.1MPP   |12-0-3MPP  |   |   |
+|          |6861<sup>1</sup>       |11.1.1MPP   |12-0-3MPP  |   |   |
+|          |6871<sup>1</sup>       |11.1.1MPP   |12-0-3MPP  |   |   |
+|          |7811<sup>1</sup>       |11.1.1MPP   |12-0-3MPP  |   |   |
+|          |7821<sup>1</sup>       |11.1.1MPP   |12-0-3MPP  |   |   |
+|          |7841<sup>1</sup>       |11.1.1MPP   |12-0-3MPP  |   |   |
+|          |7861<sup>1</sup>       |11.1.1MPP   |12-0-3MPP  |   |   |
+|          |8811<sup>1</sup>       |11.1.1MPP   |12-0-3MPP  |   |   |
+|          |8841<sup>1</sup>       |11.1.1MPP   |12-0-3MPP  |   |   |
+|          |8845<sup>1</sup>       |11.1.1MPP   |12-0-3MPP  |   |   |
+|          |8851<sup>1</sup>       |11.1.1MPP   |12-0-3MPP  |   |   |
+|          |8861<sup>1</sup>       |11.1.1MPP   |12-0-3MPP  |   |   |
+|          |8865<sup>1</sup>       |11.1.1MPP   |12-0-3MPP  |   |   |
+|          |ATA191-MPP<sup>3</sup>       |11.2.2MPP   |11-2-2MPP0101-013  |   |   |
+|          |ATA192-MPP<sup>3</sup>       |11.2.2MPP   |11-2-2MPP0101-013  |   |   |
+|**Poly**  |           |            |           |The device will auto reboot and install the selected firmware.|[Poly Lens Provisioning Guide](https://info.lens.poly.com/docs/category/lens-assisted-provisioning)|
+|          |Trio 8500<sup>2</sup> |5.9.5.3182  |7.2.4.0185 |   |   |
+|          |Trio 8800<sup>2</sup> |5.9.5.3182  |7.2.4.0185 |   |   |
+|          |VVX150<sup>2</sup>    |5.9.5       |6.4.3.5814 |   |   |
+|          |VVX201<sup>2</sup>    |5.9.5       |6.4.3.5814 |   |   |
+|          |VVX250<sup>2</sup>    |5.9.5       |6.4.3.5814 |   |   |
+|          |VVX300<sup>3</sup>     |5.9.5       |5.9.7.3480 |   |   |
+|          |VVX301<sup>2</sup>    |5.9.5       |6.4.3.5814 |   |   |
+|          |VVX310<sup>3</sup>     |5.9.5       |5.9.7.3480 |   |   |
+|          |VVX311<sup>2</sup>    |5.9.5       |6.4.3.5814 |   |   |
+|          |VVX350<sup>2</sup>    |5.9.5       |6.4.3.5814 |   |   |
+|          |VVX400<sup>3</sup>     |5.9.5       |5.9.7.3480 |   |   |
+|          |VVX401<sup>2</sup>    |5.9.5       |6.4.3.5814 |   |   |
+|          |VVX410<sup>3</sup>     |5.9.5       |5.9.7.3480 |   |   |
+|          |VVX411<sup>2</sup>    |5.9.5       |6.4.3.5814 |   |   |
+|          |VVX450<sup>2</sup>    |5.9.5       |6.4.3.5814 |   |   |
+|          |VVX500<sup>3</sup>     |5.9.5       |5.9.7.3480 |   |   |
+|          |VVX501<sup>2</sup>    |5.9.5       |6.4.3.5814 |   |   |
+|          |VVX600<sup>3</sup>     |5.9.5       |5.9.7.3480 |   |   |
+|          |VVX601<sup>2</sup>    |5.9.5       |6.4.3.5814 |   |   |
+|          |Rove B1<sup>1</sup>    |8.0.5.0002  |8.0.5.0002 |   |   |
+|          |Rove B2<sup>1</sup>    |8.0.5.0002  |8.0.5.0002 |   |   |
+|          |Rove B4<sup>1</sup>    |8.0.5.0002  |8.0.5.0002 |   |   |
+|          |Rove 20<sup>1</sup>    |8.0.5.0003  |8.0.5.0003 |   |   |
+|          |Rove 30<sup>1</sup>    |8.0.5.0002  |8.0.5.0002 |   |   |
+|          |Rove 40<sup>1</sup>    |8.0.5.0002  |8.0.5.0002 |   |   |
+|          |Edge E100<sup>2</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E220<sup>2</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E300<sup>2</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E320<sup>2</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E350<sup>2</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E400<sup>2</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E450<sup>2</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E500<sup>2</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |Edge E550<sup>2</sup>  |8.1.0.12774  |8.1.0.12774 |   |   |
+|          |ATA 400<sup>3</sup>  |4.0.1.6480     |4.0.1.6480  |   |[Poly ATA 400 Series Configuration Guide](https://kaas.hpcloud.hp.com/pdf-public/pdf_10029605_en-US-1.pdf)|
+|          |ATA 402<sup>3</sup>  |4.0.1.6480     |4.0.1.6480  |   |   |
+|          |OBi 300<sup>3</sup>  |3.2.4.8441     |3.2.5.8732  |   |   |
+|          |OBi 302<sup>3</sup>  |3.2.4.8441     |3.2.5.8732  |   |   |
 |**Yealink**|          |            |           |   |[Yealink support](https://www.yealink.com)|
-|          |T21P       |83          |34.72.0.75 |   |   |
-|          |T21P_E2    |83          |52.84.0.125|   |   |
-|          |T23G       |83          |44.84.0.140|   |   |
+|          |T21P<sup>3</sup>       |83          |34.72.0.75 |   |   |
+|          |T21P_E2<sup>3</sup>    |83          |52.84.0.125|   |   |
+|          |T23G<sup>3</sup>       |83          |44.84.0.140|   |   |
 |          |T27G<sup>1</sup>      |83          |69.86.0.15 |   |   |
-|          |T29G       |83          |46.83.0.130|   |   |
-|          |T30<sup>1</sup>       |83          |124.86.0.40|   |   |
-|          |T30P<sup>1</sup>      |83          |124.86.0.40|   |   |
-|          |T31G<sup>1</sup>      |83          |124.86.0.40|   |   |
-|          |T31P<sup>1</sup>      |83          |124.86.0.40|   |   |
-|          |T33G<sup>1</sup>      |83          |124.86.0.40|   |   |
-|          |T40G       |83          |76.84.0.125|   |   |
-|          |T40P       |83          |54.84.0.125|   |   |
-|          |T41P       |83          |36.83.0.120|   |   |
-|          |T41S<sup>1</sup>      |83          |66.86.5.1  |   |   |
-|          |T42G       |83          |29.83.0.130|   |   |
-|          |T42S<sup>1</sup>      |83          |66.86.5.1  |   |   |
-|          |T42U<sup>1</sup>      |83          |108.86.5.1 |   |   |
-|          |T43U<sup>1</sup>      |83          |108.86.5.1 |   |   |
-|          |T46G       |83          |28.83.0.130|   |   |
-|          |T46S<sup>1</sup>      |83          |66.86.5.1  |   |   |
-|          |T46U<sup>1</sup>      |83          |108.86.5.1 |   |   |
-|          |T48G       |83          |35.83.0.130|   |   |
-|          |T48S<sup>1</sup>      |83          |66.86.5.1  |   |   |
-|          |T48U<sup>1</sup>      |83          |108.86.5.1 |   |   |
-|          |T53<sup>1</sup>       |83          |96.86.5.1  |   |   |
-|          |T53W<sup>1</sup>      |83          |96.86.5.1  |   |   |
-|          |T54W<sup>1</sup>      |83          |96.86.5.1  |   |   |
-|          |T57W<sup>1</sup>      |83          |96.86.5.1  |   |   |
-|          |W56H                  |            |61.85.0.56 |   |   |
-|          |W73H                  |            |116.85.0.38|   |   |
-|          |W59R                  |            |115.85.0.56|   |   |
-|          |W70B NOAM             |            |146.85.5.4 |   |   |
-|          |W70B EMEA             |            |146.85.5.2 |   |   |
-|          |W70B APAC             |            |146.85.5.3 |   |   |
-|          |W80 NOAM              |            |130.85.5.5 |   |   |
-|          |W80 EMEA              |            |130.85.5.6 |   |   |
-|          |W80 APAC              |            |130.85.5.4 |   |   |
-|          |W90 NOAM              |            |130.85.5.5 |   |   |
-|          |W90 EMEA              |            |130.85.5.6 |   |   |
-|          |W90 APAC              |            |130.85.5.4 |   |   |
+|          |T29G<sup>3</sup>       |83          |46.83.0.130|   |   |
+|          |T30<sup>1</sup>       |83          |124.86.0.147|   |   |
+|          |T30P<sup>1</sup>      |83          |124.86.0.147|   |   |
+|          |T31G<sup>1</sup>      |83          |124.86.0.147|   |   |
+|          |T31P<sup>1</sup>      |83          |124.86.0.147|   |   |
+|          |T33G<sup>1</sup>      |83          |124.86.0.147|   |   |
+|          |T40G<sup>3</sup>       |83          |76.84.0.125|   |   |
+|          |T40P<sup>3</sup>       |83          |54.84.0.125|   |   |
+|          |T41P<sup>3</sup>       |83          |36.83.0.120|   |   |
+|          |T41S<sup>2</sup>      |83          |66.86.5.1  |   |   |
+|          |T42G<sup>3</sup>       |83          |29.83.0.130|   |   |
+|          |T42S<sup>2</sup>      |83          |66.86.5.1  |   |   |
+|          |T42U<sup>2</sup>      |83          |108.86.5.1 |   |   |
+|          |T43U<sup>2</sup>      |83          |108.86.5.1 |   |   |
+|          |T46G<sup>3</sup>       |83          |28.83.0.130|   |   |
+|          |T46S<sup>2</sup>      |83          |66.86.5.1  |   |   |
+|          |T46U<sup>2</sup>      |83          |108.86.5.1 |   |   |
+|          |T48G<sup>3</sup>       |83          |35.83.0.130|   |   |
+|          |T48S<sup>2</sup>      |83          |66.86.5.1  |   |   |
+|          |T48U<sup>2</sup>      |83          |108.86.5.1 |   |   |
+|          |T53<sup>2</sup>       |83          |96.86.5.1  |   |   |
+|          |T53W<sup>2</sup>      |83          |96.86.5.1  |   |   |
+|          |T54W<sup>2</sup>      |83          |96.86.5.1  |   |   |
+|          |T57W<sup>2</sup>      |83          |96.86.5.1  |   |   |
+|          |W56H<sup>3</sup>                  |            |61.85.0.56 |   |   |
+|          |W73H<sup>3</sup>                  |            |116.85.0.38|   |   |
+|          |W57R<sup>3</sup>                  |            |118.85.0.27|   |   |
+|          |W59R<sup>3</sup>                  |            |115.85.0.56|   |   |
+|          |W70B NOAM<sup>3</sup>             |            |146.85.5.4 |   |   |
+|          |W70B EMEA<sup>3</sup>             |            |146.85.5.2 |   |   |
+|          |W70B APAC<sup>3</sup>             |            |146.85.5.3 |   |   |
+|          |W80 NOAM<sup>3</sup>              |            |130.85.5.5 |   |   |
+|          |W80 EMEA<sup>3</sup>              |            |130.85.5.6 |   |   |
+|          |W80 APAC<sup>3</sup>              |            |130.85.5.4 |   |   |
+|          |W90 NOAM<sup>3</sup>              |            |130.85.5.5 |   |   |
+|          |W90 EMEA<sup>3</sup>              |            |130.85.5.6 |   |   |
+|          |W90 APAC<sup>3</sup>              |            |130.85.5.4 |   |   |
 |**AudioCodes**|       |            |           |Some AudioCodes SIP devices need a provisioning URL setting. Download and install upgrade files for the affected AudioCodes devices at the right. |[Downloadable files for affected devices at AudioCodes](https://audiocodes.sharefile.com/share/view/sc9cdf17f9ec45d09/fo7914a2-4f3a-4000-8957-47bd6f35a3a5)|
-|          |405<sup>1</sup>        |2.2.8      |2.2.16.600 |   |   |
-|          |405HD<sup>1</sup>      |3.2.1      |2.2.16.600 |   |   |
-|          |405HDG<sup>1</sup>     |3.2.1      |2.2.16.600 |   |   |
-|          |420HD<sup>1</sup>      |3.2.1      |2.2.16.600 |   |   |
-|          |420HDG<sup>1</sup>     |3.2.1      |2.2.16.600 |   |   |
-|          |430HD<sup>1</sup>      |3.2.1      |2.2.16.600 |   |   |
-|          |430HDG<sup>1</sup>     |3.2.1      |2.2.16.600 |   |   |
-|          |440HD<sup>1</sup>      |3.2.1      |2.2.16.600 |   |   |
-|          |445HD<sup>1</sup>      |3.2.1      |3.4.6.717 |   |   |
-|          |445HDG<sup>1</sup>     |3.2.1      |3.4.6.717 |   |   |
-|          |450HD<sup>1</sup>      |3.2.1      |3.4.6.717  |   |   |
-|          |C450HD<sup>1</sup>     |3.2.1      |3.4.6.717  |   |   |
-|          |445HD<sup>1</sup>      |3.2.1      |3.4.6.717  |   |   |
-|          |RX50<sup>1</sup>       |3.2.1      |3.4.6.717  |   |   |
-|          |MP112                  |6.60A.367.001      |6.60A.367.001  |ATA   | All ports available [AudioCodes ATA Setup Guide](https://www.audiocodes.com/media/pafhki3d/onboarding-audiocodes-ata-to-microsoft-sip-gateway-for-teams.pdf)  |
-|          |MP114-FXS              |6.60A.367.001      |6.60A.367.001  |ATA   | 3 out of 4 ports available   |
-|          |MP114-FXS-FXO          |6.60A.367.001      |6.60A.367.001  |ATA   | 3 out of 4 ports available   |
-|          |MP118-FXS              |6.60A.367.001      |6.60A.367.001  |ATA   | 6 out of 8 ports available  |
-|          |MP118-FXS-FXO          |6.60A.367.001      |6.60A.367.001  |ATA   | 6 out of 8 ports available  |
-|          |MP124-FXS              |6.60A.367.001      |6.60A.367.001  |ATA   | 18 out of 24 ports available  |
-|          |MP1288-FXS             |7.40A.400.063      |7.40A.400.063  |ATA   | All ports available  |
-|          |MP502                  |7.26A.356.075      |7.26A.356.075  |ATA   | All ports available  |
-|          |MP504                  |7.26A.356.075      |7.26A.356.075  |ATA   | All ports available  |
-|          |MP508                  |7.26A.356.075      |7.26A.356.075  |ATA   | All ports available  |
+|          |405<sup>1</sup>        |2.2.8      |2.2.16.681 |   |   |
+|          |405HD<sup>1</sup>      |3.2.1      |2.2.16.681 |   |   |
+|          |405HDG<sup>1</sup>     |3.2.1      |2.2.16.681 |   |   |
+|          |420HD<sup>1</sup>      |3.2.1      |2.2.16.681 |   |   |
+|          |420HDG<sup>1</sup>     |3.2.1      |2.2.16.681 |   |   |
+|          |430HD<sup>1</sup>      |3.2.1      |2.2.16.681 |   |   |
+|          |430HDG<sup>1</sup>     |3.2.1      |2.2.16.681 |   |   |
+|          |440HD<sup>1</sup>      |3.2.1      |2.2.16.681 |   |   |
+|          |445HD<sup>2</sup>      |3.2.1      |3.4.8.808 |   |   |
+|          |445HDG<sup>2</sup>     |3.2.1      |3.4.8.808 |   |   |
+|          |450HD<sup>2</sup>      |3.2.1      |3.4.8.808 |   |   |
+|          |C450HD<sup>2</sup>     |3.2.1      |3.4.8.808 |   |   |
+|          |C448HD<sup>2</sup>                 |3.2.1      |3.4.8.808 |   |   |
+|          |445HD<sup>2</sup>      |3.2.1      |3.4.8.808 |   |   |
+|          |RX50<sup>2</sup>       |3.2.1      |3.4.8.808 |   |   |
+|          |MP112<sup>3</sup>                  |6.60A.367.001      |6.60A.367.005  |ATA   | All ports available [AudioCodes ATA Setup Guide](https://www.audiocodes.com/media/pafhki3d/onboarding-audiocodes-ata-to-microsoft-sip-gateway-for-teams.pdf)  |
+|          |MP114-FXS<sup>3</sup>              |6.60A.367.001      |6.60A.367.005  |ATA   | 3 out of 4 ports available   |
+|          |MP114-FXS-FXO<sup>3</sup>          |6.60A.367.001      |6.60A.367.005  |ATA   | 3 out of 4 ports available   |
+|          |MP118-FXS<sup>3</sup>              |6.60A.367.001      |6.60A.367.005  |ATA   | 6 out of 8 ports available  |
+|          |MP118-FXS-FXO<sup>3</sup>          |6.60A.367.001      |6.60A.367.005  |ATA   | 6 out of 8 ports available  |
+|          |MP124-FXS<sup>3</sup>              |6.60A.367.001      |6.60A.367.005  |ATA   | 18 out of 24 ports available  |
+|          |MP1288-FXS<sup>3</sup>             |7.40A.400.063      |7.40A.600.014  |ATA   | All ports available  |
+|          |MP502<sup>3</sup>                  |7.26A.356.075      |7.26A.356.773  |ATA   | All ports available  |
+|          |MP504<sup>3</sup>                  |7.26A.356.075      |7.26A.356.773  |ATA   | All ports available  |
+|          |MP508<sup>3</sup>                  |7.26A.356.075      |7.26A.356.773  |ATA   | All ports available  |
+|          |MP516<sup>3</sup>                  |7.26A.356.075      |7.26A.356.773  |ATA   | All ports available  |
+|          |MP524<sup>3</sup>                  |7.26A.356.075      |7.26A.356.773  |ATA   | All ports available  |
+|          |MP532<sup>3</sup>                  |7.26A.356.075      |7.26A.356.773  |ATA   | All ports available  |
 |**Spectralink**|       |           |           |   |[Spectralink Support](https://support.spectralink.com)|
-|          |7202        |PCS22B     |PCS22B     |Handset |   |
-|          |7212        |PCS22B     |PCS22B     |Handset |   |
-|          |7502        |PCS22B     |PCS22B     |Handset |   |
-|          |7522        |PCS22B     |PCS22B     |Handset |   |
-|          |7532        |PCS22B     |PCS22B     |Handset |   |
-|          |7622        |PCS22B     |PCS22B     |Handset |   |
-|          |7642        |PCS22B     |PCS22B     |Handset |   |
-|          |7722        |PCS22B     |PCS22B     |Handset |   |
-|          |7742        |PCS22B     |PCS22B     |Handset |   |
-|          |S33         |PCS23Ca    |PCS23Ca    |Handset |   |
-|          |S35         |PCS23Ca    |PCS23Ca    |Handset |   |
-|          |S37         |PCS23Ca    |PCS23Ca    |Handset |   |
-|          |IP-DECT Server 200 |PCS22Ab |PCS22Ab |IP-DECT Server |   |
-|          |IP-DECT Server 400 |PCS22Ab |PCS22Ab |IP-DECT Server |   |
-|          |IP-DECT Server 6500 |PCS22Ab |PCS22Ab |IP-DECT Server |   |
-|          |Virtual IP-DECT Server One |PCS22Ab |PCS22Ab |IP-DECT Server |   |
-|          |IP-DECT Base Station |PCS22Ab |PCS22Ab |IP-DECT Server |   |
+|          |7202<sup>3</sup>        |PCS22B     |PCS22D     |Handset |   |
+|          |7212<sup>3</sup>        |PCS22B     |PCS22D     |Handset |   |
+|          |7502<sup>3</sup>        |PCS22B     |PCS22D     |Handset |   |
+|          |7522<sup>3</sup>        |PCS22B     |PCS22D     |Handset |   |
+|          |7532<sup>3</sup>        |PCS22B     |PCS22D     |Handset |   |
+|          |7622<sup>3</sup>        |PCS22B     |PCS22D     |Handset |   |
+|          |7642<sup>3</sup>        |PCS22B     |PCS22D     |Handset |   |
+|          |7722<sup>3</sup>        |PCS22B     |PCS22D     |Handset |   |
+|          |7742<sup>3</sup>        |PCS22B     |PCS22D     |Handset |   |
+|          |S33<sup>3</sup>         |PCS23Ca    |PCS24G    |Handset |   |
+|          |S35<sup>3</sup>         |PCS23Ca    |PCS24G    |Handset |   |
+|          |S37<sup>3</sup>         |PCS23Ca    |PCS24G    |Handset |   |
+|          |IP-DECT Server 400<sup>3</sup> |PCS22Ab |PCS24B |IP-DECT Server |   |
+|          |IP-DECT Server 6500<sup>3</sup> |PCS22Ab |PCS24B|IP-DECT Server |   |
+|          |Virtual IP-DECT Server One<sup>3</sup> |PCS22Ab |PCS24B |IP-DECT Server |   |
+|          |IP-DECT Base Station<sup>3</sup> |PCS22Ab |PCS24B |IP-DECT Base Station|   |
+|          |RFP6 TDM Digital Base Station<sup>3</sup> |PCS16E_ |PCS16E_ |DECT Base Station |   |
+|          |IP-DECT Gateway<sup>3</sup> |PCS24Ab |PCS24B |IP-DECT Gateway |   |
 |**Ascom**|       |           |           |   |[Ascom Support](https://www.ascom.com/products-and-services/services/support-and-maintenance/)|
-|          |Ascom d43        |2.11.4     |3.0.8     |Handset |   |
-|          |Ascom d63        |2.11.4     |3.0.8     |Handset |   |
-|          |Ascom d81        |4.13.1     |4.17.3     |Handset |   |
-|          |Ascom d83        |1.3.2     |1.5.5     |Handset |   |
-|          |Ascom i63        |5.0.1     |5.0.1     |VoWiFi Handset |   |
-|          |Ascom Myco 3 DECT        |3.4.1     |3.4.1     |Wireless Handset |   |
-|          |IP-DECT Access Point IPBSx        |11.8.8     |11.9.11     |IP-DECT Access Point |   |
-|          |IP-DECT Gateway IPBL     |11.8.8     |11.9.11     |IP-DECT Gateway |   |
-|          |TDM Base Station        |R3N     |R4B     |IP-DECT Base Station |   |
-|          |IP-DECT Virtual Appliance IPVM        |11.8.8     |11.9.11     |IP-DECT Server |   |
+|          |Ascom d43<sup>3</sup>        |2.11.4     |3.0.8     |Handset |   |
+|          |Ascom d63<sup>3</sup>        |2.11.4     |3.0.8     |Handset |   |
+|          |Ascom d81<sup>3</sup>        |4.13.1     |4.17.3     |Handset |   |
+|          |Ascom d83<sup>3</sup>        |1.3.2     |1.5.5     |Handset |   |
+|          |Ascom i63<sup>3</sup>        |5.0.1     |5.0.1     |VoWiFi Handset |   |
+|          |Ascom Myco 3 DECT<sup>3</sup>        |3.4.1     |3.4.1     |Wireless Handset |   |
+|          |IP-DECT Access Point IPBSx<sup>3</sup>        |11.8.8     |11.9.11     |IP-DECT Access Point |   |
+|          |IP-DECT Gateway IPBL<sup>3</sup>     |11.8.8     |11.9.11     |IP-DECT Gateway |   |
+|          |TDM Base Station<sup>3</sup>        |R3N     |R4B     |IP-DECT Base Station |   |
+|          |IP-DECT Virtual Appliance IPVM<sup>3</sup>        |11.8.8     |11.9.11     |IP-DECT Server|   |
 |**Gigaset**|       |           |           |   |[Gigaset Support](https://www.gigaset.com/en_en/cms/home/support/support.html)|
-|          |N610 IP PRO        |2.52.0     |2.52.0     |Base Station |   |
-|          |N670 IP PRO        |2.52.0     |2.52.0     |Base Station |   |
-|          |N870 IP PRO        |2.52.0     |2.52.0     |Base Station |   |
-|          |N870E IP PRO        |2.52.0     |2.52.0     |Base Station |   |
-|          |N870 VI PRO        |2.52.0     |2.52.0     |Base Station |   |
+|          |N610 IP PRO<sup>3</sup>        |2.52.0     |2.52.0     |Base Station |   |
+|          |N670 IP PRO<sup>3</sup>        |2.52.0     |2.52.0     |Base Station |   |
+|          |N870 IP PRO<sup>3</sup>        |2.52.0     |2.52.0     |Base Station |   |
+|          |N870E IP PRO<sup>3</sup>        |2.52.0     |2.52.0     |Base Station |   |
+|          |N870 VI PRO<sup>3</sup>        |2.52.0     |2.52.0     |Base Station |   |
 |**Algo**|       |           |           |   |[Algo Support](https://www.algosolutions.com/post-sale-technical-support/)|
-|          |8180g2        |5.3     |5.3     |Speaker |   |
-|          |8186          |5.3     |5.3     |Speaker |   |
-|          |8188          |5.3     |5.3     |Speaker |   |
-|          |8189          |5.3     |5.3     |Speaker |   |
-|          |8190          |5.3     |5.3     |Speaker |   |
-|          |8190s         |5.3     |5.3     |Speaker |   |
-|          |8196          |5.3     |5.3     |Speaker |   |
-|          |8198          |5.3     |5.3     |Speaker |   |
-|          |8028g2        |5.3     |5.3     |Intercom|   |
-|          |8063          |5.3     |5.3     |Intercom|   |
-|          |8201          |5.3     |5.3     |Intercom|   |
-|          |8203          |5.4     |5.4     |Intercom|   |
-|          |8128g2        |5.3     |5.3     |Visual Alerter |   |
-|          |8138          |5.3     |5.3     |Visual Alerter |   |
-|          |8301          |5.3     |5.3     |Paging Adapter |   |
-|          |8373          |5.3     |5.3     |Paging Adapter |   |
-|          |8305          |5.4     |5.4     |Paging Adapter |   |
-|          |8410          |5.3     |5.3     |Display Speaker |   |
-|          |8420          |5.3     |5.3     |Display Speaker |   |
+|          |8180g2<sup>3</sup>        |5.3     |5.3     |Speaker |   |
+|          |8186<sup>3</sup>          |5.3     |5.3     |Speaker |   |
+|          |8188<sup>3</sup>          |5.3     |5.3     |Speaker |   |
+|          |8189<sup>3</sup>          |5.3     |5.3     |Speaker |   |
+|          |8190<sup>3</sup>          |5.3     |5.3     |Speaker |   |
+|          |8190s<sup>3</sup>         |5.3     |5.3     |Speaker |   |
+|          |8196<sup>3</sup>          |5.3     |5.3     |Speaker |   |
+|          |8198<sup>3</sup>          |5.3     |5.3     |Speaker |   |
+|          |8028g2<sup>3</sup>        |5.3     |5.3     |Intercom|   |
+|          |8063<sup>3</sup>          |5.3     |5.3     |Intercom|   |
+|          |8201<sup>3</sup>          |5.3     |5.3     |Intercom|   |
+|          |8203<sup>3</sup>          |5.4     |5.4     |Intercom|   |
+|          |8128g2<sup>3</sup>        |5.3     |5.3     |Visual Alerter |   |
+|          |8138<sup>3</sup>          |5.3     |5.3     |Visual Alerter |   |
+|          |8301<sup>3</sup>          |5.3     |5.3     |Paging Adapter |   |
+|          |8373<sup>3</sup>          |5.3     |5.3     |Paging Adapter |   |
+|          |8305<sup>3</sup>          |5.4     |5.4     |Paging Adapter |   |
+|          |8410<sup>3</sup>          |5.3     |5.3     |Display Speaker |   |
+|          |8420<sup>3</sup>          |5.3     |5.3     |Display Speaker |   |
 |**Alcatel-Lucent Enterprise**|       |     |              |                |   |
-|          |M3          |2.14.03.000.2345     |2.14.03.000.2345 |   |   |
-|          |M5          |2.14.03.000.2345     |2.14.03.000.2345 |   |   |
-|          |M7          |2.14.03.000.2345     |2.14.03.000.2345 |   |   |
-|          |M8          |2.14.05.000.2352     |2.14.05.000.2352 |   |   |
+|          |M3<sup>3</sup>          |2.14.03.000.2345     |2.14.03.000.2345 |   |   |
+|          |M5<sup>3</sup>          |2.14.03.000.2345     |2.14.03.000.2345 |   |   |
+|          |M7<sup>3</sup>          |2.14.03.000.2345     |2.14.03.000.2345 |   |   |
+|          |M8<sup>3</sup>          |2.14.05.000.2352     |2.14.05.000.2352 |   |   |
 |**Snom**|       |     |              |                |   |
-|          |D717          |10.1.141.13     |10.1.141.13 |IP Phone   |   |
-|          |D735          |10.1.141.13     |10.1.141.13 |IP Phone   |   |
+|          |D717<sup>3</sup>          |10.1.141.13     |10.1.141.13 |IP Phone   |   |
+|          |D735<sup>3</sup>          |10.1.141.13     |10.1.141.13 |IP Phone   |   |
 
-<sup>1</sup> Device supports dynamic emergency calling (E911) with SIP Gateway.
+<sup>1</sup> Device supports dynamic location discovery through LLDP with SIP Gateway.
+
+<sup>2</sup> Device supports dynamic location discovery with SIP Gateway.
+
+<sup>3</sup> Device supports only static location with SIP Gateway.
+
+> [!NOTE]
+> For Poly devices, LLDP must be turned on at switch level for subnet length based dynamic location discovery.
 
 > [!NOTE]
 > Compatible Cisco SIP IP phones support dynamic location discovery over LLDP only.

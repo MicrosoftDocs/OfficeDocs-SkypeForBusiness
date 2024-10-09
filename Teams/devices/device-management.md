@@ -3,7 +3,7 @@ title: Manage devices in Microsoft Teams
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.reviewer: kimmatlock
+ms.reviewer: srpall
 ms.date: 07/08/2024
 ms.topic: article
 ms.service: msteams
@@ -33,7 +33,6 @@ You can manage devices used with Microsoft Teams in your organization from the M
 
 To manage devices, such as change device configuration, restart devices, manage updates, or view device and peripheral health, you need to be assigned one of the following Microsoft 365 admin roles:
 
-- Microsoft 365 Global admin
 - Teams Service admin
 - Teams Device admin
 
