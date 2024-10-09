@@ -104,6 +104,8 @@ See [Microsoft Teams panels](../devices/overview-teams-panels.md) for features s
 #### <b> Logitech </b>
 | Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications | Release date |
 |:----------------|:-------------------|:----------------------------|:--------------------------------------------------------------------|:--------------------------------|
+| DockFlex (VR0035) | `1.13.118`| N/A| Teams client: `1449/1.0.97.2024061108` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| October 3, 2024|
+| TAP Scheduler (VR0028) | `1.13.124`| N/A| Teams client: `1449/1.0.97.2024061108` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| October 3, 2024|
 | DockFlex (VR0035) | `1.12.149`| N/A| Teams client: `1449/1.0.97.2024040202` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| June 6, 2024|
 | TAP Scheduler (VR0028) | `1.12.708`| N/A| Teams client: `1449/1.0.97.2024040202` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| June 6, 2024|
 | DockFlex (VR0035) | `1.12.146`| N/A| Teams client: `1449/1.0.97.2024010401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| May 16, 2024|
