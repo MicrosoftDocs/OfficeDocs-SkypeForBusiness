@@ -54,7 +54,7 @@ You only need to run the wizard one time. New students automatically get the Glo
 Also, whenever a new feature is added to Teams, the appropriate EDU relevant default value of the policy for that feature will be automatically added to the Global (Org-wide default) without requiring any admin intervention. This helps to ensure that the right policies are in place to keep students secure and engaged.
 
 > [!NOTE]
-> See [Policies applied by the wizard](#policies-applied-by-the-wizard) for a detailed list of policy definitions applied by the wizard.
+> See [[Policies applied by the wizard](#tab/students/)](#studentstabstudents) for a detailed list of policy definitions applied by the wizard.
 
 Now, let's get started!
 
@@ -72,7 +72,7 @@ Follow these steps to run the wizard.
 > [!NOTE]
 > [Parents app](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e) is enabled for educators once you save your institution type as K-12 (Primary or Secondary).     
 
-3. Search for and select groups that contain your educators and staff, and then select **Next**. If you don't have any groups set up yet for your educators and staff, [create a group](/microsoft-365/admin/create-groups/create-groups), and then re-run the wizard. <br/><br/>You can select up to three groups. Educators and staff in the groups you select will be assigned [a set of custom policies](#policies-applied-by-the-wizard) tailored to their needs. Remember that this set of policies is separate from the policies applied to students.
+3. Search for and select groups that contain your educators and staff, and then select **Next**. If you don't have any groups set up yet for your educators and staff, [create a group](/microsoft-365/admin/create-groups/create-groups), and then re-run the wizard. <br/><br/>You can select up to three groups. Educators and staff in the groups you select will be assigned [[a set of custom policies](#tab/students/)](#studentstabstudents) tailored to their needs. Remember that this set of policies is separate from the policies applied to students.
 
     
 4. Review your selections.
@@ -108,7 +108,7 @@ If more than one of these policy assignments exist for a user, Teams uses the fo
 
 Because of this order, the policies created by the wizard won't take effect if a user has existing direct assignments or group assignments. This means that you'll have to remove the existing policy assignments from the user so the policy applied by the wizard takes effect.
 
-For each [policy area applied by the wizard](#policies-applied-by-the-wizard), do the following:
+For each [[policy area applied by the wizard](#tab/students/)](#studentstabstudents), do the following:
 
 - Remove all existing direct assignments and group assignments from your students so that the Global (Org-wide default) policy definition applied by the wizard takes effect.
 - Remove any conflicting direct assignments for your educators and staff so that the custom policy definition created by the wizard takes effect. Use the above table to determine the scenarios that apply to you. <p> Keep in mind that the wizard assigns policies to your educators and staff group using a [group assignment ranking](assign-policies-users-and-groups.md#group-assignment-ranking) of 1, which is the highest ranking. If your educators and staff group has an existing policy of the same policy area assigned to it, that existing policy is moved to a lower ranking and the policy assigned by the wizard takes effect.
@@ -121,7 +121,7 @@ For example, you assigned a meeting policy directly to educators and your studen
 
 ### Step 2: Check for additional measures that you can take for student safety
 
-The wizard automatically adjusts and applies [these policies and apps](#policies-applied-by-the-wizard). There are few additional measures, which you may want to take based on the needs of your institution to stay safe.
+The wizard automatically adjusts and applies [[these policies and apps](#tab/students/)](#studentstabstudents). There are few additional measures, which you may want to take based on the needs of your institution to stay safe.
 
 See [Keeping students safe while using Teams for distance learning](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) for additional safety recommendations.
 
