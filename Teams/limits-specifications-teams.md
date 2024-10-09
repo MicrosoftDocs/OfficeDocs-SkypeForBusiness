@@ -149,7 +149,8 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 |Number of people in a video or audio call from chat | 20 |
 |Max PowerPoint File Size | 2 GB|
 |Teams keeps [meeting recordings](meeting-recording.md) that don't get uploaded to Microsoft Stream, available for local download | 20 days |
-| Meeting recording maximum length | 4 hours or 1.5 GB. When this limit is reached, the recording ends and automatically restarts.
+| Meeting recording maximum length | 4 hours or 1.5 GB. When this limit is reached, the recording ends and automatically restarts. |
+| Number of people in the lobby of a meeting | The lobby limit is one-third of the current free spots in the meeting. For example, if you have a meeting with breakout rooms, your limit will be 300 people in the overall meeting. If 153 participants have joined the meeting, there will be 147 remaining free spots. Therefore, the lobby limit will be 49 simultaneous users. |
 
 For more information, see [Meetings, webinars, and live events](/microsoftteams/quick-start-meetings-live-events).  
   
