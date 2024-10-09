@@ -19,7 +19,7 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
   - Microsoft 365 for frontline workers
-ms.date: 02/27/2024
+ms.date: 10/09/2024
 ---
 
 # Manage the Walkie Talkie app in Microsoft Teams
@@ -85,7 +85,7 @@ Pin Walkie Talkie to Teams for easy access. This step depends on which license y
 #### E license: Use an app setup policy to pin Walkie Talkie to Teams
 
 > [!NOTE]
-> If your users have an E licence and [Public Preview is enabled in Teams](public-preview-doc-updates.md), Walkie Talkie is pre-pinned to the app bar.
+> If your users have an E licence and [Public preview is enabled in Teams](public-preview-doc-updates.md), Walkie Talkie is pre-pinned to the app bar.
 
 App setup policies let you customize Teams to pin apps that are most important for your users in your users.
 
