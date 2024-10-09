@@ -45,7 +45,6 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 
 | Device model | Firmware version | Current certification end date | Room size | Android OS version |
 |:-|:-|:-|:-|:-|
-| Poly Studio X72 | `PolyOS 4.2.5`| September 3, 2025 | Large rooms (4.5 m x 8.5 m) | 10 |
 | AudioCodes RXV200 | `2.2.335` | September 3, 2025 |  Focus room (3 m x 3 m) | 10 |
 | Audiocodes RXPad Touch console | `2.0.282` | August 15, 2027 | Compatible with Audiocodes RXV81 and RXV200 Collaboration bars. | 12 |
 | Audiocodes RXV81 Collaboration Bar | `2.0.0` | August 15, 2027 | Small meeting room (4.5 m x 4.5 m) | 12 |
@@ -63,6 +62,8 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Crestron AIO Video Bar 70 | `1.240618.1240` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10|
 | Crestron Touch Panel TS-1070 | `2.005.1030` | September 3, 2025 | Compatible with Crestron AIO Video Bar 70 | 10 |
 | DTEN Bar | `1.0.2` | August 15, 2027|  Small size room (4.5 m x 4.5 m) | 12 |
+| DTEN D7X 55" + Vue Pro | `1.5.8` |August 15, 2027| Small size room (4.5 m x 4.5 m) | 12 |
+| DTEN D7X 55" + Vue | `1.5.8` |August 15, 2027| Small size room (4.5 m x 4.5 m) | 12 |
 | DTEN D7X 75" + Vue Pro | `1.5.8` |August 15, 2027| Medium size room (4.5 m x 6 m) | 12 |
 | DTEN D7X 75" + Vue | `1.5.8` |August 15, 2027| Medium size room (4.5 m x 6 m) | 12 |
 | DTEN D7X 75" | `1.2.8` |  August 15, 2027 |  Medium size room (4.5 m x 6 m) | 12 |
@@ -93,6 +94,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Poly Studio X52 | `4.1.0.382110` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Poly G7500 + Shure Large Room Kit | `4.0.1` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Poly G62 | `PolyOS 4.1.5` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
+| Poly Studio X72 | `PolyOS 4.2.5`| September 3, 2025 | Large rooms (4.5 m x 8.5 m) | 10 |
 | Yealink DeskVision A24 | `156.15.0.29` | September 3, 2025 | Phone room (2 m x 2 m) | 10 |
 | Yealink CTP18 touch console | `137.320.0.29` | September 3, 2025 | Compatible with Yealink MeetingBar A20 and Yealink MeetingBar A30 | 10 |
 | Yealink MeetingBar A10 | `278.15.0.6` | September 3, 2025 | Small meeting room (4.5 m x 4.5 m) | 11 |
@@ -103,6 +105,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Yealink CTP25 touch console | `311.320.0.2` | August 15, 2027 | Compatible with Yealink MeetingBar A40 | 13 |
 | Yealink MeetingBar A40 | `289.320.0.11` | August 15, 2027 | Medium size room (4.5 m x 6 m) | 13 |
 | Yealink MeetingBoard 65"/86" with MB-Camera-6X | `155.15.0.37 ` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10|
+| Yealink MeetingBoard 75 Pro | `300.320.0.7 ` | August 15, 2027 | Medium size room (4.5 m x 6 m) | 13|
 
 ## [Firmware](#tab/firmware)
 
@@ -276,6 +279,11 @@ For information about the latest Teams app releases, see [What's new in Microsof
 
 | Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
+| Logi Rallybar (VR0019) | `1.13.127` | N/A | `1449/1.0.96.2024042606` | `5.0.6152.0`| `1.0.0.202402202353.product` | October 3, 2024|
+| Logi Rallybar Mini (VR0020) | `1.13.127` | N/A | `1449/1.0.96.2024042606` | `5.0.6152.0`| `1.0.0.202402202353.product` | October 3, 2024|
+| Logi RoomMate (VR0030) | `1.13.124`   | N/A | `1449/1.0.96.2024042606` | `5.0.6152.0`| `1.0.0.202402202353.product` | October 3, 2024|
+| Logi Rallybar Huddle (VR0034) | `1.13.121`   | N/A | `1449/1.0.96.2024042606` | `5.0.6152.0`| `1.0.0.202402202353.product` | October 3, 2024|
+| Logi TAP IP (VR0029) | `1.13.124`| N/A | `1449/1.0.96.2024042606` | `5.0.6152.0`| `1.0.0.202402202353.product` | October 3, 2024|
 | Logi Rallybar (VR0019) | `1.12.268` | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | August 21, 2024|
 | Logi Rallybar Mini (VR0020) | `1.12.268` | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | August 21, 2024|
 | Logi Rallybar (VR0019) | `1.12.264` | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | July 2, 2024|
