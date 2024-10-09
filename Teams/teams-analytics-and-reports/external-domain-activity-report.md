@@ -46,12 +46,10 @@ This report includes both a base and Teams Premium version, where the base versi
 |**Premium:** Messages sent     | The number of messages that have been sent to your organization by the external domain during the selected time range. |
 |**Premium:** Messages received | The number of messages that have been sent by your organization to the external domain during the selected time range. |
 
-> [!NOTE]
->
-> It's possible to have 0 **people in my org**. If an external domain reaches out to your organization and receives no response, we will display 0 **people in my org**.
-
-> [!IMPORTANT]
-> In addition to managed communication, we look at when anonymous users join meetings. If you have **Anonymous user join** turned on, you might have unexpected domains appear on your list. Our reports show the names of the domains of the users who joined meetings, rather than marking them as anonymous.
+- It's possible to have 0 **people in my org**. If an external domain reaches out to your organization and receives no response, we will display 0 **people in my org**.
+- In addition to managed communication, we look at when anonymous users join meetings. If you have **Anonymous user join** turned on, you might have unexpected domains appear on your list. Our reports show the names of the domains of the users who joined meetings, rather than marking them as anonymous.
+- Premium Premium columns shouldn't be considered accurate until 7 days, 30 days, and 60 days, respectively, after a premium license was assigned. You may notice 0 in some rows or message counts and user counts not making sense.
+- Even if a domain has activity in just one or two, but not all three of the potential date ranges (7 days, 30 days, and 60 days), the domain still surfaces the reports of all three date ranges. It shows total internal users as 0 and all premium columns as 0, if applicable. If it's been over 60 days since a premium license was assigned, you can assume a row of all 0s in the 7d or 30d reports means that there was no communication with the domain during that date range, despite the domain surfacing on the list. There should not be all 0s in a 60d report unless it's been less than 60 days since a premium license was assigned.
 
 ## Interpret the domain-specific report
 
