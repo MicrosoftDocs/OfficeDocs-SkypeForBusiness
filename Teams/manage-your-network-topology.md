@@ -59,7 +59,7 @@ You can create or modify a network site, associate a site with a network region,
 
     - If your organization deployed Direct Routing, under **Emergency call routing policy**, select the policy that you want.
 
-6. (Optinonal) If you want to change the behavior for clients in this site, you can use the network roaming policy. Under **Network roaming policy**, select the policy that you want. For more information, see [Manage audio and video settings for clients](network-roaming-policy.md).
+6. (Optional) If you want to change the behavior for clients in this site, you can use the network roaming policy. Under **Network roaming policy**, select the policy that you want. For more information, see [Manage audio and video settings for clients](network-roaming-policy.md).
 
 7. To associate a subnet to the site, under **Subnets**, select **Add subnets**. Specify the IP version, IP address, network range, add a description, and then select **Apply**. Each subnet must be associated with a specific site.
 
