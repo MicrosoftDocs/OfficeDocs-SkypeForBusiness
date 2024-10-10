@@ -152,8 +152,6 @@ The following table summarizes what happens when you make a change in the wizard
 
 ## Policies and apps applied by the wizard
 
-<a name="polwiz_policies"> </a>
-
 ### Policy areas
 
 Here's the policy areas and corresponding policy names covered by the wizard. To find these policies, go to the Microsoft Teams admin center, and then in the left navigation, go to each policy area page.
@@ -179,6 +177,8 @@ Here's the policy areas and corresponding policy names covered by the wizard. To
 |Live events policy|Primary or Secondary Educators and Staff - Live events|Higher Education Educators and Staff - Live events|
 |Messaging policy|Primary or Secondary Educators and Staff - Messaging|Higher Education Educators and Staff - Messaging|
 |Calling policy|Primary or Secondary Educators and Staff - Calling|Higher Education Educators and Staff - Calling|
+
+---
 
 ### Policy settings
 
@@ -325,6 +325,8 @@ Here's a list of the custom policy definitions assigned to the educators and sta
 |||Prevent toll bypass and send calls through the PSTN|Off|Off|
 |||Busy on busy is available when in a call|Off|Off|
 |||Allow web PSTN calling|On|On|
+
+---
 
 ### Apps
 [Parents app](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e) is enabled for educators once the institution type is saved as K-12 (Primary or Secondary).  
