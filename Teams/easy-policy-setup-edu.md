@@ -146,8 +146,7 @@ The following table summarizes what happens when you make a change in the wizard
 
 |Type of change|Policy behavior|
 |---|---|
-|Change both the educational institution type and the educators and staff groups|<ul><li>**Students**: The Global (Org-wide default) policy definitions based on the new educational institution type are applied to students.</li><li>**Educators and staff**: A set of custom policy definitions based on the new educational institution type is created and assigned to the new educator and staff groups. The previous custom policy definitions are removed from the previous educators and staff groups. [Parents app](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e) is enabled for educators once the institution type is saved as K-12 (Primary or Secondary). It remains enabled if you change your saved selection from K12 to Higher education. 
-</li></ul>|
+|Change both the educational institution type and the educators and staff groups|<ul><li>**Students**: The Global (Org-wide default) policy definitions based on the new educational institution type are applied to students.</li><li>**Educators and staff**: A set of custom policy definitions based on the new educational institution type is created and assigned to the new educator and staff groups. The previous custom policy definitions are removed from the previous educators and staff groups. [Parents app](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e) is enabled for educators once the institution type is saved as K-12 (Primary or Secondary). It remains enabled if you change your saved selection from K12 to Higher education. </li></ul>|
 |Change only the educational institution type|<ul><li>**Students**: The Global (Org-wide default) policy definitions based on the new educational institution type are applied to students.</li><li>**Educators and staff**: A set of custom policy definitions based on the new educational institution type is created and assigned to the educators and staff groups. The custom policy definitions created for the previous educational institution type are removed from the educators and staff groups. [Parents app](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e) is enabled for educators once the institution type is saved as K-12 (Primary or Secondary). It remains enabled if you change your saved selection from K12 to Higher education.</li></ul>|
 |Change only the educators and staff groups|<ul><li>**Students**: No change to the Global (Org-wide default) policy definitions applied to students.</li><li>**Educators and staff**: The custom policy definitions are assigned to the new educators and staff groups and removed from the previous educators and staff groups.</li></ul>|
 
@@ -180,11 +179,6 @@ Here's the policy areas and corresponding policy names covered by the wizard. To
 |Live events policy|Primary or Secondary Educators and Staff - Live events|Higher Education Educators and Staff - Live events|
 |Messaging policy|Primary or Secondary Educators and Staff - Messaging|Higher Education Educators and Staff - Messaging|
 |Calling policy|Primary or Secondary Educators and Staff - Calling|Higher Education Educators and Staff - Calling|
-
-### Apps
-[Parents app](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e) is enabled for educators once the institution type is saved as K-12 (Primary or Secondary).  
-
-It remains enabled if you change your saved selection from K12 to Higher education. At any time, the app can be turned off at the tenant level using [Allow and block apps](manage-apps.md#allow-or-block-apps) in the Teams admin center. If it's turned off at the tenant level, it will be blocked for all users, even if user-level permissions are turned on. The Parents app can also be turned off at the user level using [Manage app permission policies in Microsoft Teams](teams-app-permission-policies.md). 
 
 ### Policy settings
 
@@ -331,6 +325,11 @@ Here's a list of the custom policy definitions assigned to the educators and sta
 |||Prevent toll bypass and send calls through the PSTN|Off|Off|
 |||Busy on busy is available when in a call|Off|Off|
 |||Allow web PSTN calling|On|On|
+
+### Apps
+[Parents app](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e) is enabled for educators once the institution type is saved as K-12 (Primary or Secondary).  
+
+It remains enabled if you change your saved selection from K12 to Higher education. At any time, the app can be turned off at the tenant level using [Allow and block apps](manage-apps.md#allow-or-block-apps) in the Teams admin center. If it's turned off at the tenant level, it will be blocked for all users, even if user-level permissions are turned on. The Parents app can also be turned off at the user level using [Manage app permission policies in Microsoft Teams](teams-app-permission-policies.md). 
 
 ## Related topics
 
