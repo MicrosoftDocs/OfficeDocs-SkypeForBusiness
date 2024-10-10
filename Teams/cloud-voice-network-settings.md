@@ -5,7 +5,7 @@ ms.author: crowe
 manager: pamgreen
 ms.topic: conceptual
 ms.reviewer: roykuntz
-ms.date: 12/08/2023
+ms.date: 10/10/2024
 ms.service: msteams
 audience: admin
 search.appverid: MET150
@@ -25,9 +25,11 @@ ms.custom: seo-marvel-mar2020
 
 # Network settings for cloud voice features in Microsoft Teams
 
-Learn about network regions, network sites, network subnets, and trusted IP addresses. These terms and concepts are used throughout our cloud voice documentation for [Location-Based Routing for Direct Routing](location-based-routing-plan.md) and [dynamic emergency calling](configure-dynamic-emergency-calling.md). If you're deploying these cloud features in your organization, you must configure network settings for use with these features in Microsoft Teams.
+Learn about network regions, network sites, network subnets, and trusted IP addresses. 
 
-This article gives you an overview of the network settings that are common to Location-Based Routing and dynamic emergency calling. Depending on the cloud voice feature and capability that you're deploying, you configure some or all these settings. For steps on how to configure these settings, see [Manage your network topology for cloud features in Teams](manage-your-network-topology.md).
+These terms and concepts are used throughout our cloud voice documentation for [Location-Based Routing for Direct Routing](location-based-routing-plan.md) and [dynamic emergency calling](configure-dynamic-emergency-calling.md). If you're deploying these cloud voice features in your organization, you must configure network settings for use with these features in Microsoft Teams.
+
+This article gives you an overview of the network settings that are common to Location-Based Routing and dynamic emergency calling. Depending on the cloud voice feature and capability that you're deploying, you configure some or all of these settings. For steps on how to configure these settings, see [Manage your network topology for cloud features in Teams](manage-your-network-topology.md).
 
 Note that it can take some time (up to four hours) for some changes to network settings (such as a new address, network identifier, and so on) to propagate and be available to Teams clients.
 
@@ -44,7 +46,6 @@ The same network regions are shared by Location-Based Routing for Direct Routing
 
 A network site represents a location where your organization has a physical venue, such as an office, a set of buildings, or a campus. Network sites are defined as a collection of IP subnets. Each network site must be associated with a network region.
 
-You can also use network sites to enable and configure emergency calling.
 
 ## Network subnet
 
@@ -52,13 +53,14 @@ Each subnet must be associated with a specific network site. A client's location
 
 Subnet information is used to determine the network site on which an endpoint is located when a new session is initiated. When the location of each party in a session is known, the cloud voice feature can apply that information to determine how to handle call setup or routing.
 
-For each network site, work with your network admin to determine which IP subnets are assigned to each network site. For example, the New York site in the North America region can be assigned the following IP subnets: 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24. If Bob, who usually works in Detroit, travels to the New York office for training, turns on his computer and connects to the network, his computer gets an IP address in one of the four ranges that are allocated for New York, for example, 172.29.80.103.
+For each network site, you should work with your network administrator to determine which IP subnets are assigned to which network site. For example, assume the New York site in the North America region is assigned the following IP subnets: 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24. Assume Bob, who usually works in Detroit, travels to the New York office for training. When he turns on his computer and connects to the network, his computer gets an IP address in one of the four ranges that are allocated for New York; for example, 172.29.80.103.
 
 ## Trusted IP address
 
 Trusted IP addresses are the internet external IP addresses of the enterprise network. They determine whether the user's endpoint is inside the corporate network before checking for a specific site match.
 
-If the user's external IP address matches an IP address that's in the trusted IP address list, the cloud voice feature checks to determine the internal subnet where the user's endpoint is located. A match can be made against either IPv4 or IPv6 IP addresses and is dependent upon the format of the IP packet sent to the network settings. (If a public IP address has both IPv4 and IPv6, you must add both as trusted IP addresses.)
+If the user's external IP address matches an IP address that's in the trusted IP address list, the cloud voice feature checks to determine the internal subnet where the user's endpoint is located. A match can be made against either IPv4 or IPv6 IP addresses and is dependent upon the format of the IP packet sent to the network settings. (If the enterprise network
+has both IPv4 and IPv6 internet accessible external IP addresses, you must add both as trusted IP addresses.)
 
 If the user's external IP address doesn't match an IP address that's in the trusted IP address list, the endpoint is classified as being at an unknown location.
 
