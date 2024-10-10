@@ -180,12 +180,13 @@ Here's the policy areas and corresponding policy names covered by the wizard. To
 |Messaging policy|Primary or Secondary Educators and Staff - Messaging|Higher Education Educators and Staff - Messaging|
 |Calling policy|Primary or Secondary Educators and Staff - Calling|Higher Education Educators and Staff - Calling|
 
+
 ### Policy settings
 
 Here's a summary of the settings applied by the wizard for each policy area.
 
 > [!NOTE]
-> Only team owners can create shared channels.<br><br>Shared channels with other organizations requires configuration of [Microsoft Entra B2B direct connect](/azure/active-directory/external-identities/b2b-direct-connect-overview) which is disabled by default. See [Collaborate with external participants in a channel](/microsoft-365/solutions/collaborate-teams-direct-connect) to enable this feature.
+> Only team owners can create shared channels. Shared channels with other organizations requires configuration of [Microsoft Entra B2B direct connect](/azure/active-directory/external-identities/b2b-direct-connect-overview) which is disabled by default. See [Collaborate with external participants in a channel](/microsoft-365/solutions/collaborate-teams-direct-connect) to enable this feature.
 
 #### [**Students**](#tab/student-settings/)
 
@@ -329,7 +330,7 @@ Here's a list of the custom policy definitions assigned to the educators and sta
 ### Apps
 [Parents app](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e) is enabled for educators once the institution type is saved as K-12 (Primary or Secondary).  
 
-It remains enabled if you change your saved selection from K12 to Higher education. At any time, the app can be turned off at the tenant level using [Allow and block apps](manage-apps.md#allow-or-block-apps) in the Teams admin center. If it's turned off at the tenant level, it will be blocked for all users, even if user-level permissions are turned on. The Parents app can also be turned off at the user level using [Manage app permission policies in Microsoft Teams](teams-app-permission-policies.md). 
+- It remains enabled if you change your saved selection from K12 to Higher education. At any time, the app can be turned off at the tenant level using [Allow and block apps](manage-apps.md#allow-or-block-apps) in the Teams admin center. If it's turned off at the tenant level, it will be blocked for all users, even if user-level permissions are turned on. The Parents app can also be turned off at the user level using [Manage app permission policies in Microsoft Teams](teams-app-permission-policies.md). ``
 
 ## Related topics
 
