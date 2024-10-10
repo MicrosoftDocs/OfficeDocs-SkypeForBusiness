@@ -173,4 +173,4 @@ See [Microsoft Teams panels](../devices/overview-teams-panels.md) for features s
 ## [End of certification](#tab/eol)
 
 
- No Teams panels have reached this milestone. 
+ No Teams panels devices have reached this milestone. 
