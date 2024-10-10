@@ -49,6 +49,7 @@ The following sections in this article describe the Teams Premium enhancements f
 - [Virtual Appointments](#advanced-virtual-appointments)
 - [Intelligent meeting features](#intelligent-meeting-features)
 - [Custom 3D Immersive Mesh Experiences](#custom-3d-immersive-mesh-experiences)
+- [Advanced Places Workplace Collaboration](#advanced-places-workplace-collaboration)
 - [Intelligent call recap](#intelligent-call-recap)
 - [Queues app](#queues-app)
 
@@ -219,7 +220,7 @@ Teams Premium provides the following key AI-powered meetings features:
 | Feature/Task  | Can admins turn this feature on/off? | Documentation for admins | Documentation for your end users |
 | -------------------- | -----------| ----------- | ------------ |
 | Decorate my background | No, contact support for assistance. | No admin control | [Decorate your background](https://adoption.microsoft.com/microsoft-teams-premium/decorate-your-background/)|
-| Intelligent meeting recap| No, contact support for assistance.<sup>1</sup>|[Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md) | [Meeting recap in Microsoft Teams](https://support.microsoft.com/office/meeting-recap-in-microsoft-teams-c2e3a0fe-504f-4b2c-bf85-504938f110ef#bkmk_intelligent_meeting_recap) |
+| Intelligent meeting recap| No, contact support for assistance.<sup>1</sup>|[Data, privacy, and security for intelligent recap in Teams Premium](/microsoftteams/privacy/intelligent-recap) | [Meeting recap in Microsoft Teams](https://support.microsoft.com/office/meeting-recap-in-microsoft-teams-c2e3a0fe-504f-4b2c-bf85-504938f110ef#bkmk_intelligent_meeting_recap) |
 | Live translated captions | Yes | [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md)|[Use live captions in Microsoft Teams meetings](https://support.microsoft.com/office/use-live-captions-in-microsoft-teams-meetings-4be2d304-f675-4b57-8347-cbd000a21260) |
 | Live translated transcription | Yes |  [Configure transcription and captions for Teams meetings](meeting-transcription-captions.md) | [View live transcription in Microsoft Teams meetings](https://support.microsoft.com/office/view-live-transcription-in-microsoft-teams-meetings-dc1a8f23-2e20-4684-885e-2152e06a4a8b)|
 
@@ -244,9 +245,19 @@ Teams Premium provides custom Mesh experience capabilities for your users, such 
 | Develop a custom environment | Yes| No admin control. |[Mesh Development Overview](/mesh/develop/development-overview) |
 | Download the Mesh app | Yes| No admin control. |[Getting started with events in Microsoft Mesh](/mesh/user-guide/getting-started) |
 
+## Advanced Places Workplace Collaboration
+
+> [!NOTE]
+> This feature is currently in Public Preview.
+
+Microsoft Places allows you and your organization to build a smart workplace. With a Teams Premium license, your users can experience upgraded features that support advanced booking and space analytics. As an admin, you have access to advanced management capabilities. Check back soon for details.
+
+To learn more about Places, see [Microsoft Places overview](/microsoft-365/places/places-overview). 
+
 ## Calls
 
 ### Intelligent call recap
+
 
 **Intelligent call recap** provides AI-powered insights and recaps to Public Switched Telephone Network (PSTN) and 1:1 Teams calls.
 

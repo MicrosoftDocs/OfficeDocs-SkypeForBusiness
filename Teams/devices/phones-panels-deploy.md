@@ -49,13 +49,13 @@ Teams Android-based devices are managed by Intune via Android Device Administrat
 
 1. Set Intune MDM (mobile device management) Authority.  
 
-   If you've never used Intune before, you need to set the MDM authority before you can enroll devices. For more information, see [Set the mobile device management authority](/intune/fundamentals/mdm-authority-set). This is a one-time step that has to be done upon creating a new Intune tenant.
+   If you've never used Intune before, you need to set the MDM authority before you can enroll devices. For more information, see [Set the mobile device management authority](/mem/intune/fundamentals/mdm-authority-set). This is a one-time step that has to be done upon creating a new Intune tenant.
 1. Enable Android device administrator enrollment.
   
-   Android-based Teams devices are managed as device administrator devices with Intune. Device administrator enrollment is off by default for newly created tenants. See [Android device administrator enrollment](/intune/enrollment/android-enroll-device-administrator).
+   Android-based Teams devices are managed as device administrator devices with Intune. Device administrator enrollment is off by default for newly created tenants. See [Android device administrator enrollment](/mem/intune/enrollment/android-enroll-device-administrator).
 1. Assign licenses to users.
 
-   Users of Teams devices enrolling to Intune must be assigned a valid Intune license. For more information, see [Assign licenses to users so they can enroll devices in Intune](/intune/fundamentals/licenses-assign).
+   Users of Teams devices enrolling to Intune must be assigned a valid Intune license. For more information, see [Assign licenses to users so they can enroll devices in Intune](/mem/intune/fundamentals/licenses-assign).
 1. Assign Device Administrator compliance policies.  
 
    1. Create an Android Device Administrator compliance policy.
@@ -66,7 +66,7 @@ Teams Android-based devices are managed by Intune via Android Device Administrat
 
 [Phones for Teams](phones-for-teams.md)
 
-[IP Phones certified for Microsoft Teams](teams-ip-phones.md)
+[Certified Teams phones](teams-phones-certified-hardware.md)
 
 [Teams displays](teams-displays.md)
 

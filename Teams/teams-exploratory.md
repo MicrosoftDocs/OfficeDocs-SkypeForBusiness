@@ -1,11 +1,11 @@
 ---
 title: Manage the Microsoft Teams Exploratory experience
-author: DaniEASmith
-ms.author: danismith
-manager: pamgreen
+author: MicrosoftHeidi
+ms.author: heidip
+manager: jtremper
 ms.topic: reference
 audience: Admin
-ms.reviewer: 
+ms.reviewer: janebo
 ms.date: 04/23/2024
 ms.service: msteams
 search.appverid: MET150
@@ -29,7 +29,7 @@ The Microsoft Teams Exploratory experience lets users in your organization who h
 
 ## What's in the Teams Exploratory experience
 
-The service plans that an admin will see as part of the Teams Exploratory experience are:
+The service plans that an admin sees as part of the Teams Exploratory experience are:
 
 - Exchange Online (Plan 1)
 - Power Automate
@@ -109,17 +109,7 @@ You can turn off a user's ability to install trial apps and services, which woul
 
 If your tenant has users with the self-service Teams Exploratory trial, you need to use PowerShell to turn off a user's ability to install trial apps and services, even if trials were previously turned off.
 
-For instructions on how to turn off and on users' ability to install trial apps and services, see [Use AllowSelfServicePurchase for the MSCommerce PowerShell module](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell).
-
-#### If your users have the tenant-based organizational Teams Exploratory trial
-
-1. Sign into the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
-1. On the left-side navigation, go to **Settings** > **Org settings**.
-1. On the **Services** tab, scroll and then select **User owned apps and services**.
-1. On the pane, clear the check mark from **Let users install trial apps and services**.
-
-> [!NOTE]
-> If your organization is ineligible for the Teams Exploratory experience, you won't see the **Let users install trial apps and services** option.
+For instructions on how to turn off and on users' ability to install trial apps and services, see [Use AllowSelfServicePurchase for the MSCommerce PowerShell module](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell), which allows you to manage your end-user settings in the admin center, or you can use the MSCommerce Powershell script.
 
 ### Manage availability for a user with a license that includes Teams
 

@@ -64,6 +64,6 @@ You might have multiple approaches to solving these problems. We advise you to c
 
 ## See also
   
-[Device Configuration: Create New or Edit Existing](../../help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
+[Device Configuration: Create New or Edit Existing](../../../help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md#device-configuration-create-new-or-edit-existing)
 
-[Managing Quality of Service](../../plan-your-deployment/network-requirements/network-requirements.md#managing-quality-of-service)
+[Managing Quality of Service](../../../plan-your-deployment/network-requirements/network-requirements.md#managing-quality-of-service)
