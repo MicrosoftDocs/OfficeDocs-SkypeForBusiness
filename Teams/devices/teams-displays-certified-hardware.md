@@ -74,7 +74,7 @@ The following Teams displays are certified under the Android Certification Progr
 | ThinkSmart View Plus | `10.1.t.2.38` | N/A | Teams client: `1449/1.0.95.2023061601` <br> Company Portal: `5.0.5954.0` <br> Admin Agent: `1.0.0.202306202019.product`| September 22, 2023|
 
 #### <b> Neat </b>
-| Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications | elease date |
+| Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications | Release date |
 |:----------------|:-------------------|:----------------------------|:-----------------------------------------------------------|:--------------------------|
 | Neat Frame | `NFF1.20240620.1740` | N/A | Teams client: `1449/1.0.95.2023101102` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202402202353.product`| August 26, 2024|
 | Neat Frame | `NFF1.20240516.0007` | N/A | Teams client: `1449/1.0.95.2023101102` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| August 7, 2024|
