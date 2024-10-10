@@ -59,7 +59,9 @@ You can create or modify a network site, associate a site with a network region,
 
     - If your organization deployed Direct Routing, under **Emergency call routing policy**, select the policy that you want.
 
-6. To associate a subnet to the site, under **Subnets**, select **Add subnets**. Specify the IP version, IP address, network range, add a description, and then select **Apply**. Each subnet must be associated with a specific site.
+6. (Optinonal) If you want to change the behavior for clients in this site, you can use the network roaming policy. Under **Network roaming policy**, select the policy that you want. For more information, see [Manage audio and video settings for clients](network-roaming-policy.md).
+
+7. To associate a subnet to the site, under **Subnets**, select **Add subnets**. Specify the IP version, IP address, network range, add a description, and then select **Apply**. Each subnet must be associated with a specific site.
 
 7. Select **Save**.
 
@@ -79,7 +81,7 @@ You manage external trusted IP addresses on the **Trusted IPs** tab on the **Net
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Locations** > **Network topology**, and then select the **Trusted IPs** tab.
 
-2. Select **New**.
+2. Select **Add**.
 
 3. In the **Add trusted IP address** pane, specify the IP version, IP address, network range, add a description, and then select **Apply**.
 

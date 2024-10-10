@@ -29,7 +29,7 @@ Learn about network regions, network sites, network subnets, and trusted IP addr
 
 These terms and concepts are used throughout our cloud voice documentation for [Location-Based Routing for Direct Routing](location-based-routing-plan.md) and [dynamic emergency calling](configure-dynamic-emergency-calling.md). If you're deploying these cloud voice features in your organization, you must configure network settings for use with these features in Microsoft Teams.
 
-This article gives you an overview of the network settings that are common to Location-Based Routing and dynamic emergency calling. Depending on the cloud voice feature and capability that you're deploying, you configure some or all these settings. For steps on how to configure these settings, see [Manage your network topology for cloud features in Teams](manage-your-network-topology.md).
+This article gives you an overview of the network settings that are common to Location-Based Routing and dynamic emergency calling. Depending on the cloud voice feature and capability that you're deploying, you configure some or all of these settings. For steps on how to configure these settings, see [Manage your network topology for cloud features in Teams](manage-your-network-topology.md).
 
 Note that it can take some time (up to four hours) for some changes to network settings (such as a new address, network identifier, and so on) to propagate and be available to Teams clients.
 
@@ -46,7 +46,6 @@ The same network regions are shared by Location-Based Routing for Direct Routing
 
 A network site represents a location where your organization has a physical venue, such as an office, a set of buildings, or a campus. Network sites are defined as a collection of IP subnets. Each network site must be associated with a network region.
 
-You can also use network sites to enable and configure emergency calling.
 
 ## Network subnet
 
@@ -60,7 +59,8 @@ For each network site, you should work with your network administrator to determ
 
 Trusted IP addresses are the internet external IP addresses of the enterprise network. They determine whether the user's endpoint is inside the corporate network before checking for a specific site match.
 
-If the user's external IP address matches an IP address that's in the trusted IP address list, the cloud voice feature checks to determine the internal subnet where the user's endpoint is located. A match can be made against either IPv4 or IPv6 IP addresses and is dependent upon the format of the IP packet sent to the network settings. (If a public IP address has both IPv4 and IPv6, you must add both as trusted IP addresses.)
+If the user's external IP address matches an IP address that's in the trusted IP address list, the cloud voice feature checks to determine the internal subnet where the user's endpoint is located. A match can be made against either IPv4 or IPv6 IP addresses and is dependent upon the format of the IP packet sent to the network settings. (If the enterprise network
+has both IPv4 and IPv6 internet accessible external IP addresses, you must add both as trusted IP addresses.)
 
 If the user's external IP address doesn't match an IP address that's in the trusted IP address list, the endpoint is classified as being at an unknown location.
 
