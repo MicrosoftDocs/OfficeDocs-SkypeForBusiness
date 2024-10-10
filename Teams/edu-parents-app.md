@@ -68,11 +68,11 @@ The Parents app is turned off by default, so the class team owners won't see it 
 
 1. If administrators save their institution type as K12 (Primary or Secondary) in the [Teams for Education Policy Wizard](easy-policy-setup-edu.md), the Parents app gets enabled for their tenant. 
 
-1. Administrators can also control access to Parents app using [Allow apps blocked by developers](manage-apps.md#allow-or-block-apps). Sign in to the Teams admin center and access **Teams apps** > [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps). Search for **Parents** on the **Manage** apps page to find the Parents app published by Microsoft, and select **Allow** or **Block** option. 
+1. Administrators can also control access to Parents app using [Allow apps blocked by developers](manage-apps.md#allow-or-block-apps). Sign in to the Teams admin center and access **Teams apps** > [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps). Search for **Parents** on the  **Manage** apps page to find the Parents app published by Microsoft, and select  **Allow** or **Block**  option. 
 
-At any time, the app can be turned off at the tenant level using [Allow and block apps](manage-apps.md#allow-or-block-apps) in the Teams admin center. If it's turned off at the tenant level, it will be blocked for all users, even if user-level permissions are turned on. 
+At any time, the app can be turned off at the tenant level using [Allow and block apps](manage-apps.md#allow-or-block-apps)  in the Teams admin center. If it's turned off at the tenant level, it will be blocked for all users, even if user-level permissions are turned on. 
 
-The Parents app can also be turned off **at the user level** using [Manage app permission policies in Microsoft Teams](teams-app-permission-policies.md). 
+The Parents app can also be turned off **at the user level** using  [Manage app permission policies in Microsoft Teams](teams-app-permission-policies.md). 
 
 > [!TIP]
 > If you want to learn about School Connection, which empowers parents and guardians to stay informed about their child’s classroom progress in real-time with no extra work required from educators, see  [Set up School Connection](/microsoft-365/education/deploy/school-connection-app). 
