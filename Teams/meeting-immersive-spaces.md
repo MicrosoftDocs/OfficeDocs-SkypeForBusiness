@@ -5,7 +5,7 @@ author: typride
 manager: tyadams
 audience: ITPro
 ms.reviewer: sekerawa
-ms.date: 10/01/2024
+ms.date: 10/04/2024
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
@@ -54,6 +54,10 @@ Immersive spaces work well for these types of meetings:
 
 - *Onboarding meet-and-greets* for new team members
 
+## Limitations and specifications
+
+Please refer to the [limitations and specifications for Immersive spaces (3D)](/mesh/resources/limitations-specifications-mesh#immersive-spaces-3d-view-in-microsoft-teams).
+
 ## License requirements
 
 Immersive spaces in Teams is available with the following licenses:
@@ -68,7 +72,7 @@ Configure your enterprise firewall settings to align with the standard set of Mi
 
 As part of this, ensure that you have configured your firewall to enable traffic to `*.cloud.microsoft.com`, `*.office.com`, and `*.microsoft.com` over `TCP 443`, `80`.
 
-Mesh also requires the IP addresses and port ranges detailed in [Firewall configuration for Azure Communication Services](https://learn.microsoft.com/azure/communication-services/concepts/voice-video-calling/network-requirements#firewall-configuration) for media capabilities such as audio, video, and screenshare.
+Mesh also requires the IP addresses and port ranges detailed in [Firewall configuration for Azure Communication Services](/azure/communication-services/concepts/voice-video-calling/network-requirements#firewall-configuration) for media capabilities such as audio, video, and screenshare.
 
 Without access to these, Mesh won't work properly for users in your organization.
 
