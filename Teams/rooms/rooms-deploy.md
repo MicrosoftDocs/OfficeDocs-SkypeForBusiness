@@ -51,12 +51,12 @@ Work with your network, facilities, and audio-video (AV) teams to make sure that
 
 ## Preparing your corporate network for Teams Rooms
 
-Teams Rooms devices have specific network requirements which may require adjustments to your corporate network from bandwidth, firewall & proxy, or installing certificates. All of these requirements are things you want to consider as you deploy Teams Rooms.  For more information on the networking requirements, see these links:
+Teams Rooms devices have specific network requirements which may require adjustments to your corporate network from bandwidth, firewall & proxy, or installing certificates. All of these requirements are things you want to consider as you deploy Teams Rooms. For more information on the networking requirements, see these links:
 
 - [Prepare your network](rooms-prep.md)
-- [Teams Rooms QoS](/microsoftteams/devices/qos-on-teams-devices)
-- [Teams Rooms IPs and URLs](security.md?tabs=Windows#network-security)
-- [802.1x for Teams Rooms](security.md?tabs=Windows#network-security)
+- [Enable Teams Rooms QoS](/microsoftteams/devices/qos-on-teams-devices)
+- [Review Teams Rooms IPs and URLs](security.md?tabs=Windows#network-security)
+- [Enable 802.1x for Teams Rooms](security.md?tabs=Windows#network-security)
 
 ## Creating resource accounts for your Microsoft Teams Rooms
 
@@ -68,7 +68,7 @@ For each resource account, there are features an IT admin can enable for differe
 |---------- |------------- | --- |
 | Bookable for meetings           | Using voice, video, and screen sharing; making the Microsoft Teams Rooms a bookable resource                     | Enabled for Microsoft Teams; enabled for Exchange calendaring |
 | Meet Now                        | Allowing a "Meet Now" from the Teams Rooms device                                                                | Configure a Teams Meeting policy allowing Meet Now            |
-| Outbound/inbound PSTN Calling   | Enable the Microsoft Teams Rooms console to make and receive PSTN calls                                          | Enabled for Phone System                                      |
+| Outbound/inbound Calling        | Enable the Microsoft Teams Rooms console to make and receive Public Switched Telephone Network (PSTN) calls     | Enabled for Phone System                                      |
 
 |  &nbsp;  |  &nbsp;   |
 |-----------|------------|
@@ -104,7 +104,7 @@ For Teams Rooms on Android and Teams panel devices, Intune enrollment is require
 
 ### Device deployment
 
-After have creating your resource accounts and enabling the management portal, it's time to ship devices. Create your plan to ship the devices and their assigned peripherals to your rooms, and then proceed to installation and configuration.
+After creating your resource accounts and enabling the management portal, it's time to ship devices. Create your plan to ship the devices and their assigned peripherals to your rooms, and then proceed to installation and configuration.
 
 |  &nbsp;  |   &nbsp;  |
 |-----------|------------|
