@@ -26,11 +26,7 @@ ms.custom: seo-marvel-apr2020
 # Prepare your environment
 
 This section contains an overview of the steps required to prepare your environment so that you can use all of the features of Microsoft Teams Rooms.
-  
-1. Prepare a resource account for each Microsoft Teams Rooms device. For details, see [Create and configure resource accounts](create-resource-account.md)
-    
-2. Ensure a network connection for the device to use with access to all required URLs and IPs, further guidance can be found here: [Network Security](security.md#network-security)
-    
+      
 ## Create and test a resource account
 
 A  *resource account*  is an account that the Microsoft Teams Rooms device uses to access features such as: Teams for Calling and Meetings and SharePoint for Whiteboards and PowerPoint files. For details, see [Create and configure resource accounts](create-resource-account.md).
@@ -46,7 +42,6 @@ In order to function properly, Microsoft Teams Rooms devices must have access to
 - Review if your organization utilizes a proxy, you need the proxy address or proxy autoconfiguration (PAC) file url
 
 - Review if your organization utilizes certificates for network access, you need the certificates for a successful setup
-
 
 > [!IMPORTANT]
 > Be sure to use a network connection with enough bandwidth (we recommend 10 mbps up/down per Teams Room) to ensure your meetings perform well.
