@@ -71,11 +71,7 @@ After you create resource accounts, you can create and assign a policy to enable
 ## See also
 
 [Introducing Microsoft Teams displays](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/introducing-microsoft-teams-displays/ba-p/1505437)
-
 [Teams Marketplace](https://office.com/teamsdevices)
-
-[Phones for Teams](phones-for-teams.md)
-
-[IP Phones certified for Microsoft Teams](teams-ip-phones.md)
-
-
+[Certified Teams phones](teams-phones-certified-hardware.md)
+[Certified Teams panels](teams-panels-certified-hardware.md)
+[Teams Rooms on Android certified systems and peripherals](../devices/certified-hardware-android.md?tabs=Android)

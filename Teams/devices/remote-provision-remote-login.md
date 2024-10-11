@@ -35,10 +35,10 @@ All Android and SIP devices certified by Microsoft can be provisioned remotely f
 
 Refer to the following for the list of certified hardware:
 
-Phones, Displays, Panels - [Devices for Teams | Microsoft certified hardware](./teams-ip-phones.md)
-Microsoft Teams Rooms on Android - [Teams Rooms certified systems and peripherals](../rooms/certified-hardware.md?tabs=Android)
+Teams phones - [Certified Teams phones](teams-phones-certified-hardware.md)
+Teams panels - [Certified Teams panels](teams-panels-certified-hardware.md)
+Microsoft Teams Rooms on Android - [Teams Rooms on Android certified systems and peripherals](../devices/certified-hardware-android.md?tabs=Android)
 SIP devices - [Teams compatible devices](../sip-gateway-plan.md#compatible-devices)
-
 
 ## Add a device MAC address
 
@@ -54,7 +54,7 @@ In the **Provision new devices** window, you can either add the MAC address manu
 
 1. From the **Waiting on activation** tab, select **Add MAC ID**.
 
-   ![manually add a device mac address.](../media/remote-provision-6-new.png)
+   :::image type="content" alt-text="Screenshot of 'Add MAC address' for manually adding a the MAC address for a device." source="../media/remote-provision-6-new.png" lightbox="../media/remote-provision-6-new.png":::
 
 1. Enter the MAC ID.
 1. Enter a location, which helps technicians identify where to install the devices.
