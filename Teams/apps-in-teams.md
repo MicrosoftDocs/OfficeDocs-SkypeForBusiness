@@ -168,7 +168,6 @@ The following apps are provided by Microsoft and are generally available:
 * News
 * OneNote
 * Outgoing Webhook
-* Payments (preview)
 * Places
 * Planner
 * Polls
