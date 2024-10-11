@@ -343,10 +343,10 @@ You can learn more at [this link](/uwp/api/windows.applicationmodel.startuptasks
 
 All the user settings and configurations are now stored in:
 
-- C:\Users\<username>\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\
-- C:\Users\<username>\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\Settings\settings.dat
-- C:\Users\<username>\AppData\Local\Publishers\8wekyb3d8bbwe\TeamsSharedConfig\app_switcher_settings.json
-- C:\Users\<username>\AppData\Local\Publishers\8wekyb3d8bbwe\TeamsSharedConfig\tma_settings.json
+- C:\Users\\<username\>\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\
+- C:\Users\\<username\>\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\Settings\settings.dat
+- C:\Users\\<username\>\AppData\Local\Publishers\8wekyb3d8bbwe\TeamsSharedConfig\app_switcher_settings.json
+- C:\Users\\<username\>\AppData\Local\Publishers\8wekyb3d8bbwe\TeamsSharedConfig\tma_settings.json
 
 Make sure these folders and files are persisted for proper Teams functioning.
 
@@ -398,7 +398,7 @@ The new Teams app takes up about 50% less disk space than the classic version. T
 
 - **App installer**: C:\Program Files\WindowsApps\MSTeams_[version]_[arch]__8wekyb3d8bbwe
   Includes the installation package, supports the ability to reset the app, and allows single instancing.
-- **User and app data**: C:\Users\<alias>\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe
+- **User and app data**: C:\Users\\<alias\>\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe
   This includes code (Javascript bundles), code cache, browser caches, databases for user data (like conversations which scales based on usage), and web storage (from domains hosted within Teams, such as Sharepoint, Viva learning, Apps, and so on).
 
 The underlying folder structure is logically similar to Electron-based classic Teams. For non-persistent setups where storage footprint is a consideration, the following guidance applies:
@@ -449,7 +449,7 @@ All new Teams files that are installed on the computer are signed, so IT admins 
 
 This error is caused by GPOs affecting Windows Installer. This includes [**DisableUserInstalls**](/windows/win32/msi/disableuserinstalls), [**DisableMSI**](/windows/win32/msi/disablemsi), or AppLocker policies based on Publisher rule conditions, or a RuleCollection for MSI installs. In this case you must create an exception such as:
 
-- FilePathCondition Path="%PROGRAMFILES%\WINDOWSAPPS\*\MICROSOFTTEAMSMEETINGADDININSTALLER.MSI"
+- FilePathCondition Path="%PROGRAMFILES%\WINDOWSAPPS\\*\MICROSOFTTEAMSMEETINGADDININSTALLER.MSI"
 
 **Workaround:**  You can install the MSI that is located in the new Teams installation directory from an Admin Command prompt using:  
 
