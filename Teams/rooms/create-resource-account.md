@@ -31,6 +31,8 @@ Microsoft 365 resource accounts are mailbox and Teams accounts that are dedicate
 
 Every resource account is unique to a single Microsoft Teams Rooms installation or Teams device implementation.
 
+[!INCLUDE [mtr-device-config-account-include](../includes/m365-teams-resource-account-difference.md)]
+
 > [!NOTE]
 > If using Microsoft Teams panels, the same Teams Rooms resource account signs in to the Teams Rooms device and any associated Teams panels.
 
