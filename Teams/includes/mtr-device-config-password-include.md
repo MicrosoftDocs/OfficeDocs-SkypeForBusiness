@@ -13,21 +13,21 @@ Follow the steps in one of the following tabs to turn off password expiration:
 
 #### [**Microsoft Graph PowerShell**](#tab/graph-powershell-password/)
 
-1. First, connect to the Microsoft Graph PowerShell:
+1. Connect to [Microsoft Graph PowerShell](/microsoft-365/enterprise/connect-to-microsoft-365-powershell):
 
-  ```PowerShell
-     Connect-MgGraph -Scopes "User.ReadWrite.All"
-  ```
+    ```PowerShell
+       Connect-MgGraph -Scopes "User.ReadWrite.All"
+    ```
 
 2. Set the password to never expire, this example sets the password for the account ConferenceRoom01@contoso.com to never expire.
 
-  ```PowerShell
-  Update-MgUser -UserId ConferenceRoom01@contoso.com -PasswordPolicies DisablePasswordExpiration -PassThru
-  ```
+    ```PowerShell
+    Update-MgUser -UserId ConferenceRoom01@contoso.com -PasswordPolicies DisablePasswordExpiration -PassThru
+    ```
 
 #### [**Active Directory (On-premises)**](#tab/active-directory1-password/)
 
-1. Connect to Active Directory PowerShell, see [ActiveDirectory](/powershell/module/activedirectory):
+1. Connect to [Active Directory PowerShell](/powershell/module/activedirectory):
 
     ```PowerShell
        Import-Module ActiveDirectory
