@@ -1,29 +1,23 @@
----
-ms.date: 08/03/2022
----
-Each Microsoft Teams Rooms device needs its own resource account. The resource account is the account the Teams Rooms device logs into and is what users in your organization invite to book the Teams Room.
-
-When you create the resource mailbox, you can specify whether you want to allow recurring meetings, have the room auto accept invites, how many days into the future to accept invites, and so on.
-
 > [!TIP]
-> When naming your resource accounts, we recommend using a standard naming convention to the beginning of the e-mail address. This will help with creating dynamic groups to ease management in Microsoft Entra ID. For example, you could use "mtr-" for all resource accounts that will be associated with Microsoft Teams Rooms.
-
-> [!TIP]
-> We recommend that you create all resource accounts using Exchange Online and Microsoft Entra ID.
+> You can automatically create and configre Teams Rooms resource accounts via the [Surface Hub and Microsoft Teams Rooms automated setup guide](https://go.microsoft.com/fwlink/?linkid=2221605).
 >
-> You can automatically configure recommended Teams Rooms resource settings via the [Surface Hub and Microsoft Teams Rooms automated setup guide](https://go.microsoft.com/fwlink/?linkid=2221605).
+> We recommend that you create all resource accounts as cloud only using Microsoft Entra ID and Exchange Online. If using Exchange on-premise, you must be in hybrid for the Teams Rooms device to read the calendar.
+
+Each Microsoft Teams Rooms device needs its own resource account. The Teams Rooms device uses the resource account to log into Microsoft 365 and it is what users in your organization invite in Exchange to book the room.
+
+> [!TIP]
+> When naming your resource accounts, we recommend using a standard naming convention to the beginning of the e-mail address. This will help with creating dynamic groups to ease management. For example, you could use "mtr-" for all resource accounts that will be associated with Microsoft Teams Rooms.
+
 
 Create a resource account using a method from one of the following tabs:
 
 #### [**In Microsoft 365 admin center**](#tab/m365-admin-center)
 
-1. Sign in to the Microsoft 365 admin center.
+1. Sign in to the Microsoft 365 admin center with administrative credentials for your Microsoft 365 tenant.
 
-2. Provide the admin credentials for your Microsoft 365 tenant.
+2. Go to **Resources** in the left panel, and then select **Rooms & equipment**. (If these options aren't available in the panel, you may need to select **Show all** first.)
 
-3. Go to **Resources** in the left panel, and then select **Rooms & equipment**. If these options aren't available in the left panel, you may need to select **Show all** first.
-
-4. Select **Add resource** to create a new resource account. Enter a display name and email address for the account and then select **Save**.
+3. Select **Add resource** to create a new resource account. Enter a name, email address, and capacity for the account, then select **Save**.
 
 5. By default, resource accounts are configured with the following settings:
 
@@ -39,11 +33,13 @@ Create a resource account using a method from one of the following tabs:
 
 7. Next, assign a password to the resource account. In the panel, select **Reset password**.
 
-8. Requiring users to change the password on a shared device will cause sign in problems. Uncheck **Require this user to change their password when they first sign in**, and select **Reset password**.
+8. Requiring a password change on first login for a Teams Rooms device will cause sign in problems. Uncheck **Require this user to change their password when they first sign in**, and select **Reset password**.
 
-You may also need to apply bandwidth policies or meeting policies to this account. You can set mailbox policies in a later step.
+9. Assign the Teams Rooms license purchased in the earlier step. In the panel, select **Licenses and apps**.
 
-#### [**With Exchange Online**](#tab/exchange-online)
+10. Check the box next to **Microsoft Teams Rooms Pro** or **Microsoft Teams Rooms Basic**, and select **Save changes**
+
+#### [**With Exchange Online PowerShell**](#tab/exchange-online)
 
 1. Connect to [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
@@ -73,7 +69,12 @@ You may also need to apply bandwidth policies or meeting policies to this accoun
     New-Mailbox -MicrosoftOnlineServicesID ConferenceRoom01@contoso.com -Name "ConferenceRoom01" -Alias ConferenceRoom01 -Room -EnableRoomMailboxAccount $true  -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
     ```
 
-If you're in an Exchange hybrid configuration, you need to add an email address for your on-premises domain account. See [Sync on-premises and Office 365 user accounts directories](https://support.microsoft.com/topic/how-to-use-smtp-matching-to-match-on-premises-user-accounts-to-office-365-user-accounts-for-directory-synchronization-75673b94-e1b8-8a9e-c413-ee5a2a1a6a78) for more information.
+3. To assign the Teams Rooms license purchased in the earlier step, sign in to the Microsoft 365 admin center with administrative credentials for your Microsoft 365 tenant.
+
+4. Go to **Users** > **Active users**, and select the room you created to open the properties panel. In the panel, select **Licenses and apps**.
+
+5. Check the box next to **Microsoft Teams Rooms Pro** or **Microsoft Teams Rooms Basic**, and select **Save changes**
+
 
 #### [**With Exchange Server**](#tab/exchange-server)
 
@@ -95,9 +96,18 @@ If you're in an Exchange hybrid configuration, you need to add an email address 
 
       - Account password: P@$$W0rd5959
 
-   ``` PowerShell
-   New-Mailbox -UserPrincipalName ConferenceRoom01@contoso.com -Name "ConferenceRoom01" -Alias ConferenceRoom01 -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
-   ```
+       ``` PowerShell
+       New-Mailbox -UserPrincipalName ConferenceRoom01@contoso.com -Name "ConferenceRoom01" -Alias ConferenceRoom01 -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
+       ```
+
+3. To assign the Teams Rooms license purchased in the earlier step, sign in to the Microsoft 365 admin center with administrative credentials for your Microsoft 365 tenant.
+
+4. Go to **Users** > **Active users**, and select the room you created to open the properties panel. In the panel, select **Licenses and apps**.
+
+5. Check the box next to **Microsoft Teams Rooms Pro** or **Microsoft Teams Rooms Basic**, and select **Save changes**
+
+> [!IMPORTANT]
+> You must be in operating in an Exchange hybrid configuration for a Teams Rooms device to access the Exchange calendar. In hybrid, you'll also need to add an email address for your on-premises domain account. See [Sync on-premises and Office 365 user accounts directories](https://support.microsoft.com/topic/how-to-use-smtp-matching-to-match-on-premises-user-accounts-to-office-365-user-accounts-for-directory-synchronization-75673b94-e1b8-8a9e-c413-ee5a2a1a6a78) for more information.
 
 #### [**Modify an existing Exchange room mailbox**](#tab/existing-account)
 
@@ -113,14 +123,15 @@ This example enables the account for the existing room mailbox that has the alia
 Set-Mailbox -Identity ConferenceRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
 ```
 
-If you're in an Exchange hybrid configuration, you'll also need to add an email address for your on-premises domain account. See [Sync on-premises and Office 365 user accounts directories](https://support.microsoft.com/topic/how-to-use-smtp-matching-to-match-on-premises-user-accounts-to-office-365-user-accounts-for-directory-synchronization-75673b94-e1b8-8a9e-c413-ee5a2a1a6a78) for more information.
+1. To assign the Teams Rooms license purchased in the earlier step, sign in to the Microsoft 365 admin center with administrative credentials for your Microsoft 365 tenant.
+
+2. Go to **Users** > **Active users**, and select the room you created to open the properties panel. In the panel, select **Licenses and apps**.
+
+3. Check the box next to **Microsoft Teams Rooms Pro** or **Microsoft Teams Rooms Basic**, and select **Save changes**
+
+> [!IMPORTANT]
+> You must be in operating in an Exchange hybrid configuration for a Teams Rooms device to access the Exchange calendar. In hybrid, you'll also need to add an email address for your on-premises domain account. See [Sync on-premises and Office 365 user accounts directories](https://support.microsoft.com/topic/how-to-use-smtp-matching-to-match-on-premises-user-accounts-to-office-365-user-accounts-for-directory-synchronization-75673b94-e1b8-8a9e-c413-ee5a2a1a6a78) for more information.
 
 For detailed syntax and parameter information, see [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) and [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox).
 
-> [!NOTE]
-> If you're creating this account for Teams Room on Surface Hub, you should also enable ActiveSync on this account. This will allow you to send e-mail directly from the Surface Hub, which you can use for features like Whiteboard. See [Applying ActiveSync policies to device accounts (Surface Hub)](/surface-hub/apply-activesync-policies-for-surface-hub-device-accounts) to learn more.
-
 ---
-
-> [!IMPORTANT]
-> If you're only using this resource account to book space and automatically accept or decline invitations, you've completed the set up. If you're using this resource account for PSTN calling, see [Microsoft Teams add-on licenses](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) to determine what license it needs.
