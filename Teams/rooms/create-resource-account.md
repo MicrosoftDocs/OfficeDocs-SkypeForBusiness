@@ -25,35 +25,30 @@ description: Read this article for information on how to create resource account
 
 # Create and configure resource accounts for rooms and shared Teams devices
 
-This article provides steps to create resource accounts for shared spaces and devices, and it includes steps to configure resource accounts for Microsoft Teams Rooms on Windows, Teams Rooms on Android, Teams Rooms on Surface Hub, and hot-desking on Teams displays.
+This article provides steps to create resource accounts for shared spaces and devices, and it includes steps to configure resource accounts for Microsoft Teams Rooms on Windows, Teams Rooms on Android, & Teams panels.
 
 Microsoft 365 resource accounts are mailbox and Teams accounts that are dedicated to specific resources, such as a room or projector. These resource accounts can automatically respond to meeting invites using rules you define when they're created. For example, if you have a common resource such as a conference room, you can set up a resource account for that conference room that will automatically accept or decline meeting invites depending on its calendar availability.
 
-Every resource account is unique to a single Microsoft Teams Rooms installation or Teams display hot-desking implementation.
-
-[!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
+Every resource account is unique to a single Microsoft Teams Rooms installation or Teams device implementation.
 
 > [!NOTE]
-> If using Microsoft Teams panels, the Teams Rooms resource account signs in to both Teams Rooms and associated Teams panels.
+> If using Microsoft Teams panels, the same Teams Rooms resource account signs in to the Teams Rooms device and any associated Teams panels.
 
 ## Before you begin
 
 ### Requirements
 
-Depending on your environment, you need one or more roles to create resource accounts.
+Depending on your environment, you may need one or more roles to create resource accounts.
 
 | Environment | Required Roles |
 |-----|-----|
 |Microsoft Entra ID |Global Administrator or User Administrator |
-|Active Directory |Active Directory Enterprise Admins, Domain Admins, or have delegated rights to create users. Microsoft Entra Connect Sync rights. |
+|On-premise Active Directory |Active Directory Enterprise Admins, Domain Admins, or have delegated rights to create users. Microsoft Entra Connect Sync rights. |
 |Exchange Online |Global Administrator or Exchange Administrator  |
 |Exchange Server |Exchange Organization Management or Recipient Management  |
 
-> [IMPORTANT]
-> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
-
 > [!IMPORTANT]
-> If you're creating resource accounts for Teams Rooms, the resource account's UPN must match the SMTP address of the resource account.
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
 ### What license do you need?
 
@@ -62,6 +57,9 @@ Depending on your environment, you need one or more roles to create resource acc
 ## Create a resource account
 
 [!INCLUDE [mtr-device-config-account-include](../includes/mtr-device-config-account-include.md)]
+
+> [!IMPORTANT]
+> If you're creating resource accounts for Teams Rooms, the resource account's UPN must match the SMTP address of the resource account.
 
 ## Configure mailbox properties
 
@@ -86,7 +84,7 @@ Depending on your environment, you need one or more roles to create resource acc
 There are no unique requirements to enable calling with resource accounts. You enable the resource account for calling in the same way you enable a regular user.
 
 > [!NOTE]
-> We recommend turning off voice mail for shared devices by assigning a calling policy to the device resource accounts. See [Calling and call-forwarding in Teams](../teams-calling-policy.md) for more information.
+> We recommend turning off voicemail for shared devices by assigning a calling policy to the resource accounts. See [Calling policies in Teams](../teams-calling-policy.md) for more information.
 
 [!INCLUDE [mtr-device-config-calendar-include](../includes/mtr-device-config-calendar-include.md)]
 
