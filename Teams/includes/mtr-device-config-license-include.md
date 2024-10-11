@@ -1,5 +1,5 @@
 
-In the next step you'll create a resource account for your Teams Rooms console. Before you do that, you need to purchase a license because each resource account you want to associate with a Teams Rooms console needs a Teams Rooms license.
+In the next step you'll create a resource account for each your Teams Rooms device. Before you do that, you need to purchase license(s), each resource account you want to associate with a Teams Rooms device needs a Teams Rooms license.
 
 Follow the steps below to purchase a Teams Rooms Basic or Teams Rooms Pro license that you can assign to a resource account in a later step. For a comparison between the Teams Rooms Basic and Teams Rooms Pro licenses, see [Teams Meeting Rooms Licenses](../rooms/rooms-licensing.md).
 
