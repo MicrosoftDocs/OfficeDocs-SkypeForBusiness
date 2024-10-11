@@ -27,18 +27,13 @@ ms.custom: seo-marvel-apr2020
 
 This section contains an overview of the steps required to prepare your environment so that you can use all of the features of Microsoft Teams Rooms.
   
-1. Prepare a resource account for each Microsoft Teams Rooms device. See [Deploy Microsoft Teams Rooms](rooms-deploy.md) for details
+1. Prepare a resource account for each Microsoft Teams Rooms device. For details, see [Create and configure resource accounts](create-resource-account.md)
     
 2. Ensure a network connection for the device to use with access to all required URLs and IPs, further guidance can be found here: [Network Security](security.md#network-security)
-  
-3. In order to improve your experience, Microsoft collects data. To allow Microsoft to collect data, allow these sites:
-
-   - Telemetry client endpoint: `https://vortex.data.microsoft.com/`
-   - Telemetry settings endpoint:` https://settings.data.microsoft.com/`
     
 ## Create and test a resource account
 
-A  *resource account*  is an account that the Microsoft Teams Rooms device uses to access features such as: Teams for Calling and Meetings and SharePoint for Whiteboards and PowerPoint files. See [Deploy Microsoft Teams Rooms](rooms-deploy.md) for details.
+A  *resource account*  is an account that the Microsoft Teams Rooms device uses to access features such as: Teams for Calling and Meetings and SharePoint for Whiteboards and PowerPoint files. For details, see [Create and configure resource accounts](create-resource-account.md).
   
 ## Confirm network configuration
 
@@ -154,18 +149,14 @@ To support tenant restrictions, ensure you have your proxy configuration on your
 
 Tenant restrictions aren't supported today on Teams Rooms on Android devices. Consult with your Android device OEM for potential workarounds.
 
-## Admin group management
+## Teams Rooms on Windows administrative access
+
+### Using a admin group
 
 If you choose to join a Teams Rooms on Windows device to a domain (Microsoft Entra ID or Active Directory), you can use Microsoft Intune, Group Policy, or Local Computer Management to set a Security Group as local administrator just like you would for a Windows PC in your domain. Anyone who is a member of that security group can enter their credentials and unlock Settings.
   
 > [!NOTE]
 > If your Microsoft Teams Rooms device loses trust with the domain (for example, if you remove the Microsoft Teams Rooms from the domain after it is domain joined), you won't be able to authenticate into the device and open up Settings. The workaround is to log in with the local Admin account. 
-
-## Local accounts for Teams Rooms on Windows
-
-### Local 'Skype' User Account
-
-Teams Rooms includes a passwordless local account named "Skype". This account is used to sign in to Windows to launch the Teams Rooms app. It isn't supported to apply a password to this account. Open [Microsoft Teams Rooms security](security.md) for more information.
   
 ### Local "Admin" User Account
 
@@ -179,13 +170,24 @@ Microsoft Teams Rooms default password is set to "sfb". The password can be chan
 - Locally: [Change or reset your Windows password](https://support.microsoft.com/windows/change-or-reset-your-windows-password-8271d17c-9f9e-443f-835a-8318c8f68b9c)
 
 You can read more about the Admin account in the [Microsoft Teams Rooms security](security.md) article.
-  
+
+### Local 'Skype' User Account
+
+> [!CAUTION]
+> Any modifications to the "Skype" user account are not supported by Microsoft and will prevent your Teams Rooms on Windows device from functioning correctly.
+
+Teams Rooms on Windows includes a passwordless local account named "Skype". This account is used to sign in to Windows to launch the Teams Rooms app. For more information on how the "Skype" user is security, review [Microsoft Teams Rooms security](security.md).
+
 ### Machine Account
 
 Much like any Windows device, the machine name can be renamed by right-clicking in **Settings** \> **About** \> **Rename PC**.
   
 If you would like to rename the computer after joining it to a domain, use [Rename-Computer](/powershell/module/microsoft.powershell.management/rename-computer), a PowerShell command, followed by the computer's new name.
-  
+
+## Teams Rooms on Android administrative access
+
+Local administrative access to Teams Rooms on Android devices is managed by the Teams device equipment manufacturer.  Please consult the device documentation for default accounts and passwords as well as instructions for how to change those passwords.
+
 ## Related articles
 
 [Plan Microsoft Teams Rooms](rooms-plan.md)
