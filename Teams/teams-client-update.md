@@ -114,21 +114,24 @@ For more information, see [Teams client system requirements](teams-client-system
 
 - To troubleshoot MAU configuration issues, you first need to open the Terminal app and execute the following commands:
   
-  ` defaults read /Library/Managed\ Preferences/com.microsoft.autoupdate2`
-  ` defaults read com.microsoft.autoupdate2 `
+  - ` defaults read /Library/Managed\ Preferences/com.microsoft.autoupdate2`
+  - ` defaults read com.microsoft.autoupdate2 `
 
 - In the output, locate the "/Applications/Microsoft Teams.app". It should look like:
   - Basic:
-    Applications= {
+```xml
+Applications= {
       ...
       "/Applications/Microsoft Teams.app" =     {
         "Application ID" = TEAMS21;
         LCID = 1033;
     };
     ...
-    } 
+    }
+```
   - Custom channel:
-    Applications= {
+```xml
+Applications= {
       ...
       "/Applications/Microsoft Teams.app" =         {
       "Application ID" = TEAMS21;
@@ -136,9 +139,10 @@ For more information, see [Teams client system requirements](teams-client-system
       LCID = 1033;
       ManifestServer = "https://statics.teams.cdn.office.net/production-osx/24199.1700.3003.1785/";
       ManifestServerExpiryTime = "2024-08-02T08:40:06Z";
-    }; 
-    ... 
-    } 
+    };
+    ...
+    }
+```
 
 > [!NOTE]
 > Preferences in /Library/Managed\ Preferences/ take precedence. If you see an "Applications" entry there, focus solely on that output.
@@ -151,9 +155,9 @@ For more information, see [Teams client system requirements](teams-client-system
 
 |Issue                                 |Example  |
 |--------------------------------------|---------|
-|Classic Teams configuration           |"/Applications/Microsoft Teams.app" =     {</br>"Application ID" = TEAMS10;</br>LCID = 1033;</br>} |
-|New Teams configuration with old name |"/Applications/Microsoft Teams (work or school).app" =     {</br>"Application ID" = TEAMS21;</br>LCID = 1033;</br>} |
-|Serving multiple configurations       |"/Applications/Microsoft Teams.app" =     {</br>"Application ID" = TEAMS10;</br>LCID = 1033;</br>}</br>"/Applications/Microsoft Teams.app" =     {</br>"Application ID" = TEAMS21;</br>LCID = 1033;</br>} |
+|Classic Teams configuration           |"/Applications/Microsoft Teams.app" =     {</br>"Application ID" = **TEAMS10**;</br>LCID = 1033;</br>} |
+|New Teams configuration with old name |"/Applications/Microsoft Teams **(work or school).**app" =     {</br>"Application ID" = TEAMS21;</br>LCID = 1033;</br>} |
+|Serving multiple configurations       |"/Applications/**Microsoft Teams.app**" =     {</br>"Application ID" = **TEAMS10**;</br>LCID = 1033;</br>}</br>"/Applications/Microsoft Teams.app" =     {</br>"Application ID" = TEAMS21;</br>LCID = 1033;</br>} |
 
 - A special case might happen when the registration is correct, but your application is still called **Microsoft Teams (work or school).app**. When this happens, you need to manually download and install the [latest version of Teams](https://aka.ms/getteams). If someone don't have permission to install software, contact an administrator to perform the installation. After this is done, you'll continue to receive updates automatically.
 
