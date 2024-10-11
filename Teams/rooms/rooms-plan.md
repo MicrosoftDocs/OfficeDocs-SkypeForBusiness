@@ -53,9 +53,9 @@ Check out the certified Teams Rooms systems and peripherals in [Teams Rooms cert
 
 Each meeting room device, such as a Teams Rooms console, Surface Hub, and Teams panel, needs a Teams Rooms license. Teams provides two licenses for Teams Rooms: Microsoft Teams Rooms Pro and Microsoft Teams Rooms Basic.
 
-Microsoft Teams Rooms Pro is great for organizations that have 25 or more meeting room devices or who want the most comprehensive meeting and device management experiences. Hybrid Teams meetings become more immersive with features like Front row, Content camera, AI-powered noise suppression, and other features available with Microsoft Teams Rooms Pro. Teams Rooms admins can centrally manage all their certified Teams Rooms devices from the Teams admin center from configuring conditional access policies to analyzing rich telemetry about device health and meeting quality.
+Microsoft Teams Rooms Pro is great for organizations that have 25 or more meeting room devices or who want the most comprehensive meeting and device management experiences. Hybrid Teams meetings become more immersive with features like Front row, Content camera, AI-powered noise suppression, and other features available with Microsoft Teams Rooms Pro. Teams Rooms admins can centrally manage all their certified Teams Rooms devices from the Pro Management Portal.
 
-Microsoft Teams Rooms Basic is available for organizations that only have a few meeting room devices and who only need basic meeting and management functionality. Microsoft Teams Rooms Basic lets you join meetings, share content and live video, join Zoom and Webex meetings with Direct Guest Join, and perform basic device inventory and monitoring in the Teams admin center.
+Microsoft Teams Rooms Basic is available for organizations that only have a few meeting room devices and who only need basic meeting and management functionality. Microsoft Teams Rooms Basic lets you join meetings, share content and live video, join Zoom and Webex meetings with Direct Guest Join, and perform basic device inventory and monitoring in the Teams Admin Center.
 
 Before you can use a meeting room device, you need to assign a license to it. For more information, see [Microsoft Teams Rooms licenses](rooms-licensing.md).
 
@@ -63,13 +63,11 @@ Before you can use a meeting room device, you need to assign a license to it. Fo
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
-|![decide deployment.](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Will you deploy Microsoft Teams Rooms in your organization? </li><li>How will you procure your Microsoft Teams Rooms systems?</li></ul> |
-| ![identify activities.](../media/audio_conferencing_image9.png)<br/>Next steps | <ul><li>Identify who will undertake the key activities throughout your deployment.</li><li>Review the meeting rooms you have (and plan to set up) to understand where you want to deploy Microsoft Teams Rooms and the peripheral devices that would be appropriate for the room size.</li></ul> |
+|![decide deployment.](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Are you deploying Microsoft Teams Rooms in your organization? </li><li>How do you plan you procure your Microsoft Teams Rooms systems?</li></ul> |
+| ![identify activities.](../media/audio_conferencing_image9.png)<br/>Next steps | <ul><li>Identify who will perform the key activities throughout your deployment.</li><li>Understand where you want to deploy Microsoft Teams Rooms and the peripheral devices that would be appropriate for the room size.</li></ul> |
 | | |
 
-## Identify who will undertake the key activities throughout your deployment
-
-Use the approach illustrated below to guide you through your deployment, and customize the sample outputs provided as needed for your organization.
+## Identify who will perform the key activities throughout your deployment
 
 Begin with understanding what conference rooms you have and envisioning what would work best for you in the future, then move through selecting and procuring the equipment you need, readying your sites, configuring and deploying your service, managing change and user adoption, and developing operations and maintenance procedures.
 
@@ -96,7 +94,7 @@ The first step is to inventory your organization's existing meeting spaces and c
 
 After you create an inventory of the equipment and capabilities in each existing room, your requirements for that room feed into your device selection planning to create a rich conferencing solution. The modalities (audio, video) needed for each room—in addition to room size and purpose—all play an important role in deciding which solution is most appropriate for each room.
 
-As part of your discovery, it's key to consider room acoustics and layout. For example, check that the chairs in the room cannot block the camera view. Verify that the room doesn't have excessive echo or noisy air conditioning, and that it does have sufficient power for the screens and Microsoft Teams Rooms. There are many factors to consider that your audio-visual (AV) team or partner will be able to advise on.
+As part of your discovery, it's key to consider room acoustics and layout. For example, check that the chairs in the room can't block the camera view. Verify that the room doesn't have excessive echo or noisy air conditioning, and that it does have sufficient power for the screens and Microsoft Teams Rooms. There are many factors to consider that your audio-visual (AV) team or partner can advise on.
 
 | &nbsp;   | &nbsp;    |
 |-----------|------------|
@@ -106,8 +104,8 @@ _Sample meeting/conference room inventory_
 
 | Site      | Room name | Room type | Number of people | In scope? | Current room capabilities           | Future room capabilities |
 |-----------|-----------|-----------|------------------|-----------|-------------------------------------|--------------------------|
-| London HQ | Curie     | Medium    | 6&ndash;12       | Yes       | Speakerphone                        | Single screen, audio and video plus presentation |
-| Sydney HQ | Hill      | Large     | 12&ndash;16      | Yes       | Legacy AV unit, one screen and camera | Dual screens, audio and video plus presentation |
+| London HQ | Curie     | Medium    | 6&ndash;12       | Yes       | Speakerphone                        | Single screen, audio, and video plus presentation |
+| Sydney HQ | Hill      | Large     | 12&ndash;16      | Yes       | Legacy AV unit, single screen, and camera | Dual screens, audio, and video plus presentation |
 
 ## Device selection
 
@@ -122,7 +120,7 @@ Based on the vendor you prefer, use the information provided in the requirements
 
 | &nbsp; | &nbsp; |
 |---|---|
-| ![rooms in scope.](../media/audio_conferencing_image7.png) <br/>Decision points | <ul><li>From your inventory, which types of rooms are in scope for your deployment?</li><li>Which systems will you deploy for each room type?</li></ul> |
+| ![rooms in scope.](../media/audio_conferencing_image7.png) <br/>Decision points | <ul><li>Which types of rooms are in scope for your deployment?</li><li>Which systems will you deploy for each room type?</li></ul> |
 | ![gather material.](../media/audio_conferencing_image9.png)<br/>Next steps | <ul><li>Start to gather key operational material for your chosen systems, and engage your procurement team.</li></ul> |
 
 _Sample Microsoft Teams Rooms deployment template for your organization_
@@ -147,14 +145,14 @@ Depending on your deployment scale and approach, you might decide to have the Mi
 
 | &nbsp; | &nbsp; |
 |---|---|
-| ![ship components.](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Will you ship the components directly to a site or to a staging facility?</li><li>Who will manage the staging facility (if you decide to use one)?</li></ul> |
+| ![ship components.](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Do you ship the components directly to a site or to a staging facility?</li><li>Do you know who will manage the staging facility (if you decide to use one)?</li></ul> |
 | ![plan operations.](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Plan for operations.</li><li>Plan for adoption and change management.</li></ul> |
 
 ## Plan for operations
 
 Your organization must execute monitoring, administration, and management tasks on an ongoing basis, and it's key to agree who will undertake these tasks early in your deployment.
 
-Many organizations have an AV team or partner who manages their conference rooms and devices. It is important to decide who will manage the Microsoft Teams Rooms devices going forward to monitor performance and deploy software updates and hotfixes.
+Many organizations have an AV team or partner who manages their conference rooms and devices. It's important to decide who will manage the Microsoft Teams Rooms devices going forward to monitor performance and deploy software updates and hotfixes.
 
 Consider which helpdesk queue you route Microsoft Teams Rooms-related calls to, and provide an FAQ to the helpdesk team so they can better understand how to use Microsoft Teams Rooms and the key troubleshooting steps they can take. A good starting point for this FAQ is the [user help](https://support.microsoft.com/office/microsoft-teams-rooms-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) and [Known issues](known-issues.md).
 
