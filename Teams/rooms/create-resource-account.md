@@ -52,18 +52,18 @@ Depending on your environment, you may need one or more roles to create resource
 > [!IMPORTANT]
 > Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
-### What license do you need?
+## Get the right license
 
 [!INCLUDE [mtr-device-config-license-include](../includes/mtr-device-config-license-include.md)]
 
-## Create a resource account
+## Create resource account & assign the license
 
 [!INCLUDE [mtr-device-config-account-include](../includes/mtr-device-config-account-include.md)]
 
 > [!IMPORTANT]
 > If you're creating resource accounts for Teams Rooms, the resource account's UPN must match the SMTP address of the resource account.
 
-## Configure mailbox properties
+## Configure Exchange mailbox properties
 
 [!INCLUDE [mtr-device-config-mailbox-include](../includes/mtr-device-config-mailbox-include.md)]
 
@@ -71,28 +71,31 @@ Depending on your environment, you may need one or more roles to create resource
 
 [!INCLUDE [mtr-device-config-password-include](../includes/mtr-device-config-password-include.md)]
 
-## Assign a meeting room license
-
-[!INCLUDE [mtr-device-config-assign-include](../includes/mtr-device-config-assign-include.md)]
-
 ## Next steps
 
-### Meeting policies
+### Teams policies
 
 [!INCLUDE [mtr-device-config-policies-include](../includes/mtr-device-config-policies-include.md)]
 
 ### Calling
 
-There are no unique requirements to enable calling with resource accounts. You enable the resource account for calling in the same way you enable a regular user.
+Resource accounts can be enabled for public switched telephone network (PSTN) the same way you enable a regular user. See [Calling in Microsoft Teams](/microsoftteams/cloud-voice-landing-page) for more information.
 
 > [!NOTE]
 > We recommend turning off voicemail for shared devices by assigning a calling policy to the resource accounts. See [Calling policies in Teams](../teams-calling-policy.md) for more information.
 
+### Conditional Access
+
+Resource accounts for Teams devices are impacted by conditional access, you may need to make modifications to your existing policies to ensure your resource accounts are secure and functional. See [Conditional access for Teams devices](/microsoftteams/rooms/conditional-access-and-compliance-for-devices) for more information on supported configurations and changes you may need to make.
+
+> [!NOTE]
+> Teams shared devices do not support Security defaults in Entra ID. Use conditional access to secure your environment and Teams shared devices.
+
+### Exchange Room Finder & Microsoft Places
+
 [!INCLUDE [mtr-device-config-calendar-include](../includes/mtr-device-config-calendar-include.md)]
 
 ## Related articles
-
-[Configure accounts for Microsoft Teams Rooms](rooms-configure-accounts.md)
 
 [Plan for Microsoft Teams Rooms](rooms-plan.md)
 
