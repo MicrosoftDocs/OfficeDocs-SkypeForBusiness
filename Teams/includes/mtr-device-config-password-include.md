@@ -25,7 +25,7 @@ Follow the steps in one of the following tabs to turn off password expiration:
   Update-MgUser -UserId ConferenceRoom01@contoso.com -PasswordPolicies DisablePasswordExpiration -PassThru
   ```
 
-#### [**Active Directory (On premises)**](#tab/active-directory1-password/)
+#### [**Active Directory (On-premises)**](#tab/active-directory1-password/)
 
 1. Connect to Active Directory PowerShell, see [ActiveDirectory](/powershell/module/activedirectory):
 
