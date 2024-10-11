@@ -3,7 +3,7 @@
 >
 > We recommend that you create all resource accounts as cloud only using Microsoft Entra ID and Exchange Online. If using Exchange on-premise, you must be in hybrid for the Teams Rooms device to read the calendar.
 
-Each Microsoft Teams Rooms device needs its own resource account. The Teams Rooms device uses the resource account to log into Microsoft 365 and it is what users in your organization invite in Exchange to book the room.
+Each Microsoft Teams Rooms device needs its own resource account. The Teams Rooms device uses the resource account to log into Microsoft 365 and it's what users in your organization invite in Exchange to book the room.
 
 > [!TIP]
 > When naming your resource accounts, we recommend using a standard naming convention to the beginning of the e-mail address. This will help with creating dynamic groups to ease management. For example, you could use "mtr-" for all resource accounts that will be associated with Microsoft Teams Rooms.
@@ -33,7 +33,7 @@ Create a resource account using a method from one of the following tabs:
 
 7. Next, assign a password to the resource account. In the panel, select **Reset password**.
 
-8. Requiring a password change on first login for a Teams Rooms device will cause sign in problems. Uncheck **Require this user to change their password when they first sign in**, and select **Reset password**.
+8. Requiring a password change on first login for a Teams Rooms device causes sign in problems. Uncheck **Require this user to change their password when they first sign in**, and select **Reset password**.
 
 9. Assign the Teams Rooms license purchased in the earlier step. In the panel, select **Licenses and apps**.
 
@@ -47,7 +47,7 @@ Create a resource account using a method from one of the following tabs:
     Connect-ExchangeOnline
     ```
 
-2. By default, room mailboxes don't have associated accounts. Add an account when you create a room mailbox so it can authenticate with Microsoft Teams.
+2. Room mailboxes don't have accounts associated by default. Add an account when you create a room mailbox so it can authenticate with Microsoft Teams.
 
     If you're creating a new resource mailbox:
 
@@ -107,7 +107,7 @@ Create a resource account using a method from one of the following tabs:
 5. Check the box next to **Microsoft Teams Rooms Pro** or **Microsoft Teams Rooms Basic**, and select **Save changes**
 
 > [!IMPORTANT]
-> You must be in operating in an Exchange hybrid configuration for a Teams Rooms device to access the Exchange calendar. In hybrid, you'll also need to add an email address for your on-premises domain account. See [Sync on-premises and Office 365 user accounts directories](https://support.microsoft.com/topic/how-to-use-smtp-matching-to-match-on-premises-user-accounts-to-office-365-user-accounts-for-directory-synchronization-75673b94-e1b8-8a9e-c413-ee5a2a1a6a78) for more information.
+> You must be in operating in an Exchange hybrid configuration for a Teams Rooms device to access the Exchange calendar. In hybrid, you'll also need to add an email address for your on-premises domain account. For more information, see [sync on-premises and Office 365 user accounts directories](https://support.microsoft.com/topic/how-to-use-smtp-matching-to-match-on-premises-user-accounts-to-office-365-user-accounts-for-directory-synchronization-75673b94-e1b8-8a9e-c413-ee5a2a1a6a78).
 
 #### [**Modify an existing Exchange room mailbox**](#tab/existing-account)
 
@@ -132,6 +132,6 @@ For detailed syntax and parameter information, see [New-Mailbox](/powershell/mod
 3. Check the box next to **Microsoft Teams Rooms Pro** or **Microsoft Teams Rooms Basic**, and select **Save changes**
 
 > [!IMPORTANT]
-> You must be in operating in an Exchange hybrid configuration for a Teams Rooms device to access the Exchange calendar. In hybrid, you'll also need to add an email address for your on-premises domain account. See [Sync on-premises and Office 365 user accounts directories](https://support.microsoft.com/topic/how-to-use-smtp-matching-to-match-on-premises-user-accounts-to-office-365-user-accounts-for-directory-synchronization-75673b94-e1b8-8a9e-c413-ee5a2a1a6a78) for more information.
+> You must be in operating in an Exchange hybrid configuration for a Teams Rooms device to access the Exchange calendar. In hybrid, you'll also need to add an email address for your on-premises domain account. For more information, see [Sync on-premises and Office 365 user accounts directories](https://support.microsoft.com/topic/how-to-use-smtp-matching-to-match-on-premises-user-accounts-to-office-365-user-accounts-for-directory-synchronization-75673b94-e1b8-8a9e-c413-ee5a2a1a6a78).
 
 ---
