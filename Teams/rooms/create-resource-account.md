@@ -91,7 +91,7 @@ Resource accounts can be enabled for public switched telephone network (PSTN) th
 Resource accounts for Teams devices can be impacted by conditional access. You may need to make modifications to your existing policies to ensure your resource accounts are secure and functional. For more information on supported configurations and changes you may need to make, see [Conditional access for Teams devices](/microsoftteams/rooms/conditional-access-and-compliance-for-devices).
 
 > [!NOTE]
-> Teams shared devices do not support Security defaults in Entra ID. Use conditional access to secure your environment and Teams shared devices.
+> Teams shared devices do not support Security defaults in Microsoft Entra ID. Use conditional access to secure your environment and Teams shared devices.
 
 ### Exchange Room Finder & Microsoft Places
 
