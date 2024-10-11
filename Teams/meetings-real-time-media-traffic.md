@@ -66,4 +66,4 @@ Note: If you enable QoS or change settings in the Microsoft Teams admin center f
       > [!IMPORTANT]
       > Do not select **Automatically use any available ports** unless you aren't implementing QoS. If you select this option, available ports between 1024 and 65535 are used. 
 
-After using QoS for a while, you can use use [Call Quality Dashboard](cqd-what-is-call-quality-dashboard.md) to determine if changes are required to your QoS configuration.  
+After using QoS for a while, you can use [Call Quality Dashboard](cqd-what-is-call-quality-dashboard.md) to determine if changes are required to your QoS configuration.  
