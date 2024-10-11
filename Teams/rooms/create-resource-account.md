@@ -40,7 +40,7 @@ Every resource account is unique to a single Microsoft Teams Rooms installation 
 
 ### Requirements
 
-Depending on your environment, you may need one or more roles to create resource accounts.
+You may need one or more roles to create, license, and configure resource accounts.
 
 | Environment | Required Roles |
 |-----|-----|
