@@ -137,31 +137,6 @@ _Sample Microsoft Teams Rooms deployment template for your organization_
 > [!TIP]
 > Now is a great time to start gathering information about the Microsoft Teams Rooms solution you've chosen.
 
-### Wireless network considerations
-
-We strongly recommend that you connect your Teams Rooms devices to a wired network for greater stability and performance, ensuring a seamless meeting experience. If using a wired connection is not available, you may opt to use a wireless connection.
-
-> [!IMPORTANT]
-> Wireless networks can be prone to network interference leading to quality degradation. We strongly recommend that you follow your wireless equipment provider's best practices when configuring a wireless connection to improve video and audio quality.
-
-Here are some examples of wireless network configuration best practices recommended by various manufacturers:
-
-- Deploy wireless equipment, such as access points and routers, that can handle and distribute the bandwidth load across all connected devices in the network.
-- As much as possible, use access points and routers from a single manufacturer to avoid further congesting the radio-spectrum.
-- Ensure wireless equipment is installed in a way that reduces or eliminates interference from objects and other equipment.
-- Ensure the wireless network shows strong signal strength (Wi-Fi signal showing full bars is preferred) on Teams Rooms and other device screens.
-- Default to prioritizing 5 GHz coverage for devices to optimize for higher bandwidth.
-- Enable band steering to ensure that 5 GHz is always given more priority when sharing the same network name (SSID) as 2.4 GHz.
-- Keep wireless channel utilization below 50%.
-- Keep access point and router firmware up to date with the latest firmware versions and hot fixes.
-- Verify that Teams Rooms devices and at least one access point see each other with a signal strength of -60 dBm or better. A dBm value closer to zero is preferred. Follow your equipment manufacturer's recommendations.
-- Implement QoS whenever possible to allow monitoring and resolution of issues in real time.
-
-For additional best practices specific to your wireless network hardware, check your manufacturer's documentation.
-
-You can also troubleshoot wireless network issues using the wireless network report built into Windows 10. For more information, see [Analyze the wireless network report - Microsoft Support](https://support.microsoft.com/windows/analyze-the-wireless-network-report-76da0daa-1db2-6049-d154-7bb679eb03ed).
-
-
 ## Procurement
 
 You can procure your chosen system as a bundle or an integrated solution via device partners.
