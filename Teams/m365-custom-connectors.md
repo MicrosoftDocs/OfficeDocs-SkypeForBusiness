@@ -29,6 +29,33 @@ Teams and Microsoft 365 groups use connectors. You can use the same connectors i
 
 Any team member can add a connector to a channel, if the team permissions allow it. The updates from the service, that the connector fetches information from, notifies all the team members. Any team member with the permissions to add or remove can modify connectors setup done by other members.
 
+> [!IMPORTANT]
+> Developers can't register new connectors on the Connector developer portal.
+
+## Update Connectors URL
+
+The [Teams connectors are transitioning](https://devblogs.microsoft.com/microsoft365dev/retirement-of-office-365-connectors-within-microsoft-teams) to a new URL to enhance security. During this transition, you may receive notifications to update your configured connector to use the new URL. We strongly recommended that you update your connector immediately to prevent any disruption to connector services.
+
+This change is needed only for webhook-based Connectors such as Incoming Webhook and third-party connectors. The change isn't required for polling connectors such as RSS. You must update the URL for the connector to continue posting notifications into Teams after December 31, 2024. To update the URL, follow these steps:
+
+1. Go to **Manage Channel** in a Teams channel, select **Edit** under the Connectors option, and select **Configured** section. Check the existing connector connections on this page. Update only those connections that display `Attention required` under the Manage option.
+
+   :::image type="content" source="media/connectors-attention-required.png" alt-text="Screenshot showing the configured connections in a Teams channel that need attention.":::
+
+1. Do one of the following:
+
+   * For connectors that contain a webhook URL, select **Manage** and **Update URL**.
+
+      :::image type="content" source="media/connectors-update-url.png" alt-text="Screenshot showing the option to update a webhook URL.":::
+
+   * For other types of connectors, remove the connector and recreate the connector configuration.
+
+1. Use the new URL or the new connection. The Configure page displays that the URL is updated.
+
+   :::image type="content" source="media/connectors-url-updated.png" alt-text="Screenshot showing a confirmation after URL update.":::
+
+To know more or to share more information with your app developers, see [Connectors deprecation information](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors).
+
 ## Enable or disable connectors in Teams
 
 The Exchange Online PowerShell v2 module uses modern authentication and works with multifactor authentication (MFA) to connect to all Exchange related PowerShell environments in Microsoft 365. Admins can use Exchange Online PowerShell to disable connectors for an entire organization or a specific group mailbox. If a connector is disabled, it affects all users in that org or mailbox. You can't disable a connector for a few specific users.

@@ -116,10 +116,14 @@ Normalization rules use .NET Framework regular expressions to specify numeric ma
 
 For details about using .NET Framework regular expressions, see [.NET Framework Regular Expressions](/dotnet/standard/base-types/regular-expressions).
 
+For validating regular expressions, see [Regex101 (an interactive tool for testing and learning regular expressions)](https://regex101.com/(https://regex101.com/))
+
 See [Create and manage dial plans](create-and-manage-dial-plans.md) to create and manage normalization rules for your tenant dial plans.
 
 > [!NOTE]
 > Normalization rules with the first token as optional are currently not supported on 3pip devices (for example, Polycom VVX 601 model). If you want to apply normalization rules with optionality on 3pip devices, you should create two normalization rules instead of one. For example, the rule ^0?(999)$ should be replaced by the following two rules: (999)$ (Translation:$1) and ^0(999)$ (Translation:$1).
+>
+> Please validate all regular expressions used in dial plan normalization rules as invalid expressions may result in client or service issues. 
 
 
 ### Sample normalization rules
@@ -141,7 +145,7 @@ The following table shows sample normalization rules that are written as .NET Fr
 |NoTranslation  <br/> |Match 5 digits but no translation.  <br/> |^(\\d{5})$  <br/> |$1  <br/> |34567 is translated to 34567  <br/> |
 
  **Redmond dial plan based on normalization rules shown above.**
-
+ 
  The following table illustrates a sample dial plan for Redmond, Washington, United States, based on the normalization rules shown in the previous table.
 
 | Redmond dial plan<br/> |
