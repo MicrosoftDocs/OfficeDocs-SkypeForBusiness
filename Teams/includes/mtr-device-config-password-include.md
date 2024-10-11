@@ -4,12 +4,12 @@ ms.custom:
   - has-azure-ad-ps-ref, azure-ad-ref-level-one-done
 ---
 
-Based on organization policies, resource account passwords may be set to expire automatically after a period of time. If the resource account password expires, the Teams Rooms device with sign out and won't be able to sign in again.
+Based on organization policies, resource account passwords may be set to expire automatically after a period of time. If the resource account password expires, the Teams Rooms device with sign out and can't sign in again without manual intervention.
   
 > [!NOTE]
 > Setting **Password never expires** is a requirement for shared Microsoft Teams devices. If your organization prohibits passwords that don't expire, you'll need to create an exception for Teams device resource accounts.
 
-Follow the steps in one of the following tabs to turn off password expiration:
+To turn off password expiration, follow the steps in one of the following tabs:
 
 #### [**Microsoft Graph PowerShell**](#tab/graph-powershell-password/)
 
