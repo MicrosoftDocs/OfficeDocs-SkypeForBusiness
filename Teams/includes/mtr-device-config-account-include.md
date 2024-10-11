@@ -35,7 +35,7 @@ Create a resource account using a method from one of the following tabs:
 
 8. Requiring a password change on first login for a Teams Rooms device causes sign in problems. Uncheck **Require this user to change their password when they first sign in**, and select **Reset password**.
 
-9. Assign the Teams Rooms license purchased in the earlier step. In the panel, select **Licenses and apps**.
+9. Assign the Teams Rooms license, purchased in the earlier step. In the panel, select **Licenses and apps**.
 
 10. Check the box next to **Microsoft Teams Rooms Pro** or **Microsoft Teams Rooms Basic**, and select **Save changes**
 
@@ -63,13 +63,13 @@ Create a resource account using a method from one of the following tabs:
 
     - Alias: ConferenceRoom01
 
-    - Account password: P@$$W0rd5959
+    - Account password: 
 
     ``` PowerShell
     New-Mailbox -MicrosoftOnlineServicesID ConferenceRoom01@contoso.com -Name "ConferenceRoom01" -Alias ConferenceRoom01 -Room -EnableRoomMailboxAccount $true  -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
     ```
 
-3. To assign the Teams Rooms license purchased in the earlier step, sign in to the Microsoft 365 admin center with administrative credentials for your Microsoft 365 tenant.
+3. To assign the Teams Rooms license, purchased in the earlier step, sign in to the Microsoft 365 admin center with administrative credentials for your Microsoft 365 tenant.
 
 4. Go to **Users** > **Active users**, and select the room you created to open the properties panel. In the panel, select **Licenses and apps**.
 
@@ -94,13 +94,13 @@ Create a resource account using a method from one of the following tabs:
 
       - Alias: ConferenceRoom01
 
-      - Account password: P@$$W0rd5959
+      - Account password: 
 
        ``` PowerShell
        New-Mailbox -UserPrincipalName ConferenceRoom01@contoso.com -Name "ConferenceRoom01" -Alias ConferenceRoom01 -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
        ```
 
-3. To assign the Teams Rooms license purchased in the earlier step, sign in to the Microsoft 365 admin center with administrative credentials for your Microsoft 365 tenant.
+3. To assign the Teams Rooms license, purchased in the earlier step, sign in to the Microsoft 365 admin center with administrative credentials for your Microsoft 365 tenant.
 
 4. Go to **Users** > **Active users**, and select the room you created to open the properties panel. In the panel, select **Licenses and apps**.
 
