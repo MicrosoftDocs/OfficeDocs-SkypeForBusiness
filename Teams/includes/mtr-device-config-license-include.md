@@ -9,6 +9,3 @@ Follow the steps below to purchase a Teams Rooms Basic or Teams Rooms Pro licens
 1. Select **Details** under either **Teams Rooms Basic** or **Teams Rooms Pro**.
 1. Select the number of licenses you want to purchase in **Select license quantity**.
 1. Select how often you want to be billed under **Select billing frequency** and then click **Buy**.
-
-> [!NOTE]
-> You can purchase up to 25 Teams Rooms Basic licenses. Any additional licenses you purchase beyond 25 must be Teams Rooms Pro licenses. You can purchase a Teams Rooms Basic license initially and later change the license for that device to Teams Rooms Pro.
