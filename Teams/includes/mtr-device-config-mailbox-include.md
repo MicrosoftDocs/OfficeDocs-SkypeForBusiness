@@ -5,11 +5,11 @@ Based on organizational requirements, you may wish to customize how the resource
 
 - **AddOrganizerToSubject: `$false`** The meeting organizer isn't added to the subject of the meeting request on the resource account calendar.
 
-- **AllowRecurringMeetings: `$true`** Recurring meetings will be accepted by the resource account.
+- **AllowRecurringMeetings: `$true`** Recurring meetings are accepted by the resource account.
 
-- **DeleteAttachments: `$true`** Teams Rooms devices cannot access meeting attachements, deleting attachments ensures they're not stored on the resource account calendar.
+- **DeleteAttachments: `$true`** Teams Rooms devices can't access meeting attachments, deleting attachments ensures they're not stored on the resource account calendar.
 
-- **DeleteComments: `$false`** Keep any text in the message body of incoming meeting requests. This is required to create join buttons for [third-party meetings](/microsoftteams/rooms/third-party-join) on a Teams Rooms device.
+- **DeleteComments: `$false`** Keep any text in the message body of incoming meeting requests which is required to create join buttons for [third-party meetings](/microsoftteams/rooms/third-party-join) on a Teams Rooms device.
 
 - **DeleteSubject: `$false`** Keep the subject of incoming meeting requests on the resource accounts calendar.
 
@@ -19,7 +19,7 @@ Based on organizational requirements, you may wish to customize how the resource
 
 - **AddAdditionalResponse: `$true`** The text specified by the AdditionalResponse parameter is added to meeting requests.
 
-- **AdditionalResponse: "This is a Microsoft Teams Meeting room!"** The additional text to add to the meeting acceptance response. You can also format HTML content in the automatic reply if you wish.
+- **AdditionalResponse: "This is a Microsoft Teams Meeting room!"** The text to add to the meeting acceptance body. You can also format HTML content in the automatic reply if you wish.
 
 To configure these properties, you need to connect to Exchange Online PowerShell. For more information, see [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps&preserve-view=true).
 
