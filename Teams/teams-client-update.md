@@ -94,10 +94,12 @@ For more information, see [Teams client system requirements](teams-client-system
     <dict>
       <key>Application ID</key>
       <string>TEAMS21</string>
-      <key>LCID</key>
       <integer>1033</integer>
     </dict>
 ```
+
+> [!NOTE]
+> Your configuration may contain an LCID key with a value set to 1033. This value isn't used any longer, and you can delete it.
 
 ### Issues with Mac update and best practices
 
@@ -124,7 +126,6 @@ Applications= {
       ...
       "/Applications/Microsoft Teams.app" =     {
         "Application ID" = TEAMS21;
-        LCID = 1033;
     };
     ...
     }
@@ -136,7 +137,6 @@ Applications= {
       "/Applications/Microsoft Teams.app" =         {
       "Application ID" = TEAMS21;
       ChannelName = Custom;
-      LCID = 1033;
       ManifestServer = "https://statics.teams.cdn.office.net/production-osx/24199.1700.3003.1785/";
       ManifestServerExpiryTime = "2024-08-02T08:40:06Z";
     };
@@ -155,9 +155,9 @@ Applications= {
 
 |Issue                                 |Example  |
 |--------------------------------------|---------|
-|Classic Teams configuration           |"/Applications/Microsoft Teams.app" =     {</br>"Application ID" = **TEAMS10**;</br>LCID = 1033;</br>} |
-|New Teams configuration with old name |"/Applications/Microsoft Teams **(work or school).**app" =     {</br>"Application ID" = TEAMS21;</br>LCID = 1033;</br>} |
-|Serving multiple configurations       |"/Applications/**Microsoft Teams.app**" =     {</br>"Application ID" = **TEAMS10**;</br>LCID = 1033;</br>}</br>"/Applications/Microsoft Teams.app" =     {</br>"Application ID" = TEAMS21;</br>LCID = 1033;</br>} |
+|Classic Teams configuration           |"/Applications/Microsoft Teams.app" =     {</br>"Application ID" = **TEAMS10**;</br>} |
+|New Teams configuration with old name |"/Applications/Microsoft Teams **(work or school).**app" =     {</br>"Application ID" = TEAMS21;</br>} |
+|Serving multiple configurations       |"/Applications/**Microsoft Teams.app**" =     {</br>"Application ID" = **TEAMS10**;;</br>}</br>"/Applications/Microsoft Teams.app" =     {</br>"Application ID" = TEAMS21;</br>} |
 
 - A special case might happen when the registration is correct, but your application is still called **Microsoft Teams (work or school).app**. When this happens, you need to manually download and install the [latest version of Teams](https://aka.ms/getteams). If someone don't have permission to install software, contact an administrator to perform the installation. After this is done, you'll continue to receive updates automatically.
 
