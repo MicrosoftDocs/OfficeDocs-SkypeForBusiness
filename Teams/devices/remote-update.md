@@ -199,7 +199,10 @@ Administrators can track the status of these update operations from the 'History
 1. **Which software components are automatically updated?** Both Firmware and Teams app are automatically updated for eligible devices. Automatic updates for Teams app is a feature still in early phase, therefore you might see some delays in device reaching the update phase. The gradual roll out of the feature is being done to ensure minimal impact on devices.
 
 1. **What makes a device eligible to receive automatic updates?** The following conditions should be satisfied for the device to be eligible for automatic updates:
-   - Device model should be certified. Refer to [Devices for Teams](../devices/teams-ip-phones.md) and [Teams Rooms certified systems and peripherals](../rooms/certified-hardware.md?tabs=Android) for details.
+   - Device model should be certified. See:
+      - Teams phones - [Certified Teams phones](teams-phones-certified-hardware.md)
+      - Teams panels - [Certified Teams panels](teams-panels-certified-hardware.md)
+      - Microsoft Teams Rooms on Android - [Teams Rooms on Android certified systems and peripherals](../devices/certified-hardware-android.md?tabs=Android)
    - Current version should be 'Verified by Microsoft'. For more details, see [Software versions](#software-versions-on-teams-admin-center).
    - Devices on versions that were released before 2022 generally do not have auto-update support.
       
