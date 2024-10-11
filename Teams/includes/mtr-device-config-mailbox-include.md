@@ -5,7 +5,7 @@ Based on organizational requirements, you may wish to customize how the resource
 
 - **AddOrganizerToSubject: `$false`** The meeting organizer isn't added to the subject of the meeting request on the resource account calendar.
 
-- **AllowRecurringMeetings: `$true`** Recurring meetings can be accepted by the resource account.
+- **AllowRecurringMeetings: `$true`** Recurring meetings are accepted by the resource account.
 
 - **DeleteAttachments: `$true`** Teams Rooms devices can't access meeting attachments, deleting attachments ensures they're not stored on the resource account calendar.
 
