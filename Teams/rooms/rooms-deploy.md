@@ -32,16 +32,16 @@ After completing planning for Teams Rooms (see [Planning for Teams Rooms](rooms-
 3. Creating resource accounts for your Microsoft Teams devices (see [Create and configure resource accounts for Teams devices](rooms-configure-accounts.md))
 4. Enabling the Teams Rooms Pro Management Portal and assigning administrative roles (see [Accessing the Pro Management Portal](enrolling-mtrp-managed-service.md))
 5. Configuring Intune for your Teams Rooms
-6. Phyiscally deploying your Teams Rooms devices and completing the initial setup steps
+6. Physically deploying your Teams Rooms devices and completing the initial setup steps
 
 > [!TIP]
 > As a companion to this article, we recommend using the [Microsoft Teams Rooms automated setup guide](https://go.microsoft.com/fwlink/?linkid=2224463) when signed in to the Microsoft 365 admin center. This guide will customize your experience based on your environment.  To review best practices without signing in and activating automated setup features, go to the [Microsoft 365 setup portal](https://go.microsoft.com/fwlink/?linkid=2222974).
 
 ## Ordering equipment and site readiness for a Teams Rooms deployment
 
-Before ordering Teams Rooms equipment, review your physical meeting room spaces to determine the style of meetings that will occur in the space and the equipment that fits the need. For more information, see [meeting room guidance](room-planning-guidance.md). Then, order your desired equipment from the [Teams devices store](/microsoftteams/devices/device-store) or from your reseller partner.
+Before ordering Teams Rooms equipment, review your physical meeting room spaces to determine the style of meetings that occur in the space and the equipment that fits the need. For more information, see [meeting room guidance](room-planning-guidance.md). Then, order your desired equipment from the [Teams devices store](/microsoftteams/devices/device-store) or from your reseller partner.
 
-While waiting for the ordered devices to be delivered, work with your networking, facilities, and AV teams to make sure that deployment dependencies are met and each site and space is ready in terms of power, networking, and furniture. In addition, make sure the physical installation requirements are met. For physical installation considerations, consult with your vendor and leverage the experience of your AV team when installing and mounting screens and running cabling.
+While waiting for the ordered devices to be delivered, work with your networking, facilities, and AV teams to make sure that deployment dependencies are met. Ensure each site and space is ready in terms of power, networking, and furniture. In addition, make sure the physical installation requirements are met. For physical installation considerations, consult with your vendor and use the experience of your AV team when installing and mounting screens and running cabling.
 
 |  &nbsp;  | &nbsp;    |
 |-----------|------------|
@@ -51,7 +51,7 @@ While waiting for the ordered devices to be delivered, work with your networking
 
 ## Preparing your corporate network for Teams Rooms
 
-Teams Rooms devices have specific network requirements which may require adjustments to your corporate network from bandwidth, firewall & proxy, or installing certificates. All of these requirements are things you'll want to consider as you deploy Teams Rooms.  For more information on the networking requirements, see the links below:
+Teams Rooms devices have specific network requirements which may require adjustments to your corporate network from bandwidth, firewall & proxy, or installing certificates. All of these requirements are things you want to consider as you deploy Teams Rooms.  For more information on the networking requirements, see these links:
 
 - [Preparing your network](rooms-prep.md)
 - [Teams Rooms QoS](/microsoftteams/devices/qos-on-teams-devices)
@@ -60,9 +60,9 @@ Teams Rooms devices have specific network requirements which may require adjustm
 
 ## Creating resource accounts for your Microsoft Teams Rooms
 
-Teams Rooms devices need resource accounts to be able to successfully sign into Teams as well as to be booked by end users to ensure join buttons appear on the rooms calendar. Each physical meeting room needs it's own Teams Rooms resource account. Teams devices dedicated for that space can share the same resource account, meaning a Teams Room with two Teams panels at different doors can all share the same Teams Rooms resource account. This sharing ensures they are all in sync from a calendar perspective and automatic check-in/booking for meetings works correctly.
+Teams Rooms devices need resource accounts to be able to successfully sign into Teams and to be booked by end users to ensure join buttons appear on the rooms calendar. Each physical meeting room needs its own Teams Rooms resource account. Teams devices dedicated for that space can share the same resource account, meaning a Teams Room with two Teams panels at different doors can all share the same Teams Rooms resource account. This sharing ensures they're all in sync from a calendar perspective and automatic check-in/booking for meetings works correctly.
 
-For each resource account, there are features an IT admin can enable for different business needs. You'll want to consider the features outlined below as you create your Teams Rooms resource accounts following this guide: [How to create and configure resource accounts for Teams devices](create-resource-account.md).
+For each resource account, there are features an IT admin can enable for different business needs. You want to consider the features outlined here as you create your Teams Rooms resource accounts following this guide: [How to create and configure resource accounts for Teams devices](create-resource-account.md).
 
 | Scenario | Description | Microsoft Teams Rooms service account feature |
 |---------- |------------- | --- |
@@ -72,14 +72,14 @@ For each resource account, there are features an IT admin can enable for differe
 
 |  &nbsp;  |  &nbsp;   |
 |-----------|------------|
-| ![scenario support.](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide which Teams Rooms scenarios you'll support.</li><li>Identify licensing requirements for your Microsoft Teams Rooms resource accounts.</li></ul>|
+| ![scenario support.](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide which Teams Rooms scenarios you support.</li><li>Identify licensing requirements for your Microsoft Teams Rooms resource accounts.</li></ul>|
 | ![prepare host machine.](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Prepare the Pro Management Portal.</li></ul>|
 
 ## Enabling the Pro Management Portal
 
 Teams Rooms devices are best managed in the Teams Rooms Pro Management Portal. Once you have a Teams Rooms Pro license available in your Microsoft 365 tenant, you can enable the Teams Rooms Pro Management Portal following the guidance here: [Accessing the Pro Management Portal](enrolling-mtrp-managed-service.md).
 
-While in the Pro Management Portal it's important to define various administrative roles for your meeting room admins.  The Pro Management Portal supports extremely granular role-based access control (RBAC), you can follow the steps here for how to configure RBAC: [Role-based access control in the Microsoft Teams Rooms Pro Management Portal](rooms-pro-rbac.md).
+While in the Pro Management Portal it's important to define various administrative roles for your meeting room admins.  The Pro Management Portal supports granular role-based access control (RBAC), you can follow the steps here for how to configure RBAC: [Role-based access control in the Microsoft Teams Rooms Pro Management Portal](rooms-pro-rbac.md).
 
 
 |  &nbsp;  |  &nbsp;   |
@@ -89,16 +89,16 @@ While in the Pro Management Portal it's important to define various administrati
 
 ## Configuring Intune for your Teams Devices
 
-Teams Rooms on Windows devices can be managed in Intune to expand device management capabilities beyond what is available within the Teams Rooms Pro Management Portal as well as for Intune compliance assessments to ensure Teams Rooms on Windows devices are compliant with organizational requirements.  Teams Rooms on Android and Teams panels devices automatically enroll into Intune when they are logged in for the first time providing additional controls and Intune compliance assessments as well.
+Teams Rooms on Windows devices can be managed in Intune to expand device management capabilities beyond what is available within the Teams Rooms Pro Management Portal and for Intune compliance assessments to ensure Teams Rooms on Windows devices are compliant with organizational requirements.  Teams Rooms on Android and Teams panels devices automatically enroll into Intune when they're logged in for the first time providing additional controls and Intune compliance assessments as well.
 
 For Teams Rooms on Windows devices, Intune enrollment can be completed using [AutoPilot + AutoLogin](autopilot-autologin.mnd) or in one of several other manually [enrollment methods offered by Intune](/mem/intune/fundamentals/deployment-guide-enrollment-windows).
 
-For Teams Rooms on Android and Teams panel devices, Intune enrollment is requirement for a successful sign in.  Teams Android devices use Android Device Administrator today as their enrollment method, for information on enabling this for Intune enrollment see these instructions: [Configure Intune to enroll Teams Android-based devices](/microsoftteams/devices/phones-panels-deploy#configure-intune-to-enroll-teams-android-based-devices).
+For Teams Rooms on Android and Teams panel devices, Intune enrollment is requirement for a successful sign in.  Teams Android devices use Android Device Administrator today as their enrollment method, for information on enabling Intune enrollment see these instructions: [Configure Intune to enroll Teams Android-based devices](/microsoftteams/devices/phones-panels-deploy#configure-intune-to-enroll-teams-android-based-devices).
 
 |  &nbsp;  |  &nbsp;   |
 |-----------|------------|
 | ![scenario support.](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Enabling Teams Rooms on Windows devices to enroll in Intune</li><li>Enabling Teams Rooms on Android and Teams panels to enroll in Intune</li></ul>|
-| ![prepare host machine.](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Phyiscally deploying your Teams Rooms devices and completing the initial setup</li></ul>|
+| ![prepare host machine.](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Physically deploying your Teams Rooms devices and completing the initial setup</li></ul>|
 
 ## Physically deploying and configuring your Teams Rooms devices
 
@@ -120,22 +120,22 @@ _Sample deployment table_
 
 ### Microsoft Teams Rooms application and peripheral device configuration
 
-After each Microsoft Teams Rooms system has been physically deployed and the supported peripheral devices connected.  At initial power on of your Teams Rooms device you'll need to configure the Microsoft Teams Rooms application to use the matching Microsoft Teams Rooms resource account and password to sign in to Microsoft Teams.
+After each Microsoft Teams Rooms system has been physically deployed and the supported peripheral devices connected.  At initial power on of your Teams Rooms device, you need to configure the Microsoft Teams Rooms application to use the matching Microsoft Teams Rooms resource account and password to sign in to Microsoft Teams.
 
 Once signed in, you can configure settings each Microsoft Teams Rooms system. For a Teams Rooms on Windows device, you can use a centrally stored, XML configuration file to manage the application settings. For more information about how to use the XML configuration file, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md).
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
-| ![decision point configure.](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide whether you'll manually configure each Microsoft Teams Rooms system or use a central XML file.</li></ul>|
+| ![decision point configure.](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide whether you will manually configure each Microsoft Teams Rooms system or use a central XML file.</li></ul>|
 | ![next steps remote approach.](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Test your new Teams Rooms devices.</li></ul>|
 
 ### Testing
 
-After Teams Rooms has been deployed, you should test it. Check that the capabilities listed in [Microsoft Teams Rooms help](https://support.microsoft.com/office/microsoft-teams-rooms-help-e667f40e-5aab-40c1-bd68-611fe0002ba2?ui=en-us&rs=en-us&ad=us) are working on the deployed device. We highly recommend that the deployment team verify that Microsoft Teams Rooms is appearing in Teams Admin Center and in Teams Rooms Pro Management Portal. It's also important that you make a number of test calls and meetings to check quality.
+After Teams Rooms has been deployed, you should test it. Check that the capabilities listed in [Microsoft Teams Rooms help](https://support.microsoft.com/office/microsoft-teams-rooms-help-e667f40e-5aab-40c1-bd68-611fe0002ba2?ui=en-us&rs=en-us&ad=us) are working on the deployed device. We highly recommend that the deployment team verify that Microsoft Teams Rooms is appearing in Teams Admin Center and in Teams Rooms Pro Management Portal. It's also important that you make several test calls and meetings to check quality.
 
 ### Asset management
 
-As part of the deployment, you'll want to update your asset register with the room name, Microsoft Teams Rooms name, Microsoft Teams Rooms resource account, and assigned peripheral devices.
+As part of the deployment, you may want to update your asset register with the room name, Microsoft Teams Rooms name, Microsoft Teams Rooms resource account, and assigned peripheral devices.
 
 _Sample asset table_
 
