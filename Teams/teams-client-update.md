@@ -161,8 +161,6 @@ Applications= {
 
 - A special case might happen when the registration is correct, but your application is still called **Microsoft Teams (work or school).app**. When this happens, you need to manually download and install the [latest version of Teams](https://aka.ms/getteams). If someone don't have permission to install software, contact an administrator to perform the installation. After this is done, you'll continue to receive updates automatically.
 
-XXX LEAVING VDI IN FOR NOW.
-
 ## Updates to Teams on VDI
 
-Teams clients on Virtual Desktop Infrastructure (VDI) aren't automatically updated the way that non-VDI Teams clients are. You have to update the VM image by installing a new MSI as described in the instructions to [Install Teams on VDI](teams-for-vdi.md). You must uninstall the current version to update to a newer version.
+See [Install Teams on VDI](teams-for-vdi.md).
