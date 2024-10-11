@@ -55,8 +55,8 @@ Teams Rooms devices have specific network requirements which may require adjustm
 
 - [Preparing your network](rooms-prep.md)
 - [Teams Rooms QoS](/microsoftteams/devices/qos-on-teams-devices)
-- [Teams Rooms IPs and URLs](microsoftteams/rooms/security?tabs=Windows#network-security)
-- [802.1x for Teams Rooms](microsoftteams/rooms/security?tabs=Windows#network-security)
+- [Teams Rooms IPs and URLs](microsoftteams/rooms/security.md?tabs=Windows#network-security)
+- [802.1x for Teams Rooms](microsoftteams/rooms/security.md?tabs=Windows#network-security)
 
 ## Creating resource accounts for your Microsoft Teams Rooms
 
@@ -91,7 +91,7 @@ While in the Pro Management Portal it's important to define various administrati
 
 Teams Rooms on Windows devices can be managed in Intune to expand device management capabilities beyond what is available within the Teams Rooms Pro Management Portal and for Intune compliance assessments to ensure Teams Rooms on Windows devices are compliant with organizational requirements.  Teams Rooms on Android and Teams panels devices automatically enroll into Intune when they're logged in for the first time providing additional controls and Intune compliance assessments as well.
 
-For Teams Rooms on Windows devices, Intune enrollment can be completed using [AutoPilot + AutoLogin](autopilot-autologin.mnd) or in one of several other manually [enrollment methods offered by Intune](/mem/intune/fundamentals/deployment-guide-enrollment-windows).
+For Teams Rooms on Windows devices, Intune enrollment can be completed using [AutoPilot + AutoLogin](autopilot-autologin.md) or in one of several other manually [enrollment methods offered by Intune](/mem/intune/fundamentals/deployment-guide-enrollment-windows).
 
 For Teams Rooms on Android and Teams panel devices, Intune enrollment is requirement for a successful sign in.  Teams Android devices use Android Device Administrator today as their enrollment method, for information on enabling Intune enrollment see these instructions: [Configure Intune to enroll Teams Android-based devices](/microsoftteams/devices/phones-panels-deploy#configure-intune-to-enroll-teams-android-based-devices).
 
