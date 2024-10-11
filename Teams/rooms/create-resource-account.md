@@ -1,5 +1,5 @@
 ---
-title: Create resource accounts for rooms and shared Teams devices
+title: Create resource accounts for Teams Rooms and shared devices
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
@@ -23,7 +23,7 @@ ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Read this article for information on how to create resource accounts for Teams rooms and shared devices. These devices include Microsoft Teams Rooms, Teams panels, and Surface Hub.
 ---
 
-# Create and configure resource accounts for rooms and shared Teams devices
+# How to create and configure resource accounts for Teams devices
 
 This article provides steps to create resource accounts for shared spaces and devices, and it includes steps to configure resource accounts for Microsoft Teams Rooms on Windows, Teams Rooms on Android, & Teams panels.
 
