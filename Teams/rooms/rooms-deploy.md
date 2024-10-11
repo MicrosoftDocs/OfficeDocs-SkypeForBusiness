@@ -55,8 +55,8 @@ Teams Rooms devices have specific network requirements which may require adjustm
 
 - [Preparing your network](rooms-prep.md)
 - [Teams Rooms QoS](/microsoftteams/devices/qos-on-teams-devices)
-- [Teams Rooms IPs and URLs](microsoftteams/rooms/security.md?tabs=Windows#network-security)
-- [802.1x for Teams Rooms](microsoftteams/rooms/security.md?tabs=Windows#network-security)
+- [Teams Rooms IPs and URLs](security.md?tabs=Windows#network-security)
+- [802.1x for Teams Rooms](security.md?tabs=Windows#network-security)
 
 ## Creating resource accounts for your Microsoft Teams Rooms
 
