@@ -117,7 +117,7 @@ To modify an existing room mailbox to become a resource account, use the followi
 Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
 ```
 
-This example enables the account for the existing room mailbox that has the alias value ConferenceRoom02, and sets the password to 9898P@$$W0rd.
+This example enables the account for the existing room mailbox that has the alias value ConferenceRoom02.
 
 ``` PowerShell
 Set-Mailbox -Identity ConferenceRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
@@ -125,7 +125,7 @@ Set-Mailbox -Identity ConferenceRoom02 -EnableRoomMailboxAccount $true -RoomMail
 
 For detailed syntax and parameter information, see [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) and [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox).
 
-1. To assign the Teams Rooms license purchased in the earlier step, sign in to the Microsoft 365 admin center with administrative credentials for your Microsoft 365 tenant.
+1. To assign the Teams Rooms license, purchased in the earlier step, sign in to the Microsoft 365 admin center with administrative credentials for your Microsoft 365 tenant.
 
 2. Go to **Users** > **Active users**, and select the room you created to open the properties panel. In the panel, select **Licenses and apps**.
 
