@@ -88,12 +88,12 @@ This guidance is for manual configuration. This configuration can also be automa
     "AutoConfigURL"=http://contosoproxy.corp.net/proxy.pac
     ```
     
-9. When finished making changes, highlight the Skype User key (root folder for Skype) and choose unload Hive from the Registry file menu (which will prompt for confirmation - select **Yes**)
+9. When finished making changes, highlight the Skype User key (root folder for Skype) and choose unload Hive from the Registry file menu (which prompts for confirmation - select **Yes**)
 10. You can now close the registry editor and reboot your Teams Room 
     
 ##### Windows System Proxy
 
-1. In the Microsoft Teams Rooms UI, select on the Settings gear icon where which will prompt for the local Administrator password on the device (the default password is **sfb**)
+1. In the Microsoft Teams Rooms UI, select on the Settings gear icon which prompts for the local Administrator password on the device (the default password is `sfb`)
 1. Tap on **Settings** followed by tapping on the **Go to Windows** button and then tapping on the **go to Admin Sign In** button and then clicking the **Administrator** button (if the computer is Microsoft Entra ID joined choose **Other User,** then use .\admin as the user name)
 3. In the **Search Windows** box, type in 'Settings'
 4. Select 'Network & internet'
@@ -103,7 +103,7 @@ This guidance is for manual configuration. This configuration can also be automa
 
 ##### Pro Management Agent Proxy
 
-1. In the Microsoft Teams Rooms UI, select on the Settings gear icon where which will prompt for the local Administrator password on the device (the default password is **sfb**)
+1. In the Microsoft Teams Rooms UI, select on the Settings gear icon which prompts for the local Administrator password on the device (the default password is `sfb`)
 2. Tap on **Settings** followed by tapping on the **Go to Windows** button and then tapping on the **go to Admin Sign In** button and then clicking the **Administrator** button (if the computer is Microsoft Entra ID joined choose **Other User,** then use .\admin as the user name)
 3. In the Windows ***Search*** field (bottom-left section of the screen), enter **cmd** (either long press the screen or right select, and choose ***Run as administrator***).
 4. Run the following command (double quotes at end of command are important):
@@ -130,7 +130,7 @@ Proxy settings on Teams Rooms on Android vary by device manufacturer. Consult OE
 
 ## Wireless network considerations
 
-We strongly recommend that you connect your Teams Rooms devices to a wired network for greater stability and performance, ensuring a seamless meeting experience. If using a wired connection is not available, you may opt to use a wireless connection.
+We strongly recommend that you connect your Teams Rooms devices to a wired network for greater stability and performance, ensuring a seamless meeting experience. If using a wired connection isn't available, you may opt to use a wireless connection.
 
 > [!IMPORTANT]
 > Wireless networks can be prone to network interference leading to quality degradation. We strongly recommend that you follow your wireless equipment provider's best practices when configuring a wireless connection to improve video and audio quality.
@@ -142,7 +142,7 @@ Here are some examples of wireless network configuration best practices recommen
 - Ensure wireless equipment is installed in a way that reduces or eliminates interference from objects and other equipment.
 - Ensure the wireless network shows strong signal strength (Wi-Fi signal showing full bars is preferred) on Teams Rooms and other device screens.
 - Default to prioritizing 5-GHz coverage for devices to optimize for higher bandwidth.
-- Enable band steering to ensure that 5-GHz is always given more priority when sharing the same network name as 2.4-GHz.
+- Enable band steering to ensure that 5 GHz is always given more priority when sharing the same network name as 2.4 GHz.
 - Keep wireless channel utilization below 50%.
 - Keep access point and router firmware up to date with the latest firmware versions and hot fixes.
 - Verify that Teams Rooms devices and at least one access point see each other with a signal strength of -60 dBm or better. A dBm value closer to zero is preferred. Follow your equipment manufacturer's recommendations.
@@ -166,7 +166,7 @@ Tenant restrictions aren't supported today on Teams Rooms on Android devices. Co
 
 ## Teams Rooms on Windows administrative access
 
-### Using a admin group
+### Using an admin group
 
 If you choose to join a Teams Rooms on Windows device to a domain (Microsoft Entra ID or Active Directory), you can use Microsoft Intune, Group Policy, or Local Computer Management to set a Security Group as local administrator just like you would for a Windows PC in your domain. Anyone who is a member of that security group can enter their credentials and unlock Settings.
   
@@ -191,7 +191,7 @@ You can read more about the Admin account in the [Microsoft Teams Rooms security
 > [!CAUTION]
 > Any modifications to the "Skype" user account are not supported by Microsoft and will prevent your Teams Rooms on Windows device from functioning correctly.
 
-Teams Rooms on Windows includes a local account named "Skype" which is passwordless. This account is used to sign in to Windows to launch the Teams Rooms app. For more information on how the "Skype" user is security, review [Microsoft Teams Rooms security](security.md).
+Teams Rooms on Windows include a local account named "Skype" which is passwordless. This account is used to sign in to Windows to launch the Teams Rooms app. For more information on how the "Skype" user is security, review [Microsoft Teams Rooms security](security.md).
 
 ### Machine Account
 
@@ -201,7 +201,7 @@ If you would like to rename the computer after joining it to a domain, use [Rena
 
 ## Teams Rooms on Android administrative access
 
-Local administrative access to Teams Rooms on Android devices is controlled by the Teams device equipment manufacturer. Please consult the device documentation for default accounts and passwords and instructions for how to change those passwords.
+Local administrative access to Teams Rooms on Android devices is controlled by the Teams device equipment manufacturer. Consult the device documentation for default accounts and passwords and instructions for how to change those passwords.
 
 ## Related articles
 
