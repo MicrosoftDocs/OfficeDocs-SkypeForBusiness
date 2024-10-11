@@ -62,7 +62,7 @@ This guidance is for manual configuration. This configuration can also be automa
 1. In the Microsoft Teams Rooms UI, select on the Settings gear icon where you're prompted for the local Administrator password on the device (the default password is **sfb**)
 1. Tap on **Settings** followed by tapping on the **Go to Windows** button and then tapping on the **go to Admin Sign In** button and then clicking the **Administrator** button (if the computer is Microsoft Entra ID joined choose **Other User,** then use .\admin as the user name)
 1. In the **Search** box, in the bottom left type in regedit (either long press the screen or right select and choose **Run as administrator**)
-1. Select on the HKEY_USERS folder (you see a list of machine user SIDs) ensure the root folder HKEY_USERS is selected
+1. Select on the HKEY_USERS folder ensure the root folder HKEY_USERS is selected
 
 5. Select on File and then choose **Load Hive**
 6. Browse to the **C:\Users\Skype** folder and type in the File name box NTUSER.dat and press the open button
@@ -88,14 +88,14 @@ This guidance is for manual configuration. This configuration can also be automa
     "AutoConfigURL"=http://contosoproxy.corp.net/proxy.pac
     ```
     
-9. When finished making changes, highlight the Skype User key (root folder for Skype) and choose unload Hive from the Registry file menu (you'll be prompted for confirmation - select **Yes**)
+9. When finished making changes, highlight the Skype User key (root folder for Skype) and choose unload Hive from the Registry file menu (which will prompt for confirmation - select **Yes**)
 10. You can now close the registry editor and reboot your Teams Room 
     
 ##### Windows System Proxy
 
-1. In the Microsoft Teams Rooms UI, select on the Settings gear icon where you'll be prompted for the local Administrator password on the device (the default password is **sfb**)
+1. In the Microsoft Teams Rooms UI, select on the Settings gear icon where which will prompt for the local Administrator password on the device (the default password is **sfb**)
 1. Tap on **Settings** followed by tapping on the **Go to Windows** button and then tapping on the **go to Admin Sign In** button and then clicking the **Administrator** button (if the computer is Microsoft Entra ID joined choose **Other User,** then use .\admin as the user name)
-3. In the **Search Windows** box bottom left type in 'Settings'
+3. In the **Search Windows** box, type in 'Settings'
 4. Select 'Network & internet'
 5. Select 'Proxy'
 6. Configure your proxy IP or proxy PAC file
@@ -103,7 +103,7 @@ This guidance is for manual configuration. This configuration can also be automa
 
 ##### Pro Management Agent Proxy
 
-1. In the Microsoft Teams Rooms UI, select on the Settings gear icon where you'll be prompted for the local Administrator password on the device (the default password is **sfb**)
+1. In the Microsoft Teams Rooms UI, select on the Settings gear icon where which will prompt for the local Administrator password on the device (the default password is **sfb**)
 2. Tap on **Settings** followed by tapping on the **Go to Windows** button and then tapping on the **go to Admin Sign In** button and then clicking the **Administrator** button (if the computer is Microsoft Entra ID joined choose **Other User,** then use .\admin as the user name)
 3. In the Windows ***Search*** field (bottom-left section of the screen), enter **cmd** (either long press the screen or right select, and choose ***Run as administrator***).
 4. Run the following command (double quotes at end of command are important):
@@ -141,14 +141,14 @@ Here are some examples of wireless network configuration best practices recommen
 - As much as possible, use access points and routers from a single manufacturer to avoid further congesting the radio-spectrum.
 - Ensure wireless equipment is installed in a way that reduces or eliminates interference from objects and other equipment.
 - Ensure the wireless network shows strong signal strength (Wi-Fi signal showing full bars is preferred) on Teams Rooms and other device screens.
-- Default to prioritizing 5 GHz coverage for devices to optimize for higher bandwidth.
-- Enable band steering to ensure that 5 GHz is always given more priority when sharing the same network name (SSID) as 2.4 GHz.
+- Default to prioritizing 5-GHz coverage for devices to optimize for higher bandwidth.
+- Enable band steering to ensure that 5-GHz is always given more priority when sharing the same network name as 2.4-GHz.
 - Keep wireless channel utilization below 50%.
 - Keep access point and router firmware up to date with the latest firmware versions and hot fixes.
 - Verify that Teams Rooms devices and at least one access point see each other with a signal strength of -60 dBm or better. A dBm value closer to zero is preferred. Follow your equipment manufacturer's recommendations.
 - Implement QoS whenever possible to allow monitoring and resolution of issues in real time.
 
-For additional best practices specific to your wireless network hardware, check your manufacturer's documentation.
+For more best practices specific to your wireless network hardware, check your manufacturer's documentation.
 
 You can also troubleshoot wireless network issues using the wireless network report built into Windows 10. For more information, see [Analyze the wireless network report - Microsoft Support](https://support.microsoft.com/windows/analyze-the-wireless-network-report-76da0daa-1db2-6049-d154-7bb679eb03ed).
 
@@ -178,7 +178,7 @@ If you choose to join a Teams Rooms on Windows device to a domain (Microsoft Ent
 > [!CAUTION]
 > Be sure to change the Microsoft Teams Rooms password as soon as possible. 
 
-Microsoft Teams Rooms default password is set to "sfb". The password can be changed in several ways:
+Microsoft Teams Rooms default password is set to `sfb`. The password can be changed in several ways:
 
 - Recommended: [Configuring LAPS on Teams Rooms on Windows](/microsoftteams/rooms/laps-authentication)
 - Intune: [Set-LocalUser](/powershell/module/microsoft.powershell.localaccounts/set-localuser)
@@ -191,7 +191,7 @@ You can read more about the Admin account in the [Microsoft Teams Rooms security
 > [!CAUTION]
 > Any modifications to the "Skype" user account are not supported by Microsoft and will prevent your Teams Rooms on Windows device from functioning correctly.
 
-Teams Rooms on Windows includes a passwordless local account named "Skype". This account is used to sign in to Windows to launch the Teams Rooms app. For more information on how the "Skype" user is security, review [Microsoft Teams Rooms security](security.md).
+Teams Rooms on Windows includes a local account named "Skype" which is passwordless. This account is used to sign in to Windows to launch the Teams Rooms app. For more information on how the "Skype" user is security, review [Microsoft Teams Rooms security](security.md).
 
 ### Machine Account
 
@@ -201,7 +201,7 @@ If you would like to rename the computer after joining it to a domain, use [Rena
 
 ## Teams Rooms on Android administrative access
 
-Local administrative access to Teams Rooms on Android devices is managed by the Teams device equipment manufacturer.  Please consult the device documentation for default accounts and passwords as well as instructions for how to change those passwords.
+Local administrative access to Teams Rooms on Android devices is controlled by the Teams device equipment manufacturer. Please consult the device documentation for default accounts and passwords and instructions for how to change those passwords.
 
 ## Related articles
 
