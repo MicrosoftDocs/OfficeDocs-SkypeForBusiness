@@ -45,7 +45,7 @@ Depending on your environment, you may need one or more roles to create resource
 | Environment | Required Roles |
 |-----|-----|
 |Microsoft Entra ID |Global admin or User admin |
-|On-premises Active Directory |Active Directory Enterprise Admins, Domain Admins, or have delegated rights to create users. Microsoft Entra Connect Sync rights. |
+|On-premises Active Directory |Active Directory Enterprise Admins, Domain Admins, or have delegated rights to create users |
 |Exchange Online |Global Administrator or Exchange Administrator  |
 |Exchange Server |Exchange Organization Management or Recipient Management  |
 |Licensing |Global admin or Billing admin |
@@ -81,14 +81,11 @@ Depending on your environment, you may need one or more roles to create resource
 
 ### Calling
 
-Resource accounts can be enabled for public switched telephone network (PSTN) the same way you enable a regular user. For more information, see [Calling in Microsoft Teams](/microsoftteams/cloud-voice-landing-page).
-
-> [!NOTE]
-> We recommend turning off voicemail for shared devices by assigning a calling policy to the resource accounts. See [Calling policies in Teams](../teams-calling-policy.md) for more information.
+Resource accounts can be enabled for public switched telephone network (PSTN) the same way you enable a regular user. For more information, see [Calling in Microsoft Teams](/microsoftteams/cloud-voice-landing-page). We also recommend disabling voicemail for shared devices with a calling policy. For more information, see [Calling policies in Teams](../teams-calling-policy.md).
 
 ### Conditional Access
 
-Resource accounts for Teams devices can be impacted by conditional access. You may need to make modifications to your existing policies to ensure your resource accounts are secure and functional. For more information on supported configurations and changes you may need to make, see [Conditional access for Teams devices](/microsoftteams/rooms/conditional-access-and-compliance-for-devices).
+Resource accounts for Teams devices are impacted by conditional access. You may need to make modifications to your existing policies to ensure your resource accounts are secure and functional. For more information on supported configurations and changes you may need to make, see [Conditional access for Teams devices](/microsoftteams/rooms/conditional-access-and-compliance-for-devices).
 
 > [!NOTE]
 > Teams shared devices do not support Security defaults in Microsoft Entra ID. Use conditional access to secure your environment and Teams shared devices.
