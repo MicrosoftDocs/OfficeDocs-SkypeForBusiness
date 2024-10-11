@@ -5,7 +5,7 @@ Based on organizational requirements, you may wish to customize how the resource
 
 - **AddOrganizerToSubject: `$false`** The meeting organizer isn't added to the subject of the meeting request on the resource account calendar.
 
-- **AllowRecurringMeetings: `$true`** Recurring meetings are accepted by the resource account.
+- **AllowRecurringMeetings: `$true`** Recurring meetings can be accepted by the resource account.
 
 - **DeleteAttachments: `$true`** Teams Rooms devices can't access meeting attachments, deleting attachments ensures they're not stored on the resource account calendar.
 
@@ -13,9 +13,9 @@ Based on organizational requirements, you may wish to customize how the resource
 
 - **DeleteSubject: `$false`** Keep the subject of incoming meeting requests on the resource accounts calendar.
 
-- **ProcessExternalMeetingMessages: `$true`** Specifies whether to process meeting requests organized outside your Exchange environment. This is required for meeting invites sent directly by an external organizer as well external organized meetings forwarded by an internal user.
+- **ProcessExternalMeetingMessages: `$true`** Specifies whether to process meeting requests organized outside your Exchange environment. This option is required for meeting invites sent directly by an external organizer as well external organized meetings forwarded by an internal user.
 
-- **RemovePrivateProperty: `$false`** Ensures the private flag that was sent by the meeting organizer in the original meeting request remains as specified.
+- **RemovePrivateProperty: `$false`** Ensures the private flag that sent by the meeting organizer in the original meeting request remains as specified.
 
 - **AddAdditionalResponse: `$true`** The text specified by the AdditionalResponse parameter is added to meeting requests.
 
