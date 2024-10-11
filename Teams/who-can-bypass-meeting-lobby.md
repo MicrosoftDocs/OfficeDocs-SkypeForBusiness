@@ -104,6 +104,8 @@ To set the organization-wide meeting setting for anonymous meeting join:
     ![Screenshot showing the meeting join and lobby settings in the Teams admin center.](media/anonymous-users-can-join-meetings-org-setting.png)
 1. Select **Save**.
 
+EDIT HERE!
+
 ## Control access to meetings by anonymous participants
 
 Anonymous participants are anonymous because they're not logged in to an account that can be verified. Users considered to be anonymous could include:
