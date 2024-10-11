@@ -132,7 +132,7 @@ If you've been using live events for your organization, you might want to unders
 |Manage whether events in your org can be recorded|✔️|*In development*|*In development*|
 |Manage whether events in your org can be transcribed|✔️|*In development*|*In development*|
 |Microsoft town hall insights|✖️|✖️|✔️|
-|Modern and dynamic group support|✔️|*In development*|*In development*|
+|Modern group support|✔️|✔️|✔️|
 |MTR (Windows) support for presenters and attendees|✔️|*In development*|*In development*|
 |Nudge attendees to join|✔️|*In development*|*In development*|
 |Presenter capacity (including external presenters)|100|100|100|

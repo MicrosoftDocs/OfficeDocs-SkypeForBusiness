@@ -1,5 +1,5 @@
 ---
-title: Encoder setup for streaming in Microsoft Teams
+title: Encoder setup for live event streaming in Microsoft Teams
 ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
@@ -9,8 +9,8 @@ audience: admin
 ms.collection: 
   - M365-collaboration
   - m365initiative-meetings
-ms.reviewer: asteele
-ms.date: 01/10/2024
+ms.reviewer: christi.balaki
+ms.date: 10/3/2024
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -21,7 +21,11 @@ appliesto:
 ms.custom:
 ---
 
-# Using an encoder for live streaming with Microsoft Teams
+
+# Using an encoder for live event streaming with Microsoft Teams
+
+> [!NOTE]
+> We're currently still supporting live events. While we still recommend you to upgrade to [Teams town halls](plan-town-halls.md) to take advantage of new features and experiences, your users can continue to schedule events. For more information, see [Updates for Town Hall in Microsoft Teams and Teams Live Events](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/extension-for-teams-live-events-retirement/ba-p/4148352).
 
 **APPLIES TO:** ✔️Meetings ✖️Webinars ✔️Town halls ✔️Live events
 
@@ -29,17 +33,17 @@ Video encoders allow users to produce Microsoft Teams live events via external h
 
 ## Overview
 
-An encoder takes audio and video content from various sources you use during a live event such as a camera, a microphone, a desktop screen capture, and so on. It compresses and converts that media into a suitable digital format, then sends it to Teams for live streaming to your audience. Consult our [Custom Production playbook](https://aka.ms/CustomProductionVEP) to learn more about how you can use Teams production technologies (such as NDI) with external encoders.
+An encoder takes audio and video content from various sources you use during a live event such as a camera, a microphone, a desktop screen capture. The encoder compresses and converts that media into a suitable digital format, and sends it to Teams for live streaming to your audience. To learn more about how you can use Teams production technologies (such as NDI) with external encoders, see our [Custom Production playbook](https://aka.ms/CustomProductionVEP).
 
 ## Production workflow when using an encoder
 
-The workflow for producing a Teams Live Event is as follows:
+Here's the workflow for producing a Teams Live Event:
 
-For a live event scheduled in Teams or Viva Engage, the **Teams Encoder** option must be selected. For a town hall, the **RTMP-In** meeting option must be turned on. This option provisions an RTMP endpoint, which is provided with an RTMP(S) URL and corresponding stream key. The URL and stream key are used by the encoder to connect to the RTMP endpoint for the scheduled live event.
+For a live event scheduled in Teams or Viva Engage, the **Teams Encoder** option must be selected. For a town hall, the **RTMP-In** meeting option must be turned on. This option creates an RTMP endpoint, which is provided with an RTMP(S) URL and corresponding stream key. The URL and stream key are used by the encoder to connect to the RTMP endpoint for the scheduled live event.
 
 ### Common video encoders used for live streaming
 
-Microsoft has validated the video encoders for live streaming with Teams in the following list.
+Microsoft validated the video encoders for live streaming with Teams in the following list:
 
 ### Supported encoders
 
@@ -69,5 +73,5 @@ Microsoft has validated the video encoders for live streaming with Teams in the 
 
 ### Event Setup
 
-- For Microsoft Teams live event creation steps, refer to [this page](/microsoftteams/teams-stream-create-event) 
-- For encoder configuration setup, refer to [this guide](/microsoftteams/teams-encoder-configuration)
+- For Microsoft Teams live event creation steps, see [Plan and schedule a live event](https://support.microsoft.com/office/plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502).
+- For encoder configuration setup, see [Configuring encoders for live event streaming in Microsoft Teams](/microsoftteams/teams-encoder-configuration).
