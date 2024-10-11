@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams Rooms and Teams panels security
+title: Microsoft Teams Rooms on Windows and Teams Android device security
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
@@ -21,7 +21,7 @@ ms.localizationpriority: medium
 description: Learn how to your Microsoft Teams Rooms on Windows and Teams Android devices are secure by default.
 ---
 
-# Microsoft Teams Rooms and Teams panels security
+# Microsoft Teams Rooms on Windows and Teams Android device security
 
 This article provides security guidance for Microsoft Teams Rooms devices on both Windows and Android as well as Teams panels. This guidance includes information on hardware, software, network, and account security. 
 
