@@ -123,6 +123,8 @@ This example enables the account for the existing room mailbox that has the alia
 Set-Mailbox -Identity ConferenceRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
 ```
 
+For detailed syntax and parameter information, see [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) and [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox).
+
 1. To assign the Teams Rooms license purchased in the earlier step, sign in to the Microsoft 365 admin center with administrative credentials for your Microsoft 365 tenant.
 
 2. Go to **Users** > **Active users**, and select the room you created to open the properties panel. In the panel, select **Licenses and apps**.
@@ -131,7 +133,5 @@ Set-Mailbox -Identity ConferenceRoom02 -EnableRoomMailboxAccount $true -RoomMail
 
 > [!IMPORTANT]
 > You must be in operating in an Exchange hybrid configuration for a Teams Rooms device to access the Exchange calendar. In hybrid, you'll also need to add an email address for your on-premises domain account. See [Sync on-premises and Office 365 user accounts directories](https://support.microsoft.com/topic/how-to-use-smtp-matching-to-match-on-premises-user-accounts-to-office-365-user-accounts-for-directory-synchronization-75673b94-e1b8-8a9e-c413-ee5a2a1a6a78) for more information.
-
-For detailed syntax and parameter information, see [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) and [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox).
 
 ---
