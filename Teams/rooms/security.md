@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams Rooms security
+title: Microsoft Teams Rooms and Teams panels security
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
@@ -18,14 +18,14 @@ ms.collection:
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
-description: Learn how to secure your Microsoft Teams Rooms on Windows and Android devices.
+description: Learn how to your Microsoft Teams Rooms on Windows and Teams Android devices are secure by default.
 ---
 
-# Microsoft Teams Rooms security
+# Microsoft Teams Rooms and Teams panels security
 
-This article provides security guidance for Microsoft Teams Rooms devices on both Windows and Android devices. This guidance includes information on hardware, software, network, and account security. 
+This article provides security guidance for Microsoft Teams Rooms devices on both Windows and Android as well as Teams panels. This guidance includes information on hardware, software, network, and account security. 
 
-Select the **Teams Rooms on Windows** or **Teams Rooms for Android** tab for more information on Teams Room security on your device.
+Select the **Teams Rooms on Windows** or **Teams Android devices** tab for more information on security for your device.
 
 ## [Teams Rooms on Windows](#tab/Windows)
 
@@ -147,9 +147,9 @@ We strongly recommend that you connect your Teams Rooms devices to a wired netwo
 
 Proximity Join and other Teams Rooms features rely on Bluetooth. However, the Bluetooth implementation on Teams Rooms devices doesn't allow for an external device connection to a Teams Rooms device. Bluetooth technology use on Teams Rooms devices is currently limited to advertising beacons and prompted proximal connections. The `ADV_NONCONN_INT` protocol data unit (PDU) type is used in the advertising beacon. This PDU type is for nonconnectable devices advertising information to the listening device. There's no Bluetooth device pairing as part of these features. More details on Bluetooth protocols can be found on the [Bluetooth SIG website](https://www.bluetooth.com/blog/bluetooth-low-energy-it-starts-with-advertising/).
 
-## [Teams Rooms on Android](#tab/Android)
+## [Teams Android devices](#tab/Android)
 
-This article doesn't cover Android devices configured for dedicated device mode by Microsoft Endpoint Manager. Teams Android devices run in Kiosk mode by design. For information about Android Kiosk, see [Android Enterprise dedicated device enrollment](/mem/intune/enrollment/android-kiosk-enroll).
+This article is specific to Teams Android devices (Teams Rooms on Android, Teams panels, Teams Phone, & Teams Displays). This article doesn't cover Android devices configured for dedicated device mode by Microsoft Endpoint Manager.
 
 Microsoft works with our OEM partners to deliver a solution that is secure by design, and customizable to meet customer needs. This article discusses many of the security features found in Teams Android devices and our approach.
 
@@ -217,7 +217,7 @@ Initial device setup and configuration items such as the default username and pa
 > Be sure to change the local device administrator password as soon as possible.  
 
 > [!TIP]
-> The Teams admin center can be used to change the local device administrator password of a signed-in Teams Android device by applying a configuration profile. We recommend this approach after initial device sign-in to protect elevated features of an Android device. Elevated features can include device settings and web admin portals if they're supported.
+> Teams Admin Center can be used to change the local device administrator password of a signed-in Teams Android device by applying a configuration profile. We recommend this approach after initial device sign-in to protect elevated features of an Android device. Elevated features can include device settings and web admin portals if they're supported.
 
 ### User or resource account
 
@@ -225,7 +225,7 @@ Teams Android devices require the use of a user, or dedicated resource account, 
 
 ### Device updates
 
-Teams Android devices are configured to download Microsoft-certified updates from the Teams Admin Center when they become available. These updates can be pushed automatically or manually invoked by an Administrator. Third-party tools from our OEM partners are also available to perform this function if necessary. Teams Android devices can install updates after hours to avoid impact to users. After-hours schedules can be configured in the Teams admin center or using third-party tools from OEM partners.
+Teams Android devices are configured to download Microsoft-certified updates from Teams Admin Center when they become available. These updates can be pushed automatically or manually invoked by an Administrator. Third-party tools from our OEM partners are also available to perform this function if necessary. Teams Android devices can install updates after hours to avoid impact to users. After-hours schedules can be configured in the Teams admin center or using third-party tools from OEM partners.
 
 > [!IMPORTANT]
 > Microsoft recommends the management of firmware for all Teams Android devices is done via the Teams admin center.
