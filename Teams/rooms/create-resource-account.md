@@ -20,14 +20,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: Read this article for information on how to create resource accounts for rooms and shared devices, including Microsoft Teams Rooms, Teams Rooms on Surface Hub, and hot-desking on Teams displays.
+description: Read this article for information on how to create resource accounts for Teams rooms and shared devices. These devices include Microsoft Teams Rooms, Teams panels, and Surface Hub.
 ---
 
 # Create and configure resource accounts for rooms and shared Teams devices
 
 This article provides steps to create resource accounts for shared spaces and devices, and it includes steps to configure resource accounts for Microsoft Teams Rooms on Windows, Teams Rooms on Android, & Teams panels.
 
-Microsoft 365 resource accounts are mailbox and Teams accounts that are dedicated to specific resources, such as a room or projector. These resource accounts can automatically respond to meeting invites using rules you define when they're created. For example, if you have a common resource such as a conference room, you can set up a resource account for that conference room that will automatically accept or decline meeting invites depending on its calendar availability.
+Microsoft 365 resource accounts are mailbox and Teams accounts that are dedicated to specific resources, such as a room or projector. These resource accounts can automatically respond to meeting invites using rules you define when they're created. For example, if you have a common resource such as a conference room, you can set up a resource account for that conference room which will automatically accept or decline meeting invites depending on its calendar availability.
 
 Every resource account is unique to a single Microsoft Teams Rooms installation or Teams device implementation.
 
@@ -44,10 +44,12 @@ Depending on your environment, you may need one or more roles to create resource
 
 | Environment | Required Roles |
 |-----|-----|
-|Microsoft Entra ID |Global Administrator or User Administrator |
-|On-premise Active Directory |Active Directory Enterprise Admins, Domain Admins, or have delegated rights to create users. Microsoft Entra Connect Sync rights. |
+|Microsoft Entra ID |Global admin or User admin |
+|On-premises Active Directory |Active Directory Enterprise Admins, Domain Admins, or have delegated rights to create users. Microsoft Entra Connect Sync rights. |
 |Exchange Online |Global Administrator or Exchange Administrator  |
 |Exchange Server |Exchange Organization Management or Recipient Management  |
+|Licensing |Global admin or Billing admin |
+|Teams |Global admin or Teams admin |
 
 > [!IMPORTANT]
 > Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
@@ -79,14 +81,14 @@ Depending on your environment, you may need one or more roles to create resource
 
 ### Calling
 
-Resource accounts can be enabled for public switched telephone network (PSTN) the same way you enable a regular user. See [Calling in Microsoft Teams](/microsoftteams/cloud-voice-landing-page) for more information.
+Resource accounts can be enabled for public switched telephone network (PSTN) the same way you enable a regular user. For more information, see [Calling in Microsoft Teams](/microsoftteams/cloud-voice-landing-page).
 
 > [!NOTE]
 > We recommend turning off voicemail for shared devices by assigning a calling policy to the resource accounts. See [Calling policies in Teams](../teams-calling-policy.md) for more information.
 
 ### Conditional Access
 
-Resource accounts for Teams devices are impacted by conditional access, you may need to make modifications to your existing policies to ensure your resource accounts are secure and functional. See [Conditional access for Teams devices](/microsoftteams/rooms/conditional-access-and-compliance-for-devices) for more information on supported configurations and changes you may need to make.
+Resource accounts for Teams devices can be impacted by conditional access. You may need to make modifications to your existing policies to ensure your resource accounts are secure and functional. For more information on supported configurations and changes you may need to make, see [Conditional access for Teams devices](/microsoftteams/rooms/conditional-access-and-compliance-for-devices).
 
 > [!NOTE]
 > Teams shared devices do not support Security defaults in Entra ID. Use conditional access to secure your environment and Teams shared devices.
