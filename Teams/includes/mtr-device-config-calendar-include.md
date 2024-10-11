@@ -5,12 +5,12 @@ Exchange room lists are used to control which resource accounts (and therefore t
 
 Room lists are a special type of Exchange distribution group that lets you group resource accounts (and therefore the Teams Rooms they're associated with) together in a meaningful way. For example, you might want to create room lists for all the rooms in each building on your campus.
 
-Places lets you set specific attributes about a resource account and its Teams Room. Some of the attributes you can set are:
+Microsoft Places lets you set specific attributes about a resource account and its Teams Room. Some of the attributes you can set are:
 
 - Building
 - City
 - Capacity
-- Whether the location is wheelchair-accessible
+- Wheelchair-accessible
 - Room features
 
 Room Finder in Outlook shows a list of rooms available to them for reservation based on a combination of room lists and place attributes selected by a user. To make the best use of room lists and places, create room lists based on a place attribute, such as building. For example, set the city and building place attributes for each resource account, and then add each resource account to a building room list. When a user tries to choose a room to reserve, Outlook shows a list of cities and the room lists available in each of those cities.
