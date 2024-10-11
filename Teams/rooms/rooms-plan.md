@@ -83,9 +83,9 @@ You might need to coordinate these activities across several teams. We provide a
 | Plan capabilities          | IT Project Team                        |             | [Room inventory and capability planning](#room-inventory-and-capability-planning) |
 | Device selection           | IT Project Team / AV Team              |             | [Device selection](#device-selection) |
 | Procurement                | IT Project Team / AV Team              |             | [Procurement](#procurement) |
-| Site readiness             | Facilities / AV team / IT Project Team |             | [Site readiness](rooms-deploy.md#site-readiness) |
-| Service readiness          | IT Project Team                        |             | [Service readiness](rooms-deploy.md#service-readiness) |
-| Configuration              | IT Project Team                        |             | [Configuration and deployment](rooms-deploy.md#configuration-and-deployment) |
+| Site readiness             | Facilities / AV team / IT Project Team |             | [Site readiness](rooms-deploy.md#ordering-equipment-and-site-readiness-for-a-teams-rooms-deployment) |
+| Network readiness          | IT Project Team                        |             | [Network readiness](rooms-deploy.md#preparing-your-corporate-network-for-teams-rooms) |
+| Resource accounts          | IT Project Team                        |             | [Creating resource accounts](rooms-deploy.md#creating-resource-accounts-for-your-microsoft-teams-rooms) |
 | Deployment                 | Facilities / AV team / IT Project Team |             | [Deployment checklist](console.md) |
 | Adoption                   | Facilities / AV team / IT Project Team |             | [Adoption](#plan-for-adoption-and-change-management) |
 | Maintenance and operations | AV team / IT Project Team              |             | [Management overview](rooms-manage.md) |
