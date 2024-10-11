@@ -89,8 +89,6 @@ To manage meeting join and lobby policies, follow these steps:
    - **Who can bypass the lobby** (Who can bypass the lobby)
    - **People dialing in can bypass the lobby**
    - **Who can admit from lobby**
-
-    ![Screenshot showing the meeting join and lobby policy in the Teams admin center.](media/meeting-join-and-lobby-tac-settings.png)
 1. Select **Save**.
 
 Changes can take up to 24 hours to take effect.
