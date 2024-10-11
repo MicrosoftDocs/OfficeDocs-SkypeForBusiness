@@ -23,7 +23,7 @@ description: Learn how to your Microsoft Teams Rooms on Windows and Teams Androi
 
 # Microsoft Teams Rooms on Windows and Teams Android device security
 
-This article provides security guidance for Microsoft Teams Rooms devices on both Windows and Android as well as Teams panels. This guidance includes information on hardware, software, network, and account security. 
+This article provides security guidance for Microsoft Teams Rooms devices on both Windows and Android as well as Teams panels, Teams Phone, and Teams Displays. This guidance includes information on hardware, software, network, and account security. 
 
 Select the **Teams Rooms on Windows** or **Teams Android devices** tab for more information on security for your device.
 
