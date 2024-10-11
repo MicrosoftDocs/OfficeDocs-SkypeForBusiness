@@ -25,17 +25,17 @@ ms.custom: seo-marvel-apr2020
 > [!IMPORTANT]
 > This article contains information for the new Teams client. The classic Teams client has ended support, and is no longer receiving updates.
 
-Keeping Microsoft Teams up-to-date is crucial for maximizing productivity and staying connected. Regular updates mean you have access to the latest features, security enhancements, and bug fixes. Updating not only improves the overall performance and reliability of the application, it also helps you and your team collaborate more efficiently. By staying current with updates, you reduce the risk of having issues and ensure compatibility with other tools, making it easier to focus on your work without interruptions. 
+Keeping Microsoft Teams up-to-date is crucial for maximizing productivity and staying connected. Regular updates mean you have access to the latest features, security enhancements, and bug fixes. Updating not only improves the overall performance and reliability of the application, it also helps you and your team collaborate more efficiently. By staying current with updates, you reduce the risk of having issues and ensure compatibility with other tools, making it easier to focus on your work without interruptions.
 
 ## Servicing agreement
 
 As part of a modern online service, the Teams client is updated once per month. The client automatically installs updates when they become available to that client. Because we stagger the availability of updates worldwide, some clients in your organization might receive new updates before others. Because Teams is governed by the Modern Lifecycle Policy, it's expected that users remain on the most up-to-date version of the desktop client. Auto-updates ensure that users have the latest capabilities, performance enhancements, security, and service reliability.
 
-To identify when desktop clients fall out of date, an in-app alert is displayed if the user’s current version is between one and three months old, and if there's a new version available. This in-app messaging encourages users to update to the latest version of Teams or, if necessary, to reach out to their IT admin to do so. Users on Teams desktop clients that are more than three months old will see a blocking page. This page gives the options to update now, reach out to their IT admin, or continue to Teams on the web.
+To identify when desktop clients fall out of date, an in-app alert is displayed if the user's current version is between one and three months old, and if there's a new version available. This in-app messaging encourages users to update to the latest version of Teams or, if necessary, to reach out to their IT admin to do so. Users on Teams desktop clients that are more than three months old will see a blocking page. This page gives the options to update now, reach out to their IT admin, or continue to Teams on the web.
 
 Teams desktop clients on Government Clouds currently have an exception to this servicing agreement until further notice.
 
-For information on new version releases, check [Message Center](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) or go to **Help** > **What’s new** in the client.
+For information on new version releases, check [Message Center](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) or go to **Help** > **What's new** in the client.
 
 ## Teams client updates timeline
 
@@ -51,7 +51,7 @@ Other factors that help your client to stay up-to-date:
   - Your OS version is up-to-date (non-LTSC update channel) and still under support.
   - Your OS has the latest patches installed.
 - Webview2:
-  - Webview2 updates automatically on windows, you should make sure it isn’t blocked. This is updated by Teams on macOS.
+  - Webview2 updates automatically on windows, you should make sure it isn't blocked. This is updated by Teams on macOS.
   - Webview2 must be a supported version (latest version).
 
 For more information, see [Teams client system requirements](teams-client-system-requirements.md).
@@ -65,12 +65,12 @@ For more information, see [Teams client system requirements](teams-client-system
 
 ### Issues with Windows update and best practices
 
-- Windows delivery optimization service is disabled or configured with unsupported mode (100). This blocks the updater’s ability to download the update payload.
+- Windows delivery optimization service is disabled or configured with unsupported mode (100). This blocks the updater's ability to download the update payload.
   - There's a Windows Delivery Optimization service configuration requirement: [Upgrade to the new Teams client using policies](new-teams-deploy-using-policies.md).
   - Note that enabling the Peer to Peer capability isn't required. 
-- Team’s app package is modified by a user. The MSIX packages are installed machine-wide under the Program Files directory. The file ACLs are tightly controlled and monitored by the Windows OS. If the file ACLs are modified or changed by a user, the system deems the application to be in a corrupted state. This leads to unexpected behaviors such as crashing, unexpected app termination, and a failure to update.
-  - It’s essential to make sure the files under the installation directory (%programfiles%\windowsapps) aren't altered in any way.
-- Network settings that block Team’s CDN endpoints cause delivery optimization service failures and a failure to update the app.
+- Team's app package is modified by a user. The MSIX packages are installed machine-wide under the Program Files directory. The file ACLs are tightly controlled and monitored by the Windows OS. If the file ACLs are modified or changed by a user, the system deems the application to be in a corrupted state. This leads to unexpected behaviors such as crashing, unexpected app termination, and a failure to update.
+  - It's essential to make sure the files under the installation directory (%programfiles%\windowsapps) aren't altered in any way.
+- Network settings that block Team's CDN endpoints cause delivery optimization service failures and a failure to update the app.
   - You must allow Microsoft M365 endpoints in network configuration. For more information see [Microsoft 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges).
   - Avoid SSL inspection on M365 endpoints. SSL inspection is known to cause high update download failure rate and retries.
 - Running on an out of support OS, or a Windows version that doesn't have the latest updates and patches can lower the success of Teams updates.
@@ -80,8 +80,8 @@ For more information, see [Teams client system requirements](teams-client-system
 ## Updating Teams on Mac devices
 
 - The Teams desktop client updates itself using Microsoft AutoUpdate (MAU), similar to other Microsoft applications. Learn more about MAU at [Configuring Microsoft AutoUpdate (MAU) for Organization Specific Updates](/microsoft-365-apps/mac/mau-configure-organization-specific-updates).
-- Teams uses default MAU Office channels for updates, as well as a custom channel for Teams-specific scenarios. The post-installation script registers the app with MAU’s default Office channel (Current, Preview, or Beta) to ensure the app can be updated by MAU without running itself.
-- When the update is downloaded while Teams is running, we leverage MAU’s Install On Clone feature, to prepare the installation. Once a user quits the application, MAU will finish updates by moving the clone to the /Applications folder. Teams for Mac doesn't automatically restart to apply updates. It always waits for user to take the action.
+- Teams uses default MAU Office channels for updates, as well as a custom channel for Teams-specific scenarios. The post-installation script registers the app with MAU's default Office channel (Current, Preview, or Beta) to ensure the app can be updated by MAU without running itself.
+- When the update is downloaded while Teams is running, we leverage MAU's **Install On Clone** feature, to prepare the installation. Once a user quits the application, MAU will finish updates by moving the clone to the /Applications folder. Teams for Mac doesn't automatically restart to apply updates. It always waits for user to take the action.
 - Users can also manually check for updates by selecting **Check for updates** from the Help menu bar item. This action opens Microsoft AutoUpdate (MAU).
 
 ### How to configure MAU
@@ -114,8 +114,50 @@ XXX WHAT CODE FORMAT IS THIS I NEED TO KNOW TO MARK IT PROPERLY
 
 ### How to troubleshoot a MAU configuration
 
-XXX I'm not putting this in until I confirm with Meera Krishna that this doesn't exist in the support docs.
+- To troubleshoot MAU configuration issues, you first need to open the Terminal app and execute the following commands:
+  
+  ` defaults read /Library/Managed\ Preferences/com.microsoft.autoupdate2`
+  ` defaults read com.microsoft.autoupdate2 `
 
+- In the output, locate the "/Applications/Microsoft Teams.app". It should look like:
+  - Basic:
+    Applications= {
+      ...
+      "/Applications/Microsoft Teams.app" =     {
+        "Application ID" = TEAMS21;
+        LCID = 1033;
+    };
+    ...
+    } 
+  - Custom channel:
+    Applications= {
+      ...
+      "/Applications/Microsoft Teams.app" =         {
+      "Application ID" = TEAMS21;
+      ChannelName = Custom;
+      LCID = 1033;
+      ManifestServer = "https://statics.teams.cdn.office.net/production-osx/24199.1700.3003.1785/";
+      ManifestServerExpiryTime = "2024-08-02T08:40:06Z";
+    }; 
+    ... 
+    } 
+
+> [!NOTE]
+> Preferences in /Library/Managed\ Preferences/ take precedence. If you see an "Applications" entry there, focus solely on that output.
+
+- If the "/Application/Microsoft Teams.app" path is absent, it indicates that the Teams registration is missing, and you need to reach out to your administrator to add the basic registration to the managed preferences profile.
+
+- If the "/Application/Microsoft Teams.app" entry appears but is different from the examples, contact your administrator to resolve the managed preferences profile.
+
+#### Common misconfigurations
+
+|Issue                                 |Example  |
+|--------------------------------------|---------|
+|Classic Teams configuration           |"/Applications/Microsoft Teams.app" =     {</br>"Application ID" = TEAMS10;</br>LCID = 1033;</br>} |
+|New Teams configuration with old name |"/Applications/Microsoft Teams (work or school).app" =     {</br>"Application ID" = TEAMS21;</br>LCID = 1033;</br>} |
+|Serving multiple configurations       |"/Applications/Microsoft Teams.app" =     {</br>"Application ID" = TEAMS10;</br>LCID = 1033;</br>}</br>"/Applications/Microsoft Teams.app" =     {</br>"Application ID" = TEAMS21;</br>LCID = 1033;</br>} |
+
+- A special case might happen when the registration is correct, but your application is still called **Microsoft Teams (work or school).app**. When this happens, you need to manually download and install the [latest version of Teams](https://aka.ms/getteams). If someone don't have permission to install software, contact an administrator to perform the installation. After this is done, you'll continue to receive updates automatically.
 
 XXX LEAVING VDI IN FOR NOW.
 
