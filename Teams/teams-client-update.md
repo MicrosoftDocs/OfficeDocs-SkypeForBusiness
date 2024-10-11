@@ -163,4 +163,4 @@ Applications= {
 
 ## Updates to Teams on VDI
 
-See [Install Teams on VDI](vdi.md).
+See [Install Teams on VDI](teams-for-vdi.md).
