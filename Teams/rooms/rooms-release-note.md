@@ -799,7 +799,7 @@ Resolved issues:
 - Participant video gets reframed from fit-to-frame to fill-frame intermittently on Cisco devices.
 - Various meeting and call reliability issues.
 
-<sup>1</sup>Neat devices are excluded from this rollout of custom backgrounds due to an issue that is unique to Neat devices. Once the issue is resolved, custom backgrounds are enabled for Neat devices in a later release. 
+<sup>1</sup>Custom backgrounds support on Neat Teams rooms devices require firmware version NFC1.20240924.0005 or greater for the compute and NFA1.20240924.0507 or greater for touch controller. 
 
 ### 1449/1.0.96.2024061103 (June 2024)
 

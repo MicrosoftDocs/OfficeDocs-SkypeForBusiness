@@ -26,29 +26,25 @@ description: Find lists of certified Teams panels running on Android.
 
 # Certified Teams panels
 
-This article will help you find the resources for Teams panels that are certified under the Android Certification program including supported devices, firmware versioning, and End of Life (EOL) information.
+The Microsoft Teams devices Certification Program ensures devices meet a high standard, with higher performance targets and quality metrics across the entire Teams experience (audio, video, user interface). Microsoft and OEM partners are actively working together to ensure devices meet all certification requirements, including security, audio and video quality, Teams experience, and accessibility.
 
-## Microsoft Teams certified Android device certification
-
-The Microsoft Teams Devices Certification Program ensures certified devices meet a high standard, with higher performance targets and quality metrics across the entire Teams experience (audio, video, user interface). Microsoft and Original Equipment Manufacturers (OEMs) partners are actively working together to ensure devices meet all certification requirements, including security, audio and video quality, Teams experience, and accessibility.
-
-> [!IMPORTANT]
-> The Microsoft Teams Devices Certification Program ensures certified devices meet specific requirements for hardware design and performance only. The certification program doesn't evaluate feature-level or cloud environment support.
->
-> For information about what features are supported on Teams Rooms on Windows and Teams Rooms on Android, including cloud environment support, see [Teams Rooms on Windows and Android feature comparison](../rooms/teams-devices-feature-comparison.md).
-
-Certification programs are designed to ensure all certified devices run an Android version with the required feature set for Teams and Teams Admin Center. Certification end dates are based on the Android version running on the device when it enters into the certification program. Microsoft OEM partners are working to extend the lifetime of the certification by upgrading the Android version and recertifying, or by releasing new models that are state-of-the-art. Once a device passes the certification requirements and OEM partners provide the firmware that enables the upgrade to a newer Android version, the certification end date will be extended.
+Certification programs are designed to ensure all certified devices run an Android version with the required feature set for Teams and Teams Admin Center. Certification end dates are based on the Android version running on the device when it enters into the certification program. Our OEM partners are working to extend the lifetime of the certification by upgrading the Android version and recertifying, or by releasing new models that are state-of-the-art.
 
 Microsoft is committed to certifying devices on latest Android versions available for Teams devices as long as OEM partners and SoC manufacturers are able to meet all certification requirements in effect at the time device enters certification.
 
-After certification end date, Microsoft is committed to make efforts to support the most recent version of the Teams devices applications on such devices for two (2) years following the end of the certification period.
+Microsoft and its Original Equipment Manufacturers (OEM) partners continually develop products to meet the needs of the market and elevate the Teams devices experience. During the product lifecycle, some products may receive an OS upgrade before their certification expires and will undergo re-certification, while others might not get re-certified and will ultimately be discontinued by the OEM.
 
-> [!NOTE]
-> Certification end dates for Android 12 based devices has been extended by one year, from October 4, 2026, to August 15, 2027. Information below reflects current certification end dates.
+We recognize that device certification expiration can impact your business. Our OEM partners have detailed End-of-Life policies to assist and direct you towards adopting newer technologies. For the most current information on Teams certified devices referenced here, please consult our OEM partners' websites.
+
+Following a certification expiration, Microsoft is committed to supporting the latest version of the Teams devices applications on certified devices for a span of two (2) years after the certification period concludes. While Microsoft will make every effort to maintain support as described here, it retains the discretion to modify its support policy if necessary. Should any changes occur, these changes will be communicated through the established customer facing communication channels.
+
+
 
 ## [Certified Teams panels](#tab/certified-panels)
 
 The following devices are Certified under the Microsoft Teams panels Android Certification Program.
+> [!NOTE]
+> Certification end dates for Android 12 based devices has been extended by one year, from October 4, 2026, to August 15, 2027. Information below reflects current certification end dates.
 
 | Device model | Firmware version | Current certification end date | Android OS version |
 |:------------------------|:-----------------|:--------------|-----------------------|
@@ -104,6 +100,8 @@ See [Microsoft Teams panels](../devices/overview-teams-panels.md) for features s
 #### <b> Logitech </b>
 | Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications | Release date |
 |:----------------|:-------------------|:----------------------------|:--------------------------------------------------------------------|:--------------------------------|
+| DockFlex (VR0035) | `1.13.118`| N/A| Teams client: `1449/1.0.97.2024061108` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| October 3, 2024|
+| TAP Scheduler (VR0028) | `1.13.124`| N/A| Teams client: `1449/1.0.97.2024061108` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| October 3, 2024|
 | DockFlex (VR0035) | `1.12.149`| N/A| Teams client: `1449/1.0.97.2024040202` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| June 6, 2024|
 | TAP Scheduler (VR0028) | `1.12.708`| N/A| Teams client: `1449/1.0.97.2024040202` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| June 6, 2024|
 | DockFlex (VR0035) | `1.12.146`| N/A| Teams client: `1449/1.0.97.2024010401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| May 16, 2024|
@@ -163,6 +161,7 @@ See [Microsoft Teams panels](../devices/overview-teams-panels.md) for features s
 #### <b> Neat </b>
 | Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications | Release date | Cloud |
 |:----------------|:-------------------|:----------------------------|:-------------------------------------------------------------------------|:-------------------------------------|:--------------------|
+| Neat Pad | `NFA1.20240620.1740` | N/A| Teams client: `1449/1.0.97.2024061108` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202402202353.product`| September 27, 2024| GCCH|
 | Neat Pad | `NFA1.20240516.0501` | N/A| Teams client: `1449/1.0.97.2024040202` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202402202353.product`| July 30, 2024| GCCH|
 | Neat Pad | `NFA1.20240120.0109` | N/A| Teams client: `1449/1.0.97.2023111003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| March 26, 2024| GCCH|
 
@@ -173,14 +172,5 @@ See [Microsoft Teams panels](../devices/overview-teams-panels.md) for features s
 
 ## [End of certification](#tab/eol)
 
-Microsoft and its Original Equipment Manufacturers (OEM) partners continually develop products to meet the needs of the market and elevate the Teams devices experience. During the product lifecycle, some products may receive an OS upgrade before their certification expires and will undergo re-certification, while others might not get re-certified and will ultimately be discontinued by the OEM.
 
-We recognize that device certification expiration can impact your business. Our OEM partners have detailed End-of-Life policies to assist and direct you towards adopting newer technologies. For the most current information on Teams certified devices referenced here, please consult our OEM partners' websites.
-
-Following a certification expiration, Microsoft is committed to supporting the latest version of the Teams devices applications on certified devices for a span of two (2) years after the certification period concludes. While Microsoft will make every effort to maintain support as described here, it retains the discretion to modify its support policy if necessary. Should any changes occur, they will be communicated through the established customer facing communication channels.
-<!--
-| Device Category | Device Model | Android OS Versio | Certification end date | Microsoft support end date |
-|:----------------|:-------------------|:----------------------------|:--------------------------|:----------------------|
-
-|insert table information|insert table information|insert table information|insert table information|insert table information|
--->
+ No Teams panels devices have reached this milestone. 
