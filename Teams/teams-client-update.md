@@ -105,7 +105,7 @@ For more information, see [Teams client system requirements](teams-client-system
 - Microsoft AutoUpdate (MAU) not being installed or being blocked on your device.
   - Since MAU is an integral part of New Teams, it's included with the Teams installer. When Teams is first installed, MAU is also installed unless it's already present on the device. However, there have been instances where MAU has been deliberately removed or blocked by firewalls.
   - To see if you have MAU installed, select **Check for Updates** from the Help menu bar item. This should open the MAU user interface, but if MAU isn't installed, nothing happens.
-  - To make sure that MAU is allowed to function correctly, we need to first [check the MAU configuration](#how-to-troubleshoot-a-mau-configuration). If the configuration is correct and [MAU is installed](#how-to-configure-mau), and it still doesn't work, it's likely being blocked, and the user should contact their administrator.
+  - To make sure that MAU is allowed to function correctly, we need to first [check the MAU configuration](#how-to-troubleshoot-a-mau-configuration). If the configuration is correct and [MAU is installed](#how-to-configure-mau), and it still doesn't work, it's likely being blocked. In that case, the user should contact their administrator.
 - MAU is outdated.
   - Microsoft Teams needs MAU version 4.52.22101101 at a minimum, but it's strongly recommended to use version 4.73.24071426 or higher for crucial security updates. Note that MAU self-updates, and a manual update should not be required under the default settings.
 - Your organization uses a custom MAU profile and the Teams portion isn't configured correctly.
@@ -158,7 +158,7 @@ Applications= {
 |New Teams configuration with old name |"/Applications/Microsoft Teams **(work or school).app**"</br>=     {</br>"Application ID" = **TEAMS21**;</br>} |
 |Serving multiple configurations       |"/Applications/**Microsoft Teams.app**" =     {</br>"Application ID" = **TEAMS10**;;</br>}</br>"/Applications/**Microsoft Teams.app**" =     {</br>"Application ID" = **TEAMS21**;</br>} |
 
-- A special case might happen when the registration is correct, but your application is still called **Microsoft Teams (work or school).app**. When this happens, you need to manually download and install the [latest version of Teams](https://aka.ms/getteams). If someone don't have permission to install software, contact an administrator to perform the installation. After this is done, you'll continue to receive updates automatically.
+- A special case might happen when the registration is correct, but your application is still called **Microsoft Teams (work or school).app**. When this case happens, you need to manually download and install the [latest version of Teams](https://aka.ms/getteams). If someone don't have permission to install software, contact an administrator to perform the installation. After this is done, you'll continue to receive updates automatically.
 
 ## Updates to Teams on VDI
 
