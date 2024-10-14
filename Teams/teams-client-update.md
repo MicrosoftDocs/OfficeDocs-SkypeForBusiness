@@ -107,7 +107,7 @@ For more information, see [Teams client system requirements](teams-client-system
   - To see if you have MAU installed, select **Check for Updates** from the Help menu bar item. This should open the MAU user interface, but if MAU isn't installed, nothing happens.
   - To make sure that MAU is allowed to function correctly, we need to first [check the MAU configuration](#how-to-troubleshoot-a-mau-configuration). If the configuration is correct and [MAU is installed](#how-to-configure-mau), and it still doesn't work, it's likely being blocked. In that case, the user should contact their administrator.
 - MAU is outdated.
-  - Microsoft Teams needs MAU version 4.52.22101101 at a minimum, but it's strongly recommended to use version 4.73.24071426 or higher for crucial security updates. Note that MAU self-updates, and a manual update should not be required under the default settings.
+  - Microsoft Teams needs MAU version 4.52.22101101 at a minimum, but it's strongly recommended to use version 4.73.24071426 or higher for crucial security updates. MAU self-updates, and a manual update should not be required under the default settings.
 - Your organization uses a custom MAU profile and the Teams portion isn't configured correctly.
   - As previously mentioned, Teams handles MAU registration autonomously within user preferences. There are instances when an organization deploys custom MAU preferences using an MDM management system. In such cases, the managed preferences take precedence. Occasionally, these settings might be incorrectly configured. Common issues include a complete lack of Teams configuration, outdated configurations for Classic Teams, or configurations that reference the old name **Microsoft Teams (work or school).app**.
 
