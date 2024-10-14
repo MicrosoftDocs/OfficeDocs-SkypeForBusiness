@@ -69,8 +69,8 @@ Follow these steps to run the wizard.
     
 2. Select your educational institution type **K-12 (Primary or Secondary)** or **Higher education**, and then select **Save & continue**. 
 
-> [!NOTE]
-> [Parents app](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e) is enabled for educators once you save your institution type as K-12 (Primary or Secondary).     
+   > [!NOTE]
+   > [Parents app](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e) is enabled for educators once you save your institution type as K-12 (Primary or Secondary).  
 
 3. Search for and select groups that contain your educators and staff, and then select **Next**. If you don't have any groups set up yet for your educators and staff, [create a group](/microsoft-365/admin/create-groups/create-groups), and then re-run the wizard. <br/><br/>You can select up to three groups. Educators and staff in the groups you select will be assigned [a set of custom policies](#policies-and-apps-applied-by-the-wizard) tailored to their needs. Remember that this set of policies is separate from the policies applied to students.
 
