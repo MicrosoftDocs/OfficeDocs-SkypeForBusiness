@@ -64,7 +64,7 @@ Now, let's get started!
 
 Follow these steps to run the wizard.
 
-1. The wizard automatically starts if you’ve not yet filled up your institution type. You can also start the wizard any time from the dashboard. In the left navigation of the Microsoft Teams admin center, go to **Home**, and then in the **Easily apply policies and manage apps for a safe learning environment** tile, select **Quick setup**. 
+1. The wizard automatically starts if you’ve not yet filled up your institution type. You can also start the wizard any time from the dashboard. In the left navigation of the Microsoft Teams admin center, go to **Home**, and run the wizard from the **Easily manage policies and apps** tile.  
 
     
 2. Select your educational institution type **K-12 (Primary or Secondary)** or **Higher education**, and then select **Save & continue**. 
@@ -139,7 +139,7 @@ But do check the [Message Center](https://admin.microsoft.com/AdminPortal/Home?#
 
 If you need to make changes after you run the wizard, you can re-run it and change your selections.
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Home**, and then in the **Easily apply policies and manage apps for a safe learning environment** tile, select **Change**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Home**, and make changes through the **Easily manage policies and apps** tile. 
 2. From here, continue through each page of the wizard to make your changes. You can change your institution type, the groups of educators and staff to which you want to assign policies, or both.
 
 The following table summarizes what happens when you make a change in the wizard.
@@ -178,7 +178,6 @@ Here's the policy areas and corresponding policy names covered by the wizard. To
 |Messaging policy|Primary or Secondary Educators and Staff - Messaging|Higher Education Educators and Staff - Messaging|
 |Calling policy|Primary or Secondary Educators and Staff - Calling|Higher Education Educators and Staff - Calling|
 
----
 
 ### Policy settings
 
