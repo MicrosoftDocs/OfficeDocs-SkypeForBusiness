@@ -51,7 +51,7 @@ Other factors that help your client to stay up-to-date:
   - Your OS version is up-to-date (non-LTSC update channel) and still under support.
   - Your OS has the latest patches installed.
 - Webview2:
-  - Webview2 updates automatically on windows, you should make sure it isn't blocked. This is updated by Teams on macOS.
+  - Webview2 updates automatically on Windows, you should make sure it isn't blocked. Webview2 is updated by Teams on macOS.
   - Webview2 must be a supported version (latest version).
 
 For more information, see [Teams client system requirements](teams-client-system-requirements.md).
@@ -158,7 +158,7 @@ Applications= {
 |New Teams configuration with old name |"/Applications/Microsoft Teams **(work or school).app**"</br>=     {</br>"Application ID" = **TEAMS21**;</br>} |
 |Serving multiple configurations       |"/Applications/**Microsoft Teams.app**" =     {</br>"Application ID" = **TEAMS10**;;</br>}</br>"/Applications/**Microsoft Teams.app**" =     {</br>"Application ID" = **TEAMS21**;</br>} |
 
-- A special case might happen when the registration is correct, but your application is still called **Microsoft Teams (work or school).app**. When this case happens, you need to manually download and install the [latest version of Teams](https://aka.ms/getteams). If someone don't have permission to install software, contact an administrator to perform the installation. After this is done, you'll continue to receive updates automatically.
+- A special case might happen when the registration is correct, but your application is still called **Microsoft Teams (work or school).app**. When this case happens, you need to manually download and install the [latest version of Teams](https://aka.ms/getteams). If someone don't have permission to install software, contact an administrator to perform the installation. After the installation is done, you'll continue to receive updates automatically.
 
 ## Updates to Teams on VDI
 
