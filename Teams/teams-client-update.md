@@ -94,7 +94,6 @@ For more information, see [Teams client system requirements](teams-client-system
     <dict>
       <key>Application ID</key>
       <string>TEAMS21</string>
-      <integer>1033</integer>
     </dict>
 ```
 
@@ -155,9 +154,9 @@ Applications= {
 
 |Issue                                 |Example  |
 |--------------------------------------|---------|
-|Classic Teams configuration           |"/Applications/Microsoft Teams.app" =     {</br>"Application ID" = **TEAMS10**;</br>} |
-|New Teams configuration with old name |"/Applications/Microsoft Teams **(work or school).**app" =     {</br>"Application ID" = TEAMS21;</br>} |
-|Serving multiple configurations       |"/Applications/**Microsoft Teams.app**" =     {</br>"Application ID" = **TEAMS10**;;</br>}</br>"/Applications/Microsoft Teams.app" =     {</br>"Application ID" = TEAMS21;</br>} |
+|Classic Teams configuration           |"/Applications/Microsoft Teams.app" =     {</br>"Application ID" = **TEAMS10;**</br>} |
+|New Teams configuration with old name |"/Applications/Microsoft Teams **(work or school).app**"</br>=     {</br>"Application ID" = **TEAMS21**;</br>} |
+|Serving multiple configurations       |"/Applications/**Microsoft Teams.app**" =     {</br>"Application ID" = **TEAMS10**;;</br>}</br>"/Applications/**Microsoft Teams.app**" =     {</br>"Application ID" = **TEAMS21**;</br>} |
 
 - A special case might happen when the registration is correct, but your application is still called **Microsoft Teams (work or school).app**. When this happens, you need to manually download and install the [latest version of Teams](https://aka.ms/getteams). If someone don't have permission to install software, contact an administrator to perform the installation. After this is done, you'll continue to receive updates automatically.
 
