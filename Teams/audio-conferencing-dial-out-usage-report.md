@@ -86,4 +86,5 @@ You can export any report shown in this table to a CSV file for offline analysis
 
 ## Related topics
 
-- [Plan Audio Conferencing for Microsoft Teams meetings]/microsoftteams/(audio-conferencing-in-office-365)
+- [Plan Audio Conferencing for Microsoft Teams meetings](/microsoftteams/audio-conferencing-in-office-365)
+- [Audio Conferencing complimentary dial-out](/microsoftteams/complimentary-dial-out-period)
