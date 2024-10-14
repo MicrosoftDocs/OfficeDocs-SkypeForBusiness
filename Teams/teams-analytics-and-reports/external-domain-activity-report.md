@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: izzychun
-ms.date: 09/09/2024
+ms.date: 10/14/2024
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
