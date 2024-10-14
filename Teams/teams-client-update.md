@@ -67,11 +67,11 @@ For more information, see [Teams client system requirements](teams-client-system
 
 - Windows delivery optimization service is disabled or configured with unsupported mode (100). This blocks the updater's ability to download the update payload.
   - There's a Windows Delivery Optimization service configuration requirement: [Upgrade to the new Teams client using policies](new-teams-deploy-using-policies.md).
-  - Note that enabling the Peer to Peer capability isn't required.
+  - Enabling the Peer to Peer capability isn't required.
 - Team's app package is modified by a user. The MSIX packages are installed machine-wide under the Program Files directory. The file ACLs are tightly controlled and monitored by the Windows OS. If the file ACLs are modified or changed by a user, the system deems the application to be in a corrupted state. This leads to unexpected behaviors such as crashing, unexpected app termination, and a failure to update.
   - It's essential to make sure the files under the installation directory (%programfiles%\windowsapps) aren't altered in any way.
 - Network settings that block Team's CDN endpoints cause delivery optimization service failures and a failure to update the app.
-  - You must allow Microsoft M365 endpoints in network configuration. For more information see [Microsoft 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges).
+  - You must allow Microsoft M365 endpoints in network configuration. For more information, see [Microsoft 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges).
   - Avoid SSL inspection on M365 endpoints. SSL inspection is known to cause high update download failure rate and retries.
 - Running on an out of support OS, or a Windows version that doesn't have the latest updates and patches can lower the success of Teams updates.
   - Windows 11 improves the Teams application update success rate and reliability as it has the most current installer.
@@ -80,7 +80,7 @@ For more information, see [Teams client system requirements](teams-client-system
 ## Updating Teams on Mac devices
 
 - The Teams desktop client updates itself using Microsoft AutoUpdate (MAU), similar to other Microsoft applications. Learn more about MAU at [Configuring Microsoft AutoUpdate (MAU) for Organization Specific Updates](/microsoft-365-apps/mac/mau-configure-organization-specific-updates).
-- Teams uses default MAU Office channels for updates, as well as a custom channel for Teams-specific scenarios. The post-installation script registers the app with MAU's default Office channel (Current, Preview, or Beta) to ensure the app can be updated by MAU without running itself.
+- Teams uses default MAU Office channels for updates and a custom channel for Teams-specific scenarios. The post-installation script registers the app with MAU's default Office channel (Current, Preview, or Beta) to ensure the app can be updated by MAU without running itself.
 - When the update is downloaded while Teams is running, we leverage MAU's **Install On Clone** feature, to prepare the installation. Once a user quits the application, MAU finishes updates by moving the clone to the /Applications folder. Teams for Mac doesn't automatically restart to apply updates. It always waits for user to take the action.
 - Users can also manually check for updates by selecting **Check for updates** from the Help menu bar item. This action opens Microsoft AutoUpdate (MAU).
 
