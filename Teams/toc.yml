@@ -687,7 +687,7 @@ items:
               href: hide-attendee-names.md
             - name: Manage the attendance report
               href: teams-analytics-and-reports/meeting-attendance-report.md
-            - name: Who can bypass the lobby
+            - name: Manage lobby options in Microsoft Teams
               href: who-can-bypass-meeting-lobby.md
             - name: Content sharing
               href: meeting-policies-content-sharing.md
