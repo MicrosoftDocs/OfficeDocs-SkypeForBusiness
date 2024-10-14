@@ -74,8 +74,8 @@ Introduced in this update:
 - **Roster grouping for in-room participants through proximity join** :::image type="icon" source="../media/mtr-pro-icon.png"::: **:**  When joining a meeting in a Microsoft Teams Room on Windows with a companion device, in-room participants are grouped under the room node. Participants must join through Proximity Join with Microsoft Teams Rooms. [Learn more](https://support.microsoft.com/en-us/office/microsoft-teams-rooms-windows-e667f40e-5aab-40c1-bd68-611fe0002ba2).
 - **Native controls for Group Framing, Active Speaker and Edge-composed IntelliFrame:**  Allow users to natively toggle certain camera features provided by OEMs, including group framing, active speaker framing, and edge-composed IntelliFrame.  [Learn more](https://support.microsoft.com/en-us/office/enhance-hybrid-meetings-with-microsoft-intelliframe-for-teams-rooms-97161377-b746-49dc-992f-97bbf0d590f7).
 
-> [!NOTE]
-> The camera's OEM firmware is required.
+  > [!NOTE]
+  > The camera's OEM firmware is required.
 
 - **Breakout rooms support:** With breakout room support, Teams Rooms on Windows can be added to a breakout room as an attendee and moved in and out of the main room making it easy for breakout session coordination. [Learn more](https://support.microsoft.com/en-us/office/use-breakout-rooms-in-microsoft-teams-meetings-7de1f48a-da07-466c-a5ab-4ebace28e461).
 
