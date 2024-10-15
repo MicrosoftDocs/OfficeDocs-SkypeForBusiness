@@ -103,18 +103,18 @@
         - name: Video Interop Server
           href: ../../SfbServer/plan-your-deployment/video-interop-server.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Persistent Chat Server
-          href: ../plan-your-deployment/persistent-chat-server/persistent-chat-server.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          href: ../../SfbServer/plan-your-deployment/persistent-chat-server/persistent-chat-server.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items: 
             - name: Hardware and software requirements
-              href: ../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Topology
-              href: ../plan-your-deployment/persistent-chat-server/topology.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/persistent-chat-server/topology.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: High availability and disaster recovery
-              href: ../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Capacity planning
-              href: ../plan-your-deployment/persistent-chat-server/capacity-planning.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/persistent-chat-server/capacity-planning.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Categories, chat rooms, and user roles
-              href: ../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              href: ../../SfbServer/plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Voice Solutions
           href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items: 

@@ -64,9 +64,9 @@ On the database server, be sure that one of the following software applications 
 
 - Microsoft SQL Server 2017 with the latest service pack.
 
-- Microsoft SQL Server 2016 with Service Pack 1, and you must run with Skype for Business Server Cumulative Update 7 or later releases. We recommended running SQL Server 2016 with the latest service pack. For details about how to install Microsoft SQL Server 2016, see [Install SQL Server 2016](/sql/database-engine/install-windows/install-sql-server?view=sql-server-2016).
+- Microsoft SQL Server 2016 with Service Pack 1, and you must run with Skype for Business Server Cumulative Update 7 or later releases. We recommended running SQL Server 2016 with the latest service pack. For details about how to install Microsoft SQL Server 2016, see [Install SQL Server 2016](/sql/database-engine/install-windows/install-sql-server).
 
-- Microsoft SQL Server 2014, and you must run with Skype for Business Server Cumulative Update 6 or later releases. We recommended running SQL Server 2014 with the latest service pack. For details about how to install Microsoft SQL Server 2014, see [Install SQL Server 2014](/sql/database-engine/install-windows/install-sql-server?view=sql-server-2014).
+- Microsoft SQL Server 2014, and you must run with Skype for Business Server Cumulative Update 6 or later releases. We recommended running SQL Server 2014 with the latest service pack. For details about how to install Microsoft SQL Server 2014, see [Install SQL Server 2014](/sql/database-engine/install-windows/install-sql-server).
 
 - Microsoft SQL Server 2012 (64-bit edition), and we recommended running with the latest service pack. For details about how to install Microsoft SQL Server 2012, see [Install SQL Server 2012](/previous-versions/sql/sql-server-2012/bb500395(v=sql.110)).
 
