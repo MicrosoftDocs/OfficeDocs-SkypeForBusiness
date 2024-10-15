@@ -1,5 +1,5 @@
 ---
-title: "Plan for Persistent Chat Server in Skype for Business Server 2015"
+title: "Plan for Persistent Chat Server in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -12,12 +12,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 9e652487-a123-40c0-ae61-47fb8ecc4a20
-description: "Summary: Read this topic to learn how to plan for Persistent Chat Server in Skype for Business Server 2015."
+description: "Summary: Read this topic to learn how to plan for Persistent Chat Server in Skype for Business Server."
 ---
 
-# Plan for Persistent Chat Server in Skype for Business Server 2015
+# Plan for Persistent Chat Server in Skype for Business Server 
  
-**Summary:** Read this topic to learn how to plan for Persistent Chat Server in Skype for Business Server 2015.
+**Summary:** Read this topic to learn how to plan for Persistent Chat Server in Skype for Business Server.
   
 Persistent Chat Server is an optional role that lets multiple users in your organization participate in chat room conversations that persist over time. Although users can communicate in real time during a chat session, the content of each session--including text, links, and files--is persistent, which means users can view and search all content of the session at any time.
   
@@ -34,7 +34,7 @@ Persistent Chat Server can help improve communication within your organization b
 - Following compliance regulations by optionally deploying the Persistent Chat Compliance service
 
 > [!NOTE] 
-> Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015. 
+> Persistent chat is available in Skype for Business Server and in Teams. For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server. 
     
 ## Persistent Chat Server high-level architecture
 
@@ -42,11 +42,11 @@ The following diagram shows a high-level view of the Persistent Chat Server arch
   
 ![Persistent Chat Server High-Level Architecture.](../../media/0344f6e2-0c6d-4391-b4b3-ec31062b1576.png)
   
-Persistent Chat consists of a front-end server role that provides the Persistent Chat services as well as a back-end SQL database component. Both front-end and back-end components are included in a dedicated Persistent Chat pool. Each computer that hosts Persistent Chat Server must have access to an existing Skype for Business Server 2015 topology. In this diagram, there is one Persistent Chat Server pool (A), which is dependent on Skype for Business Server Pool A for routing messages to it.
+Persistent Chat consists of a front-end server role that provides the Persistent Chat services as well as a back-end SQL database component. Both front-end and back-end components are included in a dedicated Persistent Chat pool. Each computer that hosts Persistent Chat Server must have access to an existing Skype for Business Server topology. In this diagram, there is one Persistent Chat Server pool (A), which is dependent on Skype for Business Server Pool A for routing messages to it.
   
 You can deploy one or more Persistent Chat Server pools, each with up to four active Persistent Chat Servers supporting up to 80K concurrent users.
   
-Skype for Business Server 2015 communicates with the Persistent Chat service using the Session Initiation Protocol (SIP) for registration and the Extensible Chat Communication Over SIP protocol (XCCOS) for chat. 
+Skype for Business Server communicates with the Persistent Chat service using the Session Initiation Protocol (SIP) for registration and the Extensible Chat Communication Over SIP protocol (XCCOS) for chat. 
   
 ## Persistent Chat services
 
@@ -109,8 +109,8 @@ If you decide to deploy Persistent Chat Server, you'll need to determine your or
 
 For more information about installing and configuring Persistent Chat Server, see the following topics:
   
-- For details about how to deploy Persistent Chat Server, see [Deploy Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md). 
+- For details about how to deploy Persistent Chat Server, see [Deploy Persistent Chat Server in Skype for Business Server](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md). 
     
-- For details about how to configure settings on your Persistent Chat Server deployment, see [Manage Persistent Chat Server in Skype for Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
+- For details about how to configure settings on your Persistent Chat Server deployment, see [Manage Persistent Chat Server in Skype for Business Server](../../manage/persistent-chat/persistent-chat.md).
     
 

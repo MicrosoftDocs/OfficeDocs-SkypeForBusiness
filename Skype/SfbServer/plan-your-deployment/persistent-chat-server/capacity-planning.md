@@ -1,5 +1,5 @@
 ---
-title: "Capacity planning for Persistent Chat Server in Skype for Business Server 2015"
+title: "Capacity planning for Persistent Chat Server in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -12,12 +12,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
-description: "Summary: Read this topic to learn about capacity planning for Persistent Chat Server in Skype for Business Server 2015."
+description: "Summary: Read this topic to learn about capacity planning for Persistent Chat Server in Skype for Business Server."
 ---
 
-# Capacity planning for Persistent Chat Server in Skype for Business Server 2015
+# Capacity planning for Persistent Chat Server in Skype for Business Server
  
-**Summary:** Read this topic to learn about capacity planning for Persistent Chat Server in Skype for Business Server 2015.
+**Summary:** Read this topic to learn about capacity planning for Persistent Chat Server in Skype for Business Server.
   
 Persistent Chat Server can perform multi-user, real-time chat that can persist for future retrieval and search. Unlike group instant messaging (IM) that is saved in a user's mailbox if conversation history is configured, a Persistent Chat Server session stays open longer, and the content is saved on a server, along with the messages, files, URLs, and other data that are part of an ongoing conversation.
   
@@ -26,7 +26,7 @@ Capacity planning is an important part of preparing to deploy Persistent Chat Se
 Before reading this section, you should be familiar with Persistent Chat topologies. For more information, see [Plan Persistent Chat Server topology](topology.md).
 
 > [!NOTE] 
-> Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015. 
+> Persistent chat is available in Skype for Business Server and in Teams. For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server. 
   
 ## Persistent Chat Server capacity planning
 
