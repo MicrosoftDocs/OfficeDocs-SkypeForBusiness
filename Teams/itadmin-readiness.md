@@ -61,8 +61,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Teams Phone Deployment playbook | | [Deck](https://aka.ms/teams-phone-deployment-playbook) |
 | Teams Phone for Frontline Workers Deployment playbook | | [Deck](https://aka.ms/teams-phone-FLW-deployment-playbook) |
 | Teams Phone Service Reliability and Survivability playbook | | [Deck](https://aka.ms/teams-phone-service-reliability-playbook) |
-| Teams Phone shared calling playbook | | [Deck](https://aka.ms/teams-phone-shared-calling-playbook) |
-| Teams new VDI solution playbook | | [Deck](https://aka.ms/teams-vdi-2.0-playbook) |
+| Teams VDI 2.0 playbook | | [Deck](https://aka.ms/teams-vdi-2.0-playbook) |
 | Upgrade from Skype for Business to Teams | [Video 1: Introduction to Upgrade](https://aka.ms/teams-upgrade-intro)</br>[Video 2: Plan your upgrade](https://aka.ms/teams-upgrade-plan)</br>[Video 3: Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Video 4: Administrator experience](https://aka.ms/teams-upgrade-admin) | [Deck](https://aka.ms/teams-upgrade-deck)|
 | Windows desktop client | [Video](https://aka.ms/teams-clients) | [Deck](https://aka.ms/teams-clients-deck) |
 | Windows Defender Application Control for new Teams |  | [Deck](https://aka.ms/new-teams-WDAC) |
