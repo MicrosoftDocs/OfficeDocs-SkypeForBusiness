@@ -3,8 +3,8 @@ title: "Shared line appearance in Microsoft Teams"
 author: mkbond007
 ms.author: mabond
 manager: pamgreen
-ms.date: 02/19/2019
-ms.reviewer: roykuntz
+ms.date: 10/15/2024
+ms.reviewer: ashgupt
 ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
