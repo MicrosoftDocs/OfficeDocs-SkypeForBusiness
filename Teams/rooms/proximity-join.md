@@ -24,14 +24,16 @@ f1keywords: NOCSH
 
 # Proximity Join using Bluetooth and ultrasound
 
-Proximity Join is a feature that lets you use your Teams app on a desktop or mobile device to invite or nudge a Microsoft Teams Rooms console into a Teams meeting. Before you nudge the Teams Rooms console into the meeting, the room doesn't have to be already invited or added to the meeting. This feature uses wireless technologies that can be individually turned on or off depending on the requirements of the environment including:
+Proximity Join is a feature that lets you use your Teams app on a desktop or mobile device to invite or nudge a Microsoft Teams Room into a Teams meeting. The Teams Room doesn't need to be invited to the meeting to be joined using proximity join. This feature uses wireless technologies that can be individually turned on or off depending on the requirements of the environment including:
 
 - [Bluetooth](#bluetooth)
-- [Ultrasonic sound (Ultrasound)](#ultrasound)
+- [Ultrasound (Ultrasonic)](#ultrasound)
 
-The end user experience is the same if Bluetooth or ultrasound are used for Proximity Join to join a meeting. If they're both turned on, they operate together and in parallel. A Teams Room that is found with ultrasound turned on is always put in the meeting's prejoin screen at the top of the list of nearby rooms. You can see it's available in the room audio option. Teams Rooms that are found using Bluetooth are listed after the room that have ultrasound turned on in that list.
+The end user experience is the same if Bluetooth or ultrasound are used for Proximity Join. If they're both turned on, they operate together to provide the most accuracy. A Teams Room that is found with ultrasound turned on is always put in the meeting's prejoin screen at the top of the list of nearby rooms (under the room audio option). Teams Rooms that are found using Bluetooth are listed after the room that have ultrasound turned on in that list.
 
-Once a connection is established between a personal laptop or mobile device with the Teams app and a Teams Room console, the user's video won't appear in the room's display, and the room's video stream is hidden on the personal device's meeting stage.
+When a users laptop or mobile device brings a Teams Rooms in via Proximity Join or if Proximity Join detects a user is joining while in a Teams Room already in the meeting, the user's video won't appear in the room's display, and the room's video stream is hidden on the personal device's meeting stage. Users can override the automatic hiding behavior by using the pin or spotlight functionality of Teams Meetings.
+
+Proximity join does not require a direct network connection between a users personal devices and the Teams Rooms device, all communication takes place through Microsoft Teams.
 
 ## Bluetooth
 
@@ -52,7 +54,7 @@ The Proximity Join via ultrasound works by emitting an ultrasonic (19.5 kHz - 21
 > Room Remote can't be used with ultrasound only because the ultrasound beacon is paused while the Teams Room is in a call. Room Remote can't use ultrasound to verify that the personal device is in proximity with the room, so Room Remote won't work if only ultrasound is turned on.
 
 > [!CAUTION]
-> Some younger people and animals with sensitive hearing may be able to hear it. In our testing, this sound hasn't been distressing, but take note if young people or animals are in your meeting room environment. We recommend that younger people and animals aren't present in the meeting room environments. If the beacon can be heard outside of the space for which it is intended to represent, speak with your admin. While Microsoft works with partners to ensure volume levels are adequately capped, your admin may have overridden the volume for ultrasound emission on a console or audio peripheral that will in turn may have unintended consequences.
+> Some younger people and animals with sensitive hearing may be able to hear the ultrasound tones. In our testing, this sound hasn't been distressing, and is only output prior to a call being initiated but take note if those who may hear the ultrasound tones are present in your environment.
 
 ### Ultrasound supported devices
 
@@ -83,9 +85,8 @@ Management of proximity features is available in the Teams Rooms Pro Management 
     
   - Automatically accept proximity-based meeting invitations
     
-- Enable ultrasound beaconing
-
-  - Remote control from personal devices
+> [!NOTE]
+> Ultrasound controls are not yet available within the Pro Management Portal.
     
 ### [Teams Rooms app settings](#tab/app-settings)
 
@@ -97,13 +98,12 @@ Management of proximity features is available on Microsoft Teams Rooms admin set
     
   - Automatically accept proximity-based meeting invitations
     
-- Enable ultrasound beaconing
-
-  - Remote control from personal devices
+> [!NOTE]
+> Ultrasound controls are not yet available within the device settings.
     
-### [XML configuration file](#tab/xml)
+### [Teams Rooms on Windows (XML)](#tab/xml)
 
-Like most Teams Rooms on Windows features, you can update the settings of your device with the Teams Rooms XML configuration file. The XML configuration file lets you remotely deploy configuration changes to one or more Teams Rooms on Windows devices in your organization. For more information, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](/microsoftteams/rooms/xml-config-file).
+You can update the settings of your device with a XML configuration file. For more information, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](/microsoftteams/rooms/xml-config-file).
 
 |**Paramater**|**Type**|**Level**|**Usage**|
 |:-------- |:-------- |:-------- |:-------- |
