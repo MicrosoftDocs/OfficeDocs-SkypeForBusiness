@@ -128,7 +128,7 @@ To associate a device with a room, the following two methods are available:
 
 - **Manually associate discovered devices using Pro Management UI:** 
 
-   1. Go to the device table.
+1. Go to the device table.
    1. Select the specific device group with the **Need Action** banner. 
    1. Click **Add a room to this device**.
    1. Select the desired room from the list to associate the devices with.
@@ -136,7 +136,15 @@ To associate a device with a room, the following two methods are available:
 
      :::image type="content" source="../media/byod/device-discovery.png" alt-text="Screenshot of device room association." lightbox="../media/byod/device-discovery.png":::
 
-## Devices automatically discovered by the Pro Management Portal
+### Using the PowerShell script to collect peripheral information
+
+To ensure seamless end-to-end user experience, peripherals such as audio-video bars located in rooms need to be associated or linked to a room account. To do this, you need to identify peripherals based on unique information such as product ID, vendor ID, and serial number.
+
+You can use a custom script to get peripheral details from rooms to locate peripherals correctly and ensure they're mapped to the corresponding room resource account. The PowerShell script located [here](https://www.microsoft.com/en-us/download/details.aspx?id=106063) must be run with administrator permissions.
+
+For detailed step-by-step instructions, see [Get information for connected peripherals](../rooms/get-peripheral-information.md). After uploading information on peripherals, use the Teams Pro Management portal to confirm if they are associated to the correct rooms.
+  
+## Peripherals automatically discovered by the Pro Management Portal
 
 Devices are automatically discovered using your users' Teams client to send device data to Pro Management Portal. When a user enters the prejoin screen of a meeting, any connected displays and USB audio/video peripherals are scanned and transmitted to the cloud. These devices populate your Devices tab within the Inventory navigation.
 
