@@ -68,10 +68,10 @@ Teams Android-based devices, including Teams phones are managed by Intune using 
 
 [Phones for Teams](phones-for-teams.md)
 
-[Certified Teams phones](teams-phones-certified-hardware.md)
+[Certified Teams phones](../devices/teams-phones-certified-hardware.md)
 
-[Teams displays](teams-displays.md)
+[Teams displays](../devices/teams-displays.md)
 
-[Manage your devices in Teams](device-management.md)
+[Manage your devices in Teams](../devices/device-management.md)
 
 [Teams Marketplace](https://office.com/teamsdevices)

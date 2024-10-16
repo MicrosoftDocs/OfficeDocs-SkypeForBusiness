@@ -18,14 +18,12 @@ ms.collection:
 f1.keywords: 
   - NOCSH
 search.appverid: MET150
-description: Learn about how to prepare your network infrastructure for deploying Microsoft Teams phonesso that you can take advantage of all of the available features.
+description: Learn about how to prepare your network infrastructure for deploying Microsoft Teams phones so that you can take advantage of all of the available features.
 ---
 
 # Plan your network environment for Teams Phones
 
-**MATT: THIS ARTICLE NEEDS EDITED FOR Teams phones only**
-
-This section contains an overview of the steps required to prepare your network environment so that you can use all of the features of Microsoft Teams Rooms. This section also includes information on configuring local administive access to your Teams Rooms devices.
+This section contains an overview of the steps required to prepare your network environment so that you can use all of the features of Microsoft Teams phones. This section also includes information on configuring local administive access to your Teams phones.
   
 ## Confirm network configuration
 
@@ -42,11 +40,9 @@ In order to function properly, Microsoft Teams Rooms devices must have access to
 > [!IMPORTANT]
 > Be sure to use a network connection with enough bandwidth (we recommend 10 mbps up/down per Teams Room) to ensure your meetings perform well.
 
-
 ### Certificates
 
 Your Microsoft Teams Rooms device uses certificates for Microsoft Teams, network usage, and authentication. If the related servers use public certificates, which is the case for online, there should be no further action required on the part of the admin to install certificates. If, on the other hand, the certificate authority is a private CA then the device needs to trust that CA. This means having the CA + CA chain certificates installed on the device. Certificates can be installed via Intune for your Teams Rooms devices or via OEM tooling.
-
 
 ### Proxy
 
@@ -176,7 +172,7 @@ If you choose to join a Teams Rooms on Windows device to a domain (Microsoft Ent
 ### Local "Admin" User Account
 
 > [!CAUTION]
-> Be sure to change the Microsoft Teams Rooms password as soon as possible. 
+> Be sure to change the Microsoft Teams Rooms password as soon as possible.
 
 Microsoft Teams Rooms default password is set to `sfb`. The password can be changed in several ways:
 
@@ -191,7 +187,7 @@ You can read more about the Admin account in the [Microsoft Teams Rooms security
 > [!CAUTION]
 > Any modifications to the "Skype" user account are not supported by Microsoft and will prevent your Teams Rooms on Windows device from functioning correctly.
 
-Teams Rooms on Windows include a local account named "Skype" which is passwordless. This account is used to sign in to Windows to launch the Teams Rooms app. For more information on how the "Skype" user is security, review [Microsoft Teams Rooms security](security.md).
+Teams Rooms on Windows include a local account named "Skype" which is passwordless. This account is used to sign in to Windows to launch the Teams Rooms app. For more information on how the "Skype" user is security, review [Microsoft Teams Rooms security](../rooms/security.md).
 
 ### Machine Account
 
@@ -205,10 +201,10 @@ Local administrative access to Teams Rooms on Android devices is controlled by t
 
 ## Related articles
 
-[Plan Microsoft Teams Rooms](rooms-plan.md)
+[Plan Microsoft Teams Rooms](../rooms/rooms-plan.md)
 
-[Deploy Microsoft Teams Rooms](rooms-deploy.md)
+[Deploy Microsoft Teams Rooms](../rooms/rooms-deploy.md)
 
-[Manage Microsoft Teams Rooms](rooms-manage.md)
+[Manage Microsoft Teams Rooms](../rooms/rooms-manage.md)
 
 [Teams Rooms Security](/microsoftteams/rooms/security)

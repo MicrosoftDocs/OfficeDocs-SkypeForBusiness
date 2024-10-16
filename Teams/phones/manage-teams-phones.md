@@ -22,7 +22,7 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.managedevices.overview
   - ms.teamsadmincenter.devicemanagement.overview
-description: Manage devices used with Microsoft Teams in your organization.
+description: Manage Teams phones you have deployed in your organization.
 ms.localizationpriority: medium
 search.appverid: MET150
 ---
@@ -48,7 +48,7 @@ You can manage any device that's certified for, and enrolled in, Teams. A device
 - [Conference phones](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=73)
 - [Desk phones](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=34)
 - [Teams displays](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices/devices/category?devicetype=34)
-- [Teams panels](teams-panels.md)
+- [Teams panels](../devices/teams-panels.md)
 
 To manage Teams phones, in the left navigation of the [Microsoft Teams admin center](https://admin.teams.microsoft.com), go to **Teams Devices**, and then select the device type. Each type of device has its own respective section, which lets you manage them separately.
 
@@ -82,11 +82,11 @@ Here are some examples of how you can manage phones, Teams Rooms on Android, Tea
 | To do this...                           | Do this                                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Change device information               | Select a device > **Edit**. You can edit details such as device name, asset tag, and add notes.                                                                                                                                                                                                              |
-| Manage software updates                 | Select a device > **Update**. You can view the list of software and firmware updates available for the device and choose the updates to install. For more information about updating devices, see [Update Teams devices remotely](remote-update.md)                                                          |
+| Manage software updates                 | Select a device > **Update**. You can view the list of software and firmware updates available for the device and choose the updates to install. For more information about updating devices, see [Update Teams devices remotely](../devices/remote-update.md)                                                          |
 | Assign or change configuration policies | Select one or more devices > **Assign configuration**.                                                                                                                                                                                                                                                       |
-| Add or remove device tags               | Select one or more devices > **Manage tags**. For more information about device tags, see [Manage Teams device tags](manage-device-tags.md).                                                                                                                                                                 |
+| Add or remove device tags               | Select one or more devices > **Manage tags**. For more information about device tags, see [Manage Teams device tags](../devices/manage-device-tags.md).                                                                                                                                                                 |
 | Restart devices                         | Select one or more devices > **Restart**.                                                                                                                                                                                                                                                                    |
-| Filter devices using device tags        | Select the filter icon, select the **Tag** field, specify a device tag to filter on, and select **Apply**. For more information about filtering devices using device tags, see [Use filters to return devices with a specific tag](manage-device-tags.md#use-filters-to-return-devices-with-a-specific-tag). |
+| Filter devices using device tags        | Select the filter icon, select the **Tag** field, specify a device tag to filter on, and select **Apply**. For more information about filtering devices using device tags, see [Use filters to return devices with a specific tag](../devices/manage-device-tags.md#use-filters-to-return-devices-with-a-specific-tag). |
 |Schedule device actions|Actions like **Restart** and **Software update** can be scheduled for the preferred date and time.|
 | View device history and diagnostics     | Under the **History** column, click the **View** link for a device to view its update history and diagnostic details.                                                                                                                                                                                         |
 |View device action details|In the **History** tab on the device page, select the action status to view the details of the action.|

@@ -30,7 +30,7 @@ description: Learn how to set up common area Android phones
 A Teams Android mobile app signed in with an account tied to **Microsoft Teams Shared Device** license is used as a shared device by frontline workers to make and receive calls as part of their daily work using Teams.
 
   > [!IMPORTANT]
-  > To use this feature you must have version 1.0.0.2023143401 (2023143401) or later installed on the Android mobile phone. 
+  > To use this feature you must have version 1.0.0.2023143401 (2023143401) or later installed on the Android mobile phone.
 
 ## Step 1 - Buy the licenses
 
@@ -48,7 +48,7 @@ To purchase the license:
 
   > [!NOTE]
   > If you're using Intune in your environment and have conditional access rules that require device compliance, you'll need to assign an **Microsoft Entra ID P1** and an **Intune** license to the device account that was used to sign in to the Teams mobile app.
-  > Teams-shared devices can be impacted by conditional access rules and other identity configurations, such as Multi-Factor Authentication. For more information, see [Authentication best practices for Teams Android devices](authentication-best-practices-for-android-devices.md).
+  > Teams-shared devices can be impacted by conditional access rules and other identity configurations, such as Multi-Factor Authentication. For more information, see [Authentication best practices for Teams Android devices](../devices/authentication-best-practices-for-android-devices.md).
 
 ## Step 2 - Create a new user account and assign licenses
 

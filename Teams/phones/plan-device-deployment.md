@@ -18,12 +18,12 @@ ms.collection:
 f1.keywords: 
   - NOCSH
 search.appverid: MET150
-description: This article provides an overview of the tasks and steps to deploy Teams Phones in your organization.
+description: This article provides an overview of the tasks and steps to deploy Teams phones in your organization.
 ---
 
 # Plan your deployment for Teams Phones
 
-Teams Phone devices are a great way to stay connected and productive with your colleagues and customers. These devices are designed to provide a seamless calling and meeting experience. With just three easy steps, you can deploy a [Teams Phone device certified by Microsoft](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/category/desk-phones-teams-displays/34?page=1&filterIds=), in your spaces and enjoy advanced calling features.
+Teams phones are a great way to stay connected and productive with your colleagues and customers. These devices are designed to provide a seamless calling and meeting experience. With just three easy steps, you can deploy a [Teams Phone device certified by Microsoft](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/category/desk-phones-teams-displays/34?page=1&filterIds=), in your spaces and enjoy advanced calling features.
 
 ## Step 1: Consider the space Teams Phone device will be used in
 
@@ -56,7 +56,7 @@ The space you choose will determine the type of license you'll need.
 - **Walkie Talkie**: Users part of a Teams channel can broadcast messages to other users' part of the same channel.
 - **Calendar**: Schedule and join meetings.
 
-  :::image type="content" source="media/teams-apps-1.png" alt-text="Screenshot of teams app." lightbox="media/teams-apps-1.png":::
+  :::image type="content" source="../media/teams-" alt-text="Screenshot of teams app." lightbox="media/teams-apps-1.png":::
 
 ## Step 3: Setup desired phone device experience for your users 
 
@@ -86,17 +86,17 @@ In addition to the above, you can choose from the following experiences on touch
 
 ## Best Practices:
 
-- **Manage firmware and Teams app updates**: Enable [auto updates](remote-update.md#automatic-updates) of firmware via Teams admin center and assign devices to different rings (Validation, General, Final) to roll out updates in phases. You can assign the Validation ring to a small set of test phones and assign other phones to General and Final rings. 
+- **Manage firmware and Teams app updates**: Enable [auto updates](../devices/remote-update.md#automatic-updates) of firmware via Teams admin center and assign devices to different rings (Validation, General, Final) to roll out updates in phases. You can assign the Validation ring to a small set of test phones and assign other phones to General and Final rings. 
 
   > [!NOTE]
-  > Auto updates on Teams application is coming soon. Currently, you can [schedule](remote-update.md#manually-update-remote-devices) Teams application update via Teams admin center.
+  > Auto updates on Teams application is coming soon. Currently, you can [schedule](../devices/remote-update.md#manually-update-remote-devices) Teams application update via Teams admin center.
 
-- **Manage Authentication**: For password management, review [Authentication best practices](authentication-best-practices-for-android-devices.md).
+- **Manage Authentication**: For password management, review [Authentication best practices](../devices/authentication-best-practices-for-android-devices.md).
 
 - **Configure calling policies**: Configure different [calling policies](../teams-calling-policy.md) based on your needs.
 
-- **Optimize phone memory usage**: To optimize phone performance, enable daily or automatic restart of Teams application on the phone device via [configuration profile](device-management.md#use-configuration-profiles-in-teams).
+- **Optimize phone memory usage**: To optimize phone performance, enable daily or automatic restart of Teams application on the phone device via [configuration profile](../devices/device-management.md#use-configuration-profiles-in-teams).
 
-- **Secure common area phones**: To provide secured access to settings on phone devices in shared spaces, set an Admin PIN on common area phones via [configuration profile](device-management.md#use-configuration-profiles-in-teams).
+- **Secure common area phones**: To provide secured access to settings on phone devices in shared spaces, set an Admin PIN on common area phones via [configuration profile](../devices/device-management.md#use-configuration-profiles-in-teams).
 
 - **Secure personal phones**: Ask your users who use phones in personal spaces to set a phone device lock PIN for secured access instead of setting a default phone device lock PIN via configuration profile.

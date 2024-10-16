@@ -1343,11 +1343,11 @@ items:
             - name: Personal peripherals
               href: devices/usb-devices.md
               items:
-                - name: Known issues
+                - name: Troubleshooting and known issues
                   href: /microsoftteams/troubleshoot/meetings/known-issues-teams-certified-peripherals
     - name: Teams Rooms and panels
       items: 
-        - name: Overview and planning
+        - name: Plan
           items:
             - name: Teams Rooms
               items:
@@ -1439,13 +1439,13 @@ items:
                   href: https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_panels
                 - name: Teams device management apps
                   href: devices/certified-device-apps.md
-            - name: Known issues
+            - name: Troubleshooting and known issues
               items:
                 - name: Teams Rooms on Windows
                   href: /microsoftteams/troubleshoot/teams-devices-and-rooms/rooms-known-issues-windows
                 - name: Teams Rooms on Android
                   href: /microsoftteams/troubleshoot/teams-devices-and-rooms/rooms-known-issues-android
-        - name: Deployment
+        - name: Deploy
           items: 
             - name: Overview
               href: rooms/rooms-deploy.md
@@ -1573,13 +1573,13 @@ items:
                        href: rooms/customer-reported-incidents.md
                 - name: Analytics, reports, and insights
                   items:
-                    - name: Monitoring and maintaining Teams Rooms
+                    - name: Monitor and maintain Teams Rooms
                       href: rooms/managed-meeting-rooms-portal.md
                     - name: Audit logs for activities
                       href: rooms/multi-tenant-auditing.md
                 - name: Data and privacy information
                   href: rooms/data-and-privacy-info.md
-                - name: Troubleshooting Teams Rooms Pro portal
+                - name: Troubleshooting and known issues
                   href: /microsoftteams/troubleshoot/teams-rooms-and-devices/get-support-teams-rooms-pro-management
     - name: Teams phones
       items:
@@ -1595,8 +1595,8 @@ items:
               href: phones/plan-device-deployment.md
             - name: Step 2 - Prepare your environment
               items:
-                - name: Preparing your network
-                  href: rooms/rooms-prep.md
+                - name: Prepare your network
+                  href: phones/prepare-network-teams-phones.md
                 - name: Intune Enrollment for Teams phones
                   items:
                     - name: Device administration
@@ -1611,7 +1611,7 @@ items:
                   href: set-up-common-area-phones.md
                 - name: Set up a common area mobile phones
                   href: devices/common-area-mobile-phones.md
-            - name: Step 4 - Setting up Teams phones
+            - name: Step 4 - Set up Teams phones
               items:
                 - name: Remote provisioning 
                   href: devices/remote-provision-remote-login.md
@@ -1623,9 +1623,9 @@ items:
               href: phones/manage-teams-phones.md
             - name: Update management
               href: devices/remote-update.md
-        - name: Troubleshooting
+        - name: Troubleshooting and known issues
           items:
-            - name: Troubleshooting Teams phones
+            - name: Troubleshooting and known issues
               href: /microsoftteams/troubleshoot/teams-rooms-and-devices/teams-rooms-known-issues-android
     - name: Bring your own device (BYOD) spaces
       items:

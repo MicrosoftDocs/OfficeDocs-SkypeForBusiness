@@ -25,9 +25,7 @@ description: This article gives you an overview of how to deploy Teams panels, a
 
 # Deploy Teams panels and Microsoft Teams Rooms on Android using Intune
 
-**MATT: verify that this works for just Teams panels and MTRA.**
-
-This article gives you an overview of how to deploy Teams panels, and Microsoft Teams Rooms on Android using Conditional Access and Intune.
+This article gives you an overview of how to deploy Teams panels and Microsoft Teams Rooms on Android using Conditional Access and Intune.
 
 ## Conditional Access
 
