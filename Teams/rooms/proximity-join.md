@@ -54,7 +54,7 @@ The Proximity Join via ultrasound works by emitting an ultrasonic (19.5 kHz - 21
 > Room Remote can't be used with ultrasound only because the ultrasound beacon is paused while the Teams Room is in a call. Room Remote can't use ultrasound to verify that the personal device is in proximity with the room, so Room Remote won't work if only ultrasound is turned on.
 
 > [!CAUTION]
-> Some younger people and animals with sensitive hearing may be able to hear the ultrasound tones. In our testing, this sound hasn't been distressing, and is only output prior to a call being initiated but take note if those who may hear the ultrasound tones are present in your environment.
+> People or animals with sensitive hearing may be able to hear the ultrasound tones. In our testing, this sound hasn't been distressing, and is only output prior to a call being initiated but take note if those who may hear the ultrasound tones are present in your environment to decide if this feature should be enabled or not.
 
 ### Ultrasound supported devices
 
