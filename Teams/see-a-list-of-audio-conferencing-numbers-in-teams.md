@@ -49,6 +49,18 @@ Using the Microsoft Teams admin center:
 
       - You can also see the location and primary language that the audio conferencing auto attendant uses.
 
+## See your audio conferencing phone numbers using PowerShell
+
+To see your audio conferencing phone numbers with PowerShell, use the PowerShell [Get-CsOnlineDialInConferencingServiceNumber](/powershell/module/teams/get-csonlinedialinconferencingservicenumber) cmdlet.
+
+To see all the audio conferencing phone numbers in your organization, use the following script:
+
+```powershell
+Get-CsOnlineDialInConferencingServiceNumber | fl
+```
+
+For more examples, see [Get-CsOnlineDialInConferencingServiceNumber](/powershell/module/teams/get-csonlinedialinconferencingservicenumber).
+
 ## Related topics
 
 - [Change the settings for an audio conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md)
