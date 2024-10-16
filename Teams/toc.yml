@@ -1466,7 +1466,7 @@ items:
                 - name: Intune Enrollment for Android
                   items:
                     - name: Device administrator
-                      href: devices/phones-displays-deploy.md
+                      href: devices/mtra-panels-deploy.md
                     - name: AOSP device management 
                       href: rooms/android-migration-guide.md
             - name: Step 3 - Create room accounts 
@@ -1587,14 +1587,12 @@ items:
           items:
             - name: Overview of Teams phones
               href: devices/phones-for-teams.md
-            - name: Planning for Teams phones
-              href: devices/plan-device-deployment.md
             - name: What's new in Teams phones
               href: https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones
         - name: Deploy
           items:
             - name: Step 1 - Overview
-              href: devices/plan-device-deployment.md
+              href: phones/plan-device-deployment.md
             - name: Step 2 - Prepare your environment
               items:
                 - name: Preparing your network
@@ -1602,11 +1600,11 @@ items:
                 - name: Intune Enrollment for Teams phones
                   items:
                     - name: Device administration
-                      href: devices/phones-panels-deploy.md
+                      href: phones/phones-deploy.md
                     - name: AOSP device management 
                       href: rooms/android-migration-guide.md
                 - name: Authentication best practices for Teams phones
-                  href: devices/authentication-best-practices-for-android-devices.md
+                  href: phones/authentication-best-practices-phones.md
             - name: Step 3 - Set up and configure
               items:
                 - name: Set up common area phones
@@ -1621,8 +1619,10 @@ items:
                   href: devices/remote-sign-in-and-sign-out.md
         - name: Manage
           items:
-                - name: Update management
-                  href: devices/remote-update.md
+            - name: Manage Teams phones
+              href: phones/manage-teams-phones.md
+            - name: Update management
+              href: devices/remote-update.md
         - name: Troubleshooting
           items:
             - name: Troubleshooting Teams phones

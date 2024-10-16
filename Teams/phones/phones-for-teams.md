@@ -64,7 +64,7 @@ For more information about getting Teams, check out [How do I get access to Micr
 
 ## Deploy your phones using Intune
 
-To learn more about how to deploy Teams displays using Intune, see [Deploy Teams phones and Teams panels](phones-panels-deploy.md).
+To learn more about how to deploy Teams displays using Intune, see [Deploy Teams phones and Teams panels](../phones/phones-panels-).
 
 ## Manage your phones
 

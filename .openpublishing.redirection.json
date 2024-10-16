@@ -5344,6 +5344,21 @@
     "source_path": "Teams/rooms/android-app-firmware.md",
     "redirect_url": "/microsoftteams/devices/certified-hardware-android",
     "redirect_document_id": false
-  }
+  },
+  {
+    "source_path": "Teams/devices/phones-panels-deploy.md",
+    "redirect_url": "/microsoftteams/devices/mtra-panels-deploy",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/set-up-common-area-phones.md",
+    "redirect_url": "/microsoftteams/phones/set-up-common-area-phones",
+    "redirect_document_id": false
+},
+{
+  "source_path": "Teams/devices/common-area-mobile-phones.md",
+  "redirect_url": "/microsoftteams/phones/common-area-mobile-phones",
+  "redirect_document_id": false
+}
   ]
 }
