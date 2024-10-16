@@ -75,7 +75,7 @@ There are multiple ways and tools you can use to manage Proximity Join settings 
 > [!NOTE]
 > The settings for ultrasound don't apply to Teams Room on Android but the Bluetooth settings are available for those devices.
 
-### [Teams Rooms Pro portal](#tab/portal)
+### [Pro Management Portal](#tab/portal)
 
 Management of proximity features is available in the Teams Rooms Pro Management portal:
 
@@ -101,7 +101,7 @@ Management of proximity features is available on Microsoft Teams Rooms admin set
 > [!NOTE]
 > Ultrasound controls are not yet available within the device settings.
     
-### [Teams Rooms on Windows (XML)](#tab/xml)
+### [XML (Teams Rooms on Windows)](#tab/xml)
 
 You can update the settings of your device with a XML configuration file. For more information, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](/microsoftteams/rooms/xml-config-file).
 
