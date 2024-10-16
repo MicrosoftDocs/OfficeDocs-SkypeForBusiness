@@ -180,7 +180,7 @@ Microsoft Teams Rooms default password is set to `sfb`. The password can be chan
 - Intune: [Set-LocalUser](/powershell/module/microsoft.powershell.localaccounts/set-localuser)
 - Locally: [Change or reset your Windows password](https://support.microsoft.com/windows/change-or-reset-your-windows-password-8271d17c-9f9e-443f-835a-8318c8f68b9c)
 
-You can read more about the Admin account in the [Microsoft Teams Rooms security](security.md) article.
+You can read more about the Admin account in the [Microsoft Teams Rooms security](../rooms/security.md) article.
 
 ### Local 'Skype' User Account
 
