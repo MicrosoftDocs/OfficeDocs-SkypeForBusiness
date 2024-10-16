@@ -32,7 +32,7 @@ With more capabilities enabled to be managed via Administrative Units, there's a
 
 ### Scenario One: Creation of Administrative Units in Entra Portal (AAD)
 
-Full details on how to do this can be found here (please note that Administrative Unit administrators need a Microsoft Entra ID P1 or P2 license): [Create or delete Administrative Units - Entra ID](/entra/identity/role-based-access-control/admin-units-manage?tabs=ms-powershell).
+Full details on how to create Administrative Units can be found here (Administrative Unit administrators need a Microsoft Entra ID P1 or P2 license): [Create or delete Administrative Units - Entra ID](/entra/identity/role-based-access-control/admin-units-manage?tabs=ms-powershell).
 
 ### Scenario Two: Assignment and unassignment of RBAC roles to Administrative Units in Entra Portal (AAD)
 
@@ -40,12 +40,12 @@ Global Administrators can assign any of the following RBAC roles using the metho
 
 |RBAC Role                              |Assignment method                                           |Documentation |
 |---------------------------------------|------------------------------------------------------------|--------------|
-|Teams administrator                    |Entra Portal (UI)</br>Teams Powershell</br>Teams Graph APIs |[Learn more](/graph/api/rbacapplication-post-roleassignments?view=graph-rest-1.0&tabs=powershell#example-2--create-a-role-assignment-with-administrative-unit-scope) |
-|Teams device administrator             |Entra Portal (UI)</br>Teams Powershell</br>Teams Graph APIs |[Learn more](/graph/api/rbacapplication-post-roleassignments?view=graph-rest-1.0&tabs=powershell#example-2--create-a-role-assignment-with-administrative-unit-scope) |
-|Teams communication administrator      |Entra Portal (UI)</br>Teams Powershell</br>Teams Graph APIs |[Learn more](/graph/api/rbacapplication-post-roleassignments?view=graph-rest-1.0&tabs=powershell#example-2--create-a-role-assignment-with-administrative-unit-scope) |
-|Teams communication support engineer   |Entra Portal (UI)</br>Teams Powershell</br>Teams Graph APIs |[Learn more](/graph/api/rbacapplication-post-roleassignments?view=graph-rest-1.0&tabs=powershell#example-2--create-a-role-assignment-with-administrative-unit-scope) |
-|Teams communication support specialist |Entra Portal (UI)</br>Teams Powershell</br>Teams Graph APIs |[Learn more](/graph/api/rbacapplication-post-roleassignments?view=graph-rest-1.0&tabs=powershell#example-2--create-a-role-assignment-with-administrative-unit-scope) |
-|Teams telephony administrator          |Entra Portal (UI)</br>Teams Powershell</br>Teams Graph APIs |         |
+|Teams administrator                    |Entra Portal (UI)</br>Teams PowerShell</br>Teams Graph APIs |[Learn more](/graph/api/rbacapplication-post-roleassignments?view=graph-rest-1.0&tabs=powershell#example-2--create-a-role-assignment-with-administrative-unit-scope) |
+|Teams device administrator             |Entra Portal (UI)</br>Teams PowerShell</br>Teams Graph APIs |[Learn more](/graph/api/rbacapplication-post-roleassignments?view=graph-rest-1.0&tabs=powershell#example-2--create-a-role-assignment-with-administrative-unit-scope) |
+|Teams communication administrator      |Entra Portal (UI)</br>Teams PowerShell</br>Teams Graph APIs |[Learn more](/graph/api/rbacapplication-post-roleassignments?view=graph-rest-1.0&tabs=powershell#example-2--create-a-role-assignment-with-administrative-unit-scope) |
+|Teams communication support engineer   |Entra Portal (UI)</br>Teams PowerShell</br>Teams Graph APIs |[Learn more](/graph/api/rbacapplication-post-roleassignments?view=graph-rest-1.0&tabs=powershell#example-2--create-a-role-assignment-with-administrative-unit-scope) |
+|Teams communication support specialist |Entra Portal (UI)</br>Teams PowerShell</br>Teams Graph APIs |[Learn more](/graph/api/rbacapplication-post-roleassignments?view=graph-rest-1.0&tabs=powershell#example-2--create-a-role-assignment-with-administrative-unit-scope) |
+|Teams telephony administrator          |Entra Portal (UI)</br>Teams PowerShell</br>Teams Graph APIs |         |
 
 The role assignments listed in the table can also be applied directly to the intended users or groups. Learn more at [Use Microsoft Entra groups to manage role assignments - Microsoft Entra ID](/entra/identity/role-based-access-control/groups-concept).
 
@@ -83,8 +83,8 @@ As a scoped administrator with the Teams administrator role or any of the Teams 
 
 - Filter, sort, and search the users by various criteria.
 - Select a user and view their details, meetings, policies, and devices.
-- Assign or unassign a Direct Routing phone number to a user in your Adminstrative Unit.
-- Assign or unassign policies to a user in your Adminsitrative Unit.
+- Assign or unassign a Direct Routing phone number to a user in your Administrative Unit.
+- Assign or unassign policies to a user in your Administrative Unit.
 - Perform real-time or past meetings troubleshooting for a user in your Administrative Unit.
 
 > [!NOTE]
@@ -114,13 +114,13 @@ As a scoped administrator with the Teams administrator role or any of the Teams 
 
 ## Limitations for Administrative Units
 
-Tasks that won’t be available in this phase for a scoped administrator (regardless of the RBAC role), in either the Teams admin center or through the Teams Powershell module:
+Tasks that aren't available in this phase for a scoped administrator (regardless of the RBAC role), in either the Teams admin center or through the Teams PowerShell module:
 
 - Teams and channel settings
 - Audio conferencing, voice, and voicemail settings
 - Guest access
 - External access
-- Calling plan and operator connect numbers 
+- Calling plan and Operator Connect numbers 
 - Emergency addresses
 - Teams apps
 - Tenant level settings and conference bridges
@@ -130,15 +130,15 @@ Tasks that won’t be available in this phase for a scoped administrator (regard
 - Teams advisor and network planner
 - Rules
 
-## Teams Powershell and Administrative Units
+## Teams PowerShell and Administrative Units
 
-The functionality outlined in this article is available for for the RBAC roles using Teams Powershell. The differences in Powershell are:
+The functionality outlined in this article is available for the RBAC roles using Teams PowerShell. The differences in Powershell are:
 
 - An admin assigned with multiple Admin units is able to manage all the users across each admin unit simultaneously.
 - In the Teams admin center, the scoped admin would have to select the particular Administrative Unit and manage those users within the Administrative Unit at any given time.
 
-An example of using Teams Powershell and Administrative Units is:
+An example of using Teams PowerShell and Administrative Units is:
 
 - An organization has three branches: North, South, and East. North and South branches are assigned to a single admin, and East is assigned to another admin.
-- The scoped admin assigned with North and South branches is able to manage all the users across both North and South simultaneously using Teams Powershell.
+- The scoped admin assigned with North and South branches is able to manage all the users across both North and South simultaneously using Teams PowerShell.
 - In the Teams admin center, the scoped admin can either manage the North or South branch in turn, but not both at the same time.
