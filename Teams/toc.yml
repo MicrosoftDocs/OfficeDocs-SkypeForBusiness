@@ -1326,7 +1326,7 @@ items:
               href: rooms/rooms-lifecycle-support.md
             - name: Android version support
               href: devices/android-version-support.md      
-        - name: Teams Certified Devices
+        - name: Teams certified devices
           items: 
             - name: Overview of certified devices
               href: devices/certified-devices-overview.md
@@ -1342,20 +1342,15 @@ items:
               href: devices/teams-displays-certified-hardware.md
             - name: Personal peripherals
               href: devices/usb-devices.md
-    - name: Microsoft Teams Rooms
+    - name: Teams Rooms and panels
       items: 
-        - name: Overview
-          href: rooms/index.md
-        - name: Plan
-    - name: Teams Rooms & panels
-      items: 
-        - name: Overview & planning
+        - name: Overview and planning
           items:
             - name: Teams Rooms
               items:
-                - name: Overview
+                - name: Overview of Teams Rooms
                   href: rooms/index.md
-                - name: Teams Rooms planning
+                - name: Planning for Teams Rooms
                   href: rooms/rooms-plan.md
                 - name: Features
                   items:
@@ -1365,7 +1360,7 @@ items:
                       href: rooms/proximity-join.md
                     - name: Join meetings with QR codes
                       href: rooms/teams-rooms-qr-codes.md
-                    - name: SIP and H.323 Calling
+                    - name: SIP and H.323 calling with Teams Rooms
                       href: rooms/meetings-with-SIP-H323-devices.md
                     - name: Join third-party meetings
                       href: rooms/third-party-join.md
@@ -1393,9 +1388,9 @@ items:
                         href: devices/cloud-intelliframe.md
             - name: Teams panels
               items: 
-                - name: Teams panels overview
+                - name: Overview of Teams panels
                   href: devices/overview-teams-panels.md
-                - name: Plan
+                - name: Planning for Teams panels
                   href: devices/teams-panels.md
                 - name: Features
                   items:
@@ -1435,9 +1430,9 @@ items:
               items:
                 - name: Teams Rooms release notes
                   href: rooms/rooms-release-note.md
-                - name: Teams Panels release notes
+                - name: Teams panels release notes
                   href: https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_panels
-                - name: Teams device management Apps
+                - name: Teams device management apps
                   href: devices/certified-device-apps.md
             - name: Known issues
               items:
@@ -1447,7 +1442,7 @@ items:
                   href: /microsoftteams/troubleshoot/teams-devices-and-rooms/rooms-known-issues-android
         - name: Deployment
           items: 
-            - name: Deployment overview
+            - name: Overview
               href: rooms/rooms-deploy.md
             - name: Step 1 - Plan your rooms
               href: rooms/rooms-plan.md
@@ -1471,7 +1466,7 @@ items:
                       href: rooms/android-migration-guide.md
             - name: Step 3 - Create room accounts 
               href: rooms/create-resource-account.md
-            - name: Step 4 - Device setup
+            - name: Step 4 - Setting up Teams Rooms
               items:
                 - name: Teams Rooms on Windows
                   items:
@@ -1483,13 +1478,13 @@ items:
                       href: rooms/first-time-setup.md
                     - name: Manual Join to Entra ID and Intune
                       href: /entra/identity/devices/device-join-plan.md
-                - name: Teams Rooms on Android and Teams Panels
+                - name: Teams Rooms on Android and Teams panels
                   items:
                     - name: Remote provisioning and sign-in
                       href: devices/remote-provision-remote-login.md
         - name: Manage
           items:
-            - name: Management overview
+            - name: Overview
               href: rooms/rooms-manage.md
             - name: Keep up to date
               items:
@@ -1499,7 +1494,7 @@ items:
                   href: devices/certified-hardware-android.md
                 - name: Management apps
                   href: devices/certified-device-apps.md
-            - name: Operations & Configuration
+            - name: Operations and configuration
               items:
                 - name: Teams Rooms operations
                   href: rooms/rooms-operations.md
@@ -1581,17 +1576,17 @@ items:
                   href: rooms/data-and-privacy-info.md
     - name: Teams phones
       items:
-        - name: Overview & planning
+        - name: Overview and planning
           items:
-            - name: Teams phones overview
+            - name: Overview of Teams phones
               href: devices/phones-for-teams.md
-            - name: Plan a Teams phones deployment
+            - name: Planning for Teams phones
               href: devices/plan-device-deployment.md
             - name: What's new in Teams phones
               href: https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones
         - name: Deploy
           items:
-            - name: Step 1 - Deployment overview
+            - name: Step 1 - Overview
               href: devices/plan-device-deployment.md
             - name: Step 2 - Prepare your environment
               items:
@@ -1611,7 +1606,7 @@ items:
                   href: set-up-common-area-phones.md
                 - name: Set up a common area mobile phones
                   href: devices/common-area-mobile-phones.md
-            - name: Step 4 - Teams phones set up
+            - name: Step 4 - Setting up Teams phones
               items:
                 - name: Remote provisioning 
                   href: devices/remote-provision-remote-login.md
@@ -1625,7 +1620,7 @@ items:
       items:
         - name: Bring Your Own Device (BYOD)
           href: rooms/bring-your-own-device.md  
-        - name: Bookable Desks
+        - name: Bookable desks
           href: rooms/bookable-desks.md
         - name: Add peripherals to inventory
           href: rooms/get-peripheral-information.md
@@ -1641,7 +1636,7 @@ items:
       items:
         - name: Teams displays overview
           href: devices/teams-displays.md
-        - name: Hot desking Teams Displays
+        - name: Hot desking Teams displays
           href: devices/hot-desking-teams-displays.md
 
 - name: Manage apps in Teams
