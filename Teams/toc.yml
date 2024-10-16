@@ -1342,6 +1342,9 @@ items:
               href: devices/teams-displays-certified-hardware.md
             - name: Personal peripherals
               href: devices/usb-devices.md
+              items:
+                - name: Known issues
+                  href: /microsoftteams/troubleshoot/meetings/known-issues-teams-certified-peripherals
     - name: Teams Rooms and panels
       items: 
         - name: Overview and planning
@@ -1640,6 +1643,8 @@ items:
           href: sip-gateway-configure.md
         - name: Dynamic filters
           href: sip-gateway-dynamic-filters.md
+        - name: Known issues
+          href: /microsoftteams/troubleshoot/phone-system/sip-gateway-issues
     - name: Reference
       items:
         - name: Teams displays overview
