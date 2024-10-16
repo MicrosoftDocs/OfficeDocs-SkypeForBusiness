@@ -75,7 +75,9 @@ As a scoped administrator with the Teams device admin or Teams administrator rol
 > [!NOTE]
 > Export of devices isn’t available for scoped admin roles, you need to have tenant-wide permissions to export devices.
 
-### USer management
+To learn more, see [Manage devices with administrative units](administrative-unit.md).
+
+### User management
 
 As a scoped administrator with the Teams administrator role or any of the Teams communication roles, you can:
 
