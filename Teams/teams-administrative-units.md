@@ -4,7 +4,7 @@ author: MicrosoftHeidi
 ms.author: heidip
 manager: jtremper
 ms.reviewer: andrewklutz
-ms.date: 10/15/2024
+ms.date: 10/16/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
