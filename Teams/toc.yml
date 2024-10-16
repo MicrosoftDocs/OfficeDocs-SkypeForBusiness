@@ -1439,6 +1439,8 @@ items:
                   href: rooms/rooms-release-note.md
                 - name: Teams Panels release notes
                   href: https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_panels
+                - name: Teams device management Apps
+                  href: devices/certified-device-apps.md
             - name: Known issues
               items:
                 - name: Teams Rooms on Windows
@@ -1551,8 +1553,6 @@ items:
                       href: rooms/inventory.md
                     - name: Standards and Rooms Planner 
                       href: rooms/standards-and-room-planner.md
-                    - name: Settings management (to be written)
-                      href: rooms/settings-management.md
                     - name: Remote access a Teams Room console
                       href: rooms/remotely-access-teams-rooms.md
                     - name: Managed updates
@@ -1605,15 +1605,15 @@ items:
                       href: devices/phones-panels-deploy.md
                     - name: AOSP device management 
                       href: rooms/android-migration-guide.md
-                    - name: Authentication best practices for Teams phones
-                      href: devices/authentication-best-practices-for-android-devices.md
+                - name: Authentication best practices for Teams phones
+                  href: devices/authentication-best-practices-for-android-devices.md
             - name: Step 3 - Set up and configure
               items:
                 - name: Set up common area phones
                   href: set-up-common-area-phones.md
                 - name: Set up a common area mobile phones
                   href: devices/common-area-mobile-phones.md
-            - name: Step 4 - Teams phones device set up
+            - name: Step 4 - Teams phones set up
               items:
                 - name: Remote provisioning 
                   href: devices/remote-provision-remote-login.md
@@ -1621,8 +1621,6 @@ items:
                   href: devices/remote-sign-in-and-sign-out.md
         - name: Manage
           items:
-                - name: Manage Teams phones
-                  href: devices/manage-teams-phones.md
                 - name: Update management
                   href: devices/remote-update.md
     - name: Bring your own device (BYOD) spaces
