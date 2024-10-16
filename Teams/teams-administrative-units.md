@@ -30,22 +30,22 @@ With more capabilities enabled to be managed via Administrative Units, there's a
 
 ## Set up Administrative Units
 
-### Scenario One: Creation of Administrative Units in Entra Portal (AAD)
+### Scenario One: Creation of Administrative Units in the Microsoft Entra admin center (AAD)
 
 Full details on how to create Administrative Units can be found here (Administrative Unit administrators need a Microsoft Entra ID P1 or P2 license): [Create or delete Administrative Units - Entra ID](/entra/identity/role-based-access-control/admin-units-manage?tabs=ms-powershell).
 
-### Scenario Two: Assignment and unassignment of RBAC roles to Administrative Units in Entra Portal (AAD)
+### Scenario Two: Assignment and unassignment of RBAC roles to Administrative Units in the Microsoft Entra admin center (AAD)
 
 Global Administrators can assign any of the following RBAC roles using the method in the adjacent column:
 
 |RBAC Role                              |Assignment method                                           |Documentation |
 |---------------------------------------|------------------------------------------------------------|--------------|
-|Teams administrator                    |Entra Portal (UI)</br>Teams PowerShell</br>Teams Graph APIs |[Learn more](/graph/api/rbacapplication-post-roleassignments?view=graph-rest-1.0&tabs=powershell#example-2--create-a-role-assignment-with-administrative-unit-scope) |
-|Teams device administrator             |Entra Portal (UI)</br>Teams PowerShell</br>Teams Graph APIs |[Learn more](/graph/api/rbacapplication-post-roleassignments?view=graph-rest-1.0&tabs=powershell#example-2--create-a-role-assignment-with-administrative-unit-scope) |
-|Teams communication administrator      |Entra Portal (UI)</br>Teams PowerShell</br>Teams Graph APIs |[Learn more](/graph/api/rbacapplication-post-roleassignments?view=graph-rest-1.0&tabs=powershell#example-2--create-a-role-assignment-with-administrative-unit-scope) |
-|Teams communication support engineer   |Entra Portal (UI)</br>Teams PowerShell</br>Teams Graph APIs |[Learn more](/graph/api/rbacapplication-post-roleassignments?view=graph-rest-1.0&tabs=powershell#example-2--create-a-role-assignment-with-administrative-unit-scope) |
-|Teams communication support specialist |Entra Portal (UI)</br>Teams PowerShell</br>Teams Graph APIs |[Learn more](/graph/api/rbacapplication-post-roleassignments?view=graph-rest-1.0&tabs=powershell#example-2--create-a-role-assignment-with-administrative-unit-scope) |
-|Teams telephony administrator          |Entra Portal (UI)</br>Teams PowerShell</br>Teams Graph APIs |         |
+|Teams administrator                    |Microsoft Entra admin center (UI)</br>Teams PowerShell</br>Teams Graph APIs |[Learn more](/graph/api/rbacapplication-post-roleassignments?view=graph-rest-1.0&tabs=powershell#example-2--create-a-role-assignment-with-administrative-unit-scope) |
+|Teams device administrator             |Microsoft Entra admin center (UI)</br>Teams PowerShell</br>Teams Graph APIs |[Learn more](/graph/api/rbacapplication-post-roleassignments?view=graph-rest-1.0&tabs=powershell#example-2--create-a-role-assignment-with-administrative-unit-scope) |
+|Teams communication administrator      |Microsoft Entra admin center (UI)</br>Teams PowerShell</br>Teams Graph APIs |[Learn more](/graph/api/rbacapplication-post-roleassignments?view=graph-rest-1.0&tabs=powershell#example-2--create-a-role-assignment-with-administrative-unit-scope) |
+|Teams communication support engineer   |Microsoft Entra admin center (UI)</br>Teams PowerShell</br>Teams Graph APIs |[Learn more](/graph/api/rbacapplication-post-roleassignments?view=graph-rest-1.0&tabs=powershell#example-2--create-a-role-assignment-with-administrative-unit-scope) |
+|Teams communication support specialist |Microsoft Entra admin center (UI)</br>Teams PowerShell</br>Teams Graph APIs |[Learn more](/graph/api/rbacapplication-post-roleassignments?view=graph-rest-1.0&tabs=powershell#example-2--create-a-role-assignment-with-administrative-unit-scope) |
+|Teams telephony administrator          |Microsoft Entra admin center (UI)</br>Teams PowerShell</br>Teams Graph APIs |         |
 
 The role assignments listed in the table can also be applied directly to the intended users or groups. Learn more at [Use Microsoft Entra groups to manage role assignments - Microsoft Entra ID](/entra/identity/role-based-access-control/groups-concept).
 
