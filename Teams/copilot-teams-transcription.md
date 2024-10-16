@@ -34,6 +34,9 @@ Microsoft 365 Copilot in Teams meetings and events is an artificial intelligence
 
 There are two ways for users in your organization to use Copilot in meetings and events:
 
+> [!IMPORTANT]
+> When organizers turn off Copilot for their meeting or event, recording and transcription are also turned off.
+
 **1. During and after the meeting**<br>
 
 When organizers create a meeting or event, they can set Copilot's value to **During and after the meeting** from the dropdown in their meeting options. Once someone starts transcription, licensed users can select the Copilot button for use during, and after the meeting or event.
@@ -42,7 +45,7 @@ To learn more about how organizers can use Copilot during and after the meeting,
 
 **2. Only during the meeting**<br>
 
-When organizers create a meeting or event, they can set Copilot's value to **Only during the meeting** from the dropdown in their meeting options. Once someone with a Microsoft 365 Copilot license selects the Copilot button during the meeting or event, Copilot runs for all licensed users. This option relies on a hidden transcript that isn't saved after the meeting or event ends. Users can't access Copilot in Teams and its history after the meeting or event.
+When organizers create a meeting or event, they can set Copilot's value to **Only during the meeting** from the dropdown in their meeting options. Once someone with a Microsoft 365 Copilot license selects the Copilot button during the meeting or event, Copilot runs for all licensed users. This option relies on speech-to-text audio processing data that isn't saved after the meeting or event ends. Users can't access Copilot in Teams and its history after the meeting or event.
 
 To learn more about how organizers can use Copilot only during the meeting, see [Use Microsoft 365 Copilot in Teams without recording a Teams meeting](https://support.microsoft.com/office/use-copilot-without-recording-a-teams-meeting-a59cb88c-0f6b-4a20-a47a-3a1c9a818bd9).
 
@@ -64,8 +67,8 @@ You can use the **Recording & Transcription** section in the Teams admin center 
 
 |Admin's transcription policy value |Organizer's Copilot meeting option | Behavior|
 |---------|---------|---------------|
-|On|Only during the meeting| Licensed users can select the Copilot button for use only during this meeting with a hidden transcript. To use Copilot during, and after the meeting, these users can start a standard transcript. |
-|Off|Only during the meeting| Licensed users can select the Copilot button for use during this meeting or event with a hidden transcript. If another participant who can transcribe enables transcription, Copilot is available during, and after the meeting.|
+|On|Only during the meeting| Licensed users can select the Copilot button for use only during this meeting with temporary speech-to-text data. To use Copilot during, and after the meeting, these users can start a transcript. |
+|Off|Only during the meeting| Licensed users can select the Copilot button for use during this meeting or event with temporary speech-to-text data. If another participant who can transcribe enables transcription, Copilot is available during, and after the meeting for the portion that is transcribed.|
 |On|During and after the meeting| Once licensed users turn on transcription, they can select the Copilot button for use during, and after this meeting or event. |
 |Off|During and after the meeting| Licensed users can't interact with Copilot unless another participant with permission to transcribe turns on transcription for this meeting.|
 |Any|Off | Licensed users can’t interact with Copilot in Teams. No one can record or transcribe.|

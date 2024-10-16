@@ -105,6 +105,8 @@ items:
                   href: new-teams-web.md
                 - name: New teams pre-installation script
                   href: new-teams-preinstallation-script.md
+                - name: Teams client updates
+                  href: teams-client-update.md
                 - name: Troubleshooting installation issues
                   href: /microsoftteams/troubleshoot/teams-administration/fix-new-teams-installation-issues
                 - name: Troubleshooting launch issues
@@ -125,8 +127,6 @@ items:
               items:
                 - name: Get the classic Teams clients
                   href: get-clients.md
-                - name: Classic Teams client updates
-                  href: teams-client-update.md
                 - name: Bulk install classic Teams using Windows Installer
                   href: msi-deployment.md
                 - name: Classic Teams for Virtualized Desktop Infrastructure (VDI)
@@ -443,8 +443,10 @@ items:
               href: CQD-frequently-asked-questions.md
             - name: Dimensions and measures available in CQD
               href: dimensions-and-measures-available-in-call-quality-dashboard.md
-            - name: Stream Classification in CQD
+            - name: Stream classification in CQD
               href: stream-classification-in-call-quality-dashboard.md
+            - name: Intelligent media quality classifiers in CQD
+              href: cqd-intelligent-media-quality-classifiers.md
             - name: Create a building map
               href: CQD-building-mapping.md
             - name: Use Power BI to analyze CQD data
@@ -685,7 +687,7 @@ items:
               href: hide-attendee-names.md
             - name: Manage the attendance report
               href: teams-analytics-and-reports/meeting-attendance-report.md
-            - name: Who can bypass the lobby
+            - name: Manage lobby options in Microsoft Teams
               href: who-can-bypass-meeting-lobby.md
             - name: Content sharing
               href: meeting-policies-content-sharing.md
@@ -1299,32 +1301,48 @@ items:
         - name: Contact Center integrations
           href: teams-contact-center.md
 
-- name: Devices and rooms management
+- name: Teams Rooms and devices
   items:
     - name: Teams device store
       href: devices/device-store.md
     - name: Teams device certification
       items:
         - name: Certification overview
-          href: devices/certification-overview.md
+          href: devices/certification-overview.md   
         - name: Partners
           items:
             - name: Partners device certification
               href: devices/certification-partners.md
             - name: How to join the program
               href: devices/certification-join.md
+            - name: Teams device specifications
+              href: devices/certification-specifications.md
         - name: IT admins and decision makers
           href: devices/certification-it-admins.md
         - name: End users
           href: devices/certification-end-users.md
-        - name: Teams specifications
-          href: devices/certification-specifications.md
-        - name: Teams Rooms certified systems and peripherals
-          href: rooms/certified-hardware.md 
-        - name: Personal peripherals
-          href: devices/usb-devices.md
-        - name: Teams certified Android devices
-          href: devices/teams-ip-phones.md
+        - name: Product lifecycle
+          items:
+            - name: Windows version support
+              href: rooms/rooms-lifecycle-support.md
+            - name: Android version support
+              href: devices/android-version-support.md   
+        - name: Teams Certified Devices
+          items: 
+            - name: Overview of certified devices
+              href: devices/certified-devices-overview.md
+            - name: Teams Rooms on Windows certified devices
+              href: rooms/certified-hardware.md
+            - name: Teams Rooms on Android certified devices
+              href: devices/certified-hardware-android.md
+            - name: Teams panels certified devices
+              href: devices/teams-panels-certified-hardware.md
+            - name: Teams phones certified devices
+              href: devices/teams-phones-certified-hardware.md
+            - name: Teams displays certified devices
+              href: devices/teams-displays-certified-hardware.md
+            - name: Personal peripherals
+              href: devices/usb-devices.md
     - name: Microsoft Teams Rooms
       items: 
         - name: Overview
@@ -1337,18 +1355,6 @@ items:
               href: rooms/security.md
             - name: Meeting room guidance for Teams
               href: rooms/room-planning-guidance.md
-            - name: Hardware and operating systems
-              items:
-                - name: Certified Teams Rooms hardware
-                  href: rooms/certified-hardware.md 
-                - name: Windows version support
-                  href: rooms/rooms-lifecycle-support.md
-                - name: Android app and firmware versions
-                  href: rooms/android-app-firmware.md
-                - name: Android version support
-                  href: devices/android-version-support.md         
-                - name: Teams Rooms and devices feature comparison
-                  href: rooms/teams-devices-feature-comparison.md
             - name: Licensing
               items:
                 - name: Overview of Teams Rooms licensing
@@ -1548,9 +1554,7 @@ items:
             - name: Authentication best practices for Android devices
               href: devices/authentication-best-practices-for-android-devices.md
             - name: AOSP device management 
-              href: rooms/android-migration-guide.md
-            - name: Android version support
-              href: devices/android-version-support.md      
+              href: rooms/android-migration-guide.md 
         - name: Manage
           items:
             - name: Manage your devices in Teams
@@ -1575,12 +1579,11 @@ items:
               href: teams-device-health.md
     - name: Reference
       items:
-        - name: Android version support
-          href: devices/android-version-support.md    
         - name: Teams displays overview
           href: devices/teams-displays.md
         - name: Hot desking Teams Displays
           href: devices/hot-desking-teams-displays.md
+
 - name: Manage apps in Teams
   items: 
     - name: Understand apps in Teams
