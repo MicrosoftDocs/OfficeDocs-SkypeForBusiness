@@ -132,7 +132,7 @@ Tasks that aren't available in this phase for a scoped administrator (regardless
 
 ## Teams PowerShell and Administrative Units
 
-The functionality outlined in this article is available for the RBAC roles using Teams PowerShell. The differences in Powershell are:
+The functionality outlined in this article is available for the RBAC roles using Teams PowerShell. The differences in PowerShell are:
 
 - An admin assigned with multiple Admin units is able to manage all the users across each admin unit simultaneously.
 - In the Teams admin center, the scoped admin would have to select the particular Administrative Unit and manage those users within the Administrative Unit at any given time.
