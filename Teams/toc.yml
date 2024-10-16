@@ -1387,8 +1387,6 @@ items:
                           href: rooms/voice-recognition.md
                     - name: IntelliFrame
                       items:
-                      - name: IntelliFrame overview (to be written)
-                        href: devices/overview.md
                       - name: Multi-Stream IntelliFrame
                         href: devices/smartvision-admin.md
                       - name: Cloud IntelliFrame
