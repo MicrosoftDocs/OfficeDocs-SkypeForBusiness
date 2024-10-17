@@ -789,23 +789,23 @@
               href: ../../SfbServer/manage/topology/move-file-store-data.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Disable TLS 1.0/1.1
               href: ../../SfbServer/manage/topology/disable-tls-1.0-1.1.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-            - name: Persistent Chat
-              href: ../../SfbServer/manage/persistent-chat/persistent-chat.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-              items: 
-                - name: Categories
-                  href: ../../SfbServer/manage/persistent-chat/categories.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                - name: Chat rooms
-                  href: ../../SfbServer/manage/persistent-chat/chat-rooms.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                - name: Configure add-ins
-                  href: ../../SfbServer/manage/persistent-chat/configure-add-ins.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                - name: Configure Compliance
-                  href: ../../SfbServer/manage/persistent-chat/configure-compliance.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                - name: Back up and restore databases
-                  href: ../../SfbServer/manage/persistent-chat/back-up-and-restore-databases.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                - name: High availability and disaster recovery
-                  href: ../../SfbServer/manage/persistent-chat/high-availability-and-disaster-recovery.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                - name: Monitor, start, and stop services
-                  href: ../../SfbServer/manage/persistent-chat/monitor-start-and-stop-services.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json 
+        - name: Persistent Chat
+          href: ../../SfbServer/manage/persistent-chat/persistent-chat.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          items: 
+            - name: Categories
+              href: ../../SfbServer/manage/persistent-chat/categories.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Chat rooms
+              href: ../../SfbServer/manage/persistent-chat/chat-rooms.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Configure add-ins
+              href: ../../SfbServer/manage/persistent-chat/configure-add-ins.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Configure Compliance
+              href: ../../SfbServer/manage/persistent-chat/configure-compliance.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Back up and restore databases
+              href: ../../SfbServer/manage/persistent-chat/back-up-and-restore-databases.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: High availability and disaster recovery
+              href: ../../SfbServer/manage/persistent-chat/high-availability-and-disaster-recovery.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Monitor, start, and stop services
+              href: ../../SfbServer/manage/persistent-chat/monitor-start-and-stop-services.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json 
         - name: Health and monitoring
           href: ../../SfbServer/manage/health-and-monitoring/health-and-monitoring.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items: 
