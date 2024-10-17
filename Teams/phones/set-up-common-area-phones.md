@@ -81,7 +81,7 @@ If you're deploying one device:
 > [!NOTE]
 > You don't need to add a license with Phone System features. It's included with the **Teams Shared Devices** license.
 >
-> If you aren't using Microsoft Phone System with Direct Routing or Operator Connect, you may want to add **Calling Plans** licenses. For more information on licenses, see [Microsoft Teams add-on licensing](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+> If you aren't using Microsoft Phone System with Direct Routing or Operator Connect, you may want to add **Calling Plans** licenses. For more information on licenses, see [Microsoft Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 ### Using PowerShell
 
@@ -141,7 +141,7 @@ You can also sign into to a common area phone from another device using a code. 
 
 ### Sign in using the Teams admin center
 
-As an admin, you can remotely provision and sign into common area phones from the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851). This method is the most efficient sign-in method when you're deploying a large number of phones at once. See [Remote provisioning and sign in for Teams Android devices](devices/remote-provision-remote-login.md) to learn more.
+As an admin, you can remotely provision and sign into common area phones from the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851). This method is the most efficient sign-in method when you're deploying a large number of phones at once. See [Remote provisioning and sign in for Teams Android devices](../devices/remote-provision-remote-login.md) to learn more.
 
 ## Step 6 - Set up Advanced calling on common area phones (optional)
 

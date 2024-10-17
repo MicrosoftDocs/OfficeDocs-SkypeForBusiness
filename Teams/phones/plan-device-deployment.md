@@ -56,7 +56,7 @@ The space you choose will determine the type of license you'll need.
 - **Walkie Talkie**: Users part of a Teams channel can broadcast messages to other users' part of the same channel.
 - **Calendar**: Schedule and join meetings.
 
-  :::image type="content" source="media/teams-apps-1" alt-text="Screenshot of teams app." lightbox="media/teams-apps-1.png":::
+  :::image type="content" source="media/teams-apps-1.png" alt-text="Screenshot of teams app." lightbox="media/teams-apps-1.png":::
 
 ## Step 3: Setup desired phone device experience for your users
 
