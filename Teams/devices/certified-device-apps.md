@@ -48,7 +48,7 @@ The following are supported versions of Teams admin agent app:
 
 |**Release date**|**App version**|**Related devices**|
 |:-----|:-----|:-----|
-|October 1, 2024|[1.0.0.202407050618.product](#100202407050618)|All certified Teams device models mentioned here for OEMs - Yealink, Poly & Cisco. |
+|October 1, 2024|[1.0.0.202407050618.product](#100202407050618)|All certified Teams device models mentioned here for OEMs - Yealink & Poly.|
 
 ### 1.0.0.202407050618
 

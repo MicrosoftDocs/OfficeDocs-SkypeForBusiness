@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: richardzhang
-ms.date: 11/27/2023
+ms.date: 10/14/2024
 f1.keywords:
 - NOCSH
 ms.localizationpriority: high
@@ -27,7 +27,7 @@ appliesto:
 
 [!INCLUDE[Teams Premium](../includes/teams-premium-ecm.md)]
 
-The attendance and engagement report for Teams meetings and events shows organizers who attended a meeting, webinar, or town hall, what time each attendee joined, left, and more.
+The attendance and engagement report for Teams meetings and events provides detailed information about organizers and attendees. The report shows who attended a meeting, webinar, or town hall, along with the exact times each attendee joined and left, and other engagement metrics.
 
 Organizers with a Teams Premium license can see engagement information that captures how attendees reacted and interacted during the meeting or event.
 The engagement data shows the total count of attendees that performed the following actions:
@@ -64,12 +64,14 @@ As an admin, you control whether organizers can view and download the attendance
     |No, but attendees can opt in|The attendance and engagement report initially excludes all attendees with this policy. To opt in, attendees can set the **Identify me in attendance reports** toggle to **On** or **Off** in their Teams privacy settings.|
     |Always|The attendance and engagement report includes all attendees with this policy, and attendees can't opt out.|
     |Never|The attendance and engagement report excludes all attendees with this policy, and attendees can't opt in.|
+
 1. For **Attendee information**, choose one of the following options:
 
     |Option|Behavior|
     |:------|:-----|
     |Show everything|**This is the default.** Include attendees' join times, leave times, and in-meeting duration.|
-    |Only show who attended|Excludes attendees' join times, leave times, and in-meeting duration.
+    |Only show who attended|Excludes attendees' join times, leave times, and in-meeting duration.|
+
 1. Select **Save**
 
 > [!NOTE]
@@ -77,7 +79,7 @@ As an admin, you control whether organizers can view and download the attendance
 
 ## Manage attendance report policies with PowerShell
 
-In PowerShell, you can use the **`-AllowEngagementReport`** parameter and [Set-CsTeamsMeetingPolicy cmdlet](/powershell/module/teams/set-csteamsmeetingpolicy) to turn on attendance and engagement reports. This policy is on by default.
+To manage attendance and engagement reports, you can use the **`-AllowEngagementReport`** parameter in the PowerShell [Set-CsTeamsMeetingPolicy](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet.
 
 To turn off attendance and engagement reports, use the following script:
 

@@ -65,7 +65,9 @@ To create the device configuration policy for QoS for Teams clients on Windows:
     |Teams Screenshare: Application|New Teams executable name.|./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsScreenshare/AppPathNameMatchCondition|String|ms-teams.exe|
     |Teams Screenshare: Ports|Screen sharing ports used by the Teams client.|./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsScreenshare/SourcePortMatchCondition|String|50040-50059|
     |Teams Screenshare: DSCP Marking|Marking applied for screen sharing (AF21)|./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsScreenshare/DSCPAction|Integer|18|
- 
+    |Teams Calling-Meeting Signaling: Application|New Teams executable name.|./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsCMSignaling/AppPathNameMatchCondition|String|ms-teams.exe|
+    |Teams Calling-Meeting Signaling: Ports|Calling and Meeting Signaling source ports used by the Teams client.|./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsCMSignaling/SourcePortMatchCondition|String|50070-50089|
+    |Teams Calling-Meeting Signaling: DSCP Marking|Marking applied for calling and meeting signaling (EF46)|./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsCMSignaling/DSCPAction|Integer|46|
 
     **For the classic Teams client, using the following table.**
     
@@ -82,6 +84,9 @@ To create the device configuration policy for QoS for Teams clients on Windows:
     |Classic Teams Screenshare: Application|Classic Teams executable name.|./Device/Vendor/MSFT/NetworkQoSPolicy/ClassicTeamsScreenshare/AppPathNameMatchCondition|String|teams.exe|
     |Classic Teams Screenshare: Ports|Screen sharing ports used by the Teams client.|./Device/Vendor/MSFT/NetworkQoSPolicy/ClassicTeamsScreenshare/SourcePortMatchCondition|String|50040-50059|
     |Classic Teams Screenshare: DSCP Marking|Marking applied for screen sharing (AF21)|./Device/Vendor/MSFT/NetworkQoSPolicy/ClassicTeamsScreenshare/DSCPAction|Integer|18|
+    |Classic Teams Calling-Meeting Signaling: Application|New Teams executable name.|./Device/Vendor/MSFT/NetworkQoSPolicy/ClassicTeamsCMSignaling/AppPathNameMatchCondition|String|teams.exe|
+    |Classic Teams Calling-Meeting Signaling: Ports|Calling and Meeting Signaling source ports used by the Teams client.|./Device/Vendor/MSFT/NetworkQoSPolicy/ClassicTeamsCMSignaling/SourcePortMatchCondition|String|50070-50089|
+    |Classic Teams Calling-Meeting Signaling: DSCP Marking|Marking applied for calling and meeting signaling (EF46)|./Device/Vendor/MSFT/NetworkQoSPolicy/ClassicTeamsCMSignaling/DSCPAction|Integer|46|
 
 9. Select **Next**
 10. In **Assignments**, select the group or groups that you want to target with this policy. The group membership must include Windows devices (and not user accounts) as this is a device policy.
@@ -93,7 +98,7 @@ To create the device configuration policy for QoS for Teams clients on Windows:
 
 ## Configuring DSCP markings using PowerShell commands
 
-Endpoint DSCP markings can be set in PowerShell using the [New-NetQosPolicy](/powershell/module/netqos/new-netqospolicy) command. In the examples below, there are two commands each for audio, video, and application sharing. The following commands show creating policies for both the new Teams client (ms-teams.exe) and classic Teams client (Teams.exe). You can combine these commands into a PowerShell script and distrbute to your desired endpoints. 
+Endpoint DSCP markings can be set in PowerShell using the [New-NetQosPolicy](/powershell/module/netqos/new-netqospolicy) command. In the examples below, there are two commands each for audio, video, and application sharing. The following commands show creating policies for both the new Teams client (ms-teams.exe) and classic Teams client (Teams.exe). You can combine these commands into a PowerShell script and distribute to your desired endpoints. 
 
 **Set QoS for audio**
 
@@ -115,6 +120,13 @@ new-NetQosPolicy -Name "Classic Teams Video" -AppPathNameMatchCondition "Teams.e
 ```powershell
 new-NetQosPolicy -Name "Teams Sharing" -AppPathNameMatchCondition "ms-teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50040 -IPSrcPortEndMatchCondition 50059 -DSCPAction 18 -NetworkProfile All
 new-NetQosPolicy -Name "Classic Teams Sharing" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50040 -IPSrcPortEndMatchCondition 50059 -DSCPAction 18 -NetworkProfile All
+```
+
+**Set QoS for calling and meeting signaling**
+
+```powershell
+new-NetQosPolicy -Name "Teams Calling-Meeting Signaling" -AppPathNameMatchCondition "ms-teams.exe" -IPProtocolMatchCondition UDP -IPSrcPortStartMatchCondition 50070 -IPSrcPortEndMatchCondition 50089 -DSCPAction 46 -NetworkProfile All
+new-NetQosPolicy -Name "Classic Teams Calling-Meeting Signaling" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition UDP -IPSrcPortStartMatchCondition 50070 -IPSrcPortEndMatchCondition 50089 -DSCPAction 46 -NetworkProfile All
 
 ```
 
@@ -139,7 +151,7 @@ To create a QoS audio policy for domain-joined Windows computers, first log on t
 9. On the third page, make sure that both **Any source IP address** and **Any destination IP address** are selected, and then select **Next**. These two settings ensure that packets will be managed regardless of which computer (IP address) sent the packets and which computer (IP address) will receive the packets.
 10. On page four, select **TCP and UDP** from the **Select the protocol this QoS policy applies to** drop-down list. TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are the two networking protocols most commonly used.
 11. Under the heading **Specify the source port number**, select **From this source port or range**. In the accompanying text box, type the port range reserved for audio transmissions. For example, if you reserved ports 50000 through ports 50019 for audio traffic, enter the port range using this format: **50000:50019**. Select **Finish**.
-12. Repeat steps 5-10 to create policies for Video and Application/Desktop Sharing, substituting the appropriate values in steps 6 and 10.
+12. Repeat steps 5-10 to create policies for Video, Application/Desktop Sharing and Calling and Meeting Signaling, substituting the appropriate values in steps 6 and 10.
 
 The new policies you've created won't take effect until Group Policy has been refreshed on your client computers. Although Group Policy periodically refreshes on its own, you can force an immediate refresh by following these steps:
 

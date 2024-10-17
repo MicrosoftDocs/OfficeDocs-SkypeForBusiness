@@ -34,6 +34,9 @@ Microsoft 365 Copilot in Teams meetings and events is an artificial intelligence
 
 There are two ways for users in your organization to use Copilot in meetings and events:
 
+> [!IMPORTANT]
+> When organizers turn off Copilot for their meeting or event, recording and transcription are also turned off.
+
 **1. During and after the meeting**<br>
 
 When organizers create a meeting or event, they can set Copilot's value to **During and after the meeting** from the dropdown in their meeting options. Once someone starts transcription, licensed users can select the Copilot button for use during, and after the meeting or event.

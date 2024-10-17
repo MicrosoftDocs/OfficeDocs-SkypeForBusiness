@@ -33,10 +33,7 @@ While virtualization is supported, there are some key points to remember:
 
 SfB Server 2019 is supported on Windows Server 2016 and Windows Server 2019.
 
-For third-party hypervisors, you need a hypervisor that has passed the Server Virtualization Validation Program (SVVP) testing for the relevant OS.
-
-- See the [Windows Server 2016 versions](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=88&avt=0&avq=0&OR=1&PGS=25) in the SVVP list.
-- See the [Windows Server 2019 versions](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=130&avt=0&avq=0&OR=1&PGS=25) in the SVVP list.
+For third-party hypervisors, you need a hypervisor that has passed the Server Virtualization Validation Program (SVVP) testing for the relevant OS. For more information, see [Support partners for non-Microsoft hardware virtualization software](/troubleshoot/windows-server/virtualization/non-microsoft-hardware-virtualization-software).
 
 ## Stress and performance tool
 

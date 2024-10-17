@@ -23,6 +23,9 @@ description: Learn how to manage who can record Teams meetings, automatic record
 
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
+> [!NOTE]
+> When organizers turn off Microsoft 365 Copilot in Teams meetings and events, recording and transcription are also turned off. To learn more about Copilot, see [Manage Microsoft 365 Copilot in Teams meetings and events](copilot-teams-transcription.md).
+
 Teams is designed to allow easy recording for meeting participants. If you have compliance requirements around how meeting recordings are used, there are several options available for administrators and meeting organizers to help you use meeting recordings in a compliant way.
 
 The following table shows the features available to help you manage meeting recordings and where they're configured.

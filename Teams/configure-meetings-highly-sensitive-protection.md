@@ -5,7 +5,7 @@ author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
-ms.reviewer: 
+ms.reviewer: vivek.mohan
 ms.date: 12/11/2023
 audience: admin
 ms.localizationpriority: medium
@@ -26,13 +26,14 @@ description: Learn how to configure Teams meetings for protection for highly sen
 [!INCLUDE[Teams Premium ECM](includes/teams-premium-ecm.md)]
 
 For the *highly sensitive* level of protection, we'll look at two different scenarios:
+
 - Highly sensitive meetings where attendees participate and interact with the presenters
 - Highly sensitive presentations where attendees don't interact and are just viewing the presentation
 
-> [!Note]
+> [!NOTE]
 > Meeting options in sensitivity labels and custom meeting templates require Teams Premium.
 
-#### Highly sensitive meetings
+## Highly sensitive meetings
 
 For highly sensitive meetings, we'll restrict who can bypass the lobby, who can present, when participants can chat, and we'll block copying from the meeting chat. We'll also enable end-to-end encryption and watermarking for shared video and content.
 
@@ -56,7 +57,7 @@ The following table describes which actions we'll restrict for highly sensitive 
 
 Options that are listed as enforced are enforced by the sensitivity label or meeting template. Options that are not enforced can be changed by the meeting organizer.
 
-#### Highly sensitive presentations
+## Highly sensitive presentations
 
 For highly sensitive presentations - where we don't expect interaction with the meeting attendees - we'll turn off attendees' mics and cameras, and turn off the meeting chat.
 
@@ -101,6 +102,17 @@ By setting **Who can present** to **Only organizers and co-organizers** in the s
 
 We use the sensitivity label to prevent anyone other than meeting organizers from bypassing the lobby. This allows organizers to vet each attendee and ensure that they should be admitted.
 
+## Who can admit from lobby
+
+You can choose to keep the default for **Who can admit from lobby** as **Organizers and presenters** or change it to **Organizers and co-organizers**. This per-organizer policy sets a default that your organizers can change through their **Meeting options**. You must manage this setting through the Teams admin center. Meeting templates and sensitivity labels don't support this policy.
+
+To configure who can admit from lobby:
+
+1. In the Teams admin center, expand **Meetings** and select **Meeting policies**.
+2. Select the policy that you want to update.
+3. Under **Meeting join & lobby**, for **Who can admit from lobby**, choose either **Organizers and presenters**(default value) or **Organizers and co-organizers**.
+4. Select **Save**
+
 ## Participation options for highly sensitive meetings
 
 While chat can be controlled with the sensitivity label, we use templates in this case so that the meeting and presentation templates can share the same label. We restrict chat to in-meeting only for meetings and turn it off completely for presentations. (Organizers can use the Q&A feature in presentations to allow audience comments or questions.)
@@ -118,7 +130,8 @@ If you already have sensitivity labels deployed in your organization, consider h
 > [!IMPORTANT]
 > If a sensitivity label that restricts copying from the chat is specified as the default channel label in a container label, then teams with that container label will restrict copying from the chat for all channels in the team, both in and out of channel meetings.
 
-To create a sensitivity label
+To create a sensitivity label:
+
 1. Open the [Microsoft Purview compliance portal](https://compliance.microsoft.com).
 1. Under **Solutions**, expand **Information protection**, and then select **Labels**.
 1. Select **Create a label**.
@@ -156,7 +169,7 @@ In the *highly sensitive* level of protection, we're configuring the following o
 
 Since these options differ between meetings and presentations, we'll create one template for meetings and another for presentations. Both templates can use the sensitivity label that we create above.
 
-#### Highly sensitive meetings template
+### Highly sensitive meetings template
 
 To create a meeting template for highly sensitive meetings
 
@@ -174,7 +187,7 @@ To create a meeting template for highly sensitive meetings
 1. To prevent the meeting organizer from seeing an option, select the option and then select **Hide**.
 1. Select **Save**.
 
-#### Highly sensitive presentations template
+### Highly sensitive presentations template
 
 To create a meeting template for highly sensitive presentations
 
@@ -196,10 +209,7 @@ To create a meeting template for highly sensitive presentations
 
 ## Related topics
 
-[Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
-
-[Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md)
-
-[Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
-
-[Use sensitivity labels to protect calendar items, Teams meetings and chat](/microsoft-365/compliance/sensitivity-labels-meetings)
+- [Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
+- [Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md)
+- [Use Teams meeting templates, sensitivity labels, and admin policies together for sensitive meetings](meeting-templates-sensitivity-labels-policies.md)
+- [Use sensitivity labels to protect calendar items, Teams meetings and chat](/microsoft-365/compliance/sensitivity-labels-meetings)

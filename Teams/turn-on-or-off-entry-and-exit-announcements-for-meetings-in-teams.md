@@ -4,7 +4,7 @@ ms.author: jenz
 author: jenzamora
 manager: pamgreen
 ms.reviewer: oscarr
-ms.date: 12/14/2023
+ms.date: 10/16/2024
 ms.topic: article
 ms.assetid: f2c7b5ea-07b6-4b77-8023-bec9596fcc32
 ms.tgt.pltfrm: cloud
@@ -28,18 +28,16 @@ description: Admin can learn about how to turn entry and exit announcements on o
 
 # Turn on or off entry and exit announcements for meetings in Microsoft Teams
 
-When you set up Audio Conferencing in Microsoft 365 or Office 365, you get phone numbers for your users through an audio conferencing bridge. A conferencing bridge can have one or more phone numbers that are included at the bottom of the meeting invite. These phone numbers allow users to join Microsoft Teams meetings by dialing in.
+When you set up Audio Conferencing in Microsoft 365 or Office 365, you provide users with phone numbers through an audio conferencing bridge. This bridge can have one or more phone numbers, which are included at the bottom of the meeting invite. These numbers allow users to join Microsoft Teams meetings by dialing in.
 
-As an admin, you can manage whether an entry and exist announcement is played when participants who dialed into the meeting join or exit.
+As an admin, you can control whether an entry and exit announcement is played when participants who dialed into the meeting join or leave.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## Setting meeting join options using the Microsoft Teams admin center
 
-You must be a Teams service admin to make these changes. See [Use Teams administrator roles to manage Teams](./using-admin-roles.md) to read about getting admin roles and permissions.
-
-1. Navigate to **Meetings** > **Conference Bridges**.
+1. Expand **Meetings** > **Conference Bridges**.
 
 2. At the top of the **Conference Bridges** page, select **Bridge Settings**.
 
@@ -56,9 +54,25 @@ You must be a Teams service admin to make these changes. See [Use Teams administ
 
 ## Turn on or off entry and exit announcements with PowerShell
 
-To turn entry and exit announcements on or off with PowerShell, use the **`-EnableEntryExitNotifications`** parameter within the PowerShell CsOnlineDialInConferencingTenantSettings cmdlet.
+To turn entry and exit announcements on or off with PowerShell, use the **`-EnableEntryExitNotifications`** parameter within the PowerShell [CsOnlineDialInConferencingTenantSettings](/powershell/module/teams/set-csonlinedialinconferencingtenantsettings) cmdlet.
 
-For CsOnlineDialInConferencingBridge script examples, see [Set-CsOnlineDialInConferencingBridge](/powershell/module/teams/Set-csonlinedialinconferencingtenantsettings).
+EnableEntryExitNotifications
+
+### Turn off entry and exit announcements
+
+To turn off entry and exit announcements, use the following script:
+
+```powershell
+Set-CsOnlineDialInConferencingTenantSettings -EnableEntryExitNotifications $false 
+```
+
+### Turn on entry and exit announcements
+
+To turn on entry and exit announcements, use the following script:
+
+```powershell
+Set-CsOnlineDialInConferencingTenantSettings -EnableEntryExitNotifications $true 
+```
 
 ## Related topics
 
