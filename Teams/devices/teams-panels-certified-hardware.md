@@ -59,6 +59,7 @@ The following devices are Certified under the Microsoft Teams panels Android Cer
 |Poly TC10 | `5.0.0.211194`|September 3, 2025  | 11 |
 |Yealink RoomPanel | `147.520.0.4 `|September 3, 2025  | 10 |
 |Yealink RoomPanel Plus | `269.520.0.2 `|September 3, 2025   | 11 |
+|Yealink RoomPanel E2 | `324.520.0.3 `|August 15, 2027 | 13 |
 
 ## [Firmware](#tab/firmware)
 
