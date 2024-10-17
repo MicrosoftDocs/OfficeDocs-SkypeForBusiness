@@ -1631,11 +1631,11 @@ items:
               href: /microsoftteams/troubleshoot/teams-rooms-and-devices/teams-rooms-known-issues-android
     - name: Bring your own device (BYOD) spaces
       items:
-        - name: Bring Your Own Device (BYOD)
+        - name: BYOD rooms
           href: rooms/bring-your-own-device.md  
         - name: Bookable desks
           href: rooms/bookable-desks.md
-        - name: Add peripherals to inventory
+        - name: Set up your BYOD inventory
           href: rooms/get-peripheral-information.md
     - name: SIP Gateway
       items:
