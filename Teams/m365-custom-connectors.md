@@ -30,7 +30,7 @@ Teams and Microsoft 365 groups use connectors. You can use the same connectors i
 Any team member can add a connector to a channel, if the team permissions allow it. The updates from the service, that the connector fetches information from, notifies all the team members. Any team member with the permissions to add or remove can modify connectors setup done by other members.
 
 > [!IMPORTANT]
-> Developers can't register new connectors on the [Connector developer portal](http://aka.ms/connectorsdashboard).
+> Developers can't register new connectors on the [Connector developer portal](https://aka.ms/connectorsdashboard).
 
 ## Update connectors URL
 
