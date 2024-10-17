@@ -1598,7 +1598,7 @@ items:
                 - name: Prepare your network
                   href: phones/prepare-network-teams-phones.md
                 - name: Quality of Service (QOS) for Teams phones
-                  href: phones/qos-teams-phones.md
+                  href: phones/qos-on-teams-phones.md
                 - name: Intune Enrollment for Teams phones
                   items:
                     - name: Device administration
@@ -1624,7 +1624,7 @@ items:
             - name: Manage Teams phones
               href: phones/manage-teams-phones.md
             - name: Update management
-              href: phones/remote-update-phones.md
+              href: phones/remote-update-teams-phones.md
         - name: Troubleshooting and known issues
           items:
             - name: Troubleshooting and known issues

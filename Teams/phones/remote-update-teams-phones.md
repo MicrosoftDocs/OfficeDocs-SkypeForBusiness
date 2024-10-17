@@ -103,7 +103,6 @@ If you want to configure the Maintenance window for a device, do the following s
 
 1. You can check the selected Maintenance window settings under the **Details** tab on the device page. 
 
-  
 Automatic updates, when they happen, utilize the maintenance window configured for the device, that is, the **Time window** on the selected days for **Update frequency**. Maintenance window can also be utilized for scheduling manual updates. 
 
 Option to configure maintenance window isn't available in GCC-High and DoD.
@@ -160,7 +159,7 @@ When you select a single device, updates that are available for the device are s
 
 After you select **Update**, updates are applied to your devices at the date and time of the selected scheduling option. If you didn't select a future date and time, updates are applied to your devices within a few minutes.
 
-To manage devices, you need to be a Global admin, Teams Service admin, or Teams Device admin. For more information about admin roles, see [Use Microsoft Teams administrator roles to manage Teams](./using-admin-roles.md).
+To manage devices, you need to be a Global admin, Teams Service admin, or Teams Device admin. For more information about admin roles, see [Use Microsoft Teams administrator roles to manage Teams](/teams/using-admin-roles.md).
 
 > [!IMPORTANT]
 > Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.

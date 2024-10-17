@@ -56,9 +56,9 @@ The space you choose will determine the type of license you'll need.
 - **Walkie Talkie**: Users part of a Teams channel can broadcast messages to other users' part of the same channel.
 - **Calendar**: Schedule and join meetings.
 
-  :::image type="content" source="../media/teams-" alt-text="Screenshot of teams app." lightbox="media/teams-apps-1.png":::
+  :::image type="content" source="media/teams-apps-1" alt-text="Screenshot of teams app." lightbox="media/teams-apps-1.png":::
 
-## Step 3: Setup desired phone device experience for your users 
+## Step 3: Setup desired phone device experience for your users
 
 First, configure IP Phone Policy [SignInMode](/powershell/module/teams/new-csteamsipphonepolicy#-signinmode) parameter via PowerShell to enable associated apps on phone device.
 

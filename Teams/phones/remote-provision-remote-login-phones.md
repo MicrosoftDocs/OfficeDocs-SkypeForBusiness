@@ -38,7 +38,7 @@ Refer to the following for the list of certified hardware:
 Teams phones - [Certified Teams phones](../devices/teams-phones-certified-hardware.md)
 Teams panels - [Certified Teams panels](../devices/teams-panels-certified-hardware.md)
 Microsoft Teams Rooms on Android - [Teams Rooms on Android certified devices](../devices/certified-hardware-android.md?tabs=Android)
-SIP devices - [Teams compatible devices](./sip-gateway-plan.md#compatible-devices)
+SIP devices - [Teams compatible devices](../devices/sip-gateway-plan.md#compatible-devices)
 
 ## Add a device MAC address
 
@@ -110,7 +110,7 @@ The provisioned device appears in the **Waiting for sign in** tab. Start the rem
 
 ## Related articles
 
-- [Manage your devices in Teams](../rooms/device-management.md)
+- [Manage your devices in Teams](../devices/device-management.md)
 - [Remote sign in and sign out](../devices/remote-sign-in-and-sign-out.md)
 - [Update Teams devices remotely](../devices/remote-update.md)
 

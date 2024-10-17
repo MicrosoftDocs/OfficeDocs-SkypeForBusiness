@@ -5359,6 +5359,21 @@
   "source_path": "Teams/devices/common-area-mobile-phones.md",
   "redirect_url": "/microsoftteams/phones/common-area-mobile-phones",
   "redirect_document_id": false
+},
+{
+  "source_path": "Teams/sip-gateway-configure.md",
+  "redirect_url": "/microsoftteams/devices/sip-gateway-configure",
+  "redirect_document_id": false
+},
+{
+  "source_path": "Teams/sip-gateway-plan.md",
+  "redirect_url": "/microsoftteams/devices/sip-gateway-plan",
+  "redirect_document_id": false
+},
+{
+  "source_path": "Teams/sip-gateway-dynamic-filters.md",
+  "redirect_url": "/microsoftteams/devices/sip-gateway-dynamic-filters",
+  "redirect_document_id": false
 }
   ]
 }
