@@ -1139,10 +1139,8 @@
         - name: Skype for Business Server Capacity Planning Calculator
           href: ../../SfbServer/management-tools/capacity-planning-calculator.md
         - name: Planning Tool
-          href: ../../SfbServer/management-tools/planning-tool/planning-tool.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items:
             - name: UI Reference
-              href: ../../SfbServer/management-tools/planning-tool/ui-reference.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
               items:
                 - name: Persistent Chat
                   href: ../../SfbServer/management-tools/planning-tool/persistent-chat.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
