@@ -1439,8 +1439,6 @@ items:
                   href: rooms/rooms-release-note.md
                 - name: Teams panels release notes
                   href: https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_panels
-                - name: Teams device management apps
-                  href: devices/certified-device-apps.md
             - name: Troubleshooting and known issues
               items:
                 - name: Teams Rooms on Windows
@@ -1461,7 +1459,7 @@ items:
                   href: devices/qos-on-teams-devices.md
                 - name: Intune Enrollment for Windows
                   items:
-                    - name: AutoPilot and Autologin
+                    - name: Autopilot and Autologin
                       href: rooms/autopilot-autologin.md 
                     - name: Deploy LAPs
                       href: rooms/laps-authentication.md
@@ -1642,11 +1640,11 @@ items:
     - name: SIP Gateway
       items:
         - name: Plan for SIP Gateway
-          href: sip-gateway-plan.md
+          href: devices/sip-gateway-plan.md
         - name: Configure SIP Gateway
-          href: sip-gateway-configure.md
+          href: devices/sip-gateway-configure.md
         - name: Dynamic filters
-          href: sip-gateway-dynamic-filters.md
+          href: devices/sip-gateway-dynamic-filters.md
         - name: Known issues
           href: /microsoftteams/troubleshoot/phone-system/sip-gateway-issues
     - name: Reference
