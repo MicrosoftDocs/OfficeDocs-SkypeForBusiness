@@ -58,7 +58,7 @@ If a user is allowed to access apps from Power Apps or Copilot Studio, and you t
 
 ### Allow Microsoft Power Platform apps for specific users
 
-To allow or block specific users in your organization from accessing apps created in Power Apps or Copilot Studio, do one of hte following:
+To allow or block specific users in your organization from accessing apps created in Power Apps or Copilot Studio, do one of the following:
 
 * If using [app permission policies](teams-app-permission-policies.md) then create a custom policy to block **Shared Power Apps** and assign the policy to some users.
 
