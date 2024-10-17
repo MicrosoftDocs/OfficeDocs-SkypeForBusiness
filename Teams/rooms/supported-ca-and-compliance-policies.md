@@ -37,18 +37,16 @@ The following list includes the supported Conditional Access policies for Teams 
 | **Assignment**|**Teams Rooms on Windows**|**Teams Rooms on Android and panels**|**Teams phones and displays**|
 |:-----|:-----|:-----|:-----|
 | User or workload identities | Supported | Supported | Supported |
-
 | Cloud apps or actions | Supported <br><br> Teams Rooms needs to access the following Cloud apps: Office 365, Office 365 Exchange Online, Office 365 SharePoint Online, and Microsoft Teams Services | Supported <br><br> Teams Rooms needs to access the following Cloud apps: Office 365, Office 365 Exchange Online, Office 365 SharePoint Online, and Microsoft Teams Services | Supported <br><br> Teams Rooms needs to access the following Cloud apps: Office 365, Office 365 Exchange Online, Office 365 SharePoint Online, and Microsoft Teams Services  |
-
-| **Conditions**   |
-| User risk                                | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            | Supported                                                                                                                                                            |
-| Sign-in risk                             | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            | Supported                                                                                                                                                            |
-| Device platforms                         | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            | Supported                                                                                                                                                            |
-| Locations                                | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            | Supported                                                                                                                                                            |
-| Client apps                              | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                        |
-| Filter for devices                       | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            | Supported                                                                                                                                                            |               | Not supported  <br><br> Device code flow is required for sign in                              | Not supported  <br><br> Device code flow is required for sign in
-| Authentication flows                     | Supported                                                                                                                                                                            | Not supported <br><br> Device code flow is required for sign in.                                                                                                                     | Not supported <br><br> Device code flow is required for sign in.                                                                                                     |
-| **Grant**                                | ---                                                                                                                                                                                  | ---                                                                                                                                                                                  | ---                                                                                                                                                                  |
+| **Conditions**   |---|---|---|
+| User risk        | Supported     | Supported     | Supported |
+| Sign-in risk     | Supported     | Supported     | Supported  |
+| Device platforms | Supported     | Supported     | Supported  |
+| Locations        | Supported     | Supported     | Supported  |
+| Client apps      | Not supported | Not supported| Not supported |
+| Filter for devices   | Supported     | Supported  | Supported   |
+| Authentication flows    | Supported   | Not supported <br><br> Device code flow is required for sign in.  | Not supported <br><br> Device code flow is required for sign in.  |
+| **Grant**        | ---                       |---                     | ---               |
 | Block access                             | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            | Supported                                                                                                                                                            |
 | Grant access                             | Supported                                                                                                                                                                            | Supported                                                                                                                                                                            | Supported                                                                                                                                                                    |
 | Require multi-factor authentication      | Not supported                                                                                                                                                                        | Not supported                                                                                                                                                                        | Supported                                                                                                                                                            |
@@ -81,8 +79,8 @@ Microsoft Teams Rooms on Windows and Teams Rooms on Android support different de
 
 Below is a table of device compliance settings and recommendations for their use with Teams Rooms.  
 
-| **Policy**                                       | **Availability**   | **Notes**                                                  |
-|---------------------------------------------------------------|----------------|--------------------------------------|
+| **Policy**        | **Availability**   | **Notes**   |
+|--------------|---------------|----------------|
 | [**Device health**](/mem/intune/protect/compliance-policy-create-windows#device-health)                                     | --             | --                                                                                                                                          |
 | Require BitLocker                                                                                                           | Supported      | Only use if you have enabled BitLocker first on Teams Rooms.                                                                                |
 | Require Secure Boot to be enabled on the device                                                                             | Supported      | Secure Boot is  a requirement for Teams Rooms.                                                                                              |
@@ -112,7 +110,7 @@ Below is a table of device compliance settings and recommendations for their use
 Below is a table of device compliance settings and recommendations for their use with Teams Rooms.  
 
 | **Policy**     | **Availability**  | **Notes**           |
-|------------------------------------|---------------|----------------------------|
+|--------------|---------------|----------------|
 | [**Microsoft Defender for Endpoint**](/mem/intune/protect/compliance-policy-create-android#microsoft-defender-for-endpoint)             | --            | --                                                                            |
 | Require the device to be at or under the machine risk score                                                                             | Not supported |                                                                               |
 | [**Device Health**](/mem/intune/protect/compliance-policy-create-android#device-health)                                                 | --            | --                                                                            |
@@ -177,8 +175,8 @@ Below is a table of device compliance settings and recommendations for their use
 
 Below is a table of device compliance settings and recommendations for their use with Teams panels.  
 
-| Policy     | Availability  | Notes  |
-|--------------------------------|---------------|------------------------------|
+| **Policy**     | **Availability**  | **Notes**  |
+|--------------|---------------|----------------|
 | [**Microsoft Defender for Endpoint**](/mem/intune/protect/compliance-policy-create-android#microsoft-defender-for-endpoint)  | --            | --                                                                            |
 | Require the device to be at or under the machine risk score    | Not supported |                    |
 | [**Device Health**](/mem/intune/protect/compliance-policy-create-android#device-health)                                                 | --            | --                       |
