@@ -35,9 +35,6 @@ Before you deploy Persistent Chat Server, you must ensure that the following har
     
 The following sections describe the specific requirements for Persistent Chat Server and the database that stores the Persistent Chat data.
 
-> [!NOTE] 
-> Persistent chat is available in Skype for Business Server and in Teams. For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server. 
-  
 ## Front End Server requirements
 
 Front End Server requirements depend on whether you are deploying Persistent Chat Server with Skype for Business Server Enterprise Edition or Standard Edition.

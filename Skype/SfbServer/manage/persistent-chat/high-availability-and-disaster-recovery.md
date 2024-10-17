@@ -1,5 +1,5 @@
 ---
-title: "Manage high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015"
+title: "Manage high availability and disaster recovery for Persistent Chat Server in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -12,17 +12,15 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
-description: "Summary: Learn how to manage Persistent Chat Server high availability and disaster recovery in Skype for Business Server 2015."
+description: "Summary: Learn how to manage Persistent Chat Server high availability and disaster recovery in Skype for Business Server."
 ---
 
-# Manage high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015
+# Manage high availability and disaster recovery for Persistent Chat Server in Skype for Business Server
  
-**Summary:** Learn how to manage Persistent Chat Server high availability and disaster recovery in Skype for Business Server 2015.
+**Summary:** Learn how to manage Persistent Chat Server high availability and disaster recovery in Skype for Business Server.
   
-This topic describes how to fail over and fail back Persistent Chat Server. Before reading this topic, be sure to read [Plan for high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) and [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
+This topic describes how to fail over and fail back Persistent Chat Server. Before reading this topic, be sure to read [Plan for high availability and disaster recovery for Persistent Chat Server in Skype for Business Server](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) and [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
 
-> [!NOTE]
-> Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015. 
   
 ## Fail over Persistent Chat Server
 
@@ -158,7 +156,7 @@ These steps are designed to recover configuration as it existed prior to the dis
     
    - Click **OK** to begin the restoration process.
     
-5. Configure SQL Server Log Shipping for the primary database. Follow the procedures in [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md) to establish log shipping for the primary mgc database.
+5. Configure SQL Server Log Shipping for the primary database. Follow the procedures in [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md) to establish log shipping for the primary mgc database.
     
 6. Set the Persistent Chat Server active servers. From the Skype for Business Server Management Shell, use the **Set-CsPersistentChatActiveServer** cmdlet to set the list of active servers.
     

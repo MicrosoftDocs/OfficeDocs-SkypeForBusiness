@@ -27,9 +27,6 @@ You can control access to chat rooms by creating chat room categories, then spec
     
 - Administrator roles
 
-> [!NOTE] 
-> Persistent chat is available in Skype for Business Server and in Teams. For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server. 
-    
 ## Categories for organizing chat rooms
 
 Categories let you organize chat rooms and control which users and groups are permitted to create or join the chat rooms within those categories. Each category has associated properties that determine the options available for the chat rooms within the category. You control access to a particular category by specifying whether a user is Allowed or Denied access.

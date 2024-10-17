@@ -24,9 +24,6 @@ High availability and disaster recovery for Persistent Chat Server require addit
 > [!NOTE]
 > Using SQL AlwaysOn Availability Groups is not supported with Persistent Chat Server databases. 
 
-> [!NOTE] 
-> Persistent chat is available in Skype for Business Server and in Teams. For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server. 
-  
 ## Resource requirements
 
 Before configuring Persistent Chat Server for high availability and disaster recovery, ensure that you have the following additional resources. 

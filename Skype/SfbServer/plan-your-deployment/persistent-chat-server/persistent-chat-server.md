@@ -33,8 +33,6 @@ Persistent Chat Server can help improve communication within your organization b
     
 - Following compliance regulations by optionally deploying the Persistent Chat Compliance service
 
-> [!NOTE] 
-> Persistent chat is available in Skype for Business Server and in Teams. For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server. 
     
 ## Persistent Chat Server high-level architecture
 

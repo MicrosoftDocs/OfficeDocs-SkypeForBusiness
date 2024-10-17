@@ -18,7 +18,7 @@
           href: ../../SfbServer/sfb-server-updates.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
     - name: Hybrid solutions for Teams and Skype for Business
       href: ../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json
-    - name: Plan
+    - name: Plan your deployment
       items: 
         - name: Topology Basics
           href: ../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
@@ -339,6 +339,21 @@
               href: ../../SfbServer/deploy/install/verify-the-topology.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Deploy Call Via Work
           href: ../../SfbServer/deploy/deploy-call-via-work.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: Deploy Persistent Chat Server
+          href: ../../SfbServer/deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          items: 
+            - name: Add Persistent Chat Server
+              href: ../../SfbServer/deploy/deploy-persistent-chat-server/add-persistent-chat-server.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Install Persistent Chat components
+              href: ../../SfbServer/deploy/deploy-persistent-chat-server/install-persistent-chat-components.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Create a Persistent Chat administrator
+              href: ../../SfbServer/deploy/deploy-persistent-chat-server/create-a-persistent-chat-administrator.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Configure Persistent Chat Server options
+              href: ../../SfbServer/deploy/deploy-persistent-chat-server/configure-persistent-chat-server-options.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Configure Persistent Chat user policies
+              href: ../../SfbServer/deploy/deploy-persistent-chat-server/configure-persistent-chat-user-policies.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Configure HADR for Persistent Chat
+              href: ../../SfbServer/deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json  
         - name: Deploy archiving
           href: ../../SfbServer/deploy/deploy-archiving/deploy-archiving.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items: 
@@ -774,6 +789,23 @@
               href: ../../SfbServer/manage/topology/move-file-store-data.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Disable TLS 1.0/1.1
               href: ../../SfbServer/manage/topology/disable-tls-1.0-1.1.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Persistent Chat
+          href: ../../SfbServer/manage/persistent-chat/persistent-chat.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          items: 
+            - name: Categories
+              href: ../../SfbServer/manage/persistent-chat/categories.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Chat rooms
+              href: ../../SfbServer/manage/persistent-chat/chat-rooms.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Configure add-ins
+              href: ../../SfbServer/manage/persistent-chat/configure-add-ins.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Configure Compliance
+              href: ../../SfbServer/manage/persistent-chat/configure-compliance.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Back up and restore databases
+              href: ../../SfbServer/manage/persistent-chat/back-up-and-restore-databases.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: High availability and disaster recovery
+              href: ../../SfbServer/manage/persistent-chat/high-availability-and-disaster-recovery.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Monitor, start, and stop services
+              href: ../../SfbServer/manage/persistent-chat/monitor-start-and-stop-services.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json 
         - name: Health and monitoring
           href: ../../SfbServer/manage/health-and-monitoring/health-and-monitoring.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items: 
@@ -1106,3 +1138,11 @@
                   href: ../tools/test-users-and-settings-2019.md
         - name: Skype for Business Server Capacity Planning Calculator
           href: ../../SfbServer/management-tools/capacity-planning-calculator.md
+        - name: Planning Tool
+          href: ../../SfbServer/management-tools/planning-tool/planning-tool.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          items:
+            - name: UI Reference
+              href: ../../SfbServer/management-tools/planning-tool/ui-reference.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              items:
+                - name: Persistent Chat
+                  href: ../../SfbServer/management-tools/planning-tool/persistent-chat.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
