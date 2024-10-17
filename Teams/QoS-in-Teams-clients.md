@@ -98,7 +98,7 @@ To create the device configuration policy for QoS for Teams clients on Windows:
 
 ## Configuring DSCP markings using PowerShell commands
 
-Endpoint DSCP markings can be set in PowerShell using the [New-NetQosPolicy](/powershell/module/netqos/new-netqospolicy) command. In the examples below, there are two commands each for audio, video, and application sharing. The following commands show creating policies for both the new Teams client (ms-teams.exe) and classic Teams client (Teams.exe). You can combine these commands into a PowerShell script and distrbute to your desired endpoints. 
+Endpoint DSCP markings can be set in PowerShell using the [New-NetQosPolicy](/powershell/module/netqos/new-netqospolicy) command. In the examples below, there are two commands each for audio, video, and application sharing. The following commands show creating policies for both the new Teams client (ms-teams.exe) and classic Teams client (Teams.exe). You can combine these commands into a PowerShell script and distribute to your desired endpoints. 
 
 **Set QoS for audio**
 
@@ -125,8 +125,8 @@ new-NetQosPolicy -Name "Classic Teams Sharing" -AppPathNameMatchCondition "Teams
 **Set QoS for calling and meeting signaling**
 
 ```powershell
-new-NetQosPolicy -Name "Teams Calling-Meeting Signaling" -AppPathNameMatchCondition "ms-teams.exe" -IPProtocolMatchCondition UDP -IPSrcPortStartMatchCondition 50070 -IPSrcPortEndMatchCondition 50089 -DSCPAction 18 -NetworkProfile All
-new-NetQosPolicy -Name "Classic Teams Calling-Meeting Signaling" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition UDP -IPSrcPortStartMatchCondition 50070 -IPSrcPortEndMatchCondition 50089 -DSCPAction 18 -NetworkProfile All
+new-NetQosPolicy -Name "Teams Calling-Meeting Signaling" -AppPathNameMatchCondition "ms-teams.exe" -IPProtocolMatchCondition UDP -IPSrcPortStartMatchCondition 50070 -IPSrcPortEndMatchCondition 50089 -DSCPAction 46 -NetworkProfile All
+new-NetQosPolicy -Name "Classic Teams Calling-Meeting Signaling" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition UDP -IPSrcPortStartMatchCondition 50070 -IPSrcPortEndMatchCondition 50089 -DSCPAction 46 -NetworkProfile All
 
 ```
 
