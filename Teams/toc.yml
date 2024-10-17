@@ -1614,15 +1614,15 @@ items:
             - name: Step 4 - Set up Teams phones
               items:
                 - name: Remote provisioning 
-                  href: devices/remote-provision-remote-login.md
+                  href: phones/remote-provision-remote-login-phones.md
                 - name: Remote sign in and sign out
-                  href: devices/remote-sign-in-and-sign-out.md
+                  href: phones/remote-sign-in-and-sign-out-phones.md
         - name: Manage
           items:
             - name: Manage Teams phones
               href: phones/manage-teams-phones.md
             - name: Update management
-              href: devices/remote-update.md
+              href: phones/remote-update-phones.md
         - name: Troubleshooting and known issues
           items:
             - name: Troubleshooting and known issues
