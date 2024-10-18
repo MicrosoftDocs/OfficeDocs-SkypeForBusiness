@@ -59,6 +59,7 @@ The following devices are Certified under the Microsoft Teams panels Android Cer
 |Poly TC10 | `5.0.0.211194`|September 3, 2025  | 11 |
 |Yealink RoomPanel | `147.520.0.4 `|September 3, 2025  | 10 |
 |Yealink RoomPanel Plus | `269.520.0.2 `|September 3, 2025   | 11 |
+|Yealink RoomPanel E2 | `324.520.0.3 `|August 15, 2027 | 13 |
 
 ## [Firmware](#tab/firmware)
 
@@ -73,6 +74,7 @@ See [Microsoft Teams panels](../devices/overview-teams-panels.md) for features s
 #### <b> Audiocodes </b>
 | Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications | Release date |
 |:----------------|:-------------------|:----------------------------|:---------------------------------------------------------------|:----------------------------|
+| RX Panel | `2.6.280` | N/A| Teams client: `1449/1.0.97.2024081207` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202407050618.product`| October 16, 2024|
 | RX Panel | `2.6.228` | N/A| Teams client: `1449/1.0.97.2024053104` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| August 21, 2024|
 | RX Panel | `2.4.124` | N/A| Teams client: `1449/1.0.97.2024061108` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| August 1, 2024|
 | RX Panel | `2.4.55` | N/A| Teams client: `1449/1.0.97.2024010401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202402202353.product`| May 16, 2024|
