@@ -152,7 +152,7 @@ _Recommended initial port ranges_
 |Audio| 50,000–50,019|TCP/UDP|46|Expedited Forwarding (EF)|
 |Video| 50,020–50,039|TCP/UDP|34|Assured Forwarding (AF41)|
 |Application/Screen Sharing| 50,040–50,059|TCP/UDP|18|Assured Forwarding (AF21)|
-|Calling and Meetings Signaling| 50,070–50,089*|UDP|46|Expedited Forwarding (EF)|
+|Calling and Meetings Signaling| 50,070–50,089*|UDP|40|Expedited Forwarding (EF)|
 
 \* These ports are not currently configurable.
 
