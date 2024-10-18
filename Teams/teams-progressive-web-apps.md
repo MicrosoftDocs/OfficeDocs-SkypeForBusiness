@@ -1,6 +1,6 @@
 ---
 title: Teams Progressive Web Apps (PWAs)
-description: Progressive Web Apps (PWAs) allow sites like Teams on the web to offer additional desktop capabilities that are typically unavailable to websites.
+description: Progressive Web Apps (PWAs) allow sites like Teams on the web to offer more desktop capabilities that are typically unavailable to websites.
 author: MicrosoftHeidi
 ms.author: heidip
 manager: jacktremper
@@ -26,9 +26,9 @@ appliesto:
 
 # What is a Progressive Web App (PWA)?
 
-A Progressive Web App (PWA) is a type of web application that can be installed on a device and provides a user experience similar to a native desktop app. PWAs allow sites like Teams on the web to offer additional desktop capabilities that are typically unavailable to websites.
+A Progressive Web App (PWA) is a type of web application that can be installed on a device and provides a user experience similar to a native desktop app. PWAs allow sites like Teams on the web to offer more desktop capabilities that are typically unavailable to websites.
 
-PWAs are hosted by Microsoft Edge and Chrome browsers but look and feel like a native app. At their core, PWAs are still websites and operate within the same browser sandbox environment, offering the security and control many administrators require for their users. b to offer additional desktop capabilities that are typically unavailable to websites.
+PWAs are hosted by Microsoft Edge and Chrome browsers but look and feel like a native app. At their core, PWAs are still websites and operate within the same browser sandbox environment, offering the security and control many administrators require for their users.
 
 ## Microsoft Teams on the web as a PWA
 
@@ -45,7 +45,7 @@ Microsoft Teams on the web can be installed as a PWA on Chrome or Edge browsers.
 Administrators can deploy Microsoft Teams on the web PWA using group policies in Edge and Chrome browsers. There are two relevant policies:
 
 - **WebAppInstallForceList**: This policy allows administrators to force-install specific web apps, including PWAs. Users are unable to uninstall PWAs in this policy, and removing the policy causes the PWA to be uninstalled.
-- **WebAppSettings**: This policy provides additional settings for managing web apps.
+- **WebAppSettings**: This policy provides more settings for managing web apps.
 
 For detailed instructions on configuring these policies, see the following documentation:
 
