@@ -58,7 +58,7 @@ Microsoft recommends the following settings when deploying Teams phones in your 
 
 ### **Use a resource account and curtail its password expiration**
 
-Teams shared phones should use an [resource account](set-up-common-area-phones). You can either sync these accounts to Microsoft Entra ID from Active Directory or create them directly in Microsoft Entra ID. Any password expiration policies for users will also apply to accounts used on Teams shared devices, therefore, to avoid disruptions caused by password expiration policies, set the password expiration policy for shared devices to never expire.
+Teams shared phones should use an [resource account](set-up-common-area-phones.md). You can either sync these accounts to Microsoft Entra ID from Active Directory or create them directly in Microsoft Entra ID. Any password expiration policies for users will also apply to accounts used on Teams shared devices, therefore, to avoid disruptions caused by password expiration policies, set the password expiration policy for shared devices to never expire.
 
 ### **Review these Conditional Access policies**
 
