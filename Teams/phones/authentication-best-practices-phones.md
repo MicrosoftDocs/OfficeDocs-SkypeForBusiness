@@ -56,23 +56,16 @@ Shared Teams devices such as Teams phones can't use the same requirements for en
 
 Microsoft recommends the following settings when deploying Teams phones in your organization.
 
-### **Use a Resource account and curtail its password expiration**
+### **Use a resource account and curtail its password expiration**
 
-Teams shared phones should use an [Exchange resource mailbox](/exchange/recipients-in-exchange-online/manage-resource-mailboxes). Creating these mailboxes generates an account automatically. You can either sync these accounts to Microsoft Entra ID from Active Directory or create them directly in Microsoft Entra ID. Any password expiration policies for users will also apply to accounts used on Teams shared devices, therefore, to avoid disruptions caused by password expiration policies, set the password expiration policy for shared devices to never expire.
-
-Starting with Teams devices CY21 [Update #1](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones) (Teams version 1449/1.0.94.2021022403 for Teams phones) and [CY2021 Update #2](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_Rooms_on_Android) (Teams version 1449/1.0.96.2021051904 for Microsoft Teams Rooms on Android), tenant administrators can sign into Teams devices remotely. Instead of sharing passwords with technicians to set up devices, Tenant administrators should use remote sign-in to issue verification codes. You can sign into these devices from the Teams admin center.
-
-For more information, see [Remote provisioning and sign in for Teams Android devices](/MicrosoftTeams/devices/remote-provision-remote-login). 
+Teams shared phones should use an [resource account](/set-up-common-area-phones). You can either sync these accounts to Microsoft Entra ID from Active Directory or create them directly in Microsoft Entra ID. Any password expiration policies for users will also apply to accounts used on Teams shared devices, therefore, to avoid disruptions caused by password expiration policies, set the password expiration policy for shared devices to never expire.
 
 ### **Review these Conditional Access policies**
 
 Microsoft Entra Conditional Access sets other requirements that devices must meet in order to sign in. For Teams phones, review the guidance that follows to determine if you have authored the policies that allow shared device users to do their work.
 
 > [!TIP]
-> For an overview of Conditional Access, see [What is Conditional Access](/azure/active-directory/conditional-access/overview)?
-
->[!TIP]
->Use either [named location](/azure/active-directory/conditional-access/location-condition) or [require compliant device](/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device) to secure shared devices.
+> For an overview of Conditional Access, see [What is Conditional Access](/azure/active-directory/conditional-access/overview)? Use either [named location](/azure/active-directory/conditional-access/location-condition) or [require compliant device](/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device) to secure shared device resource accounts.
 
 ### You can use location-based access with named locations
 
@@ -83,9 +76,7 @@ If shared Teams phones are provisioned in a well-defined location that can be id
 >[!NOTE]
 >Device compliance requires an Intune license.
 
-If you're enrolling shared devices into Intune, you can configure device compliance as a control in Conditional Access so that only compliant devices can access your corporate resources. Teams devices can be configured for Conditional Access policies based on device compliance. For more information, see [Conditional Access: Require compliant or Microsoft Entra hybrid joined device](/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device).
-
-To set compliance setting for your devices using Intune, see [Use compliance policies to set rules for devices you manage with Intune](/mem/intune/protect/device-compliance-get-started).
+When enrolling shared devices into Intune, you can configure device compliance as a control in Conditional Access so that only compliant devices can access your corporate resources. Teams phones can be configured for Conditional Access policies based on device compliance. For more information, see [AOSP Device Management Compliance Policy](/microsoftteams/rooms/android-migration-guide#creating-a-aosp-management-compliance-policy).
 
 >[!NOTE]
 > Shared devices being used for *hot-desking* should be excluded from compliance policies. Compliance polices prevent the devices from enrolling into the hot desk user account. **Instead, use named locations to secure these devices**.
@@ -93,7 +84,7 @@ To set compliance setting for your devices using Intune, see [Use compliance pol
 
 ### Exclude shared devices from sign-in frequency conditions
 
-In Conditional Access, you can [configure sign-in frequency](/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime#user-sign-in-frequency) to require users to sign in again to access a resource after a specified time period. If sign-in frequency is enforced for room accounts, shared devices sign out until they're signed in again by an admin. Microsoft recommends excluding shared devices from any sign-in frequency policies.
+In Conditional Access, you can [configure sign-in frequency](/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime#user-sign-in-frequency) to require users to sign in again to access a resource after a specified time period. If sign-in frequency is enforced for phone resource accounts, shared devices sign out until they're signed in again by an admin. Microsoft recommends excluding shared devices from any sign-in frequency policies.
 
 ### Using Filters for devices
 
