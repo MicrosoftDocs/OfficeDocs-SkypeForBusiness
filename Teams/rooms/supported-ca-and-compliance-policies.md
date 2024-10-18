@@ -34,7 +34,7 @@ for more information.
 
 The following list includes the supported Conditional Access policies for Teams Rooms on Windows and Android, and for policies on Teams panels, phones, and displays.
 
-| **Assignment**|**Teams Rooms on Windows**|**Teams Rooms on Android and panels**|**Teams phones and displays**|
+| Assignment | Teams Rooms on Windows | Teams Rooms on Android and panels | Teams phones and displays |
 |:-----|:-----|:-----|:-----|
 | User or workload identities | Supported | Supported | Supported |
 | Cloud apps or actions | Supported <br><br> Teams Rooms needs to access the following Cloud apps: Office 365, Office 365 Exchange Online, Office 365 SharePoint Online, and Microsoft Teams Services | Supported <br><br> Teams Rooms needs to access the following Cloud apps: Office 365, Office 365 Exchange Online, Office 365 SharePoint Online, and Microsoft Teams Services | Supported <br><br> Teams Rooms needs to access the following Cloud apps: Office 365, Office 365 Exchange Online, Office 365 SharePoint Online, and Microsoft Teams Services  |
@@ -79,7 +79,7 @@ Microsoft Teams Rooms on Windows and Teams Rooms on Android support different de
 
 Below is a table of device compliance settings and recommendations for their use with Teams Rooms.  
 
-| **Policy**        | **Availability**   | **Notes**   |
+| Policy | Availability | Notes |
 |--------------|---------------|----------------|
 | [**Device health**](/mem/intune/protect/compliance-policy-create-windows#device-health)                                     | --             | --                                                                                                                                          |
 | Require BitLocker                                                                                                           | Supported      | Only use if you have enabled BitLocker first on Teams Rooms.                                                                                |
@@ -109,7 +109,7 @@ Below is a table of device compliance settings and recommendations for their use
 
 Below is a table of device compliance settings and recommendations for their use with Teams Rooms.  
 
-| **Policy**     | **Availability**  | **Notes**           |
+| Policy | Availability | Notes |
 |--------------|---------------|----------------|
 | [**Microsoft Defender for Endpoint**](/mem/intune/protect/compliance-policy-create-android#microsoft-defender-for-endpoint)             | --            | --                                                                            |
 | Require the device to be at or under the machine risk score                                                                             | Not supported |                                                                               |
@@ -142,7 +142,7 @@ Below is a table of device compliance settings and recommendations for their use
 
 Below is a table of device compliance settings and recommendations for their use with Teams phones and displays.  
 
-| **Policy** |  **Availability** | **Notes**    |
+| Policy | Availability | Notes |
 |--------------|---------------|----------------|
 | [**Microsoft Defender for Endpoint**](/mem/intune/protect/compliance-policy-create-android#microsoft-defender-for-endpoint)             | --            | --                                                                            |
 | Require the device to be at or under the machine risk score                                                                             | Not supported |                                                                               |
@@ -175,7 +175,7 @@ Below is a table of device compliance settings and recommendations for their use
 
 Below is a table of device compliance settings and recommendations for their use with Teams panels.  
 
-| **Policy**     | **Availability**  | **Notes**  |
+| Policy | Availability | Notes |
 |--------------|---------------|----------------|
 | [**Microsoft Defender for Endpoint**](/mem/intune/protect/compliance-policy-create-android#microsoft-defender-for-endpoint)  | --            | --                                                                            |
 | Require the device to be at or under the machine risk score    | Not supported |                    |
@@ -204,4 +204,3 @@ Below is a table of device compliance settings and recommendations for their use
 | [**Android 9 and earlier or Samsung Knox**](/mem/intune/protect/compliance-policy-create-android#android-9-and-earlier-or-samsung-knox) | --            | --                                                                            |
 | Required password type                                                                                                                  | Not supported |                                                                               |
 
----
