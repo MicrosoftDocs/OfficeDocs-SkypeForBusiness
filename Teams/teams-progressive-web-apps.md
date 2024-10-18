@@ -57,10 +57,10 @@ For detailed instructions on configuring these policies, see the following docum
 To ensure a smooth experience for PWA users and to avoid common permission issues, it's also recommended that administrators set the following group policies:
 
 - **SleepingTabsBlockedForUrls**: Prevents tabs with Teams on the web from going to sleep.
-- **NotificationsAllowedForURLs**: Automatically allows notifications for Teams in the web.
+- **NotificationsAllowedForURLs**: Automatically allows notifications for Teams on the web.
 - **ScreenCaptureAllowedByOrigins**: Allows screen capture for Teams on the web.
 - **AudioCaptureAllowedUrls**: Allows audio capture for Teams on the web.
 - **VideoCaptureAllowedUrls**: Allows video capture for specified URLs.
 - **CookiesAllowedForUrls**: Unblocks specific cookies for Teams on the web, including third-party cookies used in line of business (LOB) apps.
 
-Settings these policies helps users avoid repeatedly approving common permissions or accidentally blocking functionalities needed for Teams on the web.
+Setting these policies helps users avoid repeatedly approving common permissions or accidentally blocking functionalities needed for Teams on the web.
