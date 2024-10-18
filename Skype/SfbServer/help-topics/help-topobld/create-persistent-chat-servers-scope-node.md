@@ -31,6 +31,6 @@ In addition to the New Persistent Chat Pool option, you can perform the followin
     
 ## See also
 
-[Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Plan for Persistent Chat Server in Skype for Business Server](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Add Persistent Chat Server to your Skype for Business Server 2015 topology](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[Add Persistent Chat Server to your Skype for Business Server topology](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)

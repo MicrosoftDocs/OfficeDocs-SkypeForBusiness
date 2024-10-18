@@ -1,5 +1,5 @@
 ---
-title: "Configure the Compliance service for Persistent Chat Server in Skype for Business Server 2015"
+title: "Configure the Compliance service for Persistent Chat Server in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -12,12 +12,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
-description: "Summary: Learn how to configure the Persistent Chat Server Compliance service in Skype for Business Server 2015."
+description: "Summary: Learn how to configure the Persistent Chat Server Compliance service in Skype for Business Server."
 ---
 
-# Configure the Compliance service for Persistent Chat Server in Skype for Business Server 2015
+# Configure the Compliance service for Persistent Chat Server in Skype for Business Server
 
-**Summary:** Learn how to configure the Persistent Chat Server Compliance service in Skype for Business Server 2015.
+**Summary:** Learn how to configure the Persistent Chat Server Compliance service in Skype for Business Server.
 
 Persistent Chat compliance lets administrators maintain an archive of Persistent Chat messages as well as activities. The Compliance service records and archives data related to each Persistent Chat Server conversation, including when a participant:
 
@@ -35,8 +35,6 @@ Persistent Chat compliance lets administrators maintain an archive of Persistent
 
 This information can be retrieved from the Compliance SQL database as needed. 
 
-> [!NOTE]
-> Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015. 
 
 ## Configure the Compliance service by using Windows PowerShell
 
