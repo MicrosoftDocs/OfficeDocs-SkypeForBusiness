@@ -34,11 +34,21 @@ PWAs are hosted by Microsoft Edge and Chrome browsers but look and feel like a n
 
 Microsoft Teams on the web can be installed as a PWA on Chrome or Edge browsers. This allows users who can't install the Microsoft Teams desktop client or prefer using web apps to still have a seamless Teams desktop experience.
 
-Benefits of Using Teams PWA
+# Benefits of Using Teams PWA
 
-**Consistent Experience: Provides a more consistent experience for web users who also use Teams desktop clients on other
+- **Automatic start**: Can automatically start on login for quick access.
+- **Easy access**: Can be pinned to the taskbar or dock for easy access.
+- **Consistent experience**: Provides a more consistent experience for web userswho also use Teams desktop clients on their devices.
 
-- **Automatic Start**:  Can automatically start on login for quick access.
-- **Easy Access**:  Can be pinned to the taskbar or dock for easy access.
-- **Consistent Experience**: Provides a more consistent experience for web users who also use Teams desktop clients on other devices.
+# Deploying Teams PWA using group policies
+
+Administrators can deploy Microsoft Teams on the web PWA using group policies in Edge and Chrome browsers. There are two relevant policies:
+
+- **WebAppInstallForceList**: This policy allows administrators to force-install specific web apps, including PWAs. Users are unable to uninstall PWAs in this policy, and removing the policy causes the PWA to be uninstalled.
+- **WebAppSettings**: This policy provides additional settings for managing web apps.
+
+For detailed instructions on configuring these policies, see the following documentation:
+
+- [Edge group policy documentation](/deployedge/microsoft-edge-policies)
+- [Chrome group policy documentation](https://support.google.com/chrome/a/answer/187202)
 
