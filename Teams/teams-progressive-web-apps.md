@@ -34,7 +34,7 @@ PWAs are hosted by Microsoft Edge and Chrome browsers but look and feel like a n
 
 Microsoft Teams on the web can be installed as a PWA on Chrome or Edge browsers. This allows users who can't install the Microsoft Teams desktop client or prefer using web apps to still have a seamless Teams desktop experience.
 
-## Benefits of Using Teams PWA
+## Benefits of using Teams PWA
 
 - **Automatic start**: Can automatically start on login for quick access.
 - **Easy access**: Can be pinned to the taskbar or dock for easy access.
@@ -52,3 +52,15 @@ For detailed instructions on configuring these policies, see the following docum
 - [Edge group policy documentation](/deployedge/microsoft-edge-policies)
 - [Chrome group policy documentation](https://support.google.com/chrome/a/answer/187202)
 
+## Recommended group policies for PWA users
+
+To ensure a smooth experience for PWA users and to avoid common permission issues, it's also recommended that administrators set the following group policies:
+
+- **SleepingTabsBlockedForUrls**: Prevents tabs with Teams on the web from going to sleep.
+- **NotificationsAllowedForURLs**: Automatically allows notifications for Teams in the web.
+- **ScreenCaptureAllowedByOrigins**: Allows screen capture to Teams on the web.
+- **AudioCaptureAllowedUrls**: Allows audio capture for Teams on the web.
+- **VideoCaptureAllowedUrls**: Allows video capture for specified URLs.
+- **CookiesAllowedForUrls**: Unblocks specific cookies for Teams on the web, including third-party cookies used in line of business (LOB) apps.
+
+Settings these policies helps users avoid repeatedly approving common permissions or accidentally blocking functions needed for Teams on the web.
