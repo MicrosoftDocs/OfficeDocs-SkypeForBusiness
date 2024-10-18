@@ -1404,7 +1404,7 @@ items:
                     - name: App support  
                       href: app-support-on-Teams-panels.md
                     - name: Check-in and auto release
-                      href: devices/check-in-and-room-release.md
+                      href: devices/check-in-and-auto-release.md
                     - name: Reserve rooms with a QR code
                       href: devices/reserving-rooms-with-a-qr-code.md
                     - name: Custom backgrounds on Teams panels
@@ -1431,11 +1431,11 @@ items:
                 href: rooms/rooms-authentication.md
               - name: Authentication for Teams Android devices
                 href: devices/authentication-best-practices-for-android-devices.md
-              - name: Conditional Access-related issues
+              - name: Conditional Access-related known issues
                 href: /microsoftteams/troubleshoot/teams-rooms-and-devices/teams-android-devices-conditional-access-issues
             - name: Release notes
               items:
-                - name: Teams Rooms release notesf
+                - name: Teams Rooms release notes
                   href: rooms/rooms-release-note.md
                 - name: Teams panels release notes
                   href: https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_panels
