@@ -366,7 +366,7 @@ items:
       href: using-admin-roles.md
     - name: Manage teams in Teams admin center
       href: manage-teams-in-modern-portal.md
-    - name: Teamse Administrative Units
+    - name: Teams Administrative Units
       href: teams-administrative-units.md
 
     - name: Manage policies
@@ -1439,6 +1439,8 @@ items:
                   href: rooms/rooms-release-note.md
                 - name: Teams panels release notes
                   href: https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_panels
+                - name: Management apps
+                  href: devices/certified-device-apps.md
             - name: Troubleshooting and known issues
               items:
                 - name: Teams Rooms on Windows
