@@ -1220,4 +1220,25 @@
                   href: ../../SfbServer/schema-reference/persistent-chat-database-schema/tblcompliancestate.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Sample Persistent Chat database queries
               href: ../../SfbServer/schema-reference/persistent-chat-database-schema/sample-persistent-chat-database-queries.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-    
+    - name: Help topics
+      items: 
+        - name: Help-LSCP
+          items:
+            - name: Persistent Chat Add-in
+              href: ../../SfbServer/help-topics/help-lscp/persistent-chat-add-in.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Persistent Chat Add-in Main Page
+              href: ../../SfbServer/help-topics/help-lscp/persistent-chat-add-in-main-page.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: Persistent Chat Category
+                  href: ../../SfbServer/help-topics/help-lscp/persistent-chat-category.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: Persistent Chat Category Main Page
+                  href: ../../SfbServer/help-topics/help-lscp/persistent-chat-category-main-page.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: Persistent Chat Configuration
+                  href: ../../SfbServer/help-topics/help-lscp/persistent-chat-configuration.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: Persistent Chat Configuration Main Page
+                  href: ../../SfbServer/help-topics/help-lscp/persistent-chat-configuration-main-page.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: Persistent Chat Policy
+                  href: ../../SfbServer/help-topics/help-lscp/persistent-chat-policy.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: Persistent Chat Policy Main Page
+                  href: ../../SfbServer/help-topics/help-lscp/persistent-chat-policy-main-page.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: "Users: View Persistent Chat"
+                  href: ../../SfbServer/help-topics/help-lscp/users-view-persistent-chat.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json 
