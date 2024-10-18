@@ -1442,9 +1442,9 @@ items:
             - name: Troubleshooting and known issues
               items:
                 - name: Teams Rooms on Windows
-                  href: /microsoftteams/troubleshoot/teams-devices-and-rooms/rooms-known-issues-windows
+                  href: /microsoftteams/troubleshoot/teams-rooms-and-devices/teams-rooms-known-issues-windows
                 - name: Teams Rooms on Android
-                  href: /microsoftteams/troubleshoot/teams-devices-and-rooms/rooms-known-issues-android
+                  href: /microsoftteams/troubleshoot/teams-rooms-and-devices/teams-rooms-known-issues-android
         - name: Deploy
           items: 
             - name: Overview
@@ -1481,8 +1481,6 @@ items:
                       href: rooms/create-otp.md
                     - name: Set up using one-time passwords 
                       href: rooms/first-time-setup.md
-                    - name: Manual Join to Entra ID and Intune
-                      href: /entra/identity/devices/device-join-plan.md
                 - name: Teams Rooms on Android and Teams panels
                   items:
                     - name: Remote provisioning and sign-in
@@ -1586,7 +1584,7 @@ items:
         - name: Overview and planning
           items:
             - name: Overview of Teams phones
-              href: devices/phones-for-teams.md
+              href: phones/phones-for-teams.md
             - name: What's new in Teams phones
               href: https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones
         - name: Deploy
@@ -1610,9 +1608,9 @@ items:
             - name: Step 3 - Set up and configure
               items:
                 - name: Set up common area phones
-                  href: set-up-common-area-phones.md
+                  href: phones/set-up-common-area-phones.md
                 - name: Set up a common area mobile phones
-                  href: devices/common-area-mobile-phones.md
+                  href: phones/common-area-mobile-phones.md
             - name: Step 4 - Set up Teams phones
               items:
                 - name: Remote provisioning 
@@ -1628,7 +1626,7 @@ items:
         - name: Troubleshooting and known issues
           items:
             - name: Troubleshooting and known issues
-              href: /microsoftteams/troubleshoot/teams-rooms-and-devices/teams-rooms-known-issues-android
+              href: /microsoftteams/troubleshoot/teams-rooms-and-devices/teams-rooms-known-issues-android.md#issues-with-teams-phones
     - name: Bring your own device (BYOD) spaces
       items:
         - name: BYOD rooms
