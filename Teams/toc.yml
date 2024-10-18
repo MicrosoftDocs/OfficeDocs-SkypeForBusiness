@@ -1569,8 +1569,6 @@ items:
               items:
                 - name: QoS on Teams devices
                   href: devices/qos-on-teams-devices.md
-                - name: RealWear for Teams
-                  href: flw-realwear.md
         - name: Monitor
           items: 
             - name: Teams device health monitoring

@@ -5334,6 +5334,11 @@
     "source_path": "Teams/rooms/android-app-firmware.md",
     "redirect_url": "/microsoftteams/devices/certified-hardware-android",
     "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/rooms/flw-realwear.md",
+    "redirect_url": "/microsoftteams/devices/usb-devices",
+    "redirect_document_id": false
   }
   ]
 }
