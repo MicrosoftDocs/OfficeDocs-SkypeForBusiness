@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
-description: "Summary: Read this topic to learn about Persistent Chat Server components and topologies in Skype for Business Server 2015."
+description: "Summary: Read this topic to learn about Persistent Chat Server components and topologies in Skype for Business Server."
 ---
 
 # Plan Persistent Chat Server topology
  
-**Summary:** Read this topic to learn about Persistent Chat Server components and topologies in Skype for Business Server 2015.
+**Summary:** Read this topic to learn about Persistent Chat Server components and topologies in Skype for Business Server.
   
-Persistent Chat Server supports both single-server and multiple-server configurations. You can install Persistent Chat Server on either a Skype for Business Server 2015 Enterprise Edition or Standard Edition Server. 
+Persistent Chat Server supports both single-server and multiple-server configurations. You can install Persistent Chat Server on either a Skype for Business Server Enterprise Edition or Standard Edition Server. 
 
 > [!NOTE] 
-> Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015. 
+> Persistent chat is available in Skype for Business Server and in Teams. For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server. 
   
 ## Persistent Chat Server components
 
@@ -41,7 +41,7 @@ Persistent Chat Server consists of the following components:
   
 - If compliance is enabled, one or more servers (more than one if mirroring is used) running the SQL Server back-end database for hosting the Persistent Chat Compliance database, where compliance events and chat content for the purpose of compliance are stored.
     
-For details about hardware and software requirements for Persistent Chat Server, see [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) and [Hardware and software requirements for Persistent Chat Server in Skype for Business Server 2015](hardware-and-software-requirements.md). 
+For details about hardware and software requirements for Persistent Chat Server, see [Server requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) and [Hardware and software requirements for Persistent Chat Server in Skype for Business Server](hardware-and-software-requirements.md). 
   
 ## Persistent Chat Server topologies
 
@@ -57,9 +57,9 @@ You can deploy Persistent Chat Server in single-server or multiple-server pools,
     
 Although you can deploy Persistent Chat Server on a Standard Edition Server, be aware that performance and scale will be affected, and high availability is not an option. Therefore, it is recommended that you deploy Persistent Chat on a Standard Edition Server primarily for proof of concept and evaluation purposes. 
   
-Skype for Business Server 2015 supports a variety of collocation scenarios, providing you the flexibility to save hardware costs by running multiple components on one server (if you have a small organization), or to run individual components on different servers (if you have a larger organization that needs scalability and performance). You should consider scalability factors before deciding whether to collocate components. Collocation scenarios differ for Skype for Business Server 2015 Enterprise Edition and Standard Edition servers. 
+Skype for Business Server supports a variety of collocation scenarios, providing you the flexibility to save hardware costs by running multiple components on one server (if you have a small organization), or to run individual components on different servers (if you have a larger organization that needs scalability and performance). You should consider scalability factors before deciding whether to collocate components. Collocation scenarios differ for Skype for Business Server Enterprise Edition and Standard Edition servers. 
   
-The following sections describe the topologies in more detail, including collocation scenarios and options for the back-end database servers. For details about collocation of all server roles and databases, see [Topology Basics for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md).
+The following sections describe the topologies in more detail, including collocation scenarios and options for the back-end database servers. For details about collocation of all server roles and databases, see [Topology Basics for Skype for Business Server](../../plan-your-deployment/topology-basics/topology-basics.md).
   
 ### Standard Edition Server with Persistent Chat Server collocated on the Front End Server
 
