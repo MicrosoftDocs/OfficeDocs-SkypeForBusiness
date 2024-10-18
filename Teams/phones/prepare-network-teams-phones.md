@@ -31,7 +31,7 @@ In order to function properly, Microsoft Phone devices must have access to a net
   
 - Review access to: Microsoft Teams, Intune, Microsoft Entra ID, & Microsoft Common destinations. Open required ports to the required destinations documented in [Teams Android Device - Network Security](/microsoftteams/rooms/security?tabs=Android#network-security)
 
-- Review network bandwidth and quality of service (QoS) requirements: [QoS on Teams Phones](/microsoftteams/devices/qos-on-teams-phones)
+- Review network bandwidth and quality of service (QoS) requirements: [QoS on Teams Phones](qos-on-teams-phones.md)
 
 - Review if your organization utilizes a proxy, you need the proxy address or proxy autoconfiguration (PAC) file url
 
