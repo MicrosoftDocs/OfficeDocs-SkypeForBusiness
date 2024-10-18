@@ -1590,6 +1590,8 @@ items:
   items: 
     - name: Understand apps in Teams
       href: apps-in-teams.md
+    - name: Teams Progressive Web Apps (PWA)s
+      href: teams-progressive-web-apps.md
     - name: Manage apps provided by Microsoft
       items:
         - name: Manage the Admin app
