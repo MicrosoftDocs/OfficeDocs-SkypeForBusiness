@@ -367,7 +367,7 @@ items:
       href: using-admin-roles.md
     - name: Manage teams in Teams admin center
       href: manage-teams-in-modern-portal.md
-    - name: Teamse Administrative Units
+    - name: Teams Administrative Units
       href: teams-administrative-units.md
 
     - name: Manage policies
@@ -1367,6 +1367,8 @@ items:
                   href: rooms/rooms-legacy-licensing.md
             - name: Release notes
               href: rooms/rooms-release-note.md
+            - name: Management apps
+              href: devices/certified-device-apps.md
         - name: Deploy
           items: 
             - name: Deployment overview
@@ -1571,8 +1573,6 @@ items:
               items:
                 - name: QoS on Teams devices
                   href: devices/qos-on-teams-devices.md
-                - name: RealWear for Teams
-                  href: flw-realwear.md
         - name: Monitor
           items: 
             - name: Teams device health monitoring
