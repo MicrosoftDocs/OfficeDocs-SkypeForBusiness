@@ -1367,6 +1367,8 @@ items:
                   href: rooms/rooms-legacy-licensing.md
             - name: Release notes
               href: rooms/rooms-release-note.md
+            - name: Management apps
+              href: devices/certified-device-apps.md
         - name: Deploy
           items: 
             - name: Deployment overview
