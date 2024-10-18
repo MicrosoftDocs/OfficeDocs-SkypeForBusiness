@@ -313,7 +313,7 @@ Bulk sign-in is very helpful and can be used in these scenarios.
    $newBatchResponse = New-CsSdgBulkSignInRequest  -DeviceDetailsFilePath  .\Example.csv  -Region APAC
    ```
 
-The `DeviceDetailsFilePath` parameter specifies the location of the CSV you created and saved. The `Region` parameter specifies the SIP gateway provisioning region where the devices are being deployed. The values are: APAC, EMEA, NOAM.
+   The `DeviceDetailsFilePath` parameter specifies the location of the CSV you created and saved. The `Region` parameter specifies the SIP gateway provisioning region where the devices are being deployed. The values are: APAC, EMEA, NOAM.
 
 4. To check the status of a bulk sign-in batch, run the following:
 
@@ -326,6 +326,7 @@ The `DeviceDetailsFilePath` parameter specifies the location of the CSV you crea
    ``` 
 
 ### Bulk sign in error messages
+
 To help you troubleshoot and fix common issues, these are common error messages that you might see and what you should do to fix it.
 
 | Error message | Potential solution |
