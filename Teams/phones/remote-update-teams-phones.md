@@ -48,7 +48,7 @@ Additionally, earlier versions of the software may also be made available and ar
 
 Firmware versions that have not been tested by Microsoft are labeled **Unknown version**. Devices running an unknown firmware version can't be automatically updated. These devices can only be  updated manually.
 
-Refer to this list for the details on new releases and the requirements that must be met: [Certified Teams phones - Firmware](../devices/teams-phones-certified-hardware.md&tabs=firmware)
+Refer to this list for the details on new releases and the requirements that must be met. See [Certified Teams phones - Firmware](../devices/teams-phones-certified-hardware.md?tabs=firmware)
 
 ## Automatic updates
 
