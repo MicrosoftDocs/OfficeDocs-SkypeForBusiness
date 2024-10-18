@@ -28,13 +28,15 @@ description: Find lists of certified systems and peripherals for use with Micros
 
 The Microsoft Teams devices Certification Program ensures devices meet a high standard, with higher performance targets and quality metrics across the entire Teams experience (audio, video, user interface). Microsoft and OEM partners are actively working together to ensure devices meet all certification requirements, including security, audio and video quality, Teams experience, and accessibility.
 
-To see Teams Rooms pricing, see the [Teams Rooms product showcase](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20).
-
 Certification programs are designed to ensure all certified devices run an Android version with the required feature set for Teams and Teams Admin Center. Certification end dates are based on the Android version running on the device when it enters into the certification program. Our OEM partners are working to extend the lifetime of the certification by upgrading the Android version and recertifying, or by releasing new models that are state-of-the-art.
 
 Microsoft is committed to certifying devices on latest Android versions available for Teams devices as long as OEM partners and SoC manufacturers are able to meet all certification requirements in effect at the time device enters certification.
 
-After certification end date, Microsoft is committed to making efforts to support the most recent version of the Teams client on such devices for two (2) years following the end of the certification period. 
+Microsoft and its Original Equipment Manufacturers (OEM) partners continually develop products to meet the needs of the market and elevate the Teams devices experience. During the product lifecycle, some products may receive an OS upgrade before their certification expires and will undergo re-certification, while others might not get re-certified and will ultimately be discontinued by the OEM.
+
+We recognize that device certification expiration can impact your business. Our OEM partners have detailed End-of-Life policies to assist and direct you towards adopting newer technologies. For the most current information on Teams certified devices referenced here, please consult our OEM partners' websites.
+
+Following a certification expiration, Microsoft is committed to supporting the latest version of the Teams devices applications on certified devices for a span of two (2) years after the certification period concludes. While Microsoft will make every effort to maintain support as described here, it retains the discretion to modify its support policy if necessary. Should any changes occur, these changes will be communicated through the established customer facing communication channels.
 
 ## [Teams Rooms for Android](#tab/Android)
 
@@ -45,7 +47,6 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 
 | Device model | Firmware version | Current certification end date | Room size | Android OS version |
 |:-|:-|:-|:-|:-|
-| Poly Studio X72 | `PolyOS 4.2.5`| September 3, 2025 | Large rooms (4.5 m x 8.5 m) | 10 |
 | AudioCodes RXV200 | `2.2.335` | September 3, 2025 |  Focus room (3 m x 3 m) | 10 |
 | Audiocodes RXPad Touch console | `2.0.282` | August 15, 2027 | Compatible with Audiocodes RXV81 and RXV200 Collaboration bars. | 12 |
 | Audiocodes RXV81 Collaboration Bar | `2.0.0` | August 15, 2027 | Small meeting room (4.5 m x 4.5 m) | 12 |
@@ -63,6 +64,8 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Crestron AIO Video Bar 70 | `1.240618.1240` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10|
 | Crestron Touch Panel TS-1070 | `2.005.1030` | September 3, 2025 | Compatible with Crestron AIO Video Bar 70 | 10 |
 | DTEN Bar | `1.0.2` | August 15, 2027|  Small size room (4.5 m x 4.5 m) | 12 |
+| DTEN D7X 55" + Vue Pro | `1.5.8` |August 15, 2027| Small size room (4.5 m x 4.5 m) | 12 |
+| DTEN D7X 55" + Vue | `1.5.8` |August 15, 2027| Small size room (4.5 m x 4.5 m) | 12 |
 | DTEN D7X 75" + Vue Pro | `1.5.8` |August 15, 2027| Medium size room (4.5 m x 6 m) | 12 |
 | DTEN D7X 75" + Vue | `1.5.8` |August 15, 2027| Medium size room (4.5 m x 6 m) | 12 |
 | DTEN D7X 75" | `1.2.8` |  August 15, 2027 |  Medium size room (4.5 m x 6 m) | 12 |
@@ -93,6 +96,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Poly Studio X52 | `4.1.0.382110` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10 |
 | Poly G7500 + Shure Large Room Kit | `4.0.1` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
 | Poly G62 | `PolyOS 4.1.5` | September 3, 2025 | Large meeting room (4.5 m x 8.5 m) | 10 |
+| Poly Studio X72 | `PolyOS 4.2.5`| September 3, 2025 | Large rooms (4.5 m x 8.5 m) | 10 |
 | Yealink DeskVision A24 | `156.15.0.29` | September 3, 2025 | Phone room (2 m x 2 m) | 10 |
 | Yealink CTP18 touch console | `137.320.0.29` | September 3, 2025 | Compatible with Yealink MeetingBar A20 and Yealink MeetingBar A30 | 10 |
 | Yealink MeetingBar A10 | `278.15.0.6` | September 3, 2025 | Small meeting room (4.5 m x 4.5 m) | 11 |
@@ -103,6 +107,7 @@ The following devices are certified under the Microsoft Teams Rooms on Android C
 | Yealink CTP25 touch console | `311.320.0.2` | August 15, 2027 | Compatible with Yealink MeetingBar A40 | 13 |
 | Yealink MeetingBar A40 | `289.320.0.11` | August 15, 2027 | Medium size room (4.5 m x 6 m) | 13 |
 | Yealink MeetingBoard 65"/86" with MB-Camera-6X | `155.15.0.37 ` | September 3, 2025 | Medium size room (4.5 m x 6 m) | 10|
+| Yealink MeetingBoard 75 Pro | `300.320.0.7 ` | August 15, 2027 | Medium size room (4.5 m x 6 m) | 13|
 
 ## [Firmware](#tab/firmware)
 
@@ -116,6 +121,9 @@ For information about the latest Teams app releases, see [What's new in Microsof
 
 | Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:--------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
+| Audiocodes RXV81 | `2.6.280` | N/A| `1449/1.0.96.2024080804` | `5.0.6152.0`|  `1.0.0.202407050618.product` | October 18, 2024|
+| Audiocodes RX-Pad | `2.6.280` | N/A | `1449/1.0.96.2024080804` | `5.0.6152.0`| `1.0.0.202407050618.product` | October 18, 2024|
+| Audiocodes RXV200 | `2.6.280` | N/A | `1449/1.0.96.2024080804` | `5.0.6152.0`| `1.0.0.202407050618.product` | October 18, 2024|
 | Audiocodes RXV81 | `2.6.228` | N/A| `1449/1.0.96.2024061103` | `5.0.6152.0`|  `1.0.0.202402202353.product` | September 4, 2024|
 | Audiocodes RX-Pad | `2.6.228` | N/A | `1449/1.0.96.2024061103` | `5.0.6152.0`| `1.0.0.202402202353.product` | September 4, 2024|
 | Audiocodes RXV200 | `2.6.228` | N/A | `1449/1.0.96.2024061103` | `5.0.6152.0`| `1.0.0.202402202353.product` | September 4, 2024|
@@ -221,6 +229,10 @@ For information about the latest Teams app releases, see [What's new in Microsof
 
 | Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
+| DTEN Bar |`1.3.1.1` | N/A| `1449/1.0.96.2024080804` | `5.0.6152.0`| `1.0.0.202402202353.product`| October 15, 2024|
+| DTEN D7X 75" |`1.6.6.1` | N/A| `1449/1.0.96.2024080804` | `5.0.6152.0`| `1.0.0.202402202353.product`| October 15, 2024|
+| DTEN D7X 55" |`1.6.6.1`   | N/A| `1449/1.0.96.2024080804` | `5.0.6152.0`| `1.0.0.202402202353.product`| October 15, 2024|
+| DTEN Mate Touch Console | `2.3.1.2` | N/A| `1449/1.0.96.2024080804` | `5.0.6152.0`| `1.0.0.202402202353.product`| October 15, 2024|
 | DTEN Bar |`1.3.0.4` | N/A| `1449/1.0.96.2024080804` | `5.0.6152.0`| `1.0.0.202402202353.product`| September 20, 2024|
 | DTEN D7X 75" |`1.6.5.4` | N/A| `1449/1.0.96.2024080804` | `5.0.6152.0`| `1.0.0.202402202353.product`| September 20, 2024|
 | DTEN D7X 55" |`1.6.5.4`   | N/A| `1449/1.0.96.2024080804` | `5.0.6152.0`| `1.0.0.202402202353.product`| September 20, 2024|
@@ -276,6 +288,11 @@ For information about the latest Teams app releases, see [What's new in Microsof
 
 | Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
+| Logi Rallybar (VR0019) | `1.13.127` | N/A | `1449/1.0.96.2024042606` | `5.0.6152.0`| `1.0.0.202402202353.product` | October 3, 2024|
+| Logi Rallybar Mini (VR0020) | `1.13.127` | N/A | `1449/1.0.96.2024042606` | `5.0.6152.0`| `1.0.0.202402202353.product` | October 3, 2024|
+| Logi RoomMate (VR0030) | `1.13.124`   | N/A | `1449/1.0.96.2024042606` | `5.0.6152.0`| `1.0.0.202402202353.product` | October 3, 2024|
+| Logi Rallybar Huddle (VR0034) | `1.13.121`   | N/A | `1449/1.0.96.2024042606` | `5.0.6152.0`| `1.0.0.202402202353.product` | October 3, 2024|
+| Logi TAP IP (VR0029) | `1.13.124`| N/A | `1449/1.0.96.2024042606` | `5.0.6152.0`| `1.0.0.202402202353.product` | October 3, 2024|
 | Logi Rallybar (VR0019) | `1.12.268` | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | August 21, 2024|
 | Logi Rallybar Mini (VR0020) | `1.12.268` | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | August 21, 2024|
 | Logi Rallybar (VR0019) | `1.12.264` | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | July 2, 2024|
@@ -373,6 +390,14 @@ For information about the latest Teams app releases, see [What's new in Microsof
 
 | Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|
+| Poly Studio X30 | `4.3.2.422023` | `N/A`| `1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| October 10, 2024|
+| Poly Studio X50 | `4.3.2.422023` | `N/A`| `1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| October 10, 2024|
+| Poly Studio X52 | `4.3.2.422023` |`N/A` |`1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| October 10, 2024|
+| Poly Studio X70 | `4.3.2.422023` | `N/A`| `1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| October 10, 2024|
+| Poly Studio G7500 | `4.3.2.422023` | `N/A`| `1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| October 10, 2024|
+| Poly Studio G62 | `4.3.2.422023` | `N/A`| `1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| October 10, 2024|
+| Poly TC8 | `6.3.2.211744` | N/A | `1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| October 10, 2024|
+| Poly TC10 | `6.3.2.211744` | N/A | `1449/1.0.96.2024080804`| `5.0.6061.0` | `1.0.0.202402202353.product`| October 10, 2024|
 | Poly Studio X30 | `4.2.2-408037` | `4.1.0_00.180034`| `1449/1.0.96.2024020802`| `5.0.6061.0` | `1.0.0.202310260109.product`| June 21, 2024|
 | Poly Studio X50 | `4.2.2-408037` | `4.1.0_00.180034`| `1449/1.0.96.2024020802`| `5.0.6061.0` | `1.0.0.202310260109.product`| June 21, 2024|
 | Poly Studio X52 | `4.2.2-408037` |`4.1.0.382189` |`1449/1.0.96.2024020802`| `5.0.6061.0` | `1.0.0.202310260109.product`| June 21, 2024|
@@ -515,15 +540,40 @@ For information about the latest Teams app releases, see [What's new in Microsof
 
 | Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date | Cloud |
 |:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|:-----------------|
-| Logi Rallybar (VR0019) | `1.12.264` | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | August 23, 2024|
-| Logi Rallybar Mini (VR0020) | `1.12.264` | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | August 23, 2024|
-| Logi RoomMate (VR0030) | `1.12.240`   | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | August 23, 2024|
-| Logi Rallybar Huddle (VR0034) | `1.12.135`   | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | August 23, 2024|
-| Logi TAP IP (VR0029)  | `1.12.184`|  N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | August 23, 2024|
+| Logi Rallybar (VR0019) | `1.12.268` | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | October 7, 2024| GCCH|
+| Logi Rallybar Mini (VR0020) | `1.12.268` | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | October 7, 2024| GCCH|
+| Logi Rallybar (VR0019) | `1.12.264` | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | August 23, 2024| GCCH|
+| Logi Rallybar Mini (VR0020) | `1.12.264` | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | August 23, 2024| GCCH|
+| Logi RoomMate (VR0030) | `1.12.240`   | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | August 23, 2024| GCCH|
+| Logi Rallybar Huddle (VR0034) | `1.12.135`   | N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | August 23, 2024| GCCH|
+| Logi TAP IP (VR0029)  | `1.12.184`|  N/A | `1449/1.0.96.2024042606` | `5.0.5484.0`| `1.0.0.202402202353.product` | August 23, 2024| GCCH|
 | Logi RoomMate (VR0030) | `1.11.215`   | N/A | `1449/1.0.96.2023062301` | `5.0.5484.0`| `1.0.0.202306202019.product` | February 20, 2024| GCCH|
 | Logi TAP IP (VR0029) | `1.11.202`|  N/A | `1449/1.0.96.2023062301` | `5.0.5484.0`| `1.0.0.202306202019.product` | February 20, 2024| GCCH|
 | Logi RoomMate (VR0030) | `1.10.175`   |  N/A | `1449/1.0.96.2023062301` | `5.0.5484.0`| `1.0.0.202306202019.product` | February 2, 2023| GCCH|
 | Logi TAP IP (VR0029) | `1.10.129`    |  N/A | `1449/1.0.96.2023062301` | `5.0.5484.0`| `1.0.0.202306202019.product` | February 2, 2023| GCCH|
+
+#### Neat
+
+| Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date | Cloud |
+|:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|:---------------------------------|
+| Neat Bar Gen2 | `NFE1.20240620.1740` | N/A | `1449/1.0.96.2024061103`| `5.0.6061.0` | `1.0.0.202402202353.product`| October 7, 2024| GCCH |
+| Neat Bar | `NFB1.20240620.0015` | N/A | `1449/1.0.96.2024061103`| `5.0.6061.0` | `1.0.0.202402202353.product`| October 7, 2024| GCCH |
+| Neat Bar Pro| `NFD1.20240620.1740` | N/A | `1449/1.0.96.2024061103`| `5.0.6061.0` | `1.0.0.202402202353.product`| October 7, 2024| GCCH |
+| Neat Board | `NFC1.20240620.0015` |  N/A | `1449/1.0.96.2024061103`| `5.0.6061.0` | `1.0.0.202402202353.product`| October 7, 2024| GCCH |
+| Neat Board 50 | `NFH1.20240620.1740` |  N/A | `1449/1.0.96.2024061103`| `5.0.6061.0` | `1.0.0.202402202353.product`| October 7, 2024| GCCH |
+| Neat Pad touch console | `NFA1.20240620.1740`  | N/A | `1449/1.0.96.2024061103`| `5.0.6061.0` | `1.0.0.202402202353.product`| October 7, 2024| GCCH |
+| Neat Bar Gen2 | `NFE1.20240516.0009` | N/A | `1449/1.0.96.2024042606`| `5.0.6061.0` | `1.0.0.202402202353.product`| July 6, 2024| GCCH |
+| Neat Bar | `NFB1.20240516.0658` | N/A | `1449/1.0.96.2024042606`| `5.0.6061.0` | `1.0.0.202402202353.product`| July 6, 2024| GCCH |
+| Neat Bar Pro| `NFD1.20240516.0007` | N/A | `1449/1.0.96.2024042606`| `5.0.6061.0` | `1.0.0.202402202353.product`| July 6, 2024| GCCH |
+| Neat Board | `NFC1.20240516.0658` |  N/A | `1449/1.0.96.2024042606`| `5.0.6061.0` | `1.0.0.202402202353.product`| July 6, 2024| GCCH |
+| Neat Board 50 | `NFH1.20240516.0007` |  N/A | `1449/1.0.96.2024042606`| `5.0.6061.0` | `1.0.0.202402202353.product`| July 6, 2024| GCCH |
+| Neat Pad touch console | `NFA1.20240516.0501`  | N/A | `1449/1.0.96.2024042606`| `5.0.6061.0` | `1.0.0.202402202353.product`| July 6, 2024| GCCH |
+| Neat Bar Gen2 | `NFE1.20240312.0005` | N/A | `1449/1.0.96.2024032804`| `5.0.6061.0` | `1.0.0.202310260109.product`| April 30, 2024| GCCH |
+| Neat Bar | `NFB1.20240312.0005` | N/A | `1449/1.0.96.2024032804`| `5.0.6061.0` | `1.0.0.202310260109.product`| April 30, 2024| GCCH |
+| Neat Bar Pro| `NFD1.20240312.0005` | N/A | `1449/1.0.96.2024032804`| `5.0.6061.0` | `1.0.0.202310260109.product`| April 30, 2024| GCCH |
+| Neat Board | `NFC1.20240312.0005` |  N/A | `1449/1.0.96.2024032804`| `5.0.6061.0` | `1.0.0.202310260109.product`| April 30, 2024| GCCH |
+| Neat Board 50 | `NFH1.20240312.0005` |  N/A | `1449/1.0.96.2024032804`| `5.0.6061.0` | `1.0.0.202310260109.product`| April 30, 2024| GCCH |
+| Neat Pad touch console | `NFA1.20240312.0503`  | N/A | `1449/1.0.96.2024032804`| `5.0.6061.0` | `1.0.0.202310260109.product`| April 30, 2024| GCCH |
 
 #### HP | Poly
 
@@ -556,32 +606,9 @@ For information about the latest Teams app releases, see [What's new in Microsof
 | Poly Studio G7500 | `4.0.2.384012` | N/A | `5.0.5484.0` | `1449/1.0.96.2023031201`| `1.0.0.202301162118.product` | June 16, 2023 | GCCH |
 | Poly TC8 | `4.0.2.211096` | N/A | `5.0.5484.0` | `1449/1.0.96.2023031201`| `1.0.0.202301162118.product` | June 16, 2023 | GCCH |
 
-#### Neat
-
-| Device model | Latest Firmware version | Minimum Firmware version required | Teams client | Company Portal | Admin Agent | Release date | Cloud |
-|:-------------------|:----------------------------|:---------------------------------------------|:-------------------------------|:-------------------------------|:--------------------------------|:--------------------------------|:---------------------------------|
-| Neat Bar Gen2 | `NFE1.20240516.0009` | N/A | `1449/1.0.96.2024042606`| `5.0.6061.0` | `1.0.0.202402202353.product`| July 6, 2024| GCCH |
-| Neat Bar | `NFB1.20240516.0658` | N/A | `1449/1.0.96.2024042606`| `5.0.6061.0` | `1.0.0.202402202353.product`| July 6, 2024| GCCH |
-| Neat Bar Pro| `NFD1.20240516.0007` | N/A | `1449/1.0.96.2024042606`| `5.0.6061.0` | `1.0.0.202402202353.product`| July 6, 2024| GCCH |
-| Neat Board | `NFC1.20240516.0658` |  N/A | `1449/1.0.96.2024042606`| `5.0.6061.0` | `1.0.0.202402202353.product`| July 6, 2024| GCCH |
-| Neat Board 50 | `NFH1.20240516.0007` |  N/A | `1449/1.0.96.2024042606`| `5.0.6061.0` | `1.0.0.202402202353.product`| July 6, 2024| GCCH |
-| Neat Pad touch console | `NFA1.20240516.0501`  | N/A | `1449/1.0.96.2024042606`| `5.0.6061.0` | `1.0.0.202402202353.product`| July 6, 2024| GCCH |
-| Neat Bar Gen2 | `NFE1.20240312.0005` | N/A | `1449/1.0.96.2024032804`| `5.0.6061.0` | `1.0.0.202310260109.product`| April 30, 2024| GCCH |
-| Neat Bar | `NFB1.20240312.0005` | N/A | `1449/1.0.96.2024032804`| `5.0.6061.0` | `1.0.0.202310260109.product`| April 30, 2024| GCCH |
-| Neat Bar Pro| `NFD1.20240312.0005` | N/A | `1449/1.0.96.2024032804`| `5.0.6061.0` | `1.0.0.202310260109.product`| April 30, 2024| GCCH |
-| Neat Board | `NFC1.20240312.0005` |  N/A | `1449/1.0.96.2024032804`| `5.0.6061.0` | `1.0.0.202310260109.product`| April 30, 2024| GCCH |
-| Neat Board 50 | `NFH1.20240312.0005` |  N/A | `1449/1.0.96.2024032804`| `5.0.6061.0` | `1.0.0.202310260109.product`| April 30, 2024| GCCH |
-| Neat Pad touch console | `NFA1.20240312.0503`  | N/A | `1449/1.0.96.2024032804`| `5.0.6061.0` | `1.0.0.202310260109.product`| April 30, 2024| GCCH |
-
 ## [End of certification](#tab/eol)
 
-Microsoft and its Original Equipment Manufacturers (OEM) partners continually develop products to meet the needs of the market and elevate the Teams devices experience. During the product lifecycle, some products may receive an OS upgrade before their certification expires and will undergo re-certification, while others might not get re-certified and will ultimately be discontinued by the OEM.
-
-We recognize that device certification expiration can impact your business. Our OEM partners have detailed End-of-Life policies to assist and direct you towards adopting newer technologies. For the most current information on Teams certified devices referenced here, please consult our OEM partners' websites.
-
-Following a certification expiration, Microsoft is committed to supporting the latest version of the Teams devices applications on certified devices for a span of two (2) years after the certification period concludes. While Microsoft will make every effort to maintain support as described here, it retains the discretion to modify its support policy if necessary. Should any changes occur, they will be communicated through the established customer facing communication channels.
-
-| Device Category | Device Model | Android OS Versio | Certification end date | Microsoft support end date |
+| Device Category | Device Model | Android OS Version | Certification end date | Microsoft support end date |
 |:----------------|:-------------------|:----------------------------|:--------------------------|:----------------------|
 |Teams Rooms for Android | Yealink VC210 | 9 | August 5, 2023 | August 5, 2025 |
 |Teams Rooms for Android | EPOS Expand Vision 3T | 9 | August 5, 2023| August 5, 2025 |
