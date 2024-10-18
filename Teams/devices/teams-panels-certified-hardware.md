@@ -150,6 +150,7 @@ See [Microsoft Teams panels](../devices/overview-teams-panels.md) for features s
 #### <b> Crestron </b>
 | Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications | Release date | Cloud |
 |:----------------|:-------------------|:----------------------------|:----------------------------------------------------------------------------|:-----------------|:-------------------------------------|
+| TSS-770/TSS-1070 | `2.006.0054` | N/A| Teams client: `1449/1.0.97.2024061108` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| October 17, 2024| GCCH|
 | TSS-770/TSS-1070 | `2.004.1054` | N/A| Teams client: `1449/1.0.97.2023080401` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| January 17, 2024| GCCH|
 | TSS-770/TSS-1070 | `2.004.1029` | N/A| Teams client: `1449/1.0.97.2022748302` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202301162118.product`| July 18, 2023| GCCH|
 
