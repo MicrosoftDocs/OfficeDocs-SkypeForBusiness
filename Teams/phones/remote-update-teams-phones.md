@@ -77,7 +77,7 @@ If you want to configure the Maintenance window for a device, do the following s
 
 1. Sign in to Microsoft Teams admin center by going to https://admin.teams.microsoft.com.
 1. Navigate to **Teams devices** and then select **Phones**.
-1. Follow the steps for [editing or creating a new configuration profile.](/phones/manage-teams-phones#use-configuration-profiles-in-teams)
+1. Follow the steps for [editing or creating a new configuration profile.](/manage-teams-phones.md#use-configuration-profiles-in-teams)
 
 1. Specify a suitable **Time window** by selecting a **Start time** and an **End time**. This time window follows the local timezone of the device.
 
