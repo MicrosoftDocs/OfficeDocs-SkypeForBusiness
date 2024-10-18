@@ -1144,3 +1144,135 @@
               items:
                 - name: Persistent Chat
                   href: ../../SfbServer/management-tools/planning-tool/persistent-chat.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+    - name: Schema reference
+      items:
+        - name: Persistent Chat database schema
+          href: ../../SfbServer/schema-reference/persistent-chat-database-schema/persistent-chat-database-schema.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          items: 
+            - name: List of Persistent Chat Server tables
+              href: ../../SfbServer/schema-reference/persistent-chat-database-schema/list-of-persistent-chat-server-tables.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: List of Persistent Chat Server compliance tables
+              href: ../../SfbServer/schema-reference/persistent-chat-database-schema/list-of-persistent-chat-server-compliance-tables.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Persistent Chat Server table details
+              href: ../../SfbServer/schema-reference/persistent-chat-database-schema/persistent-chat-server-table-details.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+              items: 
+                - name: tblADCookie
+                  href: ../../SfbServer/schema-reference/persistent-chat-database-schema/tbladcookie.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: tblPrincipalMemberDifference
+                  href: ../../SfbServer/schema-reference/persistent-chat-database-schema/tblprincipalmemberdifference.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: tblADUpdates
+                  href: ../../SfbServer/schema-reference/persistent-chat-database-schema/tbladupdates.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: tblPrincipalMembers
+                  href: ../../SfbServer/schema-reference/persistent-chat-database-schema/tblprincipalmembers.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: tblPrincipalMeta
+                  href: ../../SfbServer/schema-reference/persistent-chat-database-schema/tblprincipalmeta.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: tblSkippedAffiliations
+                  href: ../../SfbServer/schema-reference/persistent-chat-database-schema/tblskippedaffiliations.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: tblPrincipalType
+                  href: ../../SfbServer/schema-reference/persistent-chat-database-schema/tblprincipaltype.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: tblPrincipal
+                  href: ../../SfbServer/schema-reference/persistent-chat-database-schema/tblprincipal.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: tblPrincipalAffiliations
+                  href: ../../SfbServer/schema-reference/persistent-chat-database-schema/tblprincipalaffiliations.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: tblNode
+                  href: ../../SfbServer/schema-reference/persistent-chat-database-schema/tblnode.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: tblRoleType
+                  href: ../../SfbServer/schema-reference/persistent-chat-database-schema/tblroletype.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: tblScopePrincipal
+                  href: ../../SfbServer/schema-reference/persistent-chat-database-schema/tblscopeprincipal.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: tblPrincipalRole
+                  href: ../../SfbServer/schema-reference/persistent-chat-database-schema/tblprincipalrole.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: tblSiopWhiteList
+                  href: ../../SfbServer/schema-reference/persistent-chat-database-schema/tblsiopwhitelist.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: tblEnumAttribute
+                  href: ../../SfbServer/schema-reference/persistent-chat-database-schema/tblenumattribute.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: tblEnumValue
+                  href: ../../SfbServer/schema-reference/persistent-chat-database-schema/tblenumvalue.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: tblPrincipalInvites
+                  href: ../../SfbServer/schema-reference/persistent-chat-database-schema/tblprincipalinvites.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: tblChat
+                  href: ../../SfbServer/schema-reference/persistent-chat-database-schema/tblchat.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: tblLastInviteId
+                  href: ../../SfbServer/schema-reference/persistent-chat-database-schema/tbllastinviteid.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: tblLastChatId
+                  href: ../../SfbServer/schema-reference/persistent-chat-database-schema/tbllastchatid.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: tblPreference
+                  href: ../../SfbServer/schema-reference/persistent-chat-database-schema/tblpreference.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: tblFileToken
+                  href: ../../SfbServer/schema-reference/persistent-chat-database-schema/tblfiletoken.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: tblServerIdentity
+                  href: ../../SfbServer/schema-reference/persistent-chat-database-schema/tblserveridentity.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: tblAdminLock
+                  href: ../../SfbServer/schema-reference/persistent-chat-database-schema/tbladminlock.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: tblSystemRevision
+                  href: ../../SfbServer/schema-reference/persistent-chat-database-schema/tblsystemrevision.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: tblActivePeers
+                  href: ../../SfbServer/schema-reference/persistent-chat-database-schema/tblactivepeers.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: tblConfig
+                  href: ../../SfbServer/schema-reference/persistent-chat-database-schema/tblconfig.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: tblComplianceData
+                  href: ../../SfbServer/schema-reference/persistent-chat-database-schema/tblcompliancedata.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: tblComplianceFanout
+                  href: ../../SfbServer/schema-reference/persistent-chat-database-schema/tblcompliancefanout.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: tblComplianceParticipant
+                  href: ../../SfbServer/schema-reference/persistent-chat-database-schema/tblcomplianceparticipant.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: tblComplianceState
+                  href: ../../SfbServer/schema-reference/persistent-chat-database-schema/tblcompliancestate.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Sample Persistent Chat database queries
+              href: ../../SfbServer/schema-reference/persistent-chat-database-schema/sample-persistent-chat-database-queries.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+    - name: Help topics
+      items: 
+        - name: Help-LSCP
+          items:
+		        - name: Persistent Chat Add-in
+		          href: ../../SfbServer/help-topics/help-lscp/persistent-chat-add-in.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+		        - name: Persistent Chat Add-in Main Page
+		          href: ../../SfbServer/help-topics/help-lscp/persistent-chat-add-in-main-page.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+		            - name: Persistent Chat Category
+		              href: ../../SfbServer/help-topics/help-lscp/persistent-chat-category.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+		            - name: Persistent Chat Category Main Page
+		              href: ../../SfbServer/help-topics/help-lscp/persistent-chat-category-main-page.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+		            - name: Persistent Chat Configuration
+		              href: ../../SfbServer/help-topics/help-lscp/persistent-chat-configuration.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+		            - name: Persistent Chat Configuration Main Page
+		              href: ../../SfbServer/help-topics/help-lscp/persistent-chat-configuration-main-page.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+		            - name: Persistent Chat Policy
+		              href: ../../SfbServer/help-topics/help-lscp/persistent-chat-policy.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+		            - name: Persistent Chat Policy Main Page
+		              href: ../../SfbServer/help-topics/help-lscp/persistent-chat-policy-main-page.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+                - name: "Users: View Persistent Chat"
+                  href: ../../SfbServer/help-topics/help-lscp/users-view-persistent-chat.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json 
+        - name: Help-TopoBld
+          items:         
+            - name: Add Persistent Chat Compliance Backup SQL Server Store
+              href: ../../SfbServer/help-topics/help-topobld/add-persistent-chat-compliance-backup-sql-server-store.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Add Persistent Chat Backup SQL Server Store
+              href: ../../SfbServer/help-topics/help-topobld/add-persistent-chat-backup-sql-server-store.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Add Persistent Chat Compliance SQL Server Store
+              href: ../../SfbServer/help-topics/help-topobld/add-persistent-chat-compliance-sql-server-store.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Add Persistent Chat File Store
+              href: ../../SfbServer/help-topics/help-topobld/add-persistent-chat-file-store.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Define Persistent Chat FQDN
+              href: ../../SfbServer/help-topics/help-topobld/define-persistent-chat-fqdn.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Define Computers in Persistent Chat Pool
+              href: ../../SfbServer/help-topics/help-topobld/define-computers-in-persistent-chat-pool.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Define Properties and Options for Persistent Chat Pool
+              href: ../../SfbServer/help-topics/help-topobld/define-properties-and-options-for-persistent-chat-pool.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Add Persistent Chat SQL Server Store
+              href: ../../SfbServer/help-topics/help-topobld/add-persistent-chat-sql-server-store.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Call Admission Control Settings Expander
+              href: ../../SfbServer/help-topics/help-topobld/call-admission-control-settings-expander.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Persistent Chat General Settings Expander
+              href: ../../SfbServer/help-topics/help-topobld/persistent-chat-general-settings-expander.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Persistent Chat Machines Expander
+              href: ../../SfbServer/help-topics/help-topobld/persistent-chat-machines-expander.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Persistent Chat Next Hop Settings Expander
+              href: ../../SfbServer/help-topics/help-topobld/persistent-chat-next-hop-settings-expander.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Persistent Chat Scope Node
+              href: ../../SfbServer/help-topics/help-topobld/persistent-chat-scope-node.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Persistent Chat Settings Expander
+              href: ../../SfbServer/help-topics/help-topobld/persistent-chat-settings-expander.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Create Persistent Chat Servers Scope Node
+              href: ../../SfbServer/help-topics/help-topobld/create-persistent-chat-servers-scope-node.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Add Persistent Chat Next Hop Page
+              href: ../../SfbServer/help-topics/help-topobld/add-persistent-chat-next-hop-page.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json  
