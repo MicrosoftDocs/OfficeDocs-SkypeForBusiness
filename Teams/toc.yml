@@ -1409,7 +1409,7 @@ items:
                       href: devices/reserving-rooms-with-a-qr-code.md
                     - name: Custom backgrounds on Teams panels
                       href: devices/custom-background-panels.md
-            - name: Teams Rooms and devices feature comparison
+            - name: Teams Rooms and panels feature comparison
               href: rooms/teams-devices-feature-comparison.md
             - name: Meeting room guidance for Teams
               href: rooms/room-planning-guidance.md
@@ -1455,13 +1455,13 @@ items:
               items:
                 - name: Preparing your network
                   href: rooms/rooms-prep.md
-                - name: QoS on Teams devices
+                - name: Quality of Service (QoS) for Teams Rooms
                   href: devices/qos-on-teams-devices.md
                 - name: Intune Enrollment for Windows
                   items:
                     - name: Autopilot and Autologin
                       href: rooms/autopilot-autologin.md 
-                    - name: Deploy LAPs
+                    - name: Deploy LAPS
                       href: rooms/laps-authentication.md
                 - name: Intune Enrollment for Android
                   items:
@@ -1595,7 +1595,7 @@ items:
               items:
                 - name: Prepare your network
                   href: phones/prepare-network-teams-phones.md
-                - name: Quality of Service (QOS) for Teams phones
+                - name: Quality of Service (QoS) for Teams phone
                   href: phones/qos-on-teams-phones.md
                 - name: Intune Enrollment for Teams phones
                   items:
@@ -1603,7 +1603,7 @@ items:
                       href: phones/phones-deploy.md
                     - name: AOSP device management 
                       href: rooms/android-migration-guide.md
-                - name: Authentication best practices for Teams phones
+                - name: Authentication best practices for Teams phone
                   href: phones/authentication-best-practices-phones.md
             - name: Step 3 - Set up and configure
               items:
