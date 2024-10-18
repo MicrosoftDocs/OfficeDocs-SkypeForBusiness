@@ -29,7 +29,7 @@ If your admin has given you the ability to use optional connected experiences in
 
 ## GIPHY
 
-GIPHY is a cloud-backed service that lets you use GIFs in your Teams chats. If you're in **Teams** > **GIF** > **Search**, the search terms are sent to GIPHY. These experiences, if allowed by your admin and after you choose to use them, are subject to the [GIPHY Privacy Policy](https://support.giphy.com/hc/articles/360032872931-GIPHY-Privacy-Policy) and [Terms of Service](https://support.giphy.com/hc/articles/360020027752-GIPHY-User-Terms-of-Service).
+GIPHY is a cloud-backed service that lets you use GIFs in your Teams chats. If you're in **Teams** > **GIF** > **Search**, the search terms are sent to GIPHY. These experiences, if allowed by your admin and after you choose to use them, are subject to the [GIPHY Privacy Policy](https://support.giphy.com/hc/articles/360032872931-GIPHY-Privacy-Policy) and the [GIPHY User Terms of Service](https://support.giphy.com/hc/articles/360020027752-GIPHY-User-Terms-of-Service).
 
 ## Ratings and reviews for Teams apps
 
@@ -45,7 +45,7 @@ The Teams app link previews service generates a preview snippet of the app's ada
 
 ## Teams device store checkout  
 
-Teams device store is available in the Teams admin center and Teams App. It enables discovery and purchase of Teams certified devices. To enable checkout, the Teams device store shares basic user and company information, including user email address, user GUIDs, and tenant GUIDs, with UnifiedCommunications.com. This experience, if allowed by the **Allow the use of additional optional connected experiences in Office** policy setting, is subject to the [terms of service](https://new.unifiedcommunications.com/about/terms-of-service/) and [privacy policy](https://new.unifiedcommunications.com/about/privacy-policy/) of UnifiedCommunications.com.
+Teams device store is available in the Teams admin center and Teams App. It enables discovery and purchase of Teams certified devices. To enable checkout, the Teams device store shares basic user and company information, including user email address, user GUIDs, and tenant GUIDs, with UnifiedCommunications.com. This experience, if allowed by the **Allow the use of additional optional connected experiences in Office** policy setting, is subject to the [Terms of Service](https://new.unifiedcommunications.com/about/terms-of-service/) and [Privacy Policy](https://new.unifiedcommunications.com/about/privacy-policy/) of UnifiedCommunications.com.
 
 To learn more about Teams device store, see [Purchase devices in the Microsoft Teams device store](../devices/device-store.md).
 
