@@ -72,8 +72,8 @@ To add or deactivate custom security attributes definitions, you must have:
 
 7. In the **Description** box, enter an optional description.
 
-    > [!TIP]
-    > A description can be 128 characters long. If necessary, you can later change the description.
+   > [!TIP]
+   > A description can be 128 characters long. If necessary, you can later change the description.
 
 8. From the **Data type** list, select the data type for the custom security attribute.
    - Data type: A description.
