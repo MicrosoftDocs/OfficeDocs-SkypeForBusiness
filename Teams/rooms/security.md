@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams Rooms security
+title: Microsoft Teams Rooms on Windows and Teams Android device security
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
@@ -18,14 +18,14 @@ ms.collection:
 f1.keywords: 
   - NOCSH
 ms.localizationpriority: medium
-description: Learn how to secure your Microsoft Teams Rooms on Windows and Android devices.
+description: Learn how to your Microsoft Teams Rooms on Windows and Teams Android devices are secure by default.
 ---
 
-# Microsoft Teams Rooms security
+# Microsoft Teams Rooms on Windows and Teams Android device security
 
-This article provides security guidance for Microsoft Teams Rooms devices on both Windows and Android devices. This guidance includes information on hardware, software, network, and account security. 
+This article provides security guidance for Microsoft Teams Rooms devices on both Windows and Android as well as Teams panels, Teams Phone, and Teams Displays. This guidance includes information on hardware, software, network, and account security. 
 
-Select the **Teams Rooms on Windows** or **Teams Rooms for Android** tab for more information on Teams Room security on your device.
+Select the **Teams Rooms on Windows** or **Teams Android devices** tab for more information on security for your device.
 
 ## [Teams Rooms on Windows](#tab/Windows)
 
@@ -51,19 +51,15 @@ Secure boot is enabled by default. Secure boot is a security standard developed 
 
 Access to UEFI settings is only possible by attaching a physical keyboard and mouse, which prevents being able to access UEFI via the Teams Rooms touch-enabled console or any other touch-enabled displays attached to Teams Rooms.
 
-Kernel Direct Memory Access (DMA) Protection is a Windows setting that is enabled on Teams Rooms. With this feature, the OS and the system firmware protect the system against malicious and unintended DMA attacks for all DMA-capable devices:
+Kernel Direct Memory Access (DMA) Protection is a Windows setting that is enabled on Teams Rooms. With this feature, the OS and the system firmware protect the system against malicious and unintended DMA attacks for all DMA-capable devices: during the boot process and against malicious DMA by devices connected to easily accessible internal/external DMA-capable ports, such as M.2 PCIe slots and Thunderbolt 3, during OS runtime.
 
-- During the boot process.
-
-- Against malicious DMA by devices connected to easily accessible internal/external DMA-capable ports, such as M.2 PCIe slots and Thunderbolt 3, during OS runtime.
-
-Teams Rooms also enables Hypervisor-protected code integrity (HVCI). One of the features provided by HVCI is Credential Guard. Credential Guard provides the following benefits:
+Teams Rooms also enable Hypervisor-protected code integrity (HVCI). One of the features provided by HVCI is Credential Guard. Credential Guard provides the following benefits:
 
 - **Hardware security** NTLM, Kerberos, and Credential Manager take advantage of platform security features, including Secure Boot and virtualization, to protect credentials.
 
 - **Virtualization-based security** Windows NTLM and Kerberos derived credentials and other secrets run in a protected environment that is isolated from the running operating system.
 
-- **Better protection against advanced persistent threats** When Credential Manager domain credentials, NTLM, and Kerberos derived credentials are protected using virtualization-based security, the credential theft attack techniques, and tools used in many targeted attacks are blocked. Malware running in the operating system with administrative privileges can't extract secrets that are protected by virtualization-based security.
+- **Better protection against advanced persistent threats** When Credential Manager domain credentials, NTLM, and Kerberos derived credentials are protected using Virtualization-based security, the credential theft attack techniques, and tools used in many targeted attacks are blocked. Malware running in the operating system with administrative privileges can't extract secrets that are protected by Virtualization-based security.
 
 ## Software Security
 
@@ -74,17 +70,17 @@ After Microsoft Windows boots, Teams Rooms automatically signs into a local Wind
 
 The Microsoft Teams Rooms app runs using the Assigned Access feature found in Windows 10 1903 and later. Assigned Access is a feature in Windows that limits the application entry points exposed to the user and enables single-app kiosk mode. Using Shell Launcher, Teams Rooms is configured as a kiosk device that runs a Windows desktop application as the user interface. The Microsoft Teams Rooms app replaces the default shell (explorer.exe) that usually runs when a user logs on. In other words, the traditional Explorer shell doesn't get launched at all which greatly reduces the Microsoft Teams Rooms vulnerability surface within Windows. For more information, see [Configure kiosks and digital signs on Windows desktop editions](/windows/configuration/kiosk-methods).
 
-If you decide to run a security scan or a Center for Internet Security (CIS) benchmark on Teams Rooms, the scan can only run under the context of a local administrator account as the Skype user account doesn't support running applications other than the Teams Rooms app. Many of the security features applied to the Skype user context don't apply to other local users and, as a result, these security scans don't surface the full security lockdown applied to the Skype account. Therefore, we don't recommend to running a local scan on Teams Rooms. However, you can run external penetration tests if so desired. Because of this, we recommend that you run external penetration tests against Teams Rooms devices instead of running local scans.
+If you decide to run a security scan or a Center for Internet Security (CIS) benchmark on Teams Rooms, the scan can only run under the context of a local administrator account as the Skype user account doesn't support running applications other than the Teams Rooms app. Many of the security features applied to the Skype user context don't apply to other local users and, as a result, these security scans don't surface the full security lockdown applied to the Skype account. Therefore, we don't recommend to running a local scan on Teams Rooms. However, you can run external penetration tests if so desired. Because of this configuration, we recommend that you run external penetration tests against Teams Rooms devices instead of running local scans.
 
 Additionally, lock down policies are applied to limit nonadministrative features from being used. A keyboard filter is enabled to intercept and block potentially insecure keyboard combinations that aren't covered by Assigned Access policies. Only users with local or domain administrative rights are permitted to sign into Windows to manage Teams Rooms. These and other policies applied to Windows on Microsoft Teams Rooms devices are continually assessed and tested during the product lifecycle.
 
-Microsoft Defender is enabled out of the box, the Teams Rooms Pro license also includes Defender for Endpoint, which allows customers to enroll their Teams Rooms into Defender for Endpoint to provide security teams visibility into the security posture of Teams Room on Windows devices from the Defender portal. Teams Rooms on Windows can be enrolled following the steps for [Windows devices](/microsoft-365/security/defender-endpoint/onboarding-endpoint-manager). We don't recommend modifying Teams Rooms using protection rules (or other Defender policies that make configuration changes) as these policies can impact Teams Rooms functionality; however, reporting functionality into the portal is supported.
+Microsoft Defender is enabled out of the box. The Teams Rooms Pro license also includes Defender for Endpoint, which allows customers to enroll their Teams Rooms into Defender for Endpoint. This enrollment can provide security teams visibility into the security posture of Teams Room on Windows devices from the Defender portal. Teams Rooms on Windows can be enrolled following the steps for [Windows devices](/microsoft-365/security/defender-endpoint/onboarding-endpoint-manager). We don't recommend modifying Teams Rooms using protection rules (or other Defender policies that make configuration changes) as these policies can impact Teams Rooms functionality; however, reporting functionality into the portal is supported.
 
 ## Account Security
 
 Teams Rooms devices include an administrative account named "Admin" with a default password. We strongly recommend that you change the default password as soon as possible after you complete setup.
 
-The Admin account isn't required for proper operation of Teams Rooms devices and can be renamed or even deleted. However, before you delete the Admin account, make sure that you set up an alternate local administrator account configured before removing the one that ships with Teams Rooms devices. For more information on how to change a password for a local Windows account using built-in Windows tools or PowerShell, see the following:
+The Admin account isn't required for proper operation of Teams Rooms devices and can be renamed or even deleted. However, before you delete the Admin account, make sure that you set up an alternate local administrator account configured before removing the one that ships with Teams Rooms devices. For more information on how to change a password for a local Windows account using built-in Windows tools or PowerShell, see these guides:
 
 - [Configuring LAPS on Teams Rooms on Windows](/microsoftteams/rooms/laps-authentication)
 - [Change or reset your Windows password](https://support.microsoft.com/windows/change-or-reset-your-windows-password-8271d17c-9f9e-443f-835a-8318c8f68b9c)
@@ -102,20 +98,22 @@ Don't grant local Administrator permissions to the Skype user account.
 
 Windows Configuration Designer can be used to create Windows provisioning packages. Along with changing the local Admin password, you can also do things like changing the machine name and enrolling into Microsoft Entra ID. For more information on creating a Windows Configuration Designer provisioning package, see [Provisioning packages for Windows 10](/windows/configuration/provisioning-packages/provisioning-packages).
 
-You need to create a resource account for each Teams Rooms device so that it can sign into Teams. You can't use user interactive two-factor or multi-factor authentication with this account. Requiring a second factor would prevent the account from being able to automatically sign into the Teams Rooms app after a reboot. In addition, Microsoft Entra Conditional Access policies and Intune Compliance Policies can be deployed to secure the resource account. For more information, see [Supported Conditional Access and Intune device compliance policies for Microsoft Teams Rooms](supported-ca-and-compliance-policies.md) and [Conditional Access and Intune compliance for Microsoft Teams Rooms](conditional-access-and-compliance-for-devices.md).
+You need to create a resource account for each Teams Rooms device so that it can sign into Teams. You can't use user interactive two-factor or multifactor authentication with this account. Requiring a user interactive second factor would prevent the account from being able to automatically sign into the Teams Rooms app after a reboot. In addition, Microsoft Entra Conditional Access policies and Intune Compliance Policies can be deployed to secure the resource account and achieve multifactor authentication through other means. For more information, see [Supported Conditional Access and Intune device compliance policies for Microsoft Teams Rooms](supported-ca-and-compliance-policies.md) and [Conditional Access and Intune compliance for Microsoft Teams Rooms](conditional-access-and-compliance-for-devices.md). 
 
 We recommend that you create the resource account in Microsoft Entra ID, if possible as a cloud-only account. While a synced account can work with Teams Rooms in hybrid deployments, these synced accounts often have difficulty signing into Teams Rooms and can be difficult to troubleshoot. If you choose to use a third-party federation service to authenticate the credentials for the resource account, ensure the third-party IDP responds with the `wsTrustResponse` attribute set to `urn:oasis:names:tc:SAML:1.0:assertion`. If your organization doesn't want to use WS-Trust, use cloud-only accounts instead.
 
 ## Network Security
 
-Generally, Teams Rooms has the same network requirements as any Microsoft Teams client. Access through firewalls and other security devices is the same for Teams Rooms as for any other Microsoft Teams client. Specific to Teams Rooms, the categories listed as "required" for Teams must be open on your firewall. Teams Rooms also needs access to Windows Update, Microsoft Store, and Microsoft Intune (if you use Microsoft Intune to manage your devices). For the full list of IPs and URLs required for Microsoft Teams Rooms, see:
+Generally, Teams Rooms has the same network requirements as any Microsoft Teams client. Access through firewalls and other security devices is the same for Teams Rooms as for any other Microsoft Teams client. Specific to Teams Rooms, the categories listed as "required" for Teams must be open on your firewall. Teams Rooms also need access to Windows Update, Microsoft Store, and Microsoft Intune (if you use Microsoft Intune to manage your devices). For the full list of IPs and URLs required for Microsoft Teams Rooms, see:
 
-- **Microsoft Teams, Exchange Online, SharePoint Online, Microsoft 365 Common, and Office Online** [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)
+- **Microsoft Teams, Exchange Online, SharePoint, Microsoft 365 Common, and Office Online** [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)
 - **Windows Update** [Configure WSUS](/windows-server/administration/windows-server-update-services/deploy/2-configure-wsus#211-connection-from-the-wsus-server-to-the-internet)
-- **Microsoft Store** [Prerequisites for Microsoft Store for Business and Education](/microsoft-store/prerequisites-microsoft-store-for-business#proxy-configuration)
+- **Microsoft Store** [Microsoft Store endpoints](/mem/intune/fundamentals/intune-endpoints#microsoft-store)
 - **Microsoft Intune** [Network Endpoints for Microsoft Intune](/mem/intune/fundamentals/intune-endpoints)
+- **Telemetry client endpoint**: vortex.data.microsoft.com
+- **Telemetry settings endpoint**: settings.data.microsoft.com
 
-If you're using the Microsoft Teams Rooms managed services component of Microsoft Teams Rooms Pro, you also need to make sure that Teams Rooms can access the following URLs:
+For Microsoft Teams Rooms Pro Management Portal, you also need to make sure that Teams Rooms can access the following URLs:
 
 - agent.rooms.microsoft.com
 - global.azure-devices-provisioning.net
@@ -128,32 +126,32 @@ If you're using the Microsoft Teams Rooms managed services component of Microsof
 - mmrprodemeastor.blob.core.windows.net
 - mmrprodnoamiot.azure-devices.net
 - mmrprodnoamstor.blob.core.windows.net
+- mmrprodnoampubsub.webpubsub.azure.com
+- mmrprodemeapubsub.webpubsub.azure.com
+- mmrprodapacpubsub.webpubsub.azure.com
 
 **GCC customers will also need to enable the following URLs:**
 
 - mmrprodgcciot.azure-devices.net
 - mmrprodgccstor.blob.core.windows.net
 
-Teams Rooms is configured to automatically keep itself patched with the latest Windows updates, including security updates. Teams Rooms installs any pending updates every day beginning at 2:00am using a preset local policy. There's no need to use other tools to deploy and apply Windows Updates. Using other tools to deploy and apply updates can delay the installation of Windows patches and thus lead to a less secure deployment. The Teams Rooms app is deployed using the Microsoft Store.
+Teams Rooms is configured to automatically keep itself patched with the latest Windows updates, including security updates. Teams Rooms installs any pending updates every day beginning between 2:00 - 3:00 am local device time using a preset local policy. There's no need to use other tools to deploy and apply Windows Updates. Using other tools to deploy and apply updates can delay the installation of Windows patches and thus lead to a less secure deployment. The Teams Rooms app is deployed using the Microsoft Store.
 
 Teams Rooms devices work with most 802.1X or other network-based security protocols. However, we're not able to test Teams Rooms against all possible network security configurations. Therefore, if performance issues arise that can be traced to network performance issues, you may need to disable these protocols.
 
-For optimum performance of real time media, we strongly recommend that you configure Teams media traffic to bypass proxy servers and other network security devices. Real time media is very latency sensitive and proxy servers and network security devices can significantly degrade users' video and audio quality. Also, because Teams media is already encrypted, there's no tangible benefit from passing the traffic through a proxy server. For more information, see [Networking up (to the cloud)—One architect’s viewpoint](/microsoft-365/solutions/networking-design-principles), which discusses network recommendations to improve the performance of media with Microsoft Teams and Microsoft Teams Rooms.
-
-> [!IMPORTANT]
-> Teams Rooms doesn't support authenticated proxy servers.
+For optimum performance of real time media, we strongly recommend that you configure Teams media traffic to bypass proxy servers and other network security devices. Real time media is very latency sensitive and proxy servers and network security devices can significantly degrade users' video and audio quality. Also, because Teams media is already encrypted, there's no tangible benefit from passing the traffic through a proxy server. For more information, see [Networking up (to the cloud)—One architect’s viewpoint](/microsoft-365/solutions/networking-design-principles), which discusses network recommendations to improve the performance of media with Microsoft Teams and Microsoft Teams Rooms. If your organization utilizes tenant restrictions, it's supported for Teams Rooms on Windows devices following the configuration guidance in the [prepare your environment](/microsoftteams/rooms/rooms-prep#tenant-restrictions) document.
 
 Teams Rooms devices don't need to connect to an internal LAN. Consider placing Teams Rooms in a secure isolated network segment with direct Internet access. If your internal LAN becomes compromised, the attack vector opportunities towards Teams Rooms is reduced.
 
-We strongly recommend that you connect your Teams Rooms devices to a wired network. The use of wireless networks requires careful planning and assessment for the best experience. For more information, see [Wireless network considerations](rooms-plan.md#wireless-network-considerations).
+We strongly recommend that you connect your Teams Rooms devices to a wired network. The use of wireless networks requires careful planning and assessment for the best experience. For more information, see [Wireless network considerations](rooms-prep.md#wireless-network-considerations).
 
-Proximity Join and other Teams Rooms features rely on Bluetooth. However, the Bluetooth implementation on Teams Rooms devices doesn't allow for an external device connection to a Teams Rooms device. Bluetooth technology use on Teams Rooms devices is currently limited to advertising beacons and prompted proximal connections. The `ADV_NONCONN_INT` protocol data unit (PDU) type is used in the advertising beacon. This PDU type is for nonconnectable devices advertising information to the listening device. There's no Bluetooth device pairing as part of these features. Additional details on Bluetooth protocols can be found on the [Bluetooth SIG website](https://www.bluetooth.com/blog/bluetooth-low-energy-it-starts-with-advertising/).
+Proximity Join and other Teams Rooms features rely on Bluetooth. However, the Bluetooth implementation on Teams Rooms devices doesn't allow for an external device connection to a Teams Rooms device. Bluetooth technology use on Teams Rooms devices is currently limited to advertising beacons and prompted proximal connections. The `ADV_NONCONN_INT` protocol data unit (PDU) type is used in the advertising beacon. This PDU type is for nonconnectable devices advertising information to the listening device. There's no Bluetooth device pairing as part of these features. More details on Bluetooth protocols can be found on the [Bluetooth SIG website](https://www.bluetooth.com/blog/bluetooth-low-energy-it-starts-with-advertising/).
 
-## [Teams Rooms on Android](#tab/Android)
+## [Teams Android devices](#tab/Android)
 
-This article doesn't cover Android devices configured for dedicated device mode by Microsoft Endpoint Manager. Teams Android devices run in Kiosk mode by design. For information about Android Kiosk, see [Android Enterprise dedicated device enrollment](/mem/intune/enrollment/android-kiosk-enroll).
+This article is specific to Teams Android devices (Teams Rooms on Android, Teams panels, Teams Phone, & Teams Displays). This article doesn't cover Android devices configured for dedicated device mode by Microsoft Endpoint Manager.
 
-Microsoft works with our OEM partners to deliver a solution that is secure by design, and customizable to meet customer needs. This article discusses many of the security features found in Teams Android devices and our approach. It's split into four key sections for ease of navigation.
+Microsoft works with our OEM partners to deliver a solution that is secure by design, and customizable to meet customer needs. This article discusses many of the security features found in Teams Android devices and our approach.
 
 > [!NOTE]
 > Microsoft Teams Android devices shouldn't be treated as a typical Android device. Teams Android devices are purpose-built appliances designed for use with Teams and their respective use cases. This article applies to certified and dedicated Microsoft Teams devices running the Android operating system only. Teams certified devices can only be purchased from certified OEM vendors. For information about Microsoft Teams certified Android devices, see [Teams Rooms certified systems and peripherals](certified-hardware.md).
@@ -181,11 +179,11 @@ All Microsoft and OEM applications are code signed. Code signing helps validatin
 
 ### Third party applications
 
-Teams certified devices don't have the Google Play Store, Amazon App Store, or Google Play Services, installed by design. This helps to ensure that no third-party applications can be installed from the store onto a device.  
+To ensure that no third-party applications can be installed, Teams certified devices don't have the Google Play Store, Amazon Appstore, or Google Play Services, installed by design.
 
 ### Android debug bridge
 
-Android debug bridge (ADB) is disabled by design on all Teams Android devices running release software. ADB is a command line tool that enables administrators to perform functions on Android-based devices and enables installation of apps, access to the device shell, and other admin functions.  
+Android debug bridge (ADB) is disabled on all Teams Android devices running release software. ADB is a command line tool that enables administrators to perform functions on Android-based devices and enables installation of apps, access to the device shell, and other admin functions.  
 
 ### File system encryption
 
@@ -211,7 +209,7 @@ Teams Android devices are also compatible with some conditional access policies,
 
 ### Local device administrator account
 
-Teams Android devices include an administrative account to access device settings, the local web server if one's installed, and any OEM specific settings.
+Teams Android devices include an administrative account to access device settings, the local web server (if installed), and any OEM specific settings.
 
 Initial device setup and configuration items such as the default username and password for this account can be obtained from the device manufacturer.
 
@@ -219,7 +217,7 @@ Initial device setup and configuration items such as the default username and pa
 > Be sure to change the local device administrator password as soon as possible.  
 
 > [!TIP]
-> The Teams admin center can be used to change the local device administrator password of a signed-in Teams Android device by applying a configuration profile. We recommend this approach after initial device sign-in to protect elevated features of an Android device. Elevated features can include device settings and web admin portals if they're supported.
+> Teams Admin Center can be used to change the local device administrator password of a signed-in Teams Android device by applying a configuration profile. We recommend this approach after initial device sign-in to protect elevated features of an Android device. Elevated features can include device settings and web admin portals if they're supported.
 
 ### User or resource account
 
@@ -227,7 +225,7 @@ Teams Android devices require the use of a user, or dedicated resource account, 
 
 ### Device updates
 
-Teams Android devices are configured to download Microsoft-certified updates from the Teams admin center when they become available. These updates can be pushed automatically or manually invoked by an Administrator. Third-party tools from our OEM partners is also available to perform this function if necessary. Teams Android devices can install updates after hours to avoid impact to users. After hours schedules can be configured in the Teams admin center or using third-party tools from OEM partners.
+Teams Android devices are configured to download Microsoft-certified updates from Teams Admin Center when they become available. These updates can be pushed automatically or manually invoked by an Administrator. Third-party tools from our OEM partners are also available to perform this function if necessary. Teams Android devices can install updates after hours to avoid impact to users. After-hours schedules can be configured in the Teams admin center or using third-party tools from OEM partners.
 
 > [!IMPORTANT]
 > Microsoft recommends the management of firmware for all Teams Android devices is done via the Teams admin center.
@@ -236,11 +234,11 @@ Teams Android devices are configured to download Microsoft-certified updates fro
 
 Teams Android devices have the same network requirements as any Microsoft Teams client, including access through firewalls and other security devices. Specifically, the categories listed as **required** for Teams must be open on your firewall along with other supporting services as listed below. For the full list of IPs and URLs required for Teams Android devices, see:
 
-- Microsoft Teams, Exchange Online, SharePoint Online, Microsoft 365 Common, and Office Online [Office 365 URLs and IP address range](/microsoft-365/enterprise/urls-and-ip-address-ranges)
+- Microsoft Teams, Exchange Online, SharePoint, Microsoft 365 Common, and Office Online [Office 365 URLs and IP address range](/microsoft-365/enterprise/urls-and-ip-address-ranges)
 
 - Microsoft Intune [Network Endpoints for Microsoft Intune](/mem/intune/fundamentals/intune-endpoints)
 
-Teams Android devices work with most 802.1X and other network-based security protocols. However, we can't test Teams Android devices against all network security configurations. Therefore, if performance issues arise that can be traced to network performance issues, you may need to disable these protocols if they're configured in your organization, or contact your OEM partner for assistance.
+Teams Android devices work with most 802.1X and other network-based security protocols. However, we can't test Teams Android devices against all network security configurations. Therefore, if performance issues arise that due to network performance issues, you may need to disable these protocols, or contact your OEM partner for assistance.
 
 For optimum performance of real time media, we strongly recommend that you configure Teams media traffic to bypass proxy servers and other network security devices. Real time media is sensitive to network latency, which can be caused by proxy servers and other network security devices. Network latency can significantly degrade users' video and audio quality. For more information, see [Networking up (to the cloud)—One architect’s viewpoint](/microsoft-365/solutions/networking-design-principles), which discusses network recommendations to improve the performance of media with Microsoft Teams.
 
@@ -251,7 +249,7 @@ Teams Android devices use encrypted communications and endpoint authentication o
 
 Teams Android devices don't need to connect to an internal LAN. Consider placing Teams Android devices in a secure network segment with direct Internet access. For example, Teams Phones could be deployed on a voice VLAN. If your internal LAN becomes compromised, the attack vector opportunities towards Teams Android devices is reduced by implementing this network segregation.
 
-We strongly recommend that you connect your Teams Rooms devices to a wired network. The use of wireless networks requires careful planning and assessment for the best experience. For more information, see [Wireless network considerations](rooms-plan.md#wireless-network-considerations).
+We strongly recommend that you connect your Teams Rooms devices to a wired network. The use of wireless networks requires careful planning and assessment for the best experience. For more information, see [Wireless network considerations](rooms-prep.md#wireless-network-considerations).
 
 Proximity Join, Better Together, Teams Cast, and pairing of Teams panels rely on Bluetooth. Bluetooth technology use on Teams Rooms on Android devices is currently limited to advertising beacons and prompted proximal connections. The `ADV_NONCONN_INT` protocol data unit (PDU) type is used in the advertising beacon. This PDU type is for nonconnectable devices advertising information to the listening device. There's no Bluetooth device pairing as part of these features. More details on Bluetooth protocols can be found on the Bluetooth SIG website.
 

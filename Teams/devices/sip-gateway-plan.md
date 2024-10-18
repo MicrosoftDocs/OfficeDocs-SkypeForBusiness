@@ -61,7 +61,7 @@ Teams users must have a phone number with PSTN calling enabled to use SIP Gatewa
 > DND -
 > \*30\* (Set DND From SIP Device)
 > \*31\* (Reset Teams DND Status from SIP Device)
-> Call Forwarding - (https://support.microsoft.com/en-us/office/call-forwarding-call-groups-and-simultaneous-ring-in-microsoft-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)
+> Call Forwarding - (https://support.microsoft.com/office/call-forwarding-call-groups-and-simultaneous-ring-in-microsoft-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)
 > \*32\* - Reset Call Forwarding Status
 > \*33\* (Set "Call Forwarded To" Number)
 > \*34\* (Set "Forward on Timeout")
@@ -78,8 +78,8 @@ If you have a 3PIP or SIP device, you must have the following:
 - [Microsoft Teams](https://www.microsoft.com/microsoft-teams/group-chat-software)
 - Skype for Business Online (Plan 2)
   - *Skype for Business Online (Plan 2)* isn't a standalone license that can be purchased.
-- [Microsoft Phone System](what-is-phone-system-in-office-365.md)
-- [PSTN Connectivity](pstn-connectivity.md)
+- [Microsoft Phone System](../what-is-phone-system-in-office-365.md)
+- [PSTN Connectivity](../pstn-connectivity.md)
 
 ## Compatible devices
 

@@ -1,5 +1,5 @@
 ---
-title: "Manage categories in Persistent Chat Server in Skype for Business Server 2015"
+title: "Manage categories in Persistent Chat Server in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -12,12 +12,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
-description: "Summary: Learn how to manage Persistent Chat Server categories in Skype for Business Server 2015."
+description: "Summary: Learn how to manage Persistent Chat Server categories in Skype for Business Server."
 ---
 
-# Manage categories in Persistent Chat Server in Skype for Business Server 2015
+# Manage categories in Persistent Chat Server in Skype for Business Server 
  
-**Summary:** Learn how to manage Persistent Chat Server categories in Skype for Business Server 2015.
+**Summary:** Learn how to manage Persistent Chat Server categories in Skype for Business Server.
   
 A category is a logical structure for organizing chat rooms. A category defines a default set of access control lists (ACLs) for controlling the users and user groups who can create or join the chat rooms. Chat room categories contain chat rooms, but not other categories. Each category describes its contents with metadata, such as Name and Description. The category has properties that can be set to control the behavior of the chat rooms belonging to it; for example, whether the chat rooms allow Invitations or File Uploads, or contain Chat History. 
   
@@ -31,12 +31,10 @@ Defining AllowedMembers and Creators for a category has the following benefits:
     
 Users, Organization Units (OUs), and user groups that are identified as Creators of the category are the only individuals and groups that are allowed to create rooms in the category. After the category is created, you can choose users, OUs, and user groups from the category's AllowedMembers list as chat room managers and members to manage and participate in the room. 
   
-Before you configure categories, be sure to read [Persistent chat categories, chat rooms, and user roles in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md).
+Before you configure categories, be sure to read [Persistent chat categories, chat rooms, and user roles in Skype for Business Server](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md).
   
 You can configure and manage categories by using the Control Panel or by using Windows PowerShell cmdlets.
 
-> [!NOTE]
-> Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015. 
   
 ## Configure categories by using the Control Panel
 
@@ -100,7 +98,7 @@ You can configure the following parameters for categories:
     
 - DeniedMembers. Lists the users who are not allowed to access chat rooms within the category.
     
-For complete information about cmdlet syntax, including all parameters, see [Skype for Business Server 2015 Management Shell](../management-shell.md).
+For complete information about cmdlet syntax, including all parameters, see [Skype for Business Server Management Shell](../management-shell.md).
   
 ### Create a new category
 

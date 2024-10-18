@@ -1,5 +1,5 @@
 ---
-title: "Manage chat rooms in Persistent Chat Server in Skype for Business Server 2015"
+title: "Manage chat rooms in Persistent Chat Server in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -12,18 +12,15 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
-description: "Summary: Learn how to manage Persistent Chat Server chat rooms in Skype for Business Server 2015."
+description: "Summary: Learn how to manage Persistent Chat Server chat rooms in Skype for Business Server."
 ---
 
-# Manage chat rooms in Persistent Chat Server in Skype for Business Server 2015
+# Manage chat rooms in Persistent Chat Server in Skype for Business Server
  
-**Summary:** Learn how to manage Persistent Chat Server chat rooms in Skype for Business Server 2015.
+**Summary:** Learn how to manage Persistent Chat Server chat rooms in Skype for Business Server.
   
-Creating and managing chat rooms is much easier with the correct use of categories. A category defines who can create or join the chat rooms. Before you attempt to manage chat rooms, be sure to read [Persistent chat categories, chat rooms, and user roles in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md) and [Manage categories in Persistent Chat Server in Skype for Business Server 2015](categories.md).
+Creating and managing chat rooms is much easier with the correct use of categories. A category defines who can create or join the chat rooms. Before you attempt to manage chat rooms, be sure to read [Persistent chat categories, chat rooms, and user roles in Skype for Business Server](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md) and [Manage categories in Persistent Chat Server in Skype for Business Server](categories.md).
   
-> [!NOTE]
-> Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015. 
-
 You can configure and manage chat rooms by using the Windows PowerShell command-line interface, or by using the Skype for Business client if you are a member of the chat room. This topic describes how to manage chat rooms by using the Windows PowerShell command-line interface. If you want to manage chat rooms by using the Skype for Business client, see the client help. 
   
 Chat rooms can be one of two types: Normal and Auditorium. A Normal chat room allows all members to post and read messages. An Auditorium is a type of chat room where only Presenters can post, but everyone can read.
@@ -74,7 +71,7 @@ In addition to the above parameters, the **Set-CsPersistentChatRoom** cmdlet let
     
 - Presenters. Lets you assign presenters to an Auditorium chat room. 
     
-  For details about syntax, including all parameters, see [Skype for Business Server 2015 Management Shell](../management-shell.md).
+  For details about syntax, including all parameters, see [Skype for Business Server Management Shell](../management-shell.md).
   
 ## Create a new room
 
@@ -118,7 +115,7 @@ Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.contoso.com\NorthAm
 
 If the topic of a Persistent Chat room is no longer relevant, you can make the chat room unavailable to users by disabling it. When a chat room is disabled, all members are immediately disconnected from the room. After a chat room is disabled, users cannot rejoin it or find it in chat room searches.
   
-If the chat room's history persists, the content is preserved when the chat room is disabled. However, that content will not appear in searches during the time that the chat room remains in a disabled state. If you later enable the chat room, users can search for messages that were posted before the chat room was disabled. For information about configuring chat room history, see [Manage categories in Persistent Chat Server in Skype for Business Server 2015](categories.md). 
+If the chat room's history persists, the content is preserved when the chat room is disabled. However, that content will not appear in searches during the time that the chat room remains in a disabled state. If you later enable the chat room, users can search for messages that were posted before the chat room was disabled. For information about configuring chat room history, see [Manage categories in Persistent Chat Server in Skype for Business Server](categories.md). 
   
 If a chat room is disabled, its membership list and other settings are preserved. As an administrator, you can enable a room that has been disabled, and you do not need to manually re-create the settings.
   

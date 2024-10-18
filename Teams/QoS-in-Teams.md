@@ -148,11 +148,13 @@ The DSCP value tells a correspondingly configured network what priority to give 
 _Recommended initial port ranges_
 
 |Media traffic type| Client source port range |Protocol|DSCP value|DSCP class|
-|:--- |:--- |:--- |:--- |:--- |
+|:--- |:---: |:---: |:---: |:--- |
 |Audio| 50,000–50,019|TCP/UDP|46|Expedited Forwarding (EF)|
 |Video| 50,020–50,039|TCP/UDP|34|Assured Forwarding (AF41)|
 |Application/Screen Sharing| 50,040–50,059|TCP/UDP|18|Assured Forwarding (AF21)|
-|||||
+|Calling and Meetings Signaling| 50,070–50,089*|UDP|40|Expedited Forwarding (EF)|
+
+\* These ports are not currently configurable.
 
 Be aware of the following when you use these settings:
 
@@ -161,6 +163,8 @@ Be aware of the following when you use these settings:
 - Although the Mac and mobile (iOS and Android) clients use these source port ranges, these clients will use hard-coded values for audio (EF) and video and application/screen sharing (AF41). These values aren't configurable.
 
 - If you later need to adjust the port ranges to improve user experience, the port ranges can't overlap and should be adjacent to each other.
+
+- The port ranges used for Calling and Meetings signaling cannot be customized currently.
 
 ## Step 4. Implement QoS settings
 

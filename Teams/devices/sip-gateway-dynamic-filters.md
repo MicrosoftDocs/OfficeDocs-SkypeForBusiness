@@ -45,12 +45,13 @@ To add or deactivate custom security attributes definitions, you must have:
 2. Browse to **Protection** > **Custom security attributes**.
 3. Select **Add attribute set** to add a new attribute set.
 
-   >[!NOTE]
-   >If **Add attribute set** is disabled, ensure that you're assigned the Attribute Definition Administrator role. For more information, see [Troubleshoot custom security attributes](/entra/fundamentals/custom-security-attributes-troubleshoot).
+   > [!NOTE]
+   > If **Add attribute set** is disabled, ensure that you're assigned the Attribute Definition Administrator role. For more information, see [Troubleshoot custom security attributes](/entra/fundamentals/custom-security-attributes-troubleshoot).
 
 4. Enter a name, description, and maximum number of attributes.
-    > [!TIP]
-    > An attribute set name can be 32 characters with no spaces or special characters. Once you've specified a name, you can't rename it. For more information, see [Limits and constraints](/entra/fundamentals/custom-security-attributes-overview).
+
+   > [!TIP]
+   > An attribute set name can be 32 characters with no spaces or special characters. Once you've specified a name, you can't rename it. For more information, see [Limits and constraints](/entra/fundamentals/custom-security-attributes-overview).
   
 5. When finished, select **Add**.
 6. The new attribute set appears in the list of attribute sets.
@@ -63,25 +64,31 @@ To add or deactivate custom security attributes definitions, you must have:
 4. Select to open the selected attribute set.
 5. Select **Add attribute** to add a new custom security attribute to the attribute set.
 6. In the **Attribute name** box, enter a custom security attribute name.
-    > [!TIP]
-    > An attribute set name can be 32 characters with no spaces or special characters. Once you've specified a name, you can't rename it. For more information, see [Limits and constraints](/entra/fundamentals/custom-security-attributes-overview).
 
-    :::image type="content" source="media/exclude-attribute-set.png" alt-text="Screenshot displaying the Exclude attribute set.":::
+   > [!TIP]
+   > An attribute set name can be 32 characters with no spaces or special characters. Once you've specified a name, you can't rename it. For more information, see [Limits and constraints](/entra/fundamentals/custom-security-attributes-overview).
+
+   :::image type="content" source="media/exclude-attribute-set.png" alt-text="Screenshot displaying the Exclude attribute set." lightbox="media/exclude-attribute-set.png":::
 
 7. In the **Description** box, enter an optional description.
-    > [!TIP]
-    > A description can be 128 characters long. If necessary, you can later change the description.
+
+   > [!TIP]
+   > A description can be 128 characters long. If necessary, you can later change the description.
+
 8. From the **Data type** list, select the data type for the custom security attribute.
-    - Data type: A description.
-    - Boolean: A Boolean value that can be true or false.
-    - Integer: A 32-bit integer.
-    - String: A string that can be X characters long.
+   - Data type: A description.
+   - Boolean: A Boolean value that can be true or false.
+   - Integer: A 32-bit integer.
+   - String: A string that can be X characters long.
+
 9. For **Allow multiple values to be assigned**, select **Yes** or **No**.
-    - Select **Yes** to allow multiple values to be assigned to this custom security attribute.
-    - Select **No** to only allow a single value to be assigned to this custom security attribute.
+   - Select **Yes** to allow multiple values to be assigned to this custom security attribute.
+   - Select **No** to only allow a single value to be assigned to this custom security attribute.
+
 10. For **Only allow predefined values to be assigned**, select **Yes** or **No**.
     - Select **Yes**, if custom security attribute can be assigned values from a predefined values list.
     - Select **No** to allow this custom security attribute to be assigned user-defined values or potentially predefined values.
+
 11. If **Only allow predefined values to be assigned** is selected Yes, then select **Add value** to add predefined values. An active value is available for assignment of objects. A value that isn't active is defined, but not yet available for assignment.
 12. When finished, select **Save**.
 13. The new custom security attribute appears in the list of custom security attributes.
@@ -186,6 +193,7 @@ New-MgServicePrincipal -AppId "61c8fd69-c13e-4ee6-aaa6-24ff71c09bca"
    - From **Select what this policy applies to** list, choose **Cloud apps**.
    - On the **Include** tab, select **All** apps option.
    - Change tab to **Exclude** and under **Select excluded cloud apps**, search for **Microsoft Teams Services** and click on **Select**.
+
 5. Select **Edit filter**.
 6. On the **Edit filter** page, set **Configure** to **Yes**.
 7. Select the attribute you created earlier (in this case 'exclAttrAllowMultiple').

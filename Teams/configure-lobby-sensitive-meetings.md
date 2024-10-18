@@ -5,7 +5,7 @@ author: wlibebe
 manager: pamgreen
 ms.topic: article
 ms.service: msteams
-ms.reviewer: 
+ms.reviewer: vivek.mohan
 ms.date: 12/11/2023
 audience: admin
 ms.localizationpriority: medium
@@ -35,18 +35,26 @@ The following table lists features that you can use to help manage the lobby exp
 
 |Setting|Admin policy|Sensitivity label|Template|Meeting organizer|
 |:------|:----------:|:---------------:|:------:|:---------------:|
-|Announce when dial-in callers join or leave|No|No|Yes|Yes|
-|Anonymous users and dial-in callers can start a meeting|Yes|No|No|No|
-|Anonymous users can join a meeting|Yes|No|No|No|
-|People dialing in can bypass the lobby|Yes|Yes|Yes|Yes|
-|Who can bypass the lobby|Yes|Yes|Yes|Yes|
+|[Announce when dial-in callers join or leave](custom-meeting-templates-overview.md)|No|No|Yes|Yes|
+|[Anonymous users and dial-in callers can start a meeting](who-can-bypass-meeting-lobby.md)|Yes|No|No|No|
+|[Anonymous users can join a meeting](who-can-bypass-meeting-lobby.md)|Yes|No|No|No|
+|[People dialing in can bypass the lobby](who-can-bypass-meeting-lobby.md)|Yes|Yes|Yes|Yes|
+|[Who can admit from lobby](who-can-bypass-meeting-lobby.md)|Yes|No|No|Yes|
+|[Who can bypass the lobby](who-can-bypass-meeting-lobby.md)|Yes|Yes|Yes|Yes|
 
 For information about how to use templates and sensitivity labels to configure meeting settings, see [Overview of custom meeting templates in Microsoft Teams](custom-meeting-templates-overview.md) and [Use sensitivity labels to protect calendar items, Teams meetings, and chat](/microsoft-365/compliance/sensitivity-labels-meetings).
 
-> [!Note]
+> [!NOTE]
 > Meeting settings in sensitivity labels and custom meeting templates require Teams Premium.
 
 ## Lobby settings for different types of meetings
+
+The following settings are available for **Who can admit from lobby**:
+
+- Organizers and presenters
+- Organizers and co-organizers
+
+To manage who can bring participants from the lobby into the meeting or webinar, you should consider using this per-organizer policy for sensitive meetings. When set to it's default value of **Organizers and presenters**, only organizers and presenters can admit participants into the meeting from the lobby. This policy sets a default that your organizers can change through their **Meeting options**.
 
 The following settings are available for **Who can bypass the lobby**:
 
@@ -56,6 +64,8 @@ The following settings are available for **Who can bypass the lobby**:
 - People in my org
 - People who were invited
 - Only organizers and co-organizers
+
+This per-organizer policy controls who can bring participants from the lobby into the meeting or webinar. When set to it's default value of **Organizers and presenters**, only organizers and presenters can admit participants into the meeting from the lobby. This policy sets a default that your organizers can change through their **Meeting options**.
 
 An additional setting, **People dialing in can bypass the lobby**, controls if people calling in by phone can bypass the lobby.
 
@@ -89,6 +99,6 @@ If your organization doesn't allow anonymous participants to join meetings at al
 
 ## Related topics
 
-[Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
-
-[Manage external meetings and chat in Microsoft Teams](/microsoftteams/manage-external-access)
+- [Configure Teams meetings with three tiers of protection](configure-meetings-three-tiers-protection.md)
+- [Manage external meetings and chat in Microsoft Teams](/microsoftteams/manage-external-access)
+- [Who can admit from lobby](https://support.microsoft.com/office/using-the-lobby-in-microsoft-teams-meetings-eaf70322-d771-4043-b595-b40794bac057)

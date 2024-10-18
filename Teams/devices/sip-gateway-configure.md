@@ -128,15 +128,15 @@ Conditional Access is a Microsoft Entra feature that helps ensure that devices t
 
 1. Exclude your site public IP addresses and the following SIP Gateway service IP addresses from Conditional Access checks:
 
-- North America:
-    - East US: 52.170.38.140
-    - West US: 40.112.144.212
--   EMEA region:
-    - North EU: 40.112.71.149
-    - West EU: 40.113.112.67
--   APAC region:
-    - Australia East: 20.92.120.71
-    - Australia Southeast: 13.73.115.90
+   - North America:
+     - East US: 52.170.38.140
+     - West US: 40.112.144.212
+   - EMEA region:
+     - North EU: 40.112.71.149
+     - West EU: 40.113.112.67
+   - APAC region:
+     - Australia East: 20.92.120.71
+     - Australia Southeast: 13.73.115.90
 
 2. Exclude the Teams app from Conditional Access checks.
 
@@ -259,21 +259,21 @@ Bulk sign-in is very helpful and can be used in these scenarios.
 1. You must add your site public IP address or ranges to the [trusted IPs for the tenant](/microsoftteams/manage-your-network-topology) in Teams admin center at least 24 hours prior to running the bulk sign in cmdlets.
 2. You must add your organization's tenant ID to the provisioning URL for the devices.
 
-    > [!NOTE]
-    > The examples below are for the North America region.
+   > [!NOTE]
+   > The examples below are for the North America region.
 
-- For Alcatel-Lucent Enterprise, AudioCodes, and Yealink IP phones use: `http://noam.ipp.sdg.teams.microsoft.com/tenantid/<your-tenant-ID-guid>`
-- For Cisco IP phones use: `http://noam.ipp.sdg.teams.microsoft.com/tenantid/<your-tenant-ID-guid>/$PSN.xml`
-- For analog devices that connect to AudioCodes ATAs use: `http://noam.ipp.sdg.teams.microsoft.com/tenantid/<your-tenant-ID-guid>/mac.ini`
+   - For Alcatel-Lucent Enterprise, AudioCodes, and Yealink IP phones use: `http://noam.ipp.sdg.teams.microsoft.com/tenantid/<your-tenant-ID-guid>`
+   - For Cisco IP phones use: `http://noam.ipp.sdg.teams.microsoft.com/tenantid/<your-tenant-ID-guid>/$PSN.xml`
+   - For analog devices that connect to AudioCodes ATAs use: `http://noam.ipp.sdg.teams.microsoft.com/tenantid/<your-tenant-ID-guid>/mac.ini`
 
-    > [!IMPORTANT]
-    > For Cisco ATA replace mac.ini with mac.cfg.
-    > For Poly ATA replace mac.ini with $mac.cfg.
+   > [!IMPORTANT]
+   > For Cisco ATA replace mac.ini with mac.cfg.
+   > For Poly ATA replace mac.ini with $mac.cfg.
 
 3. You must install Microsoft Teams Power Shell 5.6.0 or later.
 
-    > [!NOTE]
-    > The bulk sign in cmdlets aren't included with previous versions.
+   > [!NOTE]
+   > The bulk sign in cmdlets aren't included with previous versions.
 
 4. You must apply [CommonAreaPhone policy](/microsoftteams/set-up-common-area-phones) to the accounts that are part of a bulk sign in request.
 5. The accounts must not have Multi Factor Authentication (MFA) enabled.
@@ -281,13 +281,13 @@ Bulk sign-in is very helpful and can be used in these scenarios.
 7. The accounts must have the SIP device calling policy assigned. [AllowSIPDevicesCalling policy](/microsoftteams/sip-gateway-configure)
 8. You must use an account that has the **Global Administrator, Privileged Authentication Administrator or the Authentication Administrator** role to run the cmdlets.
 
-> [!IMPORTANT]
->Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+   > [!IMPORTANT]
+   > Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
 1. The **BulkSignIn** attribute must be set to `Enabled` in [TeamsSipDevicesConfiguration](/powershell/module/teams/set-csteamssipdevicesconfiguration)
 
-> [!NOTE]
-> As a best practice, try running bulk sign in cmdlet at least 1 hour and at most 70 hours after device provisioning.
+   > [!NOTE]
+   > As a best practice, try running bulk sign in cmdlet at least 1 hour and at most 70 hours after device provisioning.
 
 ### How to create a bulk sign in request
 
@@ -306,26 +306,27 @@ Bulk sign-in is very helpful and can be used in these scenarios.
 
 3. Run the following:
 
-    ```PowerShell
-    Import-Module MicrosoftTeams
-    $credential = Get-Credential   // Enter your admin’s email and password 
-    Connect-MicrosoftTeams –Credential $credential
-    $newBatchResponse = New-CsSdgBulkSignInRequest  -DeviceDetailsFilePath  .\Example.csv  -Region APAC
-    ```
+   ```PowerShell
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential   // Enter your admin’s email and password 
+   Connect-MicrosoftTeams –Credential $credential
+   $newBatchResponse = New-CsSdgBulkSignInRequest  -DeviceDetailsFilePath  .\Example.csv  -Region APAC
+   ```
 
-The `DeviceDetailsFilePath` parameter specifies the location of the CSV you created and saved. The `Region` parameter specifies the SIP gateway provisioning region where the devices are being deployed. The values are: APAC, EMEA, NOAM.
+   The `DeviceDetailsFilePath` parameter specifies the location of the CSV you created and saved. The `Region` parameter specifies the SIP gateway provisioning region where the devices are being deployed. The values are: APAC, EMEA, NOAM.
 
 4. To check the status of a bulk sign-in batch, run the following:
 
- ```PowerShell
-$newBatchResponse = New-CsSdgBulkSignInRequest  -DeviceDetailsFilePath  .\Example.csv  -Region APAC
-$newBatchResponse.BatchId
-$getBatchStatusResponse = Get-CsSdgBulkSignInRequestStatus -Batchid $newBatchResponse.BatchId
-$getBatchStatusResponse | ft
-$getBatchStatusResponse.BatchItem
-``` 
+   ```PowerShell
+   $newBatchResponse = New-CsSdgBulkSignInRequest  -DeviceDetailsFilePath  .\Example.csv  -Region APAC
+   $newBatchResponse.BatchId
+   $getBatchStatusResponse = Get-CsSdgBulkSignInRequestStatus -Batchid $newBatchResponse.BatchId
+   $getBatchStatusResponse | ft
+   $getBatchStatusResponse.BatchItem
+   ``` 
 
 ### Bulk sign in error messages
+
 To help you troubleshoot and fix common issues, these are common error messages that you might see and what you should do to fix it.
 
 | Error message | Potential solution |
@@ -400,9 +401,8 @@ How to set Japanese for Cisco phones:
 > 
 > - If **Sign in to make an emergency call** text is not translated to other languages, an abbreviated version in English only will be presented on **Press Sign In** on the following IP phone models due to a screensize limitations:
 > 
-
-> - Poly VVX 150, VVX 201
-> - Cisco CP-6821, CP-7811, CP-7821, CP-7841, CP-7861
+>   - Poly VVX 150, VVX 201
+>   - Cisco CP-6821, CP-7811, CP-7821, CP-7841, CP-7861
 >    
 > - Voice mail softkey label is hardcoded with **VM** text across all languages for Poly VVX because of a limitation of string length.
 

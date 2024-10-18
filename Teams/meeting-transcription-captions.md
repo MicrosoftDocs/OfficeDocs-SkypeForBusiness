@@ -28,6 +28,9 @@ appliesto:
 
 **APPLIES TO:** ✔️Meetings ✔️Webinars ✔️Town halls
 
+> [!NOTE]
+> When organizers turn off Microsoft 365 Copilot in Teams meetings and events, recording and transcription are also turned off. To learn more about Copilot, see [Manage Microsoft 365 Copilot in Teams meetings and events](copilot-teams-transcription.md).
+
 In Microsoft Teams meetings and events, there's an option for recordings to have automatic transcription. Transcription allows users to play back meeting recordings with closed captions and review important discussion items in the transcript. Transcription and captions help create inclusive content for viewers.
 
 As an admin, you can manage transcription and captions for users in your org.

@@ -1,5 +1,5 @@
 ---
-title: "Configure Persistent Chat Server options in Skype for Business Server 2015"
+title: "Configure Persistent Chat Server options in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -12,12 +12,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
-description: "Summary: Learn how to configure Persistent Chat Server options at the global, site, or pool level in Skype for Business Server 2015."
+description: "Summary: Learn how to configure Persistent Chat Server options at the global, site, or pool level in Skype for Business Server."
 ---
 
-# Configure Persistent Chat Server options in Skype for Business Server 2015
+# Configure Persistent Chat Server options in Skype for Business Server 
  
-**Summary:** Learn how to configure Persistent Chat Server options at the global, site, or pool level in Skype for Business Server 2015.
+**Summary:** Learn how to configure Persistent Chat Server options at the global, site, or pool level in Skype for Business Server.
   
 You can specify several options for Persistent Chat Server that can be applied globally, to all pools within a site, or to a specific pool within a site. Persistent Chat server options include the following: 
   
@@ -29,9 +29,6 @@ You can specify several options for Persistent Chat Server that can be applied g
     
 - Room Management URL. The URL used for custom chat room management. The setting allows the use of a custom room management solution. 
    
-> [!NOTE] 
-> Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015.
- 
 ## Configure Persistent Chat Server global options
 
 To configure Persistent Chat Server global options:

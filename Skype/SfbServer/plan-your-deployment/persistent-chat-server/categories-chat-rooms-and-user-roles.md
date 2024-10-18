@@ -1,5 +1,5 @@
 ---
-title: "Persistent chat categories, chat rooms, and user roles in Skype for Business Server 2015"
+title: "Persistent chat categories, chat rooms, and user roles in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -12,12 +12,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
-description: "Summary: Read this topic to learn about categories, chat rooms, and user and administrator roles for Persistent Chat Server in Skype for Business Server 2015."
+description: "Summary: Read this topic to learn about categories, chat rooms, and user and administrator roles for Persistent Chat Server in Skype for Business Server."
 ---
 
-# Persistent chat categories, chat rooms, and user roles in Skype for Business Server 2015
+# Persistent chat categories, chat rooms, and user roles in Skype for Business Server
  
-**Summary:** Read this topic to learn about categories, chat rooms, and user and administrator roles for Persistent Chat Server in Skype for Business Server 2015.
+**Summary:** Read this topic to learn about categories, chat rooms, and user and administrator roles for Persistent Chat Server in Skype for Business Server.
   
 You can control access to chat rooms by creating chat room categories, then specifying access to categories and chat rooms within categories. You can also specify various administrator roles. This topic describes: 
   
@@ -27,9 +27,6 @@ You can control access to chat rooms by creating chat room categories, then spec
     
 - Administrator roles
 
-> [!NOTE] 
-> Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015. 
-    
 ## Categories for organizing chat rooms
 
 Categories let you organize chat rooms and control which users and groups are permitted to create or join the chat rooms within those categories. Each category has associated properties that determine the options available for the chat rooms within the category. You control access to a particular category by specifying whether a user is Allowed or Denied access.
@@ -63,11 +60,11 @@ In addition to Allowed and Denied Members for categories, you can also control a
 
 The following are administrator roles for Persistent Chat Server:
   
-- **Persistent Chat Administrator**: The Persistent Chat Administrator role can manage chat rooms (modify all properties including membership, managers, categories, mark rooms as disabled), as well as create and manage chat room categories that define who can create and access chat rooms. Administrators can also mark chat rooms as disabled and clean up chat rooms that are no longer active. Administrators are not subject to the Creators or Allowed Members restrictions. Administrators can create any kind of chat room and add themselves as a member to any chat room. Administrators can also modify and manage Persistent Chat configuration (pool properties, global settings, and compliance configuration) and can also plan and implement migration from an older Group Chat Server deployment to Skype for Business Server 2015 Persistent Chat Server.
+- **Persistent Chat Administrator**: The Persistent Chat Administrator role can manage chat rooms (modify all properties including membership, managers, categories, mark rooms as disabled), as well as create and manage chat room categories that define who can create and access chat rooms. Administrators can also mark chat rooms as disabled and clean up chat rooms that are no longer active. Administrators are not subject to the Creators or Allowed Members restrictions. Administrators can create any kind of chat room and add themselves as a member to any chat room. Administrators can also modify and manage Persistent Chat configuration (pool properties, global settings, and compliance configuration) and can also plan and implement migration from an older Group Chat Server deployment to Skype for Business Server Persistent Chat Server.
     
     Persistent Chat Administrators are able to administer Persistent Chat Server by using Windows PowerShell cmdlets remotely (that is, from a computer other than the Persistent Chat Server). Persistent Chat Server checks that the Persistent Chat Administrator is a member of the RTC Local administrator local group on the Persistent Chat Server Front End Server.
     
-- **Skype for Business Server 2015 Administrator**: Overall enterprise administrator for Skype for Business Server 2015 responsible for deployment.
+- **Skype for Business Server Administrator**: Overall enterprise administrator for Skype for Business Server responsible for deployment.
     
 - **Operations Manager**: User responsible for managing day-to-day operations.
     
@@ -77,10 +74,10 @@ The following are administrator roles for Persistent Chat Server:
 
 For more information about configuring and managing chat rooms and user roles, see the following topics:
   
-- [Create a Persistent Chat administrator in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/create-a-persistent-chat-administrator.md)
+- [Create a Persistent Chat administrator in Skype for Business Server](../../deploy/deploy-persistent-chat-server/create-a-persistent-chat-administrator.md)
     
-- [Manage categories in Persistent Chat Server in Skype for Business Server 2015](../../manage/persistent-chat/categories.md)
+- [Manage categories in Persistent Chat Server in Skype for Business Server](../../manage/persistent-chat/categories.md)
     
-- [Manage chat rooms in Persistent Chat Server in Skype for Business Server 2015](../../manage/persistent-chat/chat-rooms.md)
+- [Manage chat rooms in Persistent Chat Server in Skype for Business Server](../../manage/persistent-chat/chat-rooms.md)
     
 

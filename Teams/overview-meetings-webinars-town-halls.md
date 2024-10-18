@@ -52,11 +52,11 @@ The following table shows the main features that are different between meetings,
 |Registration|✖️|✔️|✖️|
 |Breakout rooms|✔️|✖️<sup>2</sup>|✖️|
 |Content sharing and interaction|✔️|✔️|Q&A only|
-|Interactive participants|1,000 (Enterprise plans)<br>300 (Business plans)|1,000|Town halls: 10,000<br> Premium town halls: 20,000|
+|Interactive participants|1,000 (Enterprise plans)<br>300 (Business plans)<br>900 (View-only mode)|1,000|Town halls: 10,000<br> Premium town halls: 20,000|
 |View-only participants|10,000<sup>1</sup> (Enterprise plans only)|✖️|✖️|
-|Maximum total participants|11,000<sup>1</sup> (Enterprise plans only)|1,000|Town halls: 10,000<br> Premium town halls: 20,000|
+|Maximum total participants|10,900<sup>1</sup> (Enterprise plans only)|1,000|Town halls: 10,000<br> Premium town halls: 20,000|
 
-<sup>1</sup>The usual 10,000 is increased to 20,000 through June 30, 2024. The maximum total participants for meetings is the sum of the interactive participants plus streaming participants.<br>
+<sup>1</sup>The usual maximum is increased to 20,000 through June 30, 2024. The maximum total participants for meetings is the sum of the interactive participants plus view-only participants.<br>
 
 <sup>2</sup> Breakout rooms can be used if a webinar has fewer than 300 participants. However, if the number of participants increases to above 300, breakout rooms aren't supported.
 
@@ -74,7 +74,7 @@ For details, see:
 
 ## Meetings
 
-Meetings are generally best for situations where participants need to interact with each other via voice, video, or chat and where multiple people may be presenting. Meetings in Teams include audio, video, and screen sharing for up to 1,000 people and a view-only streaming experience for participants over 1,000. Participants don't need to be a member of an organization (or have a Teams account) to join a Teams meeting. They can join directly from the calendar invitation via the Join meeting link or call in via audio if available.
+Meetings are generally best for situations where participants need to interact with each other via voice, video, or chat and where multiple people may be presenting. Meetings in Teams include audio, video, and screen sharing for up to 1,000 people and a view-only experience for participants over 900. Participants don't need to be a member of an organization (or have a Teams account) to join a Teams meeting. They can join directly from the calendar invitation via the Join meeting link or call in via audio if available.
 
 In addition to regularly scheduled meetings, your users can create channel meetings. With channel meetings, everybody in a team can see there's a meeting, join the meeting, and use the meeting chat.
 

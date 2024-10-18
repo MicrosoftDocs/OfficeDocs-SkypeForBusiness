@@ -54,6 +54,8 @@ You can also archive the team directly from the report. However, archiving a tea
 
 To archive an inactive team, under the **Action** column, select the **bin** icon. In the *Archive team?* dialog box, select **Archive**.
 
+A value for **Last activity date (UTC)** is displayed only if teams activity has taken place after October 2023.
+
 > [!NOTE]
 > SharePoint Administrators with a [Microsoft Syntex - SharePoint Advanced Management](/sharepoint/advanced-management) license can use [site lifecycle policies](/sharepoint/site-lifecycle-management) in the SharePoint admin center to detect inactive sites, including team-connected sites.
 
@@ -65,7 +67,7 @@ This card is only available if you've configured an allowlist in [external acces
 
 :::image type="content" source="media/inactive-external-domains.png" alt-text="Screenshot that shows the total number of allowed domains.":::
 
-Select **View details** to see which domains are inactive, including the last activity date. A value for **Last activity date (UTC)** is displayed only if domain activity has taken place after the purchase of Teams Premium.
+Select **View details** to see which domains are inactive, including the last activity date. A value for **Last activity date (UTC)** is displayed only if domain activity has taken place after October 2023.
 
 You can change the time frame by choosing a date range from the **Date range** dropdown and selecting **Run report**.
 

@@ -1,5 +1,5 @@
 ---
-title: "Configure add-ins for Persistent Chat rooms in Skype for Business Server 2015"
+title: "Configure add-ins for Persistent Chat rooms in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -12,20 +12,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
-description: "Summary: Learn how to configure add-ins for Persistent Chat Server chat rooms in Skype for Business Server 2015."
+description: "Summary: Learn how to configure add-ins for Persistent Chat Server chat rooms in Skype for Business Server."
 ---
 
-# Configure add-ins for Persistent Chat rooms in Skype for Business Server 2015
+# Configure add-ins for Persistent Chat rooms in Skype for Business Server 
  
-**Summary:** Learn how to configure add-ins for Persistent Chat Server chat rooms in Skype for Business Server 2015.
+**Summary:** Learn how to configure add-ins for Persistent Chat Server chat rooms in Skype for Business Server.
   
 Add-ins are used to extend the in-room experience by associating URLs with chat rooms. These URLs appear in the client conversation extensibility pane. A typical add-in might include a URL pointing to a Silverlight application that intercepts when a stock ticker is posted to a chat room, and shows the stock history in the extensibility pane. Other examples include embedding a OneNote 2013 URL in the chat room as an add-in to include some shared context, such as "Top of mind" or "Topic of the day."
   
  Before users can see an add-in in the client, you must add the add-in to the list of registered add-ins, and chat room Managers or Creators need to associate rooms with the add-in.
   
-> [!NOTE]
-> Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015. 
-
 ## Configure add-ins for chat rooms by using the Control Panel
 
 To configure add-ins for chat rooms by using the Control Panel:
@@ -52,7 +49,7 @@ To configure add-ins for chat rooms by using the Control Panel:
     
 ## Configure add-ins by using Windows PowerShell
 
-You can configure add-ins for chat rooms by using the following Windows PowerShell cmdlets. For details about syntax, including all available parameters, see [Skype for Business Server 2015 Management Shell](../management-shell.md).
+You can configure add-ins for chat rooms by using the following Windows PowerShell cmdlets. For details about syntax, including all available parameters, see [Skype for Business Server Management Shell](../management-shell.md).
   
 
 |**Cmdlet**|**Description**|
