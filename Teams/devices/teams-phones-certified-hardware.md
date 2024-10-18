@@ -109,7 +109,7 @@ See [Microsoft Teams phones feature set](phones-for-teams.md) for information on
 #### <b> HP | Poly </b>
 | Device model | Latest firmware version | Minimum firmware version | Included Microsoft applications**   | Release date |
 |:----------------|:-------------------|:----------------------------|:----------------------------------------------------------------------------------|:--------------------------------------------|
-| CCX350/CCX400/CCX500/CCX505/CCX600/Trio C60 | `9.0.0.10460` | `N/A`| Teams client: `1449/1.0.94.2024080808` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| August 28, 2024|
+| CCX350/CCX400/CCX500/CCX505/CCX600/Trio C60 | `9.0.0.10460` | `N/A`| Teams client: `1449/1.0.94.2024080808` <br> Company Portal: `5.0.6152.0` <br> Admin Agent: `1.0.0.202402202353.product`| Recalled|
 | CCX350/CCX400/CCX500/CCX505/CCX600 | `8.1.6.1006` | `8.1.3.1301`| Teams client: `1449/1.0.94.2024011003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| April 12, 2024|
 |Trio C60 | `8.1.6.1005` | `8.1.3.1300` | Teams client: `1449/1.0.94.2024011003` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202310260109.product`| April 12, 2024 |
 | CCX350/CCX400/CCX500/CCX505/CCX600 | `8.1.5.1732` | `8.1.3.1301`| Teams client: `1449/1.0.94.2023072509` <br> Company Portal: `5.0.5484.0` <br> Admin Agent: `1.0.0.202306202019.product`| January 12, 2024|
