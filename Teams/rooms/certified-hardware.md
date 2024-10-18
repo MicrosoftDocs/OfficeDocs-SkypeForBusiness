@@ -225,7 +225,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Microsoft Surface Hub Smart Camera](https://www.microsoft.com/d/surface-hub-smart-camera/8n983ctks176) | FW: 1.8.1 |  |  |
 | [Microsoft Surface Hub 2 Camera](https://www.microsoft.com/d/surface-hub-2-camera/8tzgfl7z18ph) | FW: 24.712.159 |  |  |
 | [Nureva HDL300](https://www.nureva.com/audio-conferencing/hdl300) | 2.3.6 |  |  |
-| [Nureva HDL310](https://www.nureva.com/audio-conferencing/hdl310) | 1.5.0.0 |  |  |
+| [Nureva HDL310](https://www.nureva.com/audio-conferencing/hdl310) | 1.8.269710 |  |  | &#x2714; |  |
 | [Nureva HDL410](https://www.nureva.com/audio-conferencing/hdl410) | 1.5.243554 |  |  |
 | [Owl Labs Meeting Owl 3](https://owllabs.com/products/meeting-owl-3) | 6.4.10.42 |  |  |
 | [Panasonic 360 degree camera speakerphone PressIT360](https://panasonic.net/cns/prodisplays/products/ty-csp1/) | 0.0.7904.54 |  |  |
