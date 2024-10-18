@@ -20,12 +20,12 @@ appliesto:
 
 # Overview of optional connected experiences in Microsoft Teams
 
-If you have a work or school account, your organization's admin may have provided you with the ability to use one or more cloud-backed services (also referred to as **optional connected experiences**) while using Microsoft Teams, like GIPHY and/or URL Preview service. These cloud-backed services are optional. Whether you use them is up to you. They're offered to you under  terms that differ from the [Microsoft Product Terms](https://www.microsoft.com/licensing/docs/view/Product-Terms), as described separately for each optional service. This article lists our Teams cloud-backed services.
+If you have a work or school account, your organization's admin may have provided you with the ability to use one or more cloud-backed services (also referred to as "optional connected experiences") while using Microsoft Teams, like GIPHY and/or URL Preview service. These cloud-backed services are optional. Whether you use them is up to you. They're offered to you under  terms that differ from the [Microsoft Product Terms](https://www.microsoft.com/licensing/docs/view/Product-Terms), as described separately for each optional service. This article lists our Teams cloud-backed services.
 
 If your admin has given you the ability to use optional connected experiences in Teams, you can go to **Settings** > **Privacy** in Teams and choose whether you want to use optional connected experiences.
 
 > [!NOTE]
-> If you're an admin, you can give or restrict your users' ability to use optional connected experiences. You can do this by using the [Cloud Policy service for Microsoft 365](/microsoft-365-apps/admin-center/overview-cloud-policy) and configuring the **Allow the use of additional optional connected experiences in Office** policy setting. This is the same policy setting that controls whether optional connected experiences are available to your users in Microsoft 365 Apps, such as Word, Excel, and PowerPoint.
+> If you're an admin, you can give or restrict your users' ability to use optional connected experiences. You can do this by using [Cloud Policy service for Microsoft 365](/microsoft-365-apps/admin-center/overview-cloud-policy) and configuring the **Allow the use of additional optional connected experiences in Office** policy setting. This is the same policy setting that controls whether optional connected experiences are available to your users in Microsoft 365 Apps, such as Word, Excel, and PowerPoint.
 
 ## GIPHY
 
@@ -45,7 +45,7 @@ The Teams app link previews service generates a preview snippet of the app's ada
 
 ## Teams device store checkout  
 
-Teams device store is available in the Teams admin center and Teams App. It enables discovery and purchase of Teams certified devices. To enable checkout, the Teams device store shares basic user and company information, including user email address, user GUIDs, and tenant GUIDs, with UnifiedCommunications.com. This experience, if allowed by the **Allow the use of additional optional connected experiences in Office** policy setting, is subject to the terms of service and privacy statement of UnifiedCommunications.com.
+Teams device store is available in the Teams admin center and Teams App. It enables discovery and purchase of Teams certified devices. To enable checkout, the Teams device store shares basic user and company information, including user email address, user GUIDs, and tenant GUIDs, with UnifiedCommunications.com. This experience, if allowed by the **Allow the use of additional optional connected experiences in Office** policy setting, is subject to the [terms of service](https://new.unifiedcommunications.com/about/terms-of-service/) and [privacy policy](https://new.unifiedcommunications.com/about/privacy-policy/) of UnifiedCommunications.com.
 
 To learn more about Teams device store, see [Purchase devices in the Microsoft Teams device store](../devices/device-store.md).
 
