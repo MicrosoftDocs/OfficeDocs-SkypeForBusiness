@@ -55,9 +55,9 @@ The URL Preview service automatically generates a preview snippet and attaches u
 
 :::image type="content" source="../media/url-preview.png" alt-text="A screen showing a sample of a URL preview for the Microsoft home page in a text box.":::
 
-## Webview2
+## WebView2
 
-Webview2 is a component that developers use to build their applications, and the developers can deploy a self-updating Evergreen WebView2 Runtime onto user devices to power their applications. Webview2 collects its own telemetry to help them maintain and improve the Webview2 component. If the policy turned off, the diagnostic data collection from Webview2 will be disabled.
+WebView2 is a component that developers use to build their applications, and the developers can deploy a self-updating Evergreen WebView2 Runtime onto user devices to power their applications. WebView2 collects its own telemetry to help them maintain and improve the WebView2 component. If the policy turned off, the diagnostic data collection from WebView2 will be disabled.
 
 ## Related articles
 
