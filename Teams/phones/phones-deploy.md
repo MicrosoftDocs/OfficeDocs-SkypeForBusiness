@@ -33,7 +33,7 @@ Customers must enroll their Teams phone devices using Android Device Administrat
 
 1. Ensure Intune is set as the MDM (mobile device management) authority.  
 
-  You need to set the MDM authority to be Intune before you can enroll devices. For more information, see [Set the mobile device management authority](/mem/intune/fundamentals/mdm-authority-set). Settings the MDM authority is a one-time step that has to be done upon creating a new Intune tenant.
+    You need to set the MDM authority to be Intune before you can enroll devices. For more information, see [Set the mobile device management authority](/mem/intune/fundamentals/mdm-authority-set). Settings the MDM authority is a one-time step that has to be done upon creating a new Intune tenant.
 1. Enable Android device administrator.
   
    Teams Phones are Android-based and without Google Mobile Services (GMS) and therefore are managed in Intune with Android Device Administrator (ADA). Device Administrator enrollment is off by default for newly created tenants. See [Android device administrator enrollment](/mem/intune/enrollment/android-enroll-device-administrator) for steps on how to enable Android Device Administrator in your environment.
