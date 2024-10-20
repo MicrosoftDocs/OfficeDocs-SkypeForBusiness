@@ -60,7 +60,7 @@ To participate in a live event as an authenticated user, a Microsoft 365 or Offi
 - **For events produced in Teams or using a Teams Powered Encoder**  The user must be assigned a Teams license.
 
 > [!NOTE]
-> Teams live events is now available for US Government Cloud Community (GCC) organizations.
+> Teams live events is now available for US Government Cloud Community (GCC), GCC-H, and DoD organizations.
 
 For more information about licensing, see [Microsoft Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
