@@ -31,16 +31,13 @@ description: Learn how to set up common area phones for lobbies, reception areas
 
 # Set up common area phones for Microsoft Teams
 
-A common area phone is typically placed in an area like a lobby or another area that is available to many people to make a call: a reception area, lobby, or conference phone. Common area phones are signed in with accounts tied to a **Microsoft Teams Shared Devices** license.
+A common area phone is typically placed in an area like a lobby, reception area, or a conference room and is available to many people to make a call. Common area phones are signed in with resource accounts tied to a **Microsoft Teams Shared Devices** license.
 
-This article provides an overview of how to deploy and configure Teams phone devices as common area phones for shared spaces. For a more complete meeting room experience, including audio conferencing, consider purchasing a dedicated **Teams Rooms** license with a Teams Rooms device instead. For more information about Teams Rooms, see [Microsoft Teams Rooms](../rooms/index.md).
-
-> [!NOTE]
-> Accounts for common area phones objects created in Skype for Business Server can't be migrated to Microsoft Teams. Follow the steps in this article to recreate those accounts for Teams, and, if required, migrate your Public Switched Telephone Network (PSTN) connectivity.
+This article provides an overview of how to deploy and configure Teams phone devices as common area phones for shared spaces. For a more complete meeting room experience, including video, consider a dedicated **Teams Rooms** license with a Teams Rooms device instead. For more information about Teams Rooms, see [Microsoft Teams Rooms](../rooms/index.md).
 
 ## Step 1 - Buy the licenses
 
-First, you need to purchase a **Teams Shared Devices** license and make sure that you have a certified phone. To search for and learn more about certified phones, go to [Microsoft Teams devices](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1).
+First, you need to purchase a **Teams Shared Devices** license and make sure that you have a certified phone. To search for and learn more about certified Teams Phones, go to [Teams Phones certified hardware](../devices/teams-phones-certified-hardware.md?tabs=certified-phones).
 
 1. In the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), go to **Billing** > **Purchase services**.
 
@@ -50,12 +47,7 @@ First, you need to purchase a **Teams Shared Devices** license and make sure tha
 
 4. Enter the number of licenses you need, and select **Buy**.
 
-> [!NOTE]
-> If you’re using Intune in your environment and have conditional access rules that require device compliance, you’ll need to assign an **Microsoft Entra ID P1**, and **Intune** license to the device account for the common area phone.
->
-> Common area phones can be impacted by conditional access rules and other identity configurations, like Multi-Factor Authentication. See [Authentication best practices for Teams Android devices](../devices/authentication-best-practices-for-android-devices.md) to learn more.
-
-## Step 2 - Create a new user account and assign licenses
+## Step 2 - Create a new resource account and assign licenses
 
 ### Using the Microsoft 365 admin center
 
@@ -87,6 +79,9 @@ If you're deploying one device:
 
 Use PowerShell when you want to create and assign licenses for more than one user account at once. For more information, see [Create Microsoft 365 user accounts with PowerShell](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true) and [Assign Microsoft 365 licenses to user accounts with PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true).
 
+> [!NOTE]
+> Common area phones can be impacted by conditional access rules and other identity configurations, like user interactive Multi-Factor Authentication (MFA). For more information, see [Authentication best practices for Teams Phones](authentication-best-practices-phones.md).
+
 ## Step 3 - Set policies for common area phones
 
 Use policies to control which features are available to users on common area phones.
@@ -112,7 +107,7 @@ By default, call park isn't enabled for common area phones. You'll need to creat
 
 See [Manage telephone numbers for your organization](../manage-phone-numbers-landing-page.md) to learn how to acquire and assign phone numbers based on your PSTN connectivity option.
 
-## Step 5 - Sign in
+## Step 5 - Sign in the Teams PHone
 
 Once you create and configure a user account, you can sign into a phone. Depending on how many phones you're deploying, you have three sign-in options:
 
@@ -133,7 +128,7 @@ To sign in locally with a username and password:
 
 ### Sign in from another device
 
-You can also sign into to a common area phone from another device using a code. When you sign in this way, you'll enter the username and password on another device, rather than on the phone itself.
+You can also sign into to a common area phone from another device using a code. When you sign in this way, you'll enter the username and password on another device, rather than on the phone itself. For more information see [Remote sign in and sign out for Teams Phones](remote-sign-in-and-sign-out-phones.md).
 
 1. On your common area phone, find the code displayed on the sign-in screen.
 2. On another device, go to [https://www.microsoft.com/devicelogin](https://www.microsoft.com/devicelogin).
@@ -141,7 +136,7 @@ You can also sign into to a common area phone from another device using a code. 
 
 ### Sign in using the Teams admin center
 
-As an admin, you can remotely provision and sign into common area phones from the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851). This method is the most efficient sign-in method when you're deploying a large number of phones at once. See [Remote provisioning and sign in for Teams Android devices](../devices/remote-provision-remote-login.md) to learn more.
+As an admin, you can remotely provision and sign into common area phones from the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851). This method is the most efficient sign-in method when you're deploying a large number of phones at once. See [Remote provisioning and sign in for Teams Android Phones](remote-provision-remote-login-phones.md) to learn more.
 
 ## Step 6 - Set up Advanced calling on common area phones (optional)
 
