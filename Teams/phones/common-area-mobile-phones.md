@@ -47,9 +47,7 @@ To purchase the license:
 1. Enter the number of licenses you need, and select **Buy**.
 
    > [!NOTE]
-   > If you're using Intune in your environment and have conditional access rules that require device compliance, you'll need to assign an **Microsoft Entra ID P1** and an **Intune** license to the device account that was used to sign in to the Teams mobile app.
-   >
-   > Teams-shared devices can be impacted by conditional access rules and other identity configurations, such as Multi-Factor Authentication. For more information, see [Authentication best practices for Teams Android devices](../devices/authentication-best-practices-for-android-devices.md).
+   > Teams-shared devices can be impacted by conditional access rules and other identity configurations, such as Multi-Factor Authentication. For more information, see [Authentication best practices for Teams phones](authentication-best-practices-phones.md).
 
 ## Step 2 - Create a new user account and assign licenses
 
@@ -71,7 +69,6 @@ To purchase the license:
 6. Select the usage location of the device and assign the **Teams Shared Devices** license to the account. If any other licenses are needed, such as **Callings Plans**, assign those licenses too to the account.
 
    > [!NOTE]
-   >
    > When you assign a **Teams Shared Device** license to a device, you don't need to assign an additional Phone System license to get other features. To get inbound and outbound calling minutes with Microsoft Phone System you must add a Calling Plan and set up billing. However, if you are using Operator Connect or Direct Routing, you don't need a Calling Plan. For more information on licenses, see [Microsoft Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md). 
 
 ### Using PowerShell
