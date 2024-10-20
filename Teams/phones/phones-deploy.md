@@ -37,12 +37,12 @@ Customers must enroll their Teams phone devices using Android Device Administrat
 1. Enable Android device administrator.
   
    Teams Phones are Android-based and without Google Mobile Services (GMS) and therefore are managed in Intune with Android Device Administrator (ADA). Device Administrator enrollment is off by default for newly created tenants. See [Android device administrator enrollment](/mem/intune/enrollment/android-enroll-device-administrator) for steps on how to enable Android Device Administrator in your environment.
-  > [!NOTE]
-  > Intune enrollment for Teams Phones will switch to Android Open Source Project (AOSP) Device Management in 2025.
+    > [!NOTE]
+    > Intune enrollment for Teams Phones will switch to Android Open Source Project (AOSP) Device Management in 2025.
 
 1. Assign Device Administrator compliance policies.  
 
-  Android Device Administrator offers Intune compliance policies which can be used to ensure Teams Phones are compliant with various organization security policies. Create an Android Device Administrator compliance policy then assign it to your Teams phone resource accounts. For more information, see [use compliance policies to set rules for devices you manage with Intune](/mem/intune/protect/device-compliance-get-started).
+    Android Device Administrator offers Intune compliance policies which can be used to ensure Teams Phones are compliant with various organization security policies. Create an Android Device Administrator compliance policy then assign it to your Teams phone resource accounts. For more information, see [use compliance policies to set rules for devices you manage with Intune](/mem/intune/protect/device-compliance-get-started).
 
 > [!NOTE]
 > - If the user account used to sign into a Teams device isn't licensed for Intune, Intune compliance policies and enrollment restrictions need to be disabled for the account.
