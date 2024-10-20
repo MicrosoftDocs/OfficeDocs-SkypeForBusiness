@@ -37,10 +37,10 @@ Conditional Access policies can secure the sign in process on devices that are i
 
 When using Conditional Access to secure Teams Rooms, consider the following best practices:
 
-- To simplify deployment and management, include all Microsoft 365 room resources accounts associated with Teams Rooms in one Microsoft Entra ID user group.
-- Have a naming standard for all Teams Rooms resource accounts. For example, the account names 'mtr-room1@contoso.com' and 'mtr-room2@contoso.com' both start with the prefix 'mtr-'. When account names are standardized, you can use dynamic groups in Microsoft Entra ID to automatically apply Conditional Access policies to all of these accounts at once. For more information on dynamic groups, see [Rules for dynamically populated groups membership](/azure/active-directory/enterprise-users/groups-dynamic-membership).
+- Include all Microsoft 365 room resources accounts associated with Teams Rooms in one Microsoft Entra ID user group.
+- Use a naming standard for all Teams Rooms resource accounts. For example, the account names 'mtr-room1@contoso.com' and 'mtr-room2@contoso.com' both start with the prefix 'mtr-'. When account names are standardized, you can use dynamic groups in Microsoft Entra ID to automatically apply Conditional Access policies to all of these accounts at once. For more information on dynamic groups, see [Rules for dynamically populated groups membership](/azure/active-directory/enterprise-users/groups-dynamic-membership).
 - Exclude your Teams Rooms resource accounts from all existing Conditional Access policies and create a new policy specific to the resource accounts.
-- User interactive multifactor authentication (MFA) isn't supported for Teams Rooms resource accounts since the resource accounts doesn't have a second device to approve the MFA request.
+- Do not require user interactive multifactor authentication (MFA). User interactive MFA isn't supported for Teams Rooms resource accounts since the resource accounts don't have a second device to approve the MFA request.
 
 For a list of supported Conditional Access assignments for Teams Rooms, see [Supported Conditional Access policies](supported-ca-and-compliance-policies.md#supported-conditional-access-policies).
 
@@ -69,12 +69,12 @@ For a list of supported Intune compliance policies for Teams Rooms, see [Support
 2. Require a minimum operating system version.
 3. Require that Microsoft Defender is running on Teams Rooms.
 
-This compliance policy should be assigned to the Teams Rooms devices and the Teams Rooms resource accounts. If the device doesn't meet these requirements, it won't be marked as compliant, and the device won't sign in.
+This compliance policy should be assigned to the Teams Rooms devices and the Teams Rooms resource accounts. If the device doesn't meet these requirements, it won't be marked as compliant.
 
 ### Example Intune compliance policy for Teams Rooms on Android and Teams panels
 
-1. Miniumum operating system version is greater than Android 10.
+1. Minimum operating system version is greater than Android 10.
 2. Block rooted devices.
 3. Require encryption of data storage on device
 
-This compliance policy should be assigned to the Teams Rooms devices and the Teams Rooms resource accounts.  If the device doesn't meet these requirements, it won't be marked as compliant, and the device won't sign in.
+This compliance policy should be assigned to the Teams Rooms devices and the Teams Rooms resource accounts.  If the device doesn't meet these requirements, it won't be marked as compliant.
