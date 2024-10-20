@@ -44,20 +44,23 @@ Microsoft Teams Rooms includes the following key components to deliver a great u
 - Compute module
 - Microsoft Teams Rooms application
 - Peripheral devices (camera, microphone, speaker)
-- External screens (maximum of two)
+- Front of room screens (maximum of two)
 - HDMI input
 
 Check out the certified Teams Rooms systems and peripherals in [Teams Rooms certified systems and peripherals](certified-hardware.md).
 
 ## Teams Rooms licensing
 
-Each meeting room device, such as a Teams Rooms console, Surface Hub, and Teams panel, needs a Teams Rooms license. Teams provides two licenses for Teams Rooms: Microsoft Teams Rooms Pro and Microsoft Teams Rooms Basic.
+Each meeting room needs a Teams Rooms license, such as a Teams Rooms console, Surface Hub, or Teams panel. Teams provides two licenses for Teams Rooms: Microsoft Teams Rooms Pro and Microsoft Teams Rooms Basic.
 
 Microsoft Teams Rooms Pro is great for organizations that have 25 or more meeting room devices or who want the most comprehensive meeting and device management experiences. Hybrid Teams meetings become more immersive with features like Front row, Content camera, AI-powered noise suppression, and other features available with Microsoft Teams Rooms Pro. Teams Rooms admins can centrally manage all their certified Teams Rooms devices from the Pro Management Portal.
 
 Microsoft Teams Rooms Basic is available for organizations that only have a few meeting room devices and who only need basic meeting and management functionality. Microsoft Teams Rooms Basic lets you join meetings, share content and live video, join Zoom and Webex meetings with Direct Guest Join, and perform basic device inventory and monitoring in the Teams Admin Center.
 
 Before you can use a meeting room device, you need to assign a license to it. For more information, see [Microsoft Teams Rooms licenses](rooms-licensing.md).
+
+> [!TIP]
+> If your meeting room only has a Teams panel, you can use a Teams Shared Device license for the Teams panel resource account. If you add a Teams Rooms device to the space later, you can upgrade to a Teams Rooms Pro license.
 
 [!INCLUDE [mtr-user-licensing](../includes/mtr-user-licensing.md)]
 
