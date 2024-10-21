@@ -5394,6 +5394,11 @@
     "source_path": "Teams/rooms/admin-center-license-overview.md",
     "redirect_url": "/microsoftteams/rooms/rooms-licensing",
     "redirect_document_id": false
+  },
+  {
+    "source_path": "Teams/devices/smartvision-admin.md",
+    "redirect_url": "/microsoftteams/devices/multistream-intelliframe",
+    "redirect_document_id": false
   }
   ]
 }
