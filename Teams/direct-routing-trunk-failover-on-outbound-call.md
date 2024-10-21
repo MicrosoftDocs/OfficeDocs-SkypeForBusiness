@@ -34,7 +34,7 @@ For example, a connection might fail if an administrator limits access to the SB
 ## Failover of specific SIP codes received from the Session Border Controller (SBC)
 
 
-When a call from a Teams client to the Public Switched Telephone Network (PSTN) is made with the following traffic flow: Teams Client -> Direct Routing -> SBC -> Telephony network, any non-2xx final response code from SBC can be configured to be retried on another SBC in the voice routing policy. It is important to note that failover will only happen in the absence of non-100 provisional responses from the SBC, to prevent double ringing telephony network.
+When a call from a Teams client to the Public Switched Telephone Network (PSTN) is made with the following traffic flow: Teams Client -> Direct Routing -> SBC -> Telephony network, any non-2xx final response code from the SBC can be configured to be retried on another SBC in the voice routing policy. Note that failover will only happen in the absence of non-100 provisional responses from the SBC, to prevent double ringing telephony network.
 
 The list of SIP Codes can be found in [Session Initiation Protocol (SIP) RFC](https://tools.ietf.org/html/rfc3261).
 
