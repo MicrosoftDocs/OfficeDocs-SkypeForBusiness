@@ -1627,7 +1627,7 @@ items:
                   href: phones/remote-sign-in-and-sign-out-phones.md
         - name: Manage
           items:
-            - name: Set the user interface on Teams phone
+            - name: Set the Teams phone interface
               href: phones/teams-android-devices-user-interface.md
             - name: Manage Teams phones
               href: phones/manage-teams-phones.md
