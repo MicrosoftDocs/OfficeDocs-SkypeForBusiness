@@ -1,5 +1,5 @@
 ---
-title: "Add Persistent Chat Server to your Skype for Business Server topology"
+title: "Add Persistent Chat Server to your Skype for Business Server 2015 topology"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -12,12 +12,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
-description: "Summary: Read this topic to learn how to add Persistent Chat Server to your Skype for Business Server topology."
+description: "Summary: Read this topic to learn how to add Persistent Chat Server to your Skype for Business Server 2015 topology."
 ---
 
-# Add Persistent Chat Server to your Skype for Business Server topology
+# Add Persistent Chat Server to your Skype for Business Server 2015 topology
  
-**Summary:** Read this topic to learn how to add Persistent Chat Server to your Skype for Business Server topology.
+**Summary:** Read this topic to learn how to add Persistent Chat Server to your Skype for Business Server 2015 topology.
   
 After you install the prerequisite software on each server on which you plan to deploy Persistent Chat Server, you use Topology Builder to: 
   
@@ -25,9 +25,12 @@ After you install the prerequisite software on each server on which you plan to 
     
 - Publish the updated topology
     
+> [!NOTE] 
+> Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015. 
+
 ## Update your topology to include Persistent Chat Server
 
-Perform the following steps for installing a single Persistent Chat Server pool without a disaster recovery configuration. For configuring a stretched Persistent Chat Server pool for high availability and disaster recovery, see [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md).
+Perform the following steps for installing a single Persistent Chat Server pool without a disaster recovery configuration. For configuring a stretched Persistent Chat Server pool for high availability and disaster recovery, see [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md).
   
 To deploy multiple Persistent Chat Server pools, repeat the same process for each pool.
   
@@ -67,12 +70,12 @@ To deploy multiple Persistent Chat Server pools, repeat the same process for eac
    - Either select **Default Instance** to use the default instance or, to specify a different instance, select **Named Instance**, and specify the instance that you want to use.
     
      > [!NOTE]
-     > For details about how to configure SQL Server backup databases for disaster recovery, see [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
+     > For details about how to configure SQL Server backup databases for disaster recovery, see [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
   
 9. Define the SQL Server compliance store if you enabled Compliance.
     
     > [!IMPORTANT]
-    > For details about how to configure SQL Server mirrors for high availability for the Persistent Chat Server database and the Persistent Chat Server compliance database, see [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
+    > For details about how to configure SQL Server mirrors for high availability for the Persistent Chat Server database and the Persistent Chat Server compliance database, see [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
   
 10. Define the file store. A file store is a folder where a copy of any file uploaded to the file repository is stored (for example, storing file attachments posted to a chat room). In the case of a multiple-server Persistent Chat Server topology, this must be a Universal Naming Convention (UNC) path; and for a single-server Persistent Chat Server topology, it can be a local file path.
     
@@ -105,7 +108,7 @@ Before you publish your topology, install the databases for Persistent Chat Serv
     
 2. Start Topology Builder. Select **Open Topology from a local file** if you saved it locally.
     
-3. In the console tree, right-click **Skype for Business Server**, and then click **Publish Topology**.
+3. In the console tree, right-click **Skype for Business Server 2015**, and then click **Publish Topology**.
     
 4. On the **Publish the topology** page, click **Next**.
     

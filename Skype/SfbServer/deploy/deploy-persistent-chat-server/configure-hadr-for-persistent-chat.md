@@ -1,5 +1,5 @@
 ---
-title: "Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server"
+title: "Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -12,19 +12,22 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
-description: "Summary: Read this topic to learn how to configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server."
+description: "Summary: Read this topic to learn how to configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015."
 ---
 
-# Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 
+# Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015
  
-**Summary:** Read this topic to learn how to configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server.
+**Summary:** Read this topic to learn how to configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015.
   
-Skype for Business Server supports multiple modes of high availability for your Back End Servers, including database mirroring. For more information, see [Plan for high availability and disaster recovery in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+Skype for Business Server supports multiple modes of high availability for your Back End Servers, including database mirroring. For more information, see [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
 > [!NOTE]
 > AlwaysOn Availability Groups are not supported with Persistent Chat Servers. 
 
-Before you configure your Persistent Chat deployment for high availability and disaster recovery, be sure you are familiar with the concepts in [Plan for high availability and disaster recovery for Persistent Chat Server in Skype for Business Server](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md). The disaster recovery solution for Persistent Chat Server described in these topics is built on a stretched Persistent Chat Server pool. The planning content describes resource requirements, and the stretched pool topology that enables high availability and disaster recovery for Persistent Chat Server, including using SQL Server mirroring for high availability and SQL Server log shipping for disaster recovery.
+> [!NOTE] 
+> Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015.
+  
+Before you configure your Persistent Chat deployment for high availability and disaster recovery, be sure you are familiar with the concepts in [Plan for high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md). The disaster recovery solution for Persistent Chat Server described in these topics is built on a stretched Persistent Chat Server pool. The planning content describes resource requirements, and the stretched pool topology that enables high availability and disaster recovery for Persistent Chat Server, including using SQL Server mirroring for high availability and SQL Server log shipping for disaster recovery.
   
 ## Use Topology Builder to configure high availability and disaster recovery
 
