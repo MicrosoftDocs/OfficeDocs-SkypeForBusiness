@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: jamp, oloper, hakanbe, mamcgrath
-ms.date: 10/03/2024
+ms.date: 10/07/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -29,9 +29,9 @@ The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business allo
 
 In CQD, Good and Poor stream classification is performed by a series of conditional statements. For audio, network metrics are used to determine if the performance of the underlying network would have resulted in degraded audio quality, while video and video-based screen sharing (VBSS) use video metrics to perform a similar quality assessment. The intelligent media quality classifiers take a broader and deeper view of the call telemetry, weighing several factors (including network) to determine perceived user experience of the call and to identify possible root cause when there's suspected quality degradation. Because of this difference, it's expected that the Good and Poor values resulting from the [stream classification](stream-classification-in-call-quality-dashboard.md) logic won't necessarily match up with the intelligent media quality classifier findings.
 
-## Overview of intelligent media classifiers in CQD
+## Overview of intelligent media quality classifiers in CQD
 
-Intelligent media quality classifiers in CQD use Machine Learning (ML) algorithms that help pinpoint specific problem areas in stream quality. Compared to [Steam classification in CQD](stream-classification-in-call-quality-dashboard.md), intelligent media quality classification in CQD provides IT admins with a more advanced analysis into causality, media degradation, and root cause. These classifiers enable you to take proactive measures for addressing and preventing call quality issues.
+Intelligent media quality classifiers in CQD use Machine Learning (ML) algorithms that help pinpoint specific problem areas in stream quality. Compared to [Stream classification in CQD](stream-classification-in-call-quality-dashboard.md), intelligent media quality classification in CQD provides IT admins with a more advanced analysis into causality, media degradation, and root cause. These classifiers enable you to take proactive measures for addressing and preventing call quality issues.
 
 To deliver the most comprehensive insights, intelligent media quality classifiers individually address three main real-time media modalities: Audio, Video, and VBSS. These classifiers focus on call quality on a stream level (such as Audio, Video, and VBSS) and then they go further with in-depth analyses in areas such as network, compute device, and input device, allowing for pinpointing specific problem areas.
 
@@ -195,15 +195,15 @@ Network classifiers include three types of dimensions: location-related, network
 - Network-related dimensions:
   - Second Network
   - Second Network Name
-  - Second Wi-fi Band
+  - Second Wifi Band
   - Second Wifi Channel
   - Second Wifi Radio Type
-  - SecondWifiSignalStrengthValue
+  - Second Wifi Signal Strength
   - Second Network Connection Detail
-  - SecondSubnet
-  - SecondBSSID
+  - Second Subnet
+  - Second BSSID
 - Device-related dimensions:
-  - Second Wi-Fi Microsoft Driver
+  - Second Wifi Microsoft Driver
   - Second Wifi Vendor Driver
   - Second Compute Device Name
 
@@ -304,7 +304,7 @@ The following CQD dimensions that can indicate possible audio issues are:
 - Audio Capture Device In Use
 - Audio Render Device In Use
 
-The recommended range for signal level is (-24,-14), the optimal for noise is <-60.
+The recommended range for signal level is (-24, -14), the optimal for noise is <-60.
 
 #### Input device root cause examples
 
@@ -313,7 +313,7 @@ The recommended range for signal level is (-24,-14), the optimal for noise is <-
 
 ## Maintenance of classification models
 
-The classifier models are monitored on the general population of Microsoft Teams users. If an anomaly is detected, then it is investigated and there's a high chance that the model is re-trained. This can cause temporal fluctuation of respective problem detection rates. Where these fluctuations would cause a significant change in detection rates, we will post a message to inform Teams admins through the M365 Message Center.
+The classifier models are monitored on the general population of Microsoft Teams users. If an anomaly is detected, then it's investigated and there's a high chance that the model is re-trained. This can cause temporal fluctuation of respective problem detection rates. Where these fluctuations would cause a significant change in detection rates, we'll post a message to inform Teams admins through the M365 Message Center.
 
 ## Related topics
 

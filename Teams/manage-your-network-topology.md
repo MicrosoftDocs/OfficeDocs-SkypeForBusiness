@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: pamgreen
 ms.reviewer: roykuntz
-ms.date: 12/08/2023
+ms.date: 10/10/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,12 +21,14 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn how to configure network settings for cloud voice features in Microsoft Teams. 
+description: Learn how to configure your network topology for cloud voice features in Microsoft Teams. 
 ---
 
 # Manage your network topology for cloud voice features in Microsoft Teams
 
-If your organization is deploying [Location-Based Routing for Direct Routing](location-based-routing-plan.md) or [dynamic emergency calling](configure-dynamic-emergency-calling.md), you must configure network settings for use with these cloud voice features in Microsoft Teams. Network settings are used to determine the location of a Teams client and include network regions, network sites, subnets, and trusted IP addresses. Depending on the cloud voice feature and capability that you're deploying, you configure some or all these settings. To learn more about these terms, see [Network settings for cloud voice features](cloud-voice-network-settings.md).
+If your organization is deploying [Location-Based Routing for Direct Routing](location-based-routing-plan.md) or [dynamic emergency calling](configure-dynamic-emergency-calling.md), you must configure network settings for use with these cloud voice features in Microsoft Teams. 
+
+Network settings are used to determine the location of a Teams client. The settings include network regions, network sites, subnets, and trusted IP addresses. Depending on the cloud voice feature and capability that you're deploying, you configure some or all of these settings. To learn more about these terms, see [Network settings for cloud voice features](cloud-voice-network-settings.md).
 
 You configure network settings on the **Network topology** page of the Microsoft Teams admin center or by using Windows PowerShell.
 
@@ -37,7 +39,9 @@ Note that it can take some time (up to four hours) for some changes to network s
 
 ## Configure network settings in the Microsoft Teams admin center
 
-You define network regions, network sites, and subnets on the **Network sites** tab of the **Network topology** page. Here, you can create or modify a network site, associate a site with a network region, associate a subnet to the site, turn on Location-based Routing, and assign emergency policies to the site. You can also add network regions that can be used globally for all sites.
+You define network regions, network sites, and subnets on the **Network sites** tab of the **Network topology** page. 
+
+You can create or modify a network site, associate a site with a network region, associate a subnet to the site, turn on Location-Based Routing, and assign emergency policies to the site. You can also add network regions that can be used globally for all sites.
 
 #### Add and configure a network site
 
@@ -52,9 +56,12 @@ You define network regions, network sites, and subnets on the **Network sites** 
 5. To assign emergency services policies to the site, do one or both of the following:
 
     - If your organization uses Calling Plans, Operator Connect, or Direct Routing, under **Emergency calling policy**, select the policy that you want.
-    - If your organization deployed Direct Routing, under **Emergency call routing policy**, select the  policy that you want.
 
-6. To associate a subnet to the site, under **Subnets**, select **Add subnets**. Specify the IP version, IP address, network range, add a description, and then select **Apply**. Each subnet must be associated with a specific site.
+    - If your organization deployed Direct Routing, under **Emergency call routing policy**, select the policy that you want.
+
+6. (Optional) If you want to change the behavior for clients in this site, you can use the network roaming policy. Under **Network roaming policy**, select the policy that you want. For more information, see [Manage audio and video settings for clients](network-roaming-policy.md).
+
+7. To associate a subnet to the site, under **Subnets**, select **Add subnets**. Specify the IP version, IP address, network range, add a description, and then select **Apply**. Each subnet must be associated with a specific site.
 
 7. Select **Save**.
 
@@ -74,7 +81,7 @@ You manage external trusted IP addresses on the **Trusted IPs** tab on the **Net
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Locations** > **Network topology**, and then select the **Trusted IPs** tab.
 
-2. Select **New**.
+2. Select **Add**.
 
 3. In the **Add trusted IP address** pane, specify the IP version, IP address, network range, add a description, and then select **Apply**.
 
@@ -92,7 +99,7 @@ To complete the steps in this section, you need some familiarity with PowerShell
 
 ### Define network regions
 
-Use the [New-CsTenantNetworkRegion](/powershell/module/teams/New-CsTenantNetworkRegion) cmdlet to define network regions. Note that the RegionID parameter is a logical name that represents the geography of the region and has no dependencies or restrictions and the CentralSite &lt;site ID&gt; parameter is optional.
+To define network regions, use the [New-CsTenantNetworkRegion](/powershell/module/teams/New-CsTenantNetworkRegion) cmdlet. Note that the RegionID parameter is a logical name that represents the geography of the region and has no dependencies or restrictions; the CentralSite &lt;site ID&gt; parameter is optional.
 
 ```PowerShell
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
@@ -104,17 +111,17 @@ This example creates a network region named India:
 New-CsTenantNetworkRegion -NetworkRegionID "India"  
 ```
 
-See also [Set-CsTenantNetworkRegion](/powershell/module/teams/set-cstenantnetworkregion).
+For more information, see [Set-CsTenantNetworkRegion](/powershell/module/teams/set-cstenantnetworkregion).
 
 ### Define network sites
 
-Use the [New-CsTenantNetworkSite](/powershell/module/teams/new-cstenantnetworksite) cmdlet to define network sites. Each network site must be associated with a network region.
+To define network sites, use the [New-CsTenantNetworkSite](/powershell/module/teams/new-cstenantnetworksite) cmdlet. Each network site must be associated with a network region.
 
 ```PowerShell
 New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 ```
 
-This example creates two new network sites, Delhi and Hyderabad, in the India region:
+The following example creates two new network sites, Delhi and Hyderabad, in the India region:
 
 ```PowerShell
 New-CsTenantNetworkSite -NetworkSiteID "Delhi" -NetworkRegionID "India"
@@ -128,17 +135,17 @@ The following table shows the network sites defined in this example:
 |Site ID    |    Site 1 (Delhi)     |  Site 2 (Hyderabad)       |
 |Region ID  |     Region 1 (India)    |   Region 1 (India)      |
 
-See also [Set-CsTenantNetworkRegion](/powershell/module/teams/set-cstenantnetworksite).
+For more information, see [Set-CsTenantNetworkRegion](/powershell/module/teams/set-cstenantnetworksite).
 
 ### Define network subnets
 
-Use the [New-CsTenantNetworkSubnet](/powershell/module/teams/new-cstenantnetworksubnet) cmdlet to define network subnets and associate them to network sites. Each network subnet can only be associated with one site.
+To define network subnets and associate them to network sites, use the [New-CsTenantNetworkSubnet](/powershell/module/teams/new-cstenantnetworksubnet) cmdlet. You can associate each network subnet with one site only.
 
 ```PowerShell
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
 ```
 
-This example creates an association between subnet 192.168.0.0 and the Delhi network site and between subnet 2001:4898:e8:25:844e:926f:85ad:dd8e and the Hyderabad network site:
+The following example creates an association between subnet 192.168.0.0 and the Delhi network site, and between subnet 2001:4898:e8:25:844e:926f:85ad:dd8e and the Hyderabad network site:
 
 ```PowerShell
 New-CsTenantNetworkSubnet -SubnetID "192.168.0.0" -MaskBits "24" -NetworkSiteID "Delhi"
@@ -159,7 +166,7 @@ For multiple subnets, you can import a CSV file by using a script such as the fo
 Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.Identity -MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
 ```
 
-In this example, the CSV file looks something like this:
+In this example, the CSV file looks like the following:
 
 ```console
 Identity, Mask, SiteID
@@ -169,11 +176,11 @@ Identity, Mask, SiteID
 172.11.15.0, 28, Paris
 ```
 
-See also [Set-CsTenantNetworkSubnet](/powershell/module/teams/set-cstenantnetworksubnet).
+For more information, see [Set-CsTenantNetworkSubnet](/powershell/module/teams/set-cstenantnetworksubnet).
 
 ### Define external subnets (external trusted IP addresses)
 
-Use the [New-CsTenantTrustedIPAddress](/powershell/module/teams/new-cstenanttrustedipaddress) cmdlet to define external subnets and assign them to the tenant. You can define an unlimited number of external subnets for a tenant.
+To define external subnets and assign them to the tenant, use the [New-CsTenantTrustedIPAddress](/powershell/module/teams/new-cstenanttrustedipaddress) cmdlet. You can define an unlimited number of external subnets for a tenant.
 
 ```PowerShell
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
@@ -185,9 +192,9 @@ For example:
 New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "Contoso address"  
 ```
 
-See also [Set-CsTenantTrustedIPAddress](/powershell/module/teams/set-cstenanttrustedipaddress).
+For more information, see [Set-CsTenantTrustedIPAddress](/powershell/module/teams/set-cstenanttrustedipaddress).
 
-## Enabling network roaming policies
+## Enable network roaming policies
 
 Once you configure your network roaming policies, you need to enable **Network configuration lookup*** within each of your **Meeting Policies** in the Teams admin center under **Meetings > Meeting Policies.**
 
