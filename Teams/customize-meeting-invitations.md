@@ -4,7 +4,7 @@ ms.author: wlibebe
 author: wlibebe
 manager: pamgreen
 ms.reviewer: 
-ms.date: 11/13/2023
+ms.date: 10/14/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -44,7 +44,7 @@ Now that you have your logo, you can customize your meeting invitations.
 ## Customize your meeting invitations using the Teams admin center
 
 1. Navigate to the Teams admin center
-2. In the left navigation, go to **Meetings** > **Meeting settings**.
+2. In the left navigation, expand **Meetings** > **Meeting settings**.
 3. Under **Email invitation**, do the following:
 
     - **Logo URL** Enter the URL where your logo is stored.
@@ -54,3 +54,7 @@ Now that you have your logo, you can customize your meeting invitations.
 4. Select **Preview invite** to see a preview of your meeting invitation.
 5. When you're done, select **Save**.
 6. Wait an hour or so for the changes to propagate and schedule a Teams meeting to see what the meeting invitation looks like.  
+
+## Related topics
+
+- [Plan meetings](plan-meetings.md)
