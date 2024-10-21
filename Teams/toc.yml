@@ -1589,7 +1589,7 @@ items:
                   href: /microsoftteams/troubleshoot/teams-rooms-and-devices/get-support-teams-rooms-pro-management
     - name: Teams phones
       items:
-        - name: Overview and planning
+        - name: Plan
           items:
             - name: Overview of Teams phones
               href: phones/phones-for-teams.md
