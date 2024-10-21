@@ -55,7 +55,7 @@ Microsoft recommends the following settings when deploying Teams devices in your
 
 ### Use a Teams Rooms resource account and disable password expiration
 
-Teams shared devices should use a [Teams Rooms resource account](/rooms/create-resource-account.md). You can either sync these accounts to Microsoft Entra ID from Active Directory or create them directly in Microsoft Entra ID. Any password expiration policies for users will also apply to accounts used on Teams shared devices, therefore, to avoid disruptions caused by password expiration policies, set the password expiration policy for shared devices to never expire.
+Teams shared devices should use a [Teams Rooms resource account](./rooms/create-resource-account.md). You can either sync these accounts to Microsoft Entra ID from Active Directory or create them directly in Microsoft Entra ID. Any password expiration policies for users will also apply to accounts used on Teams shared devices, therefore, to avoid disruptions caused by password expiration policies, set the password expiration policy for shared devices to never expire.
 
 ### Use remote sign in
 
