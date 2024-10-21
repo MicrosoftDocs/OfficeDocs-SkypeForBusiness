@@ -3,7 +3,7 @@ title: Deploy Teams Phones using Conditional Access and Intune
 author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
-ms.date: 04/25/2024
+ms.date: 10/21/2024
 ms.reviewer: prashibadkur
 ms.topic: article
 ms.service: msteams
