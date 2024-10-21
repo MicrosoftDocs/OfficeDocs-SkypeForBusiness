@@ -1634,9 +1634,8 @@ items:
             - name: Update management
               href: phones/remote-update-teams-phones.md
         - name: Troubleshooting and known issues
-          items:
-            - name: Troubleshooting and known issues
-              href: /microsoftteams/troubleshoot/teams-rooms-and-devices/teams-rooms-known-issues-android.md#issues-with-teams-phones
+          href: /microsoftteams/troubleshoot/teams-rooms-and-devices/teams-rooms-known-issues-android.md#issues-with-teams-phones
+          
     - name: Bring your own device (BYOD) spaces
       items:
         - name: BYOD rooms
