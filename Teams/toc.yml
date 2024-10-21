@@ -103,6 +103,8 @@ items:
                   href: new-teams-education.md
                 - name: Update to the new Teams for Web
                   href: new-teams-web.md
+                - name: Teams Progressive Web Apps (PWAs)
+                  href: teams-progressive-web-apps.md 
                 - name: New teams pre-installation script
                   href: new-teams-preinstallation-script.md
                 - name: Teams client updates
@@ -1658,8 +1660,6 @@ items:
   items: 
     - name: Understand apps in Teams
       href: apps-in-teams.md
-    - name: Teams Progressive Web Apps (PWAs)
-      href: teams-progressive-web-apps.md
     - name: Manage apps provided by Microsoft
       items:
         - name: Manage the Admin app
