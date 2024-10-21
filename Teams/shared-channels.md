@@ -88,7 +88,7 @@ The following table outlines what actions owners, members, and guests can do in 
 
 |Action  |Team owner|Team member|Team guest|Shared channel owner|Shared channel member|Shared channel external participant|
 |---------|---------|---------|---------|---------|---------|---------|
-|Create shared channel|Admin controlled|Admin and team owner controlled|No|N/A|No|No|
+|Create shared channel|Admin controlled|No|No|N/A|No|No|
 |Delete shared channel|Yes|No|No|Yes|No|No|
 |Leave shared channel|N/A|N/A|N/A|Yes unless they're the last owner|Yes|Yes|
 |Edit shared channel|No|N/A|N/A|Yes|No|No|
