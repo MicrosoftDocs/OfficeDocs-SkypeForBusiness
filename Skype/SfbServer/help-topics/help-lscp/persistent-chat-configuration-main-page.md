@@ -14,7 +14,7 @@ ms.custom:
 ms.service: skype-for-business-server
 ms.localizationpriority: medium
 ms.assetid: 1e75d352-12cf-4548-9301-5d4c0e1c8f46
-description: "Persistent Chat Server deployment can host many concurrent Persistent Chat rooms. Chat rooms are organized into a set of categories on the server. Each chat room belongs to one category, and inherits some settings from that category. This organization creates a useful structure for identifying conversations, based on their business purpose, and facilitates delegated administration and simplified management."
+description: "Your Persistent Chat Server deployment can host many concurrent Persistent Chat rooms. Chat rooms can be organized into a set of categories on the server. Each chat room belongs to one category, and inherits some settings from that category. This organization creates a useful structure for identifying conversations, based on their business purpose, and facilitates delegated administration and simplified management."
 ---
 
 # Persistent Chat Configuration Main Page
@@ -119,6 +119,6 @@ You can perform the following tasks on the **Persistent Chat Configuration** pag
     
 ## See also
 
-For details about Persistent Chat Server features and capabilities, see [Plan for Persistent Chat Server in Skype for Business Server](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Deploy Persistent Chat Server in Skype for Business Server](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md), and [Manage Persistent Chat Server in Skype for Business Server](../../manage/persistent-chat/persistent-chat.md).
+For details about Persistent Chat Server features and capabilities, see [Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Deploy Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md), and [Manage Persistent Chat Server in Skype for Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
   
 

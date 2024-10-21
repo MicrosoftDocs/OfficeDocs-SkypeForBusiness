@@ -23,7 +23,7 @@ You can use the **Category** section of the **Persistent Chat** page to configur
   
 Chat room categories may contain chat rooms, but not other categories. Each category describes its contents with metadata, such as  _Name_ and _Description_. In addition, the category has properties which can be set to control the behavior of the chat rooms belonging to it, such as if the chat rooms allow  _Invitations_ or _File Uploads_, or contain  _Chat History_.
   
-To create a new category, see [Manage categories in Persistent Chat Server in Skype for Business Server](../../manage/persistent-chat/categories.md). If you are a Persistent Chat Administrator, you can create categories by using the control panel or Windows PowerShell cmdlets.
+To create a new category, see [Manage categories in Persistent Chat Server in Skype for Business Server 2015](../../manage/persistent-chat/categories.md). If you are a Persistent Chat Administrator, you can create categories by using the control panel or Windows PowerShell cmdlets.
   
 ## Tasks that you can perform
 
@@ -76,6 +76,6 @@ You can perform the following tasks on the **Category** page:
     
 ## See also
 
-For details about Persistent Chat Server features and capabilities, see [Plan for Persistent Chat Server in Skype for Business Server](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Deploy Persistent Chat Server in Skype for Business Server](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md), and [Manage Persistent Chat Server in Skype for Business Server](../../manage/persistent-chat/persistent-chat.md).
+For details about Persistent Chat Server features and capabilities, see [Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Deploy Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md), and [Manage Persistent Chat Server in Skype for Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
   
 
