@@ -1557,7 +1557,7 @@ items:
                       href: rooms/inventory.md
                     - name: Standards and Rooms Planner 
                       href: rooms/standards-and-room-planner.md
-                    - name: Remote access a Teams Room console
+                    - name: Remotely access a Teams Room console
                       href: rooms/remotely-access-teams-rooms.md
                     - name: Managed updates
                       href: rooms/update-management.md
