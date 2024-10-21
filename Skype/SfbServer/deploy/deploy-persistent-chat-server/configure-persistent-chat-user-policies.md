@@ -1,5 +1,5 @@
 ---
-title: "Configure Persistent Chat user policies in Skype for Business Server"
+title: "Configure Persistent Chat user policies in Skype for Business Server 2015"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -12,12 +12,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: e5862480-95f8-4d76-a2b5-940cd995e93c
-description: "Summary: Read this topic to learn how to create initial user policies for Persistent Chat Server in Skype for Business Server. Persistent Chat user policies determine whether or not users are allowed access to chat rooms."
+description: "Summary: Read this topic to learn how to create initial user policies for Persistent Chat Server in Skype for Business Server 2015. Persistent Chat user policies determine whether or not users are allowed access to chat rooms."
 ---
 
-# Configure Persistent Chat user policies in Skype for Business Server 
+# Configure Persistent Chat user policies in Skype for Business Server 2015
  
-**Summary:** Read this topic to learn how to create initial user policies for Persistent Chat Server in Skype for Business Server. Persistent Chat user policies determine whether or not users are allowed access to chat rooms.
+**Summary:** Read this topic to learn how to create initial user policies for Persistent Chat Server in Skype for Business Server 2015. Persistent Chat user policies determine whether or not users are allowed access to chat rooms.
   
 You can manage Persistent Chat Server user policies at the following levels: global, site, or user. Initially, you configure the global policy to enable Persistent Chat settings for all users in your deployment, and then create additional user and site policies to control whether Persistent Chat is turned on for specific users and sites.
   
@@ -31,6 +31,9 @@ This topic contains the following sections:
     
 - Apply a policy to a user or user group
     
+> [!NOTE] 
+> Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015.
+
 ## Configure the global policy
 
 To configure the global policy:
