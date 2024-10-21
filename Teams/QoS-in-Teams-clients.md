@@ -67,7 +67,7 @@ To create the device configuration policy for QoS for Teams clients on Windows:
     |Teams Screenshare: DSCP Marking|Marking applied for screen sharing (AF21)|./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsScreenshare/DSCPAction|Integer|18|
     |Teams Calling-Meeting Signaling: Application|New Teams executable name.|./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsCMSignaling/AppPathNameMatchCondition|String|ms-teams.exe|
     |Teams Calling-Meeting Signaling: Ports|Calling and Meeting Signaling source ports used by the Teams client.|./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsCMSignaling/SourcePortMatchCondition|String|50070-50089|
-    |Teams Calling-Meeting Signaling: DSCP Marking|Marking applied for calling and meeting signaling (EF46)|./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsCMSignaling/DSCPAction|Integer|46|
+    |Teams Calling-Meeting Signaling: DSCP Marking|Marking applied for calling and meeting signaling (CS5)|./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsCMSignaling/DSCPAction|Integer|40|
 
     **For the classic Teams client, using the following table.**
     
@@ -86,7 +86,7 @@ To create the device configuration policy for QoS for Teams clients on Windows:
     |Classic Teams Screenshare: DSCP Marking|Marking applied for screen sharing (AF21)|./Device/Vendor/MSFT/NetworkQoSPolicy/ClassicTeamsScreenshare/DSCPAction|Integer|18|
     |Classic Teams Calling-Meeting Signaling: Application|New Teams executable name.|./Device/Vendor/MSFT/NetworkQoSPolicy/ClassicTeamsCMSignaling/AppPathNameMatchCondition|String|teams.exe|
     |Classic Teams Calling-Meeting Signaling: Ports|Calling and Meeting Signaling source ports used by the Teams client.|./Device/Vendor/MSFT/NetworkQoSPolicy/ClassicTeamsCMSignaling/SourcePortMatchCondition|String|50070-50089|
-    |Classic Teams Calling-Meeting Signaling: DSCP Marking|Marking applied for calling and meeting signaling (EF46)|./Device/Vendor/MSFT/NetworkQoSPolicy/ClassicTeamsCMSignaling/DSCPAction|Integer|46|
+    |Classic Teams Calling-Meeting Signaling: DSCP Marking|Marking applied for calling and meeting signaling (CS5)|./Device/Vendor/MSFT/NetworkQoSPolicy/ClassicTeamsCMSignaling/DSCPAction|Integer|40|
 
 9. Select **Next**
 10. In **Assignments**, select the group or groups that you want to target with this policy. The group membership must include Windows devices (and not user accounts) as this is a device policy.
@@ -98,7 +98,7 @@ To create the device configuration policy for QoS for Teams clients on Windows:
 
 ## Configuring DSCP markings using PowerShell commands
 
-Endpoint DSCP markings can be set in PowerShell using the [New-NetQosPolicy](/powershell/module/netqos/new-netqospolicy) command. In the examples below, there are two commands each for audio, video, and application sharing. The following commands show creating policies for both the new Teams client (ms-teams.exe) and classic Teams client (Teams.exe). You can combine these commands into a PowerShell script and distrbute to your desired endpoints. 
+Endpoint DSCP markings can be set in PowerShell using the [New-NetQosPolicy](/powershell/module/netqos/new-netqospolicy) command. In the examples below, there are two commands each for audio, video, and application sharing. The following commands show creating policies for both the new Teams client (ms-teams.exe) and classic Teams client (Teams.exe). You can combine these commands into a PowerShell script and distribute to your desired endpoints. 
 
 **Set QoS for audio**
 
@@ -125,8 +125,8 @@ new-NetQosPolicy -Name "Classic Teams Sharing" -AppPathNameMatchCondition "Teams
 **Set QoS for calling and meeting signaling**
 
 ```powershell
-new-NetQosPolicy -Name "Teams Calling-Meeting Signaling" -AppPathNameMatchCondition "ms-teams.exe" -IPProtocolMatchCondition UDP -IPSrcPortStartMatchCondition 50070 -IPSrcPortEndMatchCondition 50089 -DSCPAction 18 -NetworkProfile All
-new-NetQosPolicy -Name "Classic Teams Calling-Meeting Signaling" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition UDP -IPSrcPortStartMatchCondition 50070 -IPSrcPortEndMatchCondition 50089 -DSCPAction 18 -NetworkProfile All
+new-NetQosPolicy -Name "Teams Calling-Meeting Signaling" -AppPathNameMatchCondition "ms-teams.exe" -IPProtocolMatchCondition UDP -IPSrcPortStartMatchCondition 50070 -IPSrcPortEndMatchCondition 50089 -DSCPAction 40 -NetworkProfile All
+new-NetQosPolicy -Name "Classic Teams Calling-Meeting Signaling" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition UDP -IPSrcPortStartMatchCondition 50070 -IPSrcPortEndMatchCondition 50089 -DSCPAction 40 -NetworkProfile All
 
 ```
 

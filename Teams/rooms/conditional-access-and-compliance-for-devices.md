@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: dimehta
-ms.date: 08/22/2024
+ms.date: 10/21/2024
 ms.topic: article
 audience: Admin
 ms.service: msteams
@@ -20,59 +20,61 @@ f1.keywords:
 description: Learn about recommended Conditional Access and Intune device compliance policies and best practices for Microsoft Teams Rooms.
 ---
 
-# Conditional Access and Intune compliance for Microsoft Teams Rooms
+# Conditional Access and Intune compliance for Microsoft Teams Rooms and panels
 
-This article provides requirements and best practices for Conditional Access and Intune device compliance policies for Microsoft Teams Rooms that are used in shared spaces.
+This article provides requirements and best practices for Conditional Access and Intune device compliance policies for Microsoft Teams Rooms on Windows, Teams Rooms on Android, and Teams panel devices.
 
 [!INCLUDE [teams-pro-license-requirement](../includes/teams-pro-license-requirement.md)]
 
 ## Requirements
 
-Teams Rooms must already be deployed on the devices you want to assign Conditional Access policies to. If you haven't deployed Teams Rooms yet, see [Create resource accounts for rooms and shared Teams devices](create-resource-account.md) and [Deploy Microsoft Teams Rooms on Android](../devices/collab-bar-deploy.md) for more information.
-
-A Microsoft Entra ID P1 Service Plan is required to use Conditional Access. Its included in the Microsoft Teams Rooms license.
+- Teams Rooms resource accounts created, for more information, see [Create resource accounts for rooms and shared Teams devices](create-resource-account.md).
+- A Microsoft Entra ID P1 Service Plan is required to use Conditional Access. It's included in the Microsoft Teams Rooms license or Shared Device license.
 
 ## Teams Rooms Conditional Access best practices
 
-Conditional Access policies can secure the sign in process on devices that are in shared spaces and used by multiple people. For an overview of Conditional Access in Microsoft Entra ID, see [What is Conditional Access in Microsoft Entra ID?](/azure/active-directory/conditional-access/overview).
+Conditional Access policies can secure the sign in process on devices that are in shared spaces. For an overview of Conditional Access in Microsoft Entra ID, see [What is Conditional Access in Microsoft Entra ID?](/azure/active-directory/conditional-access/overview).
 
-When using Conditional Access to secure Teams Rooms, consider the
-following best practices:
+When using Conditional Access to secure Teams Rooms, consider the following best practices:
 
-- To simplify deployment and management, include all Microsoft 365 room resources accounts associated with Teams Rooms in one user group.
-- Have a naming standard for all Teams Rooms resource accounts. For
-    example, the account names 'mtr-room1@contoso.com' and
-    'mtr-room2@contoso.com' both start with the prefix 'mtr-'.
-    When account names are standardized, you can use dynamic groups in Microsoft Entra ID
-    to automatically apply Conditional Access policies to all of these
-    accounts at once. For more information on dynamic groups, see [Rules for dynamically populated groups membership](/azure/active-directory/enterprise-users/groups-dynamic-membership).
+- Include all Microsoft 365 room resources accounts associated with Teams Rooms in one Microsoft Entra ID user group.
+- Use a naming standard for all Teams Rooms resource accounts. For example, the account names 'mtr-room1@contoso.com' and 'mtr-room2@contoso.com' both start with the prefix 'mtr-'. When account names are standardized, you can use dynamic groups in Microsoft Entra ID to automatically apply Conditional Access policies to all of these accounts at once. For more information on dynamic groups, see [Rules for dynamically populated groups membership](/azure/active-directory/enterprise-users/groups-dynamic-membership).
+- Exclude your Teams Rooms resource accounts from all existing Conditional Access policies and create a new policy specific to the resource accounts.
+- Do not require user interactive multifactor authentication (MFA). User interactive MFA isn't supported for Teams Rooms resource accounts since the resource accounts don't have a second device to approve the MFA request.
 
 For a list of supported Conditional Access assignments for Teams Rooms, see [Supported Conditional Access policies](supported-ca-and-compliance-policies.md#supported-conditional-access-policies).
 
-## Example Conditional Access policy
+### Example Conditional Access policy
 
 In this example, the Conditional Access policy works as follows:
 
 1. The account signing in must be a member of a specific user group, in this example, the "Shared devices" group.
-2. The account signing in must only be trying to access Office 365, Office 365 Exchange Online, Microsoft Teams Services, and Office 365 SharePoint Online. Attempts to sign into any other client app are rejected.
-3. The resource account must be signing in on the Windows device platform.
-4. The resource account must also sign in from a known, trusted location.
+2. The account signing in must only be trying to access Office 365, Office 365 Exchange Online, Microsoft Teams Services, and Microsoft 365 SharePoint Online. Attempts to sign into any other client app are rejected.
+3. The authentication method must be modern authentication. Legacy authentication mechanisms should be blocked.
+4. The resource account must be signing in on the Windows or Android device platform.
+5. The resource account must also sign in from a known, trusted location.
+6. The resource account must be signing in from a compliant device.
 
-If these conditions are met successfully, and the user enters the correct username and password, then the resource account signs into Teams.
+If these conditions are met successfully, and the device has the correct username and password, then the resource account signs into Teams.
 
-## Conditional Access with Microsoft Intune compliance for Teams Rooms
+## Intune compliance for Teams Rooms
 
-Compliance requirements are defined rules that devices must meet to be marked as compliant, such as minimum operating system version. Devices must be considered compliant before they can be used to sign into a resource account.
+Compliance requirements are defined rules that devices must meet to be marked as compliant, such as minimum operating system version. Device compliance can be used as a condition in conditional access before the resource account can sign in.
 
 For a list of supported Intune compliance policies for Teams Rooms, see [Supported device compliance policies](supported-ca-and-compliance-policies.md#supported-device-compliance-policies).
 
-For more information on setting up Intune with Teams Android devices, see [Configure Intune to enroll Teams Android-based devices](../devices/phones-panels-deploy.md#configure-intune-to-enroll-teams-android-based-devices).
-
-## Example (Windows only): Conditional Access with Intune device compliance
-
-In this example for Teams Rooms on Windows
+### Example Intune compliance policy for Teams Rooms on Windows
 
 1. Require that a firewall is running on Teams Rooms on Windows.
-2. Require that Microsoft Defender is running on Teams Rooms.
-3. If Teams Rooms doesn't meet either of these requirements, it won't be marked as compliant, and the devices won't sign in.
-This compliance policy applies to all users, not just Teams resource accounts.
+2. Require a minimum operating system version.
+3. Require that Microsoft Defender is running on Teams Rooms.
+
+This compliance policy should be assigned to the Teams Rooms devices and the Teams Rooms resource accounts. If the device doesn't meet these requirements, it won't be marked as compliant.
+
+### Example Intune compliance policy for Teams Rooms on Android and Teams panels
+
+1. Minimum operating system version is greater than Android 10.
+2. Block rooted devices.
+3. Require encryption of data storage on device
+
+This compliance policy should be assigned to the Teams Rooms devices and the Teams Rooms resource accounts.  If the device doesn't meet these requirements, it won't be marked as compliant.

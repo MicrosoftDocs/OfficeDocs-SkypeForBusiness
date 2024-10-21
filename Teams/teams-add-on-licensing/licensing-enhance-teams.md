@@ -80,7 +80,6 @@ The following tables compare key features between Teams and Teams Premium. Becau
 | Use RTMP-In for meetings |  | ✔️ |
 | Hide attendee names |  | ✔️ |
 | View engagement reports |  | ✔️ |
-| Translate post-meeting transcriptions (*coming soon*) |  | ✔️ |
 | Turn on eCDN Meetings\* |  | ✔️ |
 | Audio quality alerts |  | ✔️ |
 | Video quality alerts |  | ✔️ |
