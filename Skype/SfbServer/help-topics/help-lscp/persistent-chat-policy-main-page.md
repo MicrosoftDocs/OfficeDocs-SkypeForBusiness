@@ -29,7 +29,7 @@ The global policy is created automatically when you deploy Persistent Chat Serve
 You can create and configure multiple site and user policies which, together with the global policy, enable users for Persistent Chat Server. Pool and site Persistent Chat Server policies override the global Persistent Chat Server policy, but only for users of that site. User policies override both global, pool, and site policies for the users to whom the user policy is assigned.
   
 > [!NOTE]
-> To configure and use Persistent Chat Server, you must first use Topology Builder to add Persistent Chat Server support to the topology, and then publish the topology. For details, see [Add Persistent Chat Server to your Skype for Business Server topology](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md). 
+> To configure and use Persistent Chat Server, you must first use Topology Builder to add Persistent Chat Server support to the topology, and then publish the topology. For details, see [Add Persistent Chat Server to your Skype for Business Server 2015 topology](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md). 
   
 ## Tasks that you can perform
 

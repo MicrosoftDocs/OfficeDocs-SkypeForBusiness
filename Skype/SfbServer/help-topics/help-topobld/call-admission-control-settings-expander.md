@@ -26,7 +26,7 @@ Call admission control (CAC) is a network of regions, sites, and subnets that en
   
 In the **Call Admission Control Setting** section of the **Edit Properties** dialog box for your site, you can change the following settings:
   
-- **Enable Call Admission Control** Select this setting to enable CAC. Clear this setting to disable CAC for your entire network. To enable CAC, you must have configured your network for CAC. For details, see [Deploy call admission control in Skype for Business Server](../../deploy/deploy-enterprise-voice/deploy-call-admission-control.md) in the Deployment documentation.
+- **Enable Call Admission Control** Select this setting to enable CAC. Clear this setting to disable CAC for your entire network. To enable CAC, you must have configured your network for CAC. For details, see [Deploy call admission control in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-call-admission-control.md) in the Deployment documentation.
     
 - **Front End pool to run Call Admission Control** If you enabled CAC, you can change the pool that runs it. Select the pool from the drop-down list.
     

@@ -32,12 +32,12 @@ You must specify a file share to be used as the file store for the Standard Edit
   
 ## See also
 
-[Plan for Persistent Chat Server in Skype for Business Server](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Add Persistent Chat Server to your Skype for Business Server topology](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[Add Persistent Chat Server to your Skype for Business Server 2015 topology](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
   
-[Hardware and software requirements for Persistent Chat Server in Skype for Business Server](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
+[Hardware and software requirements for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
   
-[Server requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+[Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
-[Topology Basics for Skype for Business Server](../../plan-your-deployment/topology-basics/topology-basics.md)
+[Topology Basics for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md)

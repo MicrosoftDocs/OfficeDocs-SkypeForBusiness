@@ -1,5 +1,5 @@
 ---
-title: "Manage Persistent Chat Server in Skype for Business Server"
+title: "Manage Persistent Chat Server in Skype for Business Server 2015"
 ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
@@ -12,15 +12,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c58ee4f4-563b-4d0c-be91-c62df886caa9
-description: "Summary: Learn how to manage Persistent Chat Server in Skype for Business Server."
+description: "Summary: Learn how to manage Persistent Chat Server in Skype for Business Server 2015."
 ---
 
-# Manage Persistent Chat Server in Skype for Business Server 
+# Manage Persistent Chat Server in Skype for Business Server 2015
  
-**Summary:** Learn how to manage Persistent Chat Server in Skype for Business Server.
+**Summary:** Learn how to manage Persistent Chat Server in Skype for Business Server 2015.
   
-When you set up Persistent Chat Server for your organization, you specify the initial configuration during deployment. However, there may be times when you want to change how you implement Persistent Chat Server support. For example you may need to set up Persistent Chat Server support and controls differently for a specific team or group within your organization. This section provides information and procedures to help you customize your Persistent Chat Server deployment. For details about the features and functionality that you can configure for Persistent Chat Server, see [Plan for Persistent Chat Server in Skype for Business Server](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md). For details about deploying Persistent Chat Server, see [Deploy Persistent Chat Server in Skype for Business Server](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md). 
+When you set up Persistent Chat Server for your organization, you specify the initial configuration during deployment. However, there may be times when you want to change how you implement Persistent Chat Server support. For example you may need to set up Persistent Chat Server support and controls differently for a specific team or group within your organization. This section provides information and procedures to help you customize your Persistent Chat Server deployment. For details about the features and functionality that you can configure for Persistent Chat Server, see [Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md). For details about deploying Persistent Chat Server, see [Deploy Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md). 
 
+> [!NOTE]
+> Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015. 
   
 You can manage Persistent Chat Server by using the Control Panel or by using Windows PowerShell cmdlets. 
   
@@ -32,7 +34,7 @@ To use the Control Panel:
     
 3. In the left navigation bar, click **Persistent Chat**.
     
-The following table summarizes the Windows PowerShell cmdlets available to help you manage Persistent Chat Server. For details about syntax, including all available parameters, see [Skype for Business Server Management Shell](../management-shell.md).
+The following table summarizes the Windows PowerShell cmdlets available to help you manage Persistent Chat Server. For details about syntax, including all available parameters, see [Skype for Business Server 2015 Management Shell](../management-shell.md).
   
 
 |**Cmdlet**|**Description**|
