@@ -1411,6 +1411,12 @@ items:
                       href: devices/reserving-rooms-with-a-qr-code.md
                     - name: Custom backgrounds on Teams panels
                       href: devices/custom-background-panels.md
+                - name: Surface Hub (legacy)
+                  items: 
+                    - name: Manage Microsoft Teams settings
+                      href: rooms/surface-hub-manage-config.md
+                    - name: Surface Hub Help
+                      href: /surface-hub/first-run-program-surface-hub
             - name: Teams Rooms and panels feature comparison
               href: rooms/teams-devices-feature-comparison.md
             - name: Meeting room design guidance
@@ -1585,7 +1591,7 @@ items:
                   href: /microsoftteams/troubleshoot/teams-rooms-and-devices/get-support-teams-rooms-pro-management
     - name: Teams phones
       items:
-        - name: Overview and planning
+        - name: Plan
           items:
             - name: Overview of Teams phones
               href: phones/phones-for-teams.md
