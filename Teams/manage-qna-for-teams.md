@@ -33,7 +33,7 @@ To learn more about Q&A for your users, see [Q&A in Microsoft Teams meetings](ht
 ## Prerequisites
 
 - Verify that access to [Viva Engage’s IPs and URLs](/microsoft-365/enterprise/urls-and-ip-address-ranges) isn't blocked.
-  - If you have a GCC tenant, verify that your firewall isn't blocking access to GCC services hosted from <https://web.gov.yammer.com> and <https://*.rt.gov.yammer.com>.
+  - If you have a GCC tenant, verify that your firewall isn't blocking access to GCC services hosted from <https://web.gov.yammer.com> and `https://*.rt.gov.yammer.com`.
 - To allow users in your organization to add Q&A to Teams meetings and events, you must confirm that sign-ins for the Office 365 Viva Engage service are enabled in Microsoft Entra ID.
 Follow these steps to confirm that sign-ins are enabled:
   - Go to the **Microsoft Entra admin center** > **Identity** > **Applications** > **Enterprise Applications** > **Viva Engage** > **Properties**.
