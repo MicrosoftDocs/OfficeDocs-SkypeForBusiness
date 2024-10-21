@@ -25,9 +25,6 @@ search.appverid: MET150
 
 ## Overview of Queues app
 
-> [!NOTE]
-> Queues app is currently in [public preview](public-preview-doc-updates.md).
-
 The Queues app is a Teams-native solution designed to empower organizations to manage customer engagements efficiently, unlocking a set of advanced call functionalities for Teams Phone Call queues and Auto attendants, such as:
 
 - **Call queue management**: Admins can now delegate authorized users, also known as leads or supervisors, to manage and configure Call queues and Auto attendants directly from the Teams client. Authorized users can configure Call queues and Auto attendants from Call settings and they can opt agents into and out of the queue from Queues app. For more information, see [Configure Queues app](#configure-users-for-queues-app).
