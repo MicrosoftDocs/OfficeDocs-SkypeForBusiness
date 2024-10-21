@@ -89,7 +89,7 @@ After granting the policy to the meeting room resource account, you'll need to w
 
 ## Impact on Microsoft Teams admin center
 
-Microsoft Teams admin center allows you to manage Microsoft Teams devices. For more information on managing devices using Teams admin center, see [Manage your devices in Microsoft Teams](device-management.md).
+Microsoft Teams admin center allows you to manage Microsoft Teams devices. For more information on managing devices using Teams admin center, see [Manage your devices in Microsoft Teams](../device/device-management.md).
 
 Teams admin center provides the ability to manage Teams phones. Phones are filtered into one of three tabs based on their function: user phones, common area phones, and conference phone.
 
