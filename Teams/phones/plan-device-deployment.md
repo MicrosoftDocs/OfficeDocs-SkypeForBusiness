@@ -4,7 +4,7 @@ author: mstonysmith
 ms.author: tonysmit
 manager: pamgreen
 ms.reviewer: prashibadkur
-ms.date: 08/02/2024
+ms.date: 10/21/2024
 ms.topic: article
 ms.service: msteams
 ms.subservice: itpro-devices
@@ -25,12 +25,10 @@ description: This article provides an overview of the tasks and steps to deploy 
 
 Teams phones are a great way to stay connected and productive with your colleagues and customers. These devices are designed to provide a seamless calling and meeting experience. With just three easy steps, you can deploy a [Teams Phone device certified by Microsoft](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/category/desk-phones-teams-displays/34?page=1&filterIds=), in your spaces and enjoy advanced calling features.
 
-## Step 1: Consider the space Teams Phone device will be used in
+## Step 1: Consider the space the Teams Phone device will be used in
 
 - **Personal Space**: Used on an employee’s desk to make and receive calls.
 - **Shared Space**: Used in a shared space, such as a lobby, a building floor, or anywhere your employees and visitors need quick access to make call.
-
-The space you choose will determine the type of license you'll need.
 
 ## Step 2: Pick the licenses and workloads you'll need for the space 
 
@@ -86,16 +84,11 @@ In addition to the above, you can choose from the following experiences on touch
 
 ## Best Practices:
 
-- **Manage firmware and Teams app updates**: Enable [auto updates](../devices/remote-update.md#automatic-updates) of firmware via Teams admin center and assign devices to different rings (Validation, General, Final) to roll out updates in phases. You can assign the Validation ring to a small set of test phones and assign other phones to General and Final rings. 
+- **Manage firmware and Teams app updates**: Configure [auto updates](../devices/remote-update.md#automatic-updates) phases via Teams Admin Center (Validation, General, Final) to roll out updates in phases. You can assign the Validation ring to a small set of test phones and assign other phones to General and Final rings. 
 
-  > [!NOTE]
-  > Auto updates on Teams application is coming soon. Currently, you can [schedule](../devices/remote-update.md#manually-update-remote-devices) Teams application update via Teams admin center.
-
-- **Manage Authentication**: For password management, review [Authentication best practices](../devices/authentication-best-practices-for-android-devices.md).
+- **Manage Authentication**: For password management, review [Authentication best practices](authentication-best-practices-phones.md).
 
 - **Configure calling policies**: Configure different [calling policies](../teams-calling-policy.md) based on your needs.
-
-- **Optimize phone memory usage**: To optimize phone performance, enable daily or automatic restart of Teams application on the phone device via [configuration profile](../devices/device-management.md#use-configuration-profiles-in-teams).
 
 - **Secure common area phones**: To provide secured access to settings on phone devices in shared spaces, set an Admin PIN on common area phones via [configuration profile](../devices/device-management.md#use-configuration-profiles-in-teams).
 
