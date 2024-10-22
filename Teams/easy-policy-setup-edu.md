@@ -152,6 +152,8 @@ The following table summarizes what happens when you make a change in the wizard
 
 ## Policies and apps applied by the wizard
 
+<a name="polwiz_policies"> </a>
+
 ### Policy areas
 
 Here's the policy areas and corresponding policy names covered by the wizard. To find these policies, go to the Microsoft Teams admin center, and then in the left navigation, go to each policy area page.
