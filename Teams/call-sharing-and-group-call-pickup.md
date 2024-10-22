@@ -42,7 +42,10 @@ Users must be assigned a Microsoft Teams Phone license to set up and use call sh
 
 ## Limitations
 
-A user can only be the owner of one call group. Each configured call group can have a maximum of 25 users or 32,768 characters. A user can be a member of maximum 25 call groups.
+- A user can only own one call group. 
+- Each call group can have up to 25 users or 32,768 characters.
+- A user can be a member of up to 25 call groups.
+- If you add more than 5 members to a call group, the ring order will automatically switch to "everyone at once."
 
 Note that mobile devices will only get notified if they're set for banner and ringtone.
 
