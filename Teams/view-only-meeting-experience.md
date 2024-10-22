@@ -32,6 +32,8 @@ Attendees who join after the main meeting capacity is reached have a view-only e
 
 As an admin, you can assign this policy to your organizers. This policy allows attendees who join the meeting after the 900-user capacity is reached to have a view-only experience. If you turn off the view-only experience, the meeting is limited to the first 1,000 attendees.
 
+To learn how to monitor, scale, and optimize the distribution of video during view-only meetings, see [Enterprise content delivery networks for streaming Microsoft Teams events](streaming-ecdn-enterprise-content-delivery-network.md).
+
 ## Teams view-only experience controls
 
 You enable the view-only experience using the [`Set-CsTeamsMeetingPolicy`](/powershell/module/teams/set-csteamsmeetingpolicy) cmdlet from the [SkypeForBusiness PowerShell module](/powershell/module/teams/) or at least version 2.0.0 of the [Microsoft Teams module](https://www.powershellgallery.com/packages/MicrosoftTeams).
