@@ -73,7 +73,7 @@ Teams Premium provides more ways to safeguard and monitor users' Teams experienc
 
 - **Custom user policy packages** - Create policy packages to simplify, streamline, and help provide consistency when managing policies for groups of users across your organization.
 
-- **Microsoft eCDN** - Optimize network performance for video streaming within an enterprise network. Microsoft eCDN allows millions of enterprise users around the world to communicate face-to-face efficiently and reliably. You can use the Microsoft eCDN or select one of our partner providers for view-only meetings.
+- **Microsoft eCDN** - Optimize network performance for video streaming within an enterprise network. Microsoft eCDN allows millions of enterprise users around the world to communicate face-to-face efficiently and reliably. Organizers with a Teams Premium license use the Microsoft eCDN by default, but you can also select one of our partner providers for these organizers.
 
 - **End-to-end encryption** - Enforced through a sensitivity label, end-to-end encryption provides increased security for meetings that require a higher level of protection.
 
