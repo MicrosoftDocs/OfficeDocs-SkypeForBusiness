@@ -95,7 +95,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Windows C
 | [Dell OptiPlex 7000 with Logitech TAP](https://www.dell.com/en-us/lp/logitechvideoconferencing?ref=cptl_logitech-store-at-dell---4_cta_primary_shopgoogleteamsorzoombundles#All-in-one-Room-Solutions) | Core i7 | 16 GB | 256 GB |
 | [HP Elite Slice for Meeting Rooms G2](https://www.hp.com/us-en/desktops/business/elite-slice.html) | Core i5 | 8 GB | 128 GB |
 | [HP Elite Slice G2 Audio Ready with Microsoft Teams Rooms](https://www.hp.com/us-en/desktops/business/elite-slice/microsoft-teams-rooms.html) | Core i5 | 8 GB | 128 GB |
-| [HP Slice Partner Ready with Logitech TAP]( https://www.logitech.com/video-collaboration/partners/hp.html) | Core i5 | 8 GB | 128 GB |
+| [HP Slice Partner Ready with Logitech TAP](https://www.logitech.com/video-collaboration/partners/hp.html) | Core i5 | 8 GB | 128 GB |
 | [HP Presence Small Space Solution with Microsoft Teams Rooms](https://www.hp.com/us-en/solutions/presence.html) | Core i5/i7 | 8 GB/16 GB | 256 GB |
 | [HP Presence Small Space Solution Plus AI Camera with Microsoft Teams Rooms](https://www.hp.com/us-en/solutions/presence.html) | Core i5/i7 | 8 GB/16 GB | 256 GB |
 | [Lenovo ThinkSmart Hub Gen 2](https://www.lenovo.com/us/en/p/smart-devices/smart-office/thinksmart/thinksmart-hub-60/11sp1tshb60) | Core i5 | 16 GB | 128 GB |
@@ -103,6 +103,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Windows C
 | [Lenovo ThinkSmart One + Controller](https://www.lenovo.com/us/en/p/smart-devices/smart-office/thinksmart/thinksmart-one-plus-controller-for-teams/len102e0006) | Core i5 | 16 GB | 256 GB |
 | [Lenovo ThinkSmart Core + IP Controller](https://www.lenovo.com/us/en/p/smart-devices/smart-office/thinksmart/lenovo-thinksmart-core-plus-ip-controller-for-microsoft-teams-rooms/len102e0015) | Core i5 | 16 GB | 256 GB |
 | [Lenovo ThinkSmart One + IP Controller](https://www.lenovo.com/us/en/p/smart-devices/smart-office/thinksmart/lenovo-thinksmart-one-plus-ip-controller-for-teams/12bw0002us) | Core i5 | 16 GB | 256 GB |
+|[Lenovo Telluride/ThinkSmart Tiny Kit](https://psref.lenovo.com/Product/ThinkSmart/ThinkSmart_Tiny_Kit)| Core i3|16 GB|256 GB|
 | [Logitech Tap with Intel NUC](https://www.logitech.com/product/microsoft-rooms) | Core i5 | 8 GB | 128 GB |
 | Logitech Tap and Intel Tiger Canyon NUC PC | Core i5 | 8 GB | 128 GB |
 | Logitech TAP Console with Lenovo Core Compute | Core i5 | 8 GB | 128 GB |
@@ -224,7 +225,7 @@ The following devices are certified under the Microsoft Teams Rooms peripherals 
 | [Microsoft Surface Hub Smart Camera](https://www.microsoft.com/d/surface-hub-smart-camera/8n983ctks176) | FW: 1.8.1 |  |  |
 | [Microsoft Surface Hub 2 Camera](https://www.microsoft.com/d/surface-hub-2-camera/8tzgfl7z18ph) | FW: 24.712.159 |  |  |
 | [Nureva HDL300](https://www.nureva.com/audio-conferencing/hdl300) | 2.3.6 |  |  |
-| [Nureva HDL310](https://www.nureva.com/audio-conferencing/hdl310) | 1.5.0.0 |  |  |
+| [Nureva HDL310](https://www.nureva.com/audio-conferencing/hdl310) | 1.8.269710 |  |  | &#x2714; |  |
 | [Nureva HDL410](https://www.nureva.com/audio-conferencing/hdl410) | 1.5.243554 |  |  |
 | [Owl Labs Meeting Owl 3](https://owllabs.com/products/meeting-owl-3) | 6.4.10.42 |  |  |
 | [Panasonic 360 degree camera speakerphone PressIT360](https://panasonic.net/cns/prodisplays/products/ty-csp1/) | 0.0.7904.54 |  |  |

@@ -1,10 +1,10 @@
 ---
 title: Audio Conferencing dial-out usage report
-ms.author: jtremper
-author: jacktremper
+ms.author: jenz
+author: jenzamora
 manager: pamgreen
-ms.reviewer: 
-ms.date: 11/16/2023
+ms.reviewer: oscarr
+ms.date: 10/24/2024
 ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -28,15 +28,15 @@ description: "Learn which countries/regions have dial-in conferencing numbers, a
 
 # Audio Conferencing dial-out usage report
 
-The Audio Conferencing dial-out usage report in the Teams admin center gives you an overview of usage and dollars spent for the audio conferencing dial-out service. This report allows admins to consume user-level data in terms of communication credits spent and dial-out minutes used. It will help admins determine the future communication credits needed going forward from any point in time.
+The Audio Conferencing dial-out usage report in the Teams admin center provides an overview of usage and expenses for the audio conferencing dial-out service. As an admin, this report allows you to analyze user-level data, including communication credits spent and dial-out minutes used. This insight helps you accurately estimate future communication credit requirements.
 
 ## View the Audio Conferencing dial-out usage report
 
-In the left navigation of the Microsoft Teams admin center, select **Analytics & reports** \> **Usage reports**. On the **View reports** tab, under **Report**, select the **Audio Conferencing dial-out usage report**.
+1. In the Microsoft Teams admin center, expand **Analytics & reports** > **Usage reports**. In the **View reports** tab, for the **Report** dropdown, select the **Audio Conferencing dial-out usage report**.
 
-Under **Date range**, you can select a predefined range of 7 or 28 days, or set a custom range.
+2. In the **Date range** dropdown, you can select a predefined range of 7 or 28 days, or set a custom range.
 
-Under **Country Previsioned**, select a preferred country/region, or select all, and then select **Run report**.
+3. In the **Country or region provisioned** dropdown, select a preferred country/region, or select all, and then select **Run report**.
 
 ## Report details
 
@@ -83,3 +83,8 @@ The bottom of the page has a table, which shows user level breakdowns with the f
 If you need to search for usage for a specific user, there's a search bar on the right above the report. The meeting organizer names are all selectable hyperlinks that take you to a more detailed usage report for the user. This user view has the same three tabs as the main report, however the chart at the top of the page shows details for that specific user.
 
 You can export any report shown in this table to a CSV file for offline analysis. Select **Export to Excel**, and then on the **Downloads** tab, select **Download** to download the report when it's ready.
+
+## Related topics
+
+- [Plan Audio Conferencing for Microsoft Teams meetings](/microsoftteams/audio-conferencing-in-office-365)
+- [Audio Conferencing complimentary dial-out](/microsoftteams/complimentary-dial-out-period)
