@@ -39,7 +39,7 @@ To get started:
 
     ![An image of the Team templates dialog with Add highlighted.](media/team-templates-new.png)
 
-4. In the **Team templates** section, select **Create a brand new template**.
+4. In the **Select starting point** section, select **Create a new template**.
 
 5. In the **Template settings** section, complete the following fields and then select **Next**:
     - Template name
