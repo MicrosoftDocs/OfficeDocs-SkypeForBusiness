@@ -8,7 +8,7 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: admin
-ms.date: 03/25/2024
+ms.date: 10/22/2024
 ms.collection: 
 - M365-voice
 - m365initiative-voice
@@ -24,9 +24,6 @@ description: Learn how to set up authorized users and what they can manage for A
 ---
 
 # Set up Auto attendant and Call queue authorized users
-
-> [!NOTE]
-> Some of these features are in limited public preview. For more information, contact your Microsoft customer success manager. Information in this article is subject to change.
 
 This article is for IT Pros and administrators who want to delegate Auto attendant and Call queue change capabilities to users in their organization. This article describes the necessary steps to create an Authorized user.
 
