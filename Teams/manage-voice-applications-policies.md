@@ -8,7 +8,7 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: admin
-ms.date: 09/16/2024
+ms.date: 10/22/2024
 ms.collection: 
 - M365-voice
 - m365initiative-voice
@@ -112,7 +112,7 @@ Notes
 
 1. The authorized user requires a Teams Premium license and Queues app to access this functionality.
 1. In order to change the holiday schedule, the authorized user must be authorized for all auto attendants that reference the holiday.
-1. This option is not currently available for authorized users.
+1. This option isn't currently available for authorized users.
    
 ### Auto attendant - Reporting
 
@@ -157,20 +157,20 @@ Notes
 
 1. The authorized user requires a Teams Premium license and Queues app to access this functionality.
 1. If the Call queue uses a distribution list, security group, Microsoft 365 group or a Microsoft Teams channel the owner of these can add or remove agents without a Teams Premium license or Queues app.
-1. This option is not currently available for authorized users.
+1. This option  currently available for authorized users.
 
 ### Call queues - Agent actions
 
 |Teams voice applications policy setting|Description                                                      |PowerShell parameter     |Teams Premium required<sup>1</sup>|
 |--------------------------------|------------------------------------------------------------------------|--------------------------------------|---------------------|
 |Opt agent in/out of queue       |This setting allows authorized users to change an agent's opt-in status.|AllowCallQueueAgentOptChange          |Yes                  | 
-|Agent monitor mode              |This setting is not currently available for authorized users.           |CallQueueAgentMonitorMode             |Yes<sup>2</sup>      |
-|Agent monitor notification mode |This setting is not currently available for authorized users.           |CallQueueAgentMonitorNotificationMode |Yes<sup>2</sup>      |
+|Agent monitor mode              |This setting  currently available for authorized users.           |CallQueueAgentMonitorMode             |Yes<sup>2</sup>      |
+|Agent monitor notification mode |This setting  currently available for authorized users.           |CallQueueAgentMonitorNotificationMode |Yes<sup>2</sup>      |
 
 Notes
 
 1. The authorized user requires a Teams Premium license and Queues app to access this functionality.
-1. This option is not currently available for authorized users.
+1. This option  currently available for authorized users.
    
 ### Call queues - Reporting
 
@@ -179,7 +179,7 @@ Notes
 |Real-time call queue metrics   |This setting allows authorized users to access real-time call queue metrics.                            |RealTimeQueueMetricsPermission|Yes |
 |Real-time agent metrics        |This setting allows authorized users to access real-time call queue agent metrics.                      |RealTimeAgentMetricsPermission|Yes |
 |Historical call queue metrics  |This setting allows authorized users to access historical call queue metrics in Power BI and Queues App.|HistoricalQueueMetricsPermission|Power BI - No, Generally Available<br>Queues App - Yes |
-|Historical agent metrics       |This setting allows authorized users to access historical call queue agent metrics in Power BI and Queues App.|HistoricalAgentMetricsPermission|Power BI - No, Generally Available<br>Queues App - Yes1. This option is not currently available for authorized users.|
+|Historical agent metrics       |This setting allows authorized users to access historical call queue agent metrics in Power BI and Queues App.|HistoricalAgentMetricsPermission|Power BI - No, Generally Available<br>Queues App - Yes1. This option isn't currently available for authorized users.|
 
 Reporting values:
 
