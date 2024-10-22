@@ -178,7 +178,7 @@ Notes
 |------------------------------------------------|--------------------------------|---------------------|---------------------|
 |Real-time call queue metrics   |This setting allows authorized users to access real-time call queue metrics.                            |RealTimeQueueMetricsPermission|Yes |
 |Real-time agent metrics        |This setting allows authorized users to access real-time call queue agent metrics.                      |RealTimeAgentMetricsPermission|Yes |
-|Historical call queue metrics  |This setting allows authorized users to access historical call queue metrics in Power BI and Queues App.|HistoricalQueueMetricsPermission|Power BI - No, Generally Available<br>Queues App - Yes |
+|Historical call queue metrics  |This setting allows authorized users to access historical call queue metrics in Power BI and Queues App.|HistoricalQueueMetricsPermission|Power BI - No, Generally Available<br>Queues App - Yes<sup>1</sup>|
 |Historical agent metrics       |This setting allows authorized users to access historical call queue agent metrics in Power BI and Queues App.|HistoricalAgentMetricsPermission|Power BI - No, Generally Available<br>Queues App - Yes<sup>1</sup>. This option isn't currently available for authorized users.|
 
 Reporting values:
