@@ -44,7 +44,7 @@ The following table shows which features are available in meetings, webinars, an
 |[Choose co-organizers](https://support.microsoft.com/office/roles-in-microsoft-teams-meetings-c16fa7d0-1666-4dde-8686-0a0bfe16e019)|✔️|✔️|✔️|
 |[Content sharing](meeting-policies-content-sharing.md)|✔️|✔️|✔️|
 |[Custom backgrounds](custom-meeting-backgrounds.md)|Premium|Premium|Premium|
-|[eCDN](streaming-ecdn-enterprise-content-delivery-network.md)|✔️|✖️|✔️|
+|[eCDN](streaming-ecdn-enterprise-content-delivery-network.md)|For view-only meetings only.|✖️|✔️|
 |[End-to-end encryption](teams-end-to-end-encryption.md)|Premium|✖️|✖️|
 |[External participants can give or request control](meeting-who-present-request-control.md)|✔️|✔️|✖️|
 |[Green room](https://support.microsoft.com/office/green-room-for-teams-meetings-5b744652-789f-42da-ad56-78a68e8460d5)|✔️|✔️|✔️|
