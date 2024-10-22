@@ -46,7 +46,7 @@ This article, designed for admins, introduces types of meetings, features and fu
 
 ## Meetings
 
-Meetings in Teams include audio, video, and screen sharing capabilities for up to 1,000 people and view-only capabilities for participants over 1,000.
+Meetings in Teams include audio, video, and screen sharing capabilities for up to around 1,000 people. If you turn on the view-only experience for your organizers, view-only capabilities start when around 900 participants join the meeting.
 
 Participants can be users in your organization, or if you allow it, people outside your organization. Meeting organizers can control which features are available in a given meeting. You as the administrator, can control the availability and default value for many of these features by using [meeting policies](#meeting-policies).
 
@@ -94,9 +94,9 @@ People from other trusted Microsoft 365 organizations can attend meetings withou
 
 ## Attendee limits and streaming options
 
-Up to 10,000 attendees can join a Teams meeting, however, after 1,000 users enter a meeting, extra attendees will join with a view-only experience. View-only attendees don't have access to the meeting chat or be able to share content or video.
+Up to 10,000 attendees can join a Teams meeting, however, after around 900 users enter a meeting, extra attendees join with a view-only experience. View-only attendees don't have access to the meeting chat or be able to share content or video.
 
-You can allow or prevent the view-only experience for meetings with more than 1,000 attendees. If you disable the view-only experience, meeting attendance is limited to the first 1,000 attendees.
+You can allow or prevent the view-only experience for meetings with more than 900 attendees. If you turn off the view-only experience, meeting attendance is limited to the first 1,000 attendees.
 
 For more information about the view-only meeting experience, see [Teams view-only meeting experience](view-only-meeting-experience.md).
 
@@ -135,6 +135,7 @@ Teams admins and organizers have different policies and settings to control the 
 |[Chat](manage-meeting-chat.md)|Can manage whether users in the org can read and write chat messages. You can also manage chat messages in Teams meetings hosted by other organizations that you don’t have a trusted relationship with.|Can manage whether chat is available for their meetings.|
 |[Collaboration features](meeting-policies-content-sharing.md)|Can control the availability of PowerPoint Live, whiteboard, and shared notes.|No control|
 |[Content sharing](meeting-who-present-request-control.md)|Can control sharing mode and who can request control and can set a default for who can present.|Can control who can present.|
+|[eCDN for view-only meetings](streaming-ecdn-enterprise-content-delivery-network.md)|Can manage and configure the availability of eCDN for organizers. Admins can also turn off the Microsoft eCDN for view-only meeting organizers with a Premium license and switch to a partner eCDN provider.| No control.|
 |[End-to-end encryption (Teams Premium)](end-to-end-encrypted-meetings.md) |Can allow or prevent end-to-end encryption.|Can enforce end-to-end encryption if allowed by the admin.|
 |[Feedback surveys for anonymous participants](meeting-surveys-anonymous-participants.md)| Manage whether anonymous participants who join meetings hosted in your org can rate their meeting experience through surveys.  |No control.|
 |[Green room](https://support.microsoft.com/office/5b744652-789f-42da-ad56-78a68e8460d5)|No control.|Can choose if green room is used for a meeting.|
@@ -154,7 +155,7 @@ Teams admins and organizers have different policies and settings to control the 
 |[Scheduling](manage-who-can-schedule-meetings.md)|Can define who can schedule private and channel meetings.|Can schedule meetings if allowed by admin.|
 |[Meeting Theme (Teams Premium)](meeting-themes.md)|Can define meeting themes, including colors, images, and logo.|Can turn the admin-defined theme on or off.|
 |[Transcription and captions](meeting-transcription-captions.md)|Can allow or prevent transcription and closed captions for attendees.|Can enable captions.|
-|[View-only](view-only-meeting-experience.md)|Allow organizers to host large meetings where after the meeting reaches capacity at 1,000 users, additional attendees join with a view-only experience.|No control.|
+|[View-only](view-only-meeting-experience.md)|Allow organizers to host large meetings where after the meeting reaches around 900 users, additional attendees join with a view-only experience.|No control.|
 |[Voice isolation](voice-isolation.md)|Can control whether users can use voice isolation in meetings and calls.|Can enable voice isolation.|
 |[Watermarks (Teams Premium)](watermark-meeting-content-video.md)|Can allow or prevent watermarks for attendee video and shared content|Can enforce watermarks if allowed by the admin|
 

@@ -4,7 +4,7 @@ ms.author: jenz
 author: jenzamora
 manager: pamgreen
 ms.reviewer: oscarr
-ms.date: 12/14/2023
+ms.date: 10/16/2024
 ms.topic: article
 ms.assetid: 26d73dda-ab26-4af4-8aec-d17f3479ae50
 ms.tgt.pltfrm: cloud
@@ -61,6 +61,12 @@ Using the Microsoft Teams admin center:
 - Languages can be set for dedicated but not for shared phone numbers.
 
 - To see a list of countries/regions in which Audio Conferencing in Microsoft 365 or Office 365 using Microsoft as the provider is available, see [Phone numbers for Audio Conferencing](phone-numbers-for-audio-conferencing-in-teams.md).
+
+## Manage auto attendant languages using PowerShell
+
+To manage auto attendant languages with PowerShell, use the PowerShell [CsOnlineDialInConferencingServiceNumber](/powershell/module/teams/set-csonlinedialinconferencingtenantsettings) cmdlet.
+
+For examples, see [CsOnlineDialInConferencingServiceNumber](/powershell/module/teams/set-csonlinedialinconferencingtenantsettings).
   
 ## Related topics
 
