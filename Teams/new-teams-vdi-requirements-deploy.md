@@ -581,6 +581,7 @@ When users connect from an unsupported endpoint, the users are in fallback mode,
 `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Teams\DisableFallback`
 `HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Teams\DisableFallback`
 
+- This registry key can only be processed by new Teams 24257.x.x.x or higher.
 - To disable fallback mode, set the value to 1.
 - To enable audio only, set the value to 2.
 - If the value isn't present or is set to 0 (zero), fallback mode is enabled.

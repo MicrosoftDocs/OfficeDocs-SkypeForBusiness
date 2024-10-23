@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
-ms.date: 02/14/2024
+ms.date: 10/18/2024
 ms.collection: 
   - M365-collaboration
 ms.reviewer: vivg
@@ -28,6 +28,42 @@ Connectors in Microsoft Teams deliver content and service updates directly from 
 Teams and Microsoft 365 groups use connectors. You can use the same connectors in Teams and Microsoft Exchange.
 
 Any team member can add a connector to a channel, if the team permissions allow it. The updates from the service, that the connector fetches information from, notifies all the team members. Any team member with the permissions to add or remove can modify connectors setup done by other members.
+
+> [!IMPORTANT]
+> Developers can't register new connectors on the [Connector developer portal](https://aka.ms/connectorsdashboard).
+
+## Update connectors URL
+
+The [Teams connectors are transitioning](https://devblogs.microsoft.com/microsoft365dev/retirement-of-office-365-connectors-within-microsoft-teams) to a new URL to enhance security. During this transition, you may receive notifications to update your configured connector to use the new URL. We strongly recommended that you update your connector immediately to prevent any disruption to connector services.
+
+This change is needed only for webhook-based Connectors such as Incoming Webhook and third-party connectors. The change isn't required for polling connectors such as RSS. You must update the URL for the connector to continue posting notifications into Teams after December 31, 2024.
+
+> [!TIP]
+> We recommend that you note the URL that you update. After it is updated, you can’t view the previous URL anymore. An old URL can be useful to find and identify the systems still using it that you must update with the new URL.
+
+To update the URL, follow these steps:
+
+1. Go to **Manage channel** in a Teams channel, select **Edit** under the Connectors option, and select **Configured** section. Check the existing connector connections on this page.
+
+   :::image type="content" source="media/manage-channel-option.png" alt-text="Screenshot showing the manage channel option in Teams.":::
+
+1. Update only those connections that display `Attention required` under the **Manage** option.
+
+   :::image type="content" source="media/connectors-attention-required.png" alt-text="Screenshot showing the configured connections in a Teams channel that need attention.":::
+
+1. Do one of the following:
+
+   * For connectors that contain a webhook URL, select **Manage** and **Update URL**.
+
+      :::image type="content" source="media/connectors-update-url.png" alt-text="Screenshot showing the option to update a webhook URL.":::
+
+   * For other types of connectors, remove the connector and recreate the connector configuration.
+
+1. Use the updated URL or the new connection in the systems that were posting to the old URL. The Configure page displays that the URL is updated.
+
+   :::image type="content" source="media/connectors-url-updated.png" alt-text="Screenshot showing a confirmation after URL update.":::
+
+To know more or to share more information with your app developers, see [Connectors deprecation information](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors).
 
 ## Enable or disable connectors in Teams
 
