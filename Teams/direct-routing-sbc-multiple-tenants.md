@@ -263,11 +263,11 @@ Two new entities were introduced:
     7.	Select **Apply**.
 
 
-    Or, use the PowerShell command CsOnlineVoiceRoute with the [-OnlinePstnGatewayList](https://learn.microsoft.com/powershell/module/teams/set-csonlinevoiceroute?view=teams-ps#-onlinepstngatewaylist) parameter:
+    Or, use the PowerShell command CsOnlineVoiceRoute with the [-OnlinePstnGatewayList](/powershell/module/teams/set-csonlinevoiceroute?view=teams-ps#-onlinepstngatewaylist) parameter:
    ```PowerShell
    Set-CsOnlineVoiceRoute -Identity OnlineVoiceRoute_1 -OnlinePstnGatewayList @{add="woodgrovebank.sbc1.adatum.biz"}
    ```
-
+   
  - If the specified derived trunk is invalid, then the service will not allow the configuration to be applied.
  - There's no need to run New-CSOnlinePSTNGateway for a trunk.
  - The derived trunk, as the name suggests, inherits and derives all the configuration parameters from the carrier trunk.
