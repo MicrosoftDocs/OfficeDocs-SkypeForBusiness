@@ -30,7 +30,7 @@ Core functionality is available on all platforms so end users can always have gr
 
 As Microsoft brings new features to Teams and to Teams Rooms, we strive to bring them to all platforms, but features may roll out at different times due to many factors, including things like technical feasibility and customer feedback for each platform. This means you may see some features rolling out on Windows before they come to the Android platform. Items listed here are supported in the Teams application. Confirm supportability with the hardware vendor you select.
 
-To help guide you as to what features are available on different platforms, you can refer to the chart including tabs for Government Commerical Cloud (GCC) and Government Commericla Cloud High (GCC-H). Not all Teams Rooms features are included on this list. For roadmap items, continue to consult the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap) and Microsoft sales representatives.
+To help guide you as to what features are available on different platforms, you can refer to the chart including tabs for Government Commercial Cloud (GCC) and Government Commercial Cloud High (GCC-H). Not all Teams Rooms features are included on this list. For roadmap items, continue to consult the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap) and Microsoft sales representatives.
 
 
 ## [Commercial](#tab/Commercial)
