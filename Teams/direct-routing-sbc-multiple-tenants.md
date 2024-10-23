@@ -263,7 +263,7 @@ Two new entities were introduced:
     7.	Select **Apply**.
 
 
-    Or, use the PowerShell command CsOnlineVoiceRoute with the [-OnlinePstnGatewayList](/powershell/module/teams/set-csonlinevoiceroute?view=teams-ps#-onlinepstngatewaylist) parameter:
+    Or, use the PowerShell command CsOnlineVoiceRoute with the [-OnlinePstnGatewayList](/powershell/module/teams/set-csonlinevoiceroute) parameter:
    ```PowerShell
    Set-CsOnlineVoiceRoute -Identity OnlineVoiceRoute_1 -OnlinePstnGatewayList @{add="woodgrovebank.sbc1.adatum.biz"}
    ```
