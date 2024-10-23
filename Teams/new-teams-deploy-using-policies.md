@@ -25,7 +25,7 @@ ms.localizationpriority: high
 You can upgrade to the new Teams client to your organization by setting policies in either the Teams Admin Center or by using PowerShell.
 
 > [!TIP]
-> As a companion to this article, see our [Teams setup guide](https://go.microsoft.com/fwlink/?linkid=2270204"https://go.microsoft.com/fwlink/?linkid=2270204") to review best practices and learn to configure Teams features to meet your business needs. This comprehensive guide covers key areas like managing policies, external access, and tags. For a customized experience based on your environment, you can access the [Teams automated setup guide](https://go.microsoft.com/fwlink/?linkid=2270034"https://go.microsoft.com/fwlink/?linkid=2270034") in the Microsoft 365 admin center. 
+> As a companion to this article, see our [Teams setup guide](https://go.microsoft.com/fwlink/?linkid=2270204) to review best practices and learn to configure Teams features to meet your business needs. This comprehensive guide covers key areas like managing policies, external access, and tags. For a customized experience based on your environment, you can access the [Teams automated setup guide](https://go.microsoft.com/fwlink/?linkid=2270034) in the Microsoft 365 admin center. 
 ## Prerequisites
 
 |Requirement|Version|
