@@ -80,7 +80,8 @@ To uninstall an application across all devices using Intune on Windows, you can 
 6. In the **Detection rules** section, select the **Add** button and select **File**.
 7. In the **File** section, enter the path and file name of the uninstaller for the application you want to uninstall.
 8. In the **Uninstall command** section, enter the command to run the uninstaller silently. For example, if the uninstaller is "uninstall.exe" and the silent switch is "/quiet", the command would be:
-   - "MsiExec.exe -x {731F6BAA-A986-45A4-8936-7C3AAAAA760B} /quiet"
+   - 64-bit: "MsiExec.exe -x {731F6BAA-A986-45A4-8936-7C3AAAAA760B} /quiet"
+   - 32-bit: "MsiExec.exe -x {39AF0813-FA7B-4860-ADBE-93B9B214B914} /quiet"
 
 You can learn more at [Uninstall an app with Intune for Windows](/mem/intune/apps/apps-add).
 

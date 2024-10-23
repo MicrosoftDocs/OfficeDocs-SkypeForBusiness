@@ -103,6 +103,8 @@ items:
                   href: new-teams-education.md
                 - name: Update to the new Teams for Web
                   href: new-teams-web.md
+                - name: Teams Progressive Web Apps (PWAs)
+                  href: teams-progressive-web-apps.md 
                 - name: New teams pre-installation script
                   href: new-teams-preinstallation-script.md
                 - name: Teams client updates
@@ -1409,6 +1411,12 @@ items:
                       href: devices/reserving-rooms-with-a-qr-code.md
                     - name: Custom backgrounds on Teams panels
                       href: devices/custom-background-panels.md
+            - name: Surface Hub (legacy)
+              items: 
+                - name: Manage Microsoft Teams settings
+                  href: rooms/surface-hub-manage-config.md
+                - name: Surface Hub Help
+                  href: /surface-hub/first-run-program-surface-hub
             - name: Teams Rooms and panels feature comparison
               href: rooms/teams-devices-feature-comparison.md
             - name: Meeting room design guidance
@@ -1551,7 +1559,7 @@ items:
                       href: rooms/inventory.md
                     - name: Standards and Rooms Planner 
                       href: rooms/standards-and-room-planner.md
-                    - name: Remote access a Teams Room console
+                    - name: Remotely access a Teams Room console
                       href: rooms/remotely-access-teams-rooms.md
                     - name: Managed updates
                       href: rooms/update-management.md
@@ -1583,7 +1591,7 @@ items:
                   href: /microsoftteams/troubleshoot/teams-rooms-and-devices/get-support-teams-rooms-pro-management
     - name: Teams phones
       items:
-        - name: Overview and planning
+        - name: Plan
           items:
             - name: Overview of Teams phones
               href: phones/phones-for-teams.md
@@ -1621,14 +1629,15 @@ items:
                   href: phones/remote-sign-in-and-sign-out-phones.md
         - name: Manage
           items:
+            - name: Set the Teams phone interface
+              href: phones/teams-android-devices-user-interface.md
             - name: Manage Teams phones
               href: phones/manage-teams-phones.md
             - name: Update management
               href: phones/remote-update-teams-phones.md
         - name: Troubleshooting and known issues
-          items:
-            - name: Troubleshooting and known issues
-              href: /microsoftteams/troubleshoot/teams-rooms-and-devices/teams-rooms-known-issues-android.md#issues-with-teams-phones
+          href: /microsoftteams/troubleshoot/teams-rooms-and-devices/teams-rooms-known-issues-android.md#issues-with-teams-phones
+          
     - name: Bring your own device (BYOD) spaces
       items:
         - name: BYOD rooms
