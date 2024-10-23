@@ -22,27 +22,39 @@ description: Learn about scale video delivery and enterprise content delivery ne
 ---
 # Enterprise content delivery networks for streaming Microsoft Teams events
 
-**APPLIES TO:** ✔️Meetings ✖️Webinars ✔️Town halls ✔️Live events
+**APPLIES TO:** ✔️View only-meetings ✖️Webinars ✔️Town halls ✔️Live events
 
 Teams streaming events can use enterprise content delivery networks (eCDNs), including the Microsoft eCDN and eCDNs from Microsoft partners. Teams streaming events include:
 
 - Town halls
 - Live events
-- Meetings with more than 1,000 participants
+- [View-only](view-only-meeting-experience.md) meetings
 
-Playback of videos from Microsoft Teams events uses adaptive bitrate streaming (ABR) delivered as a unicast stream. Every viewer gets their own video stream from the internet. For events or videos sent out to large portions of your organization, there could be a significant amount of network and internet bandwidth consumed by viewers.
+Video playback from Microsoft Teams events utilizes adaptive bitrate streaming (ABR), which is delivered as a unicast stream. Every viewer gets their own video stream from the internet. For events or videos sent out to large portions of your organization, there could be a significant amount of network and internet bandwidth consumed by viewers.
 
-Organizations might want to understand and reduce the network traffic for events and popular videos. If so, you can enable Teams to integrate with Microsoft’s enterprise content delivery network (eCDN) or trusted Microsoft partners that offer eCDN solutions. The eCDN solutions from our trusted partners include capabilities like real-time monitoring, and in-depth network analytics. These eCDN platforms let organizations monitor, scale, and optimize the distribution of video streams (and sometimes other content types) across your enterprise network.
+Video playback from Microsoft Teams events uses adaptive bitrate streaming (ABR) delivered as a unicast stream. This means that each viewer gets their own video stream from the internet. For events or videos sent out to a large portion of your organization, this can result in viewers consuming significant network and internet bandwidth.
+
+As an admin, you might want to understand and reduce the network traffic for events and popular videos. If so, you can enable Teams to integrate with Microsoft’s enterprise content delivery network (eCDN) or trusted Microsoft partners that offer eCDN solutions. The eCDN solutions from our trusted partners include capabilities like real-time monitoring, and in-depth network analytics. These eCDN platforms let you monitor, scale, and optimize the distribution of video streams (and sometimes other content types) across your enterprise network.
+
+## Town halls and view-only meetings
+
+Here's the eCDN setup for town halls and view-only meetings:
+
+- If an organizer has a Teams Premium license, Microsoft eCDN is the default for view-only meetings and town halls.
+- If the organizer doesn't have a Teams Premium license, your chosen eCDN provider is the default for view-only meetings and town halls.
+- If the organizer doesn’t have a Teams Premium license and you haven’t set up eCDN in the Teams admin center, town halls and view-only meetings don’t have an eCDN.
+
+Without Microsoft eCDN, town hall organizers with a Premium license might not be able to access some future features that require this eCDN solution.
+
+If you want your town hall and view-only meeting organizers with a Teams Premium license to use your chosen eCDN provider, see the [Manage the eCDN solution for Premium town halls and view-only meetings](#manage-the-ecdn-solution-for-premium-town-halls-and-view-only-meetings) section in this article.
 
 ## Microsoft eCDN
 
-**Microsoft eCDN** solves the network congestion problem that occurs during large corporate virtual events such as all-hands meetings. Microsoft eCDN forms a mesh network over the LAN, which reduces the load by up to 98%. With WebRTC as its foundation, Microsoft eCDN eliminates the need for any software or hardware installations. Microsoft eCDN is included with a Teams Premium license, but you can also purchase this solution for organizers who don't have a Teams Premium license.
+**Microsoft eCDN** solves the network congestion problem that occurs during large corporate virtual events such as all-hands meetings. Microsoft eCDN forms a mesh network over the LAN, reducing the load by up to 98%. With WebRTC as its foundation, Microsoft eCDN eliminates the need for any software or hardware installations. Microsoft eCDN is included with a Teams Premium license, but you can also purchase this solution for organizers who don't have a Teams Premium license.
 
 - Microsoft eCDN works out of the box without any configuration. The network configuration for Microsoft eCDN ensures that remote workers and/or heavy video traffic doesn't strain your network nor oblige you to invest in costly infrastructure. It includes automatic site detection, automatic VPN detection, and automatic NAT/firewall traversal. To learn more, see [How to enable Microsoft eCDN](/ecdn/how-to/enable-microsoft-ecdn-for-your-tenant).
 - Silent Testing with Microsoft eCDN allows admins to simulate large events on their corporate network, allowing thorough and non-disruptive testing and troubleshooting before a real event. To learn more, see [Perform a silent test](/ecdn/how-to/perform-silent-test).
 - Industry-leading analytics from Microsoft eCDN provide granular analyses and allow admins to quickly find the root cause for any streaming issue. Your toolkit includes delivery and UX metrics, advanced drill downs,  and per-user analytics. Learn more at [Analytics](/ecdn/technical-documentation/analytics).
-Town hall organizers with a Teams Premium license have Microsoft eCDN on by default, but you can select a different eCDN solution for these organizers. Without Microsoft eCDN, town hall organizers with a Premium license might not be able to access some future features that require this eCDN solution.
-To change the eCDN solution your Premium town hall organizers use, see the [Manage the eCDN solution for Premium town halls](#manage-the-ecdn-solution-for-premium-town-halls) section in this article.
 
 ## Acquire and set up your eCDN solution outside of Teams
 
@@ -92,15 +104,15 @@ Follow these steps to configure your eCDN solution:
 1. Toggle the **Video distribution provider** to **On**.
 1. Choose an **eCDN/SDN provider** from the **Video distribution provider** dropdown list.
 1. Fill out the other fields as directed by your solution provider (some solution providers don't use all the fields).
-1. Select **Save**.
+1. Select **Save**. It might take up to 24 hours to see your changes.
 1. To check if your setup is correct, select **Verify setup**.
     - Search for any video in your organization to validate with.
     - If your eCDN provider is set up correctly, you see a **Success** message on the verify setup tool.
     - If you aren't set up correctly, you see a **Failure** message. Copy the event message to share with your provider for troubleshooting.
 
-## Manage the eCDN solution for Premium town halls
+## Manage the eCDN solution for Premium town halls and view-only meetings
 
-Microsoft eCDN solution is the default for town hall organizers with a Teams Premium license. You can manage whether your Premium organizers use the Microsoft eCDN or one of our partner eCDN solutions.
+Microsoft eCDN solution is the default for town hall and view-only meeting organizers with a Teams Premium license. You can manage whether your Premium organizers use the Microsoft eCDN or one of our partner eCDN solutions.
 
 |Teams admin center policy option|Parameter value in PowerShell| Behavior|
 |---------|---------|---------------|
