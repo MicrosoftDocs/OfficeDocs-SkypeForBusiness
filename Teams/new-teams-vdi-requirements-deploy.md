@@ -208,7 +208,7 @@ The classic Teams client and the new Teams client have different install locatio
 |:-----|:-----|:-----|
 |Classic Teams MSI with the ALLUSERS=1 flag|C:\Program Files (x86)\Microsoft\Teams|Disabled|
 |Classic Teams .EXE|%localappdata%\Microsoft\Teams |Enabled |
-|New Teams .EXE bootstrapper|**Teamsbootstrapper.exe** is a lightweight wrapper online installer with a headless command-line interface. It allows admins to 'provision' (install) the app for all users on a given target computer/. </br> It installs the Teams MSIX package on a target computer, making sure that Teams can interoperate correctly with Office and other Microsoft software.</br>C:\Program Files\WindowsApps\PublisherName.AppName_AppVersion_architecture_PublisherID</br></br>**Example**</br>C:\Program Files\WindowsApps\MSTeams.23306.3314.2555.9628_x64_8wekyb3d8bbwe|Enabled.  It can be disabled via regkey. Learn more: [Disable new Teams autoupdate](#disable-new-teams-autoupdate)|
+|New Teams .EXE bootstrapper|**Teamsbootstrapper.exe** is a lightweight wrapper online installer with a headless command-line interface. It allows admins to 'provision' (install) the app for all users on a given target computer/. </br> It installs the Teams MSIX package on a target computer, making sure that Teams can interoperate correctly with Office and other Microsoft software.</br>C:\Program Files\WindowsApps\PublisherName.AppName_AppVersion_architecture_PublisherID</br></br>**Example**</br>C:\Program Files\WindowsApps\MSTeams.23306.3314.2555.9628_x64_8wekyb3d8bbwe|Enabled. It can be disabled in non-persistent VDI environments via regkey. Learn more: [Disable new Teams autoupdate](#disable-new-teams-autoupdate)|
 
 ## Troubleshooting new Teams deployment errors
 
@@ -279,6 +279,10 @@ To uninstall and deprovision the new Teams for all users, use the following comm
 This command unregisters and deprovisions the new Teams for all users. Teams user profile/cache is deleted.
 
 ## Disable new Teams autoupdate
+
+> [!IMPORTANT]
+> Microsoft only supports disabling autoupdating for non-persistent VDI environments.
+> Persisent VDI and non VDI environments should utilize autoupdates.
 
 To prevent new Teams from autoupdating, use the following registry key on the virtual machine.
 Only new Teams builds higher than 23306.3314.2555.9628 in VDI can process this registry key.
