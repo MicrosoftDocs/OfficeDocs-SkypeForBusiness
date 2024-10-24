@@ -22,7 +22,7 @@ To turn off password expiration, follow the steps in one of the following tabs:
 2. Set the password to never expire, this example sets the password for the account ConferenceRoom01@contoso.com to never expire.
 
     ```PowerShell
-    Update-MgUser -UserId ConferenceRoom01@contoso.com -PasswordPolicies DisablePasswordExpiration -PassThru
+    Update-MgUser -UserId ConferenceRoom01@contoso.com -PasswordPolicies DisablePasswordExpiration
     ```
 
 #### [**Active Directory (On-premises)**](#tab/active-directory1-password/)
