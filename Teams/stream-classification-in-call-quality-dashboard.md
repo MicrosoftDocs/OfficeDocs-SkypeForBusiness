@@ -4,7 +4,7 @@ author: mkbond007
 ms.author: mabond
 manager: pamgreen
 ms.reviewer: jamp
-ms.date: 05/22/2018
+ms.date: 10/22/2024
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -15,8 +15,8 @@ ms.collection:
 search.appverid: MET150
 audience: Admin
 appliesto: 
-  - Skype for Business
   - Microsoft Teams
+  - Skype for Business
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
@@ -47,7 +47,7 @@ If one or more of the following conditions are met and Packet Utilization is > 5
 ||||
 
 > [!NOTE]
-> The Audio Classifier uses basic network performance telemetry to assess if the optimal conditions for good quality audio were present. If any one of the thresholds are broken then the audio will be marked _Poor_, but this does not mean the audio stream was actually of poor quality, nor does it mean the user perceived a quality issue. The Teams media stack is built to withstand and correct for poor network conditions, and can mitigate considerable network performance degradation in excess of the thresholds above before a drop in quality is perceived by users. We recommend admins make every effort to build and configure their networks and Teams deployments for the best possible quality, and the above metrics are a useful guideline to assess performance of those networks. 
+> The Audio Classifier uses basic network performance telemetry to assess if the optimal conditions for good quality audio were present. If any one of the thresholds are broken then the audio will be marked _Poor_, but this doesn't mean the audio stream was actually of poor quality, nor does it mean the user perceived a quality issue. The Teams media stack is built to withstand and correct for poor network conditions, and can mitigate considerable network performance degradation in excess of the thresholds above before a drop in quality is perceived by users. We recommend admins make every effort to build and configure their networks and Teams deployments for the best possible quality, and the above metrics are a useful guideline to assess performance of those networks. 
 
 
 ### Video Classifier due to Freeze
@@ -98,20 +98,20 @@ In CQD, a stream is marked _Unclassified_ when Interactive Connectivity Establis
 
 To check for ICE connectivity failures, examine the dimensions "First Connectivity Ice" and "Second Connectivity Ice" for a "FAILED" value. If either value indicates a failure, the stream is marked as _Unclassified_.
 
-If ICE connectivity succeeded for an _Unclassified_ stream, the stream is likely considered _Unclassified_ because key stream metrics weren't reported. There are a few reasons these metrics may not be reported:
+If ICE connectivity succeeded for an _Unclassified_ stream, the stream is likely considered _Unclassified_ because key stream metrics weren't reported. There are a few reasons these metrics might not be reported:
 
-- **QoE reports weren't received** — The metrics used for classification are reported in a QoE report sent at the end of a call. If this report isn't produced (for example, because some third-party endpoints may not send QoE) or could not be sent (for example, because of a network outage), CQD is unable to classify the stream.
+- **QoE reports weren't received** — The metrics used for classification are reported in a QoE report sent at the end of a call. If this report isn't produced (for example, because some third-party endpoints might not send QoE) or couldn't be sent (for example, because of a network outage), CQD is unable to classify the stream.
 
   > [!TIP]
   > The "QoE Record Available" dimension can be used to determine whether a QoE report was received for a stream. Note that this dimension will have a value of "True" if a QoE report was received from either endpoint. A QoE report from both endpoints is required for the most accurate reporting of metrics.
 
-- **Short calls** — Short calls may not have enough media activity to compute key stream metrics. Without these metrics, CQD is unable to classify the stream.
+- **Short calls** — Short calls might not have enough media activity to compute key stream metrics. Without these metrics, CQD is unable to classify the stream.
 
   > [!TIP]
   > The dimensions "Duration (Seconds)", "Duration (Minutes)", "Duration 5 seconds or less", and "Duration 60 seconds or more" can be used to determine the duration of a stream. The measurement "Avg Call Duration" can also be used to compute the average duration for a set of streams.
 
 - **Low packet utilization** — Like the "short call" scenario, sufficient packet utilization is required for computation of key stream metrics. Without these metrics, CQD is unable to classify the stream.
-  - A common low packet utilization scenario occurs when an attendee joins a meeting to listen to the presenter, but never speaks (the microphone is muted for most of the call). Here, the audio stream inbound to the client has high packet utilization while the audio stream outbound from the client has little to no packet utilization. The duration of the stream may be an hour or longer but the packet utilization on the stream from the client to the server is low since the microphone was muted, and an _Unclassified_ stream results.
+  - A common low packet utilization scenario occurs when an attendee joins a meeting to listen to the presenter, but never speaks (the microphone is muted for most of the call). Here, the audio stream inbound to the client has high packet utilization while the audio stream outbound from the client has little to no packet utilization. The duration of the stream might be an hour or longer but the packet utilization on the stream from the client to the server is low since the microphone was muted, and an _Unclassified_ stream results.
 
   > [!TIP]
   > The "Packet Utilization" dimension and "Avg Packet Utilization" measurement can be used to determine the packet activity of a stream.

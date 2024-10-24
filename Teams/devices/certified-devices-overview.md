@@ -29,8 +29,6 @@ Through the Microsoft Teams Device Certification Program, Microsoft tests person
 
 This program tests the devices based on a set of rigorous specifications, covering aspects such as audio and video quality, user interface, device management, and security. Only devices that successfully pass all certification requirements, and associated testing receive the designation of **Certified for Microsoft Teams**.
 
-Certification programs are designed to ensure all certified devices run supported versions with the required feature set for Teams and Teams Admin Center. Certification end dates are based on the Android or Windows version running on the device when it enters into the certification program. Microsoft OEM partners are working to extend the lifetime of the certification by upgrading the Android or Windows version and recertifying, or by releasing new models that are state-of-the-art.
-
 - [Teams Rooms on Windows certified devices](../rooms/certified-hardware.md)
 - [Teams Rooms on Android certified devices](certified-hardware-android.md)
 - [Certified Teams panels](teams-panels-certified-hardware.md)

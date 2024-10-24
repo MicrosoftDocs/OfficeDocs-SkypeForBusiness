@@ -233,7 +233,7 @@ With the initial release of Direct Routing, Microsoft required a trunk to be add
 
 However, this method isn't optimal for two reasons:
  
-- **Overhead management**. Offloading or draining an SBC, for example, changes some parameters, like enabling or disabling media bypass. Changing the port requires changing parameters in multiple tenants (by running Set-CSOnlinePSTNGateway), but it is in fact the same SBC. 
+- **Overhead management**. Offloading or draining an SBC, for example, or changes to some parameters, like enabling or disabling media bypass or changing a port requires changing the parameters in multiple tenants (by running Set-CSOnlinePSTNGateway), but it is in fact the same SBC.
 
 -  **Overhead processing**. Gathering and monitoring trunk health data - SIP options collected from multiple logical trunks that are, in reality, the same SBC and the same physical trunk, slows down processing of the routing data.
  
@@ -253,9 +253,25 @@ Two new entities were introduced:
 
 - Carriers need to set up and manage only a single trunk (the carrier trunk in the carrier domain) by using the New-CSOnlinePSTNGateway command. In the preceding example, the trunk is sbc1.adatum.biz.
 
-- In the customer tenant, the carrier needs to add the derived trunk FQDN to the voice routes. There's no need to run New-CSOnlinePSTNGateway for a trunk.
+- In the customer tenant, the derived trunk FQDN needs to be added to the voice routes. To add a derived trunk FQDN to a voice route, perform the following steps in Teams Admin Center:
+    1.	Open the Teams Admin Center.
+    2.	From the left siderail, expand **Voice**, and select **Direct Routing**.
+    3.	From Direct Routing tabs, select **Voice routes**.
+    4.	 Select **Add** (or select existing Voice route).
+    5.	In the Voice route profile, under SBCs enrolled, select **Add SBCs**.
+    6.	From the right side panel, under *Add SBC as derived trunk* enter SBC FQDN for your tenant, and select **Add**.
+    7.	Select **Apply**.
 
-- The derived trunk, as the name suggests, inherits or derives all the configuration parameters from the carrier trunk. 
+
+    Or, use the PowerShell command CsOnlineVoiceRoute with the [-OnlinePstnGatewayList](/powershell/module/teams/set-csonlinevoiceroute) parameter:
+   ```PowerShell
+   Set-CsOnlineVoiceRoute -Identity OnlineVoiceRoute_1 -OnlinePstnGatewayList @{add="woodgrovebank.sbc1.adatum.biz"}
+   ```
+   
+ - If the specified derived trunk is invalid, then the service will not allow the configuration to be applied.
+ - There's no need to run New-CSOnlinePSTNGateway for a trunk.
+ - The derived trunk, as the name suggests, inherits and derives all the configuration parameters from the carrier trunk.
+
 
 Examples:
 - sbc1.adatum.biz – the carrier trunk that needs to be created in the carrier tenant.
